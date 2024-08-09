@@ -13,6 +13,7 @@ const Benefits: React.FC = () => {
               width={1}
               height={1}
               className="w-20 h-20 mb-2  "
+              alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-[#79A17A] uppercase text-center">
               DIAGNOSIS IN SECONDS
@@ -29,6 +30,7 @@ const Benefits: React.FC = () => {
               width={1}
               height={1}
               className="w-20 h-20 mb-2  "
+              alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-[#79A17A] uppercase text-center">
               IMMEDIATE FEEDBACK THROUGH PALPATION
@@ -46,6 +48,7 @@ const Benefits: React.FC = () => {
               width={1}
               height={1}
               className="w-20 h-20 mb-2  "
+              alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-[#79A17A] uppercase text-center">
               RESULTS ORIENTED
@@ -62,6 +65,7 @@ const Benefits: React.FC = () => {
               width={1}
               height={1}
               className="w-20 h-20 mb-2  "
+              alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-[#79A17A] uppercase text-center">
               Increase your clinic flow
@@ -78,6 +82,7 @@ const Benefits: React.FC = () => {
               width={1}
               height={1}
               className="w-20 h-20 mb-2  "
+              alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-[#79A17A] uppercase text-center">
               Understand the feedback
@@ -95,6 +100,7 @@ const Benefits: React.FC = () => {
               width={1}
               height={1}
               className="w-20 h-20 mb-2  "
+              alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-[#79A17A] uppercase text-center">
               Highest results6
