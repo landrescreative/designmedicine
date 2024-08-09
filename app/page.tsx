@@ -1,16 +1,22 @@
-import Image from "next/image";
+import Image from 'next/image';
+import Hero from './components/Hero';
+import Separator from './components/Separator';
+import AboutKiiko from './components/AboutKiiko';
+import Benefits from './components/Benefits';
+import SeminarSection from './components/SeminarSection';
 
 export default function Home() {
   return (
-    <main className="w-dvw h-dvh flex flex-col justify-center items-center bg-[#79A17A] gap-2">
-      <Image
-        src="/designmedicine.svg"
-        alt="DesignMedicine Logo"
-        width={283}
-        height={64}
-        className="w-72 h-16 "
+    <main className="">
+      <Hero />
+      <Separator
+        text="KIIKO MATSUMOTO´S MEXICO SHOULDER TO SHOULDER INTENSIVE SEMINAR
+FEBRUARY 14-17TH  2025"
       />
-      <h1 className="text-white font-thin">UNDER CONSTRUCTION</h1>
+      <AboutKiiko />
+      <Separator text="DISCOVER THE UNIQUE BENEFITS OF OUR SPECIALIZED SEMINAR" />
+      <Benefits />
+      <SeminarSection />
     </main>
   );
 }
