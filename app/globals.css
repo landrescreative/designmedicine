@@ -22,3 +22,6 @@
 .active {
   color: #ff6e6e;
 }
+
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';

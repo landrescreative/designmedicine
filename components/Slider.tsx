@@ -36,7 +36,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative py-24 flex justify-center items-center lg:w-10/12">
+    <div className="relative py-24 flex justify-center items-center lg:w-11/12">
       <div className="flex justify-center items-center">
         <div className="flex flex-col md:flex-row gap-10 justify-between">
           {slides.map((slide) => (

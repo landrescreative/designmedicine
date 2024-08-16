@@ -103,7 +103,6 @@ const Page = () => {
       <Separator text="MORE ABOUT KIIKO AND THEIR USERS FEEDBACK" />
 
       <Testimonial />
-      <Footer />
     </div>
   );
 };

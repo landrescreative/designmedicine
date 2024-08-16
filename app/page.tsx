@@ -31,7 +31,6 @@ FEBRUARY 14-17TH  2025"
       {/* <InfoSeminar />
       <PaymentSection />
       <Register /> */}
-      <Footer />
     </main>
   );
 }
