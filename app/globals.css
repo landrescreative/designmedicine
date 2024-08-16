@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.card-slider:hover .card-hover-effect {
+  transform: translateX(100%);
+}
