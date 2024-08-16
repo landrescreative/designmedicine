@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +14,8 @@ const Navbar = () => {
   const closeMenu = () => {
     setIsOpen(false);
   };
+
+  const pathname = usePathname();
 
   return (
     <div className="z-10 bg-gray-200 fixed w-screen h-16 md:h-20 grid grid-cols-12 gap-0.5 border-b-2 border-gray-200">
@@ -28,19 +31,25 @@ const Navbar = () => {
       <div className="hidden md:flex justify-evenly items-center col-start-4 col-end-10 bg-white ">
         <Link
           href="/"
-          className="relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
+          className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full ${
+            pathname === '/' ? 'active' : ''
+          }`}
         >
           Home
         </Link>
         <Link
           href="/seminar"
-          className="relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
+          className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full ${
+            pathname === '/seminar' ? 'active' : ''
+          }`}
         >
           Intensive Seminar
         </Link>
         <Link
-          href="/contact"
-          className="relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
+          href="/tours"
+          className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full ${
+            pathname === '/tours' ? 'active' : ''
+          }`}
         >
           Tours
         </Link>

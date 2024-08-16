@@ -5,3 +5,20 @@
 .card-slider:hover .card-hover-effect {
   transform: translateX(100%);
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff6e6e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.active {
+  color: #ff6e6e;
+}
