@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaInfoCircle, FaClipboardList, FaDollarSign } from 'react-icons/fa';
 
 // Icons
 import { FaUser } from 'react-icons/fa';
@@ -12,7 +11,6 @@ import { GiClothes } from 'react-icons/gi';
 import { FaHatCowboySide } from 'react-icons/fa';
 import { IoIosWater } from 'react-icons/io';
 import { FaCamera } from 'react-icons/fa';
-import LightGallerySlider from './LightGallerySlider';
 
 const InfoTemplo = () => {
   return (

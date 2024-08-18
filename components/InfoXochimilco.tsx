@@ -12,7 +12,6 @@ import { GiClothes } from 'react-icons/gi';
 import { FaHatCowboySide } from 'react-icons/fa';
 import { IoIosWater } from 'react-icons/io';
 import { FaCamera } from 'react-icons/fa';
-import LightGallerySlider from './LightGallerySlider';
 
 const InfoTemplo = () => {
   return (
