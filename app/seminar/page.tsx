@@ -98,6 +98,7 @@ const Page = () => {
           <li className="mb-2">Very few needles used.</li>
         </ul>
       </div>
+      <h1 id="register"></h1>
       <InfoSeminar />
       <PaymentSection />
       <Separator text="MORE ABOUT KIIKO AND THEIR USERS FEEDBACK" />

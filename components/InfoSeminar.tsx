@@ -1,33 +1,54 @@
 import React from 'react';
 import { FaInfoCircle, FaClipboardList, FaDollarSign } from 'react-icons/fa';
 
+// Icons
+import { FaUser } from 'react-icons/fa';
+import { BsFillFileImageFill } from 'react-icons/bs';
+import { FaLocationDot } from 'react-icons/fa6';
+import { FaRegClock } from 'react-icons/fa';
+import { FaBus } from 'react-icons/fa';
+import { AiFillDollarCircle } from 'react-icons/ai';
+import { GiClothes } from 'react-icons/gi';
+import { FaHatCowboySide } from 'react-icons/fa';
+import { IoIosWater } from 'react-icons/io';
+import { FaCamera } from 'react-icons/fa';
+
 const InfoSeminar = () => {
   return (
     <div className="flex justify-center items-center pb-12 w-full">
-      <div className="flex flex-col md:flex-row justify-start w-9/12">
+      <div className="flex flex-col lg:flex-row justify-start w-11/12 xl:w-9/12">
         {/* First Section - GENERAL */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
-          <h2 className="text-2xl font-semibold mb-4 text-center text-primary">
+          <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
             GENERAL
           </h2>
-          <div className="flex items-center">
-            <FaInfoCircle className="text-blue-500 w-8 h-8 mr-4" />
-            <div>
-              <h3 className="text-lg font-medium">INSTRUCTOR</h3>
-              <p className="text-gray-600">DRA. KIIKO MATSUMOTO, LAC, PHD</p>
+          <div className="grid grid-cols-6 grid-rows-1 ">
+            <FaUser
+              size={30}
+              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+              <h3 className="text-lg font-medium">Instructor</h3>
+              <p className="text-gray-600">DRA KIIKO MATUSMOTO, LAC, PHD</p>
             </div>
           </div>
-          <div className="flex items-center">
-            <FaInfoCircle className="text-blue-500 w-8 h-8 mr-4" />
-            <div>
-              <h3 className="text-lg font-medium">LANGUAGE</h3>
-              <p className="text-gray-600">SPANISH WITH ENGLISH TRANSLATION</p>
+          <div className="grid grid-cols-6 grid-rows-1 ">
+            <BsFillFileImageFill
+              size={30}
+              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+              <h3 className="text-lg font-medium">Language</h3>
+              <p className="text-gray-600">Spanish With English Translation</p>
             </div>
           </div>
-          <div className="flex items-center">
-            <FaInfoCircle className="text-blue-500 w-8 h-8 mr-4" />
-            <div>
-              <h3 className="text-lg font-medium">LOCATION</h3>
+          <div className="grid grid-cols-6 grid-rows-1 ">
+            <FaLocationDot
+              size={30}
+              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+              <h3 className="text-lg font-medium">Location</h3>
               <p className="text-gray-600">
                 MEXICO CITY - MEXICO | OPTIONAL TOURS
               </p>
@@ -41,35 +62,42 @@ const InfoSeminar = () => {
 
         {/* Second Section - DESCRIPTION */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
-          <h2 className="text-2xl font-semibold mb-4 text-center text-primary">
+          <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
             DESCRIPTION
           </h2>
-          <div className="flex items-center">
-            <FaClipboardList className="text-green-500 w-8 h-8 mr-4" />
-            <div>
-              <h3 className="text-lg font-medium">DURATION</h3>
-              <p className="text-gray-600">3 DAYS</p>
+          <div className="grid grid-cols-6 grid-rows-1 ">
+            <FaRegClock
+              size={30}
+              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+              <h3 className="text-lg font-medium">Duration</h3>
+              <p className="text-gray-600">3 Full Days</p>
             </div>
           </div>
-          <div className="flex items-center">
-            <FaClipboardList className="text-green-500 w-8 h-8 mr-4" />
-            <div>
-              <h3 className="text-lg font-medium">DAY ONE</h3>
-              <p className="text-gray-600">3 DAYS</p>
+          <div className="grid grid-cols-6 grid-rows-1 ">
+            <FaBus
+              size={30}
+              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+              <h3 className="text-lg font-medium">Include Transport</h3>
+              <p className="text-gray-600">
+                We can take you to the exact location for your security -{' '}
+              </p>
             </div>
           </div>
-          <div className="flex items-center">
-            <FaClipboardList className="text-green-500 w-8 h-8 mr-4" />
-            <div>
-              <h3 className="text-lg font-medium">DAYY TWO</h3>
-              <p className="text-gray-600">3 DAYS</p>
-            </div>
-          </div>
-          <div className="flex items-center">
-            <FaClipboardList className="text-green-500 w-8 h-8 mr-4" />
-            <div>
-              <h3 className="text-lg font-medium">DAY THREE</h3>
-              <p className="text-gray-600">3 DAYS</p>
+          <div className="grid grid-cols-6 grid-rows-1 ">
+            <AiFillDollarCircle
+              size={30}
+              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+              <h3 className="text-lg font-medium">Price</h3>
+              <p className="text-gray-600">
+                $60 USD per person (includes entrance fees, guided tours, and
+                transportation within the site)
+              </p>
             </div>
           </div>
         </div>
@@ -80,22 +108,28 @@ const InfoSeminar = () => {
 
         {/* Third Section - PRICING */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
-          <h2 className="text-2xl font-semibold mb-4 text-center text-primary">
+          <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
             PRICING
           </h2>
-          <div className="flex items-center">
-            <FaDollarSign className="text-yellow-500 w-8 h-8 mr-4" />
-            <div>
-              <h3 className="text-lg font-medium">TIME</h3>
+          <div className="grid grid-cols-6 grid-rows-1 ">
+            <GiClothes
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+              <h3 className="text-lg font-medium">Time</h3>
               <p className="text-gray-600">
-                8:00 PM - 10:00 PM (UTC-6) | 3 DAYS
+                8:00 AM - 5:00 PM (Lunch included)
               </p>
             </div>
           </div>
-          <div className="flex items-center">
-            <FaDollarSign className="text-yellow-500 w-8 h-8 mr-4" />
-            <div>
-              <h3 className="text-lg font-medium">REGULAR PRICE</h3>
+          <div className="grid grid-cols-6 grid-rows-1 ">
+            <FaHatCowboySide
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+              <h3 className="text-lg font-medium">Regular Price</h3>
               <p className="text-gray-600">1000 USD</p>
             </div>
           </div>

@@ -7,11 +7,11 @@ import { FaCreditCard } from 'react-icons/fa6';
 
 const PaymentSection: React.FC = () => {
   return (
-    <div className="flex flex-col pb-10 md:w-9/12 items-start">
+    <div className="flex flex-col pb-10  md:w-9/12 items-center md:items-start px-5">
       <h2 className="text-2xl font-bold uppercase text-primary">
         Payment Options
       </h2>
-      <p className="text-lg text-gray-500 mb-5">
+      <p className="text-lg text-gray-500 mb-5 text-center md:text-left">
         Choose your preferred payment method below
       </p>
       <div className="flex  flex-col md:flex-row gap-4">

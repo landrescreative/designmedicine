@@ -56,9 +56,12 @@ const Navbar = () => {
         {/* Corregido el enlace */}
       </div>
       <div className="bg-white hidden md:flex justify-center items-center col-start-10 col-end-13">
-        <button className="hidden md:block text-sm px-7 py-3 text-white font-semibold bg-primary transition-transform duration-300 transform hover:scale-105">
+        <Link
+          href="/seminar/#register"
+          className="hidden md:block text-sm px-7 py-3 text-white font-semibold bg-primary transition-transform duration-300 transform hover:scale-105"
+        >
           Register Now
-        </button>
+        </Link>
       </div>
       <div className="md:hidden flex justify-end items-center col-start-11">
         <button
@@ -80,7 +83,7 @@ const Navbar = () => {
         </button>
       </div>
       <div
-        className={`md:hidden flex flex-col items-end absolute top-16 w-screen bg-primary ${
+        className={`md:hidden flex flex-col items-end absolute top-16 w-screen shadow-lg bg-primary ${
           isOpen ? 'block' : 'hidden'
         }`}
       >
@@ -98,14 +101,14 @@ const Navbar = () => {
           </span>
         </Link>
 
-        <Link href="/tours" onClick={closeMenu}>
+        <Link href="/#tours" onClick={closeMenu}>
           <span className="block text-sm px-2 py-4 text-white font-semibold md:hover:bg-blue-500 transition duration-300">
             Tours
           </span>
         </Link>
 
-        <Link href="/register" onClick={closeMenu}>
-          <span className="hidden md:block text-sm px-2 py-4 text-gray-500 font-semibold bg-[#2eda33]">
+        <Link href="/seminar/#register" onClick={closeMenu}>
+          <span className="block text-sm px-6 py-4 text-black font-semibold uppercase bg-white">
             Register Now
           </span>
         </Link>
