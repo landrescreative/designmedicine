@@ -12,7 +12,7 @@ import 'lightgallery/css/lg-zoom.css';
 // Importa los plugins que vas a usar
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
-import InfoTeotihuacan from '@/components/InfoTeotihuacan';
+import InfoTemplo from '@/components/InfoTemplo';
 
 const Page = () => {
   return (
@@ -34,50 +34,49 @@ const Page = () => {
         </span>
       </div>
       <h1 className="text-4xl font-bold text-center mt-8 mb-4 w-full md:w-auto text-primary">
-        Teotihuacan
+        Templo Mayor
       </h1>
       <p className="text-lg text-center max-w-prose pb-10">
-        Adicional a la conferencia, te ofrecemos la oportunidad de visitar uno
-        de los lugares más increíbles de México. Teotihuacan es una de las zonas
-        arqueológicas más importantes de México y un lugar que no te puedes
-        perder.
+        Además de explorar la historia, te ofrecemos la oportunidad de visitar
+        uno de los sitios más emblemáticos de México. El Templo Mayor fue el
+        centro religioso más importante de la antigua Tenochtitlán, la capital
+        del imperio azteca.
       </p>
       <LightGallery
         speed={500}
         plugins={[lgThumbnail, lgZoom]}
         hideScrollbar={true}
-        elementClassNames="flex flex-wrap justify-center"
+        elementClassNames="flex flex-wrap justify-center py-10"
       >
-        <a href="/pyramids.jpg" className="m-0 p-0 w-full h-full">
+        <a href="/1.jpg" className="m-0 p-0 w-full h-full">
           <img
-            src="/pyramids.jpg"
-            alt="Image 1"
-            className="h-5/6 w-full object-cover  shadow-lg rounded-3xl m-0 "
+            src="/1.jpg"
+            alt="Templo Mayor"
+            className="h-4/6 w-full object-cover shadow-lg rounded-3xl m-0 "
           />
         </a>
       </LightGallery>
       <div className="descripcion del tour flex flex-col items-center mb-8">
         <h2 className="text-3xl text-left w-full pt-6 text-primary uppercase font-bold">
-          What to Expect:
+          Qué Esperar:
         </h2>
         <h2 className="text-lg text-left w-full py-3 text-primary uppercase font-bold ">
-          • Pyramid of the Sun
+          • La Gran Pirámide
         </h2>
         <p className="text-lg text-left max-w-prose">
-          Pyramid of the Sun: Start your adventure with a guided tour of the
-          largest pyramid in Teotihuacan, the Pyramid of the Sun. Learn about
-          its construction, historical significance, and the mysterious rituals
-          that took place here. Climb to the top for a breathtaking view of the
-          ancient city and the surrounding landscape.
+          Comienza tu recorrido en el Templo Mayor, explorando la estructura de
+          la Gran Pirámide. Aprende sobre su construcción y la importancia
+          religiosa en la cultura azteca. Descubre los altares y las deidades
+          que fueron honradas aquí, como Huitzilopochtli y Tláloc.
         </p>
         <h2 className="text-lg text-left w-full py-3 text-primary uppercase font-bold ">
-          • Pyramid of the Moon
+          • El Museo del Templo Mayor
         </h2>
         <p className="text-lg text-left max-w-prose">
-          Continue your exploration at the Pyramid of the Moon, which offers
-          another incredible vantage point. Discover the plaza in front of the
-          pyramid, which was used for ceremonial purposes, and learn about the
-          Teotihuacan cosmology and religious practices.
+          Continúa tu visita en el Museo del Templo Mayor, donde podrás admirar
+          una amplia colección de artefactos descubiertos en las excavaciones
+          del sitio. Aprende sobre la vida cotidiana, las prácticas religiosas y
+          los sacrificios que fueron una parte integral de la cultura azteca.
         </p>
       </div>
 
@@ -86,34 +85,34 @@ const Page = () => {
         <div className="max-w-md relative rounded-2xl overflow-hidden shadow-lg">
           <img
             className="w-full h-full object-cover"
-            src="/sun01.jpg"
-            alt="Image 1"
+            src="/templo01.jpg"
+            alt="Templo Mayor"
           />
           <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
-            Pyramid of the Sun
+            Templo Mayor
           </h1>
         </div>
         <div className="max-w-md relative rounded-2xl overflow-hidden shadow-lg">
           <img
             className="w-full h-full object-cover"
-            src="/moon01.jpg"
-            alt="Image 2"
+            src="/templo02.webp"
+            alt="Museo del Templo Mayor"
           />
           <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
-            Pyramid of the Moon
+            Museo del Templo Mayor
           </h1>
         </div>
-        <InfoTeotihuacan />
+        <InfoTemplo />
         <div>
           <h1 className="text-3xl text-center max-w-prose text-primary font-bold uppercase">
-            View in map
+            Ver en el mapa
           </h1>
           <h2 className="text-gray-500 text-xl ">
-            Check reviews, explore the zone, etc.
+            Consulta reseñas, explora la zona, etc.
           </h2>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9751.701205715277!2d-98.84468653143622!3d19.691080076013023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ea859fdaaa75%3A0x643ae28a2e1df8f0!2sPir%C3%A1mides%20de%20Teotihuacan!5e0!3m2!1ses-419!2smx!4v1723970226563!5m2!1ses-419!2smx"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.002005927727!2d-99.13320868509252!3d19.435515386884347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92b8db44f87%3A0xf411f229e0cfd2a!2sMuseo%20del%20Templo%20Mayor!5e0!3m2!1ses-419!2smx!4v1723970226563!5m2!1ses-419!2smx"
           width="600"
           height="450"
           loading="lazy"

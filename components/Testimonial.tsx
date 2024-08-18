@@ -38,10 +38,7 @@ const Testimonial = () => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
     }, 5000);
   };
-
-  // if (window.innerWidth < 768) {
-  //   automaticSlide();
-  // }
+  automaticSlide();
 
   return (
     <div className="relative h-screen flex flex-col justify-center align-center  text-center overflow-hidden w-screen ">
@@ -64,13 +61,13 @@ const Testimonial = () => {
       </div>
       <button
         onClick={prevTestimonial}
-        className="hidden md:block absolute top-1/2 transform -translate-y-1/2 left-[10%] text-white px-4 py-2 rounded-full text-center "
+        className="hidden  absolute top-1/2 transform -translate-y-1/2 left-[10%] text-white px-4 py-2 rounded-full text-center "
       >
         <IoIosArrowBack size={40} />
       </button>
       <button
         onClick={nextTestimonial}
-        className="hidden md:block absolute top-1/2 transform -translate-y-1/2 right-[10%] text-white px-4 py-2 rounded-full text-center "
+        className="hidden  absolute top-1/2 transform -translate-y-1/2 right-[10%] text-white px-4 py-2 rounded-full text-center "
       >
         <IoIosArrowForward size={40} />
       </button>

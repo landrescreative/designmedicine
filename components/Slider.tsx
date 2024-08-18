@@ -1,4 +1,6 @@
 'use client';
+import { url } from 'inspector';
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 // Icons
@@ -13,21 +15,24 @@ const Slider = () => {
       image: '/1.jpg',
       title: 'MEXICO CITY TEMPLO MAYOR RUINS',
       paragraph:
-        ' Mexico City is the capital of Mexico and is known for its Templo Mayor ruins, the baroque Catedral Metropolitana de México of the Spanish conquistadors and the Palacio Nacional, which houses historic murals by Diego Rivera. All of these are situated in and around the Plaza de la Constitución, the massive main square also known as the Zócalo.'
+        ' Mexico City is the capital of Mexico and is known for its Templo Mayor ruins, the baroque Catedral Metropolitana de México of the Spanish conquistadors and the Palacio Nacional.',
+      url: '/templomayor'
     },
     {
       id: 2,
       image: '/2.jpg',
       title: 'TEOTIHUACAN PYRAMIDS',
       paragraph:
-        ' Teotihuacan is an ancient Mesoamerican city located 30 miles (50 km) northeast of modern-day Mexico City. The city, which was designated a UNESCO World Heritage site in 1987, was settled as early as 400 B.C. and became the most powerful and influential city in the region by 400 A.D.'
+        ' Teotihuacan is an ancient Mesoamerican city located 30 miles (50 km) northeast of modern-day Mexico City. ',
+      url: '/teotihuacan'
     },
     {
       id: 3,
       image: '/3.jpg',
       title: 'XOCHIMILCO',
       paragraph:
-        ' Xochimilco is known for its extended series of canals — all that remains of the ancient Lake Xochimilco. Xochimilco has kept its ancient traditions, like the cultivation of flowers, which are sold around the city. In 1987, Xochimilco was declared a World Heritage site by UNESCO.'
+        ' Xochimilco is known for its extended series of canals — all that remains of the ancient Lake Xochimilco. ',
+      url: '/xochimilco'
     }
   ];
 
@@ -36,9 +41,12 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative py-24 flex justify-center items-center lg:w-11/12">
+    <div
+      className="relative py-24 flex justify-center items-center w-full xl:w-9/12 "
+      id="tours"
+    >
       <div className="flex justify-center items-center">
-        <div className="flex flex-col md:flex-row gap-10 justify-between">
+        <div className="flex flex-col md:flex-row gap-5 justify-between">
           {slides.map((slide) => (
             <div
               key={slide.id}
@@ -47,19 +55,22 @@ const Slider = () => {
               <img
                 src={slide.image}
                 alt={slide.title}
-                className="object-cover rounded-t-lg w-full h-[20rem] rounded-3xl shadow-lg"
+                className="object-cover rounded-t-lg w-full h-[20rem]  shadow-lg"
               />
               <div className="px-11 py-5">
                 <h2 className="text-xl font-bold mb-2">{slide.title}</h2>
                 <p className="text-gray-600">{slide.paragraph}</p>
               </div>
-              <button className="flex items-center justify-center justify-self-end bg-primary text-white p-4  w-full rounded-b-lg ">
+              <Link
+                href={slide.url}
+                className="flex items-center justify-center justify-self-end bg-primary text-white p-4  w-full rounded-b-lg "
+              >
                 VIEW DETAILS{' '}
                 <IoIosArrowForward
                   className="card-hover-effect transition-all duration-300"
                   size={32}
                 />
-              </button>
+              </Link>
             </div>
           ))}
         </div>

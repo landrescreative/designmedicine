@@ -12,7 +12,7 @@ import 'lightgallery/css/lg-zoom.css';
 // Importa los plugins que vas a usar
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
-import InfoTeotihuacan from '@/components/InfoTeotihuacan';
+import InfoTemplo from '@/components/InfoTemplo';
 
 const Page = () => {
   return (
@@ -34,13 +34,12 @@ const Page = () => {
         </span>
       </div>
       <h1 className="text-4xl font-bold text-center mt-8 mb-4 w-full md:w-auto text-primary">
-        Teotihuacan
+        Xochimilco
       </h1>
       <p className="text-lg text-center max-w-prose pb-10">
-        Adicional a la conferencia, te ofrecemos la oportunidad de visitar uno
-        de los lugares más increíbles de México. Teotihuacan es una de las zonas
-        arqueológicas más importantes de México y un lugar que no te puedes
-        perder.
+        Te invitamos a disfrutar de la magia de Xochimilco, un sitio emblemático
+        de la Ciudad de México famoso por sus canales, trajineras coloridas, y
+        su rica historia cultural que se remonta a la época prehispánica.
       </p>
       <LightGallery
         speed={500}
@@ -48,36 +47,36 @@ const Page = () => {
         hideScrollbar={true}
         elementClassNames="flex flex-wrap justify-center"
       >
-        <a href="/pyramids.jpg" className="m-0 p-0 w-full h-full">
+        <a href="/3.jpg" className="m-0 p-0 w-full h-full">
           <img
-            src="/pyramids.jpg"
-            alt="Image 1"
+            src="/3.jpg"
+            alt="Xochimilco"
             className="h-5/6 w-full object-cover  shadow-lg rounded-3xl m-0 "
           />
         </a>
       </LightGallery>
       <div className="descripcion del tour flex flex-col items-center mb-8">
         <h2 className="text-3xl text-left w-full pt-6 text-primary uppercase font-bold">
-          What to Expect:
+          Qué Esperar:
         </h2>
         <h2 className="text-lg text-left w-full py-3 text-primary uppercase font-bold ">
-          • Pyramid of the Sun
+          • Paseo en Trajinera
         </h2>
         <p className="text-lg text-left max-w-prose">
-          Pyramid of the Sun: Start your adventure with a guided tour of the
-          largest pyramid in Teotihuacan, the Pyramid of the Sun. Learn about
-          its construction, historical significance, and the mysterious rituals
-          that took place here. Climb to the top for a breathtaking view of the
-          ancient city and the surrounding landscape.
+          Disfruta de un relajante paseo en trajinera por los canales de
+          Xochimilco. Este recorrido te permitirá admirar la belleza natural de
+          la zona mientras te sumerges en las tradiciones locales. Escucha
+          música mariachi, prueba antojitos mexicanos, y descubre el encanto
+          único de Xochimilco.
         </p>
         <h2 className="text-lg text-left w-full py-3 text-primary uppercase font-bold ">
-          • Pyramid of the Moon
+          • Visita a la Isla de las Muñecas
         </h2>
         <p className="text-lg text-left max-w-prose">
-          Continue your exploration at the Pyramid of the Moon, which offers
-          another incredible vantage point. Discover the plaza in front of the
-          pyramid, which was used for ceremonial purposes, and learn about the
-          Teotihuacan cosmology and religious practices.
+          Explora la misteriosa Isla de las Muñecas, un lugar enigmático que ha
+          cautivado la imaginación de muchos visitantes. Descubre la leyenda que
+          rodea este sitio y experimenta la atmósfera única que lo convierte en
+          una de las atracciones más fascinantes de Xochimilco.
         </p>
       </div>
 
@@ -86,34 +85,34 @@ const Page = () => {
         <div className="max-w-md relative rounded-2xl overflow-hidden shadow-lg">
           <img
             className="w-full h-full object-cover"
-            src="/sun01.jpg"
-            alt="Image 1"
+            src="/3.jpg"
+            alt="Trajinera en Xochimilco"
           />
           <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
-            Pyramid of the Sun
+            Trajinera en Xochimilco
           </h1>
         </div>
         <div className="max-w-md relative rounded-2xl overflow-hidden shadow-lg">
           <img
             className="w-full h-full object-cover"
-            src="/moon01.jpg"
-            alt="Image 2"
+            src="/3.jpg"
+            alt="Isla de las Muñecas"
           />
           <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
-            Pyramid of the Moon
+            Isla de las Muñecas
           </h1>
         </div>
-        <InfoTeotihuacan />
+        <InfoTemplo />
         <div>
           <h1 className="text-3xl text-center max-w-prose text-primary font-bold uppercase">
-            View in map
+            Ver en el mapa
           </h1>
           <h2 className="text-gray-500 text-xl ">
-            Check reviews, explore the zone, etc.
+            Consulta reseñas, explora la zona, etc.
           </h2>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9751.701205715277!2d-98.84468653143622!3d19.691080076013023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ea859fdaaa75%3A0x643ae28a2e1df8f0!2sPir%C3%A1mides%20de%20Teotihuacan!5e0!3m2!1ses-419!2smx!4v1723970226563!5m2!1ses-419!2smx"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.816631050711!2d-99.10668908508903!3d19.26182948696526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce014ecb8f9c1d%3A0x8a9afc542a68813e!2sXochimilco!5e0!3m2!1ses-419!2smx!4v1723970226563!5m2!1ses-419!2smx"
           width="600"
           height="450"
           loading="lazy"

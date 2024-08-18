@@ -46,9 +46,9 @@ const Navbar = () => {
           Intensive Seminar
         </Link>
         <Link
-          href="/tours"
+          href="/#tours"
           className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full ${
-            pathname === '/tours' ? 'active' : ''
+            pathname === '/#tours' ? 'active' : ''
           }`}
         >
           Tours
