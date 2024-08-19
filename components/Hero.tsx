@@ -35,7 +35,7 @@ const Hero = () => {
         loop
         className=" absolute top-0 left-0 w-full h-full -z-40 object-cover"
       >
-        <source src="/vidbackground.mp4" type="video/webm" />
+        <source src="/test.webm" type="video/webm" />
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70 -z-40 object-cover"></div>
     </div>
