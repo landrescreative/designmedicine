@@ -6,7 +6,16 @@ import React, { useState, useEffect } from 'react';
 // Icons
 import { IoIosArrowForward } from 'react-icons/io';
 
-const Slider = ({
+type SliderProps = {
+  slide1title: string;
+  slide2title: string;
+  slide3title: string;
+  slide1parag: string;
+  slide2parag: string;
+  slide3parag: string;
+};
+
+const Slider: React.FC<SliderProps> = ({
   slide1title,
   slide2title,
   slide3title,
