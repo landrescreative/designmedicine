@@ -12,15 +12,17 @@ import { GiClothes } from 'react-icons/gi';
 import { FaHatCowboySide } from 'react-icons/fa';
 import { IoIosWater } from 'react-icons/io';
 import { FaCamera } from 'react-icons/fa';
+import { useTranslations } from 'next-intl';
 
 const InfoSeminar = () => {
+  const t = useTranslations('infoseminar');
   return (
     <div className="flex justify-center items-center pb-12 w-full">
       <div className="flex flex-col lg:flex-row justify-start w-11/12 xl:w-9/12">
         {/* First Section - GENERAL */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
-            GENERAL
+            {t('title1')}
           </h2>
           <div className="grid grid-cols-6 grid-rows-1 ">
             <FaUser
@@ -28,8 +30,8 @@ const InfoSeminar = () => {
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Instructor</h3>
-              <p className="text-gray-600">DRA KIIKO MATUSMOTO, LAC, PHD</p>
+              <h3 className="text-lg font-medium">{t('subtitle1')}</h3>
+              <p className="text-gray-600">{t('description1')}</p>
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
@@ -38,8 +40,8 @@ const InfoSeminar = () => {
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Language</h3>
-              <p className="text-gray-600">Spanish With English Translation</p>
+              <h3 className="text-lg font-medium">{t('subtitle2')}</h3>
+              <p className="text-gray-600">{t('description2')}</p>
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
@@ -48,10 +50,8 @@ const InfoSeminar = () => {
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Location</h3>
-              <p className="text-gray-600">
-                MEXICO CITY - MEXICO | OPTIONAL TOURS
-              </p>
+              <h3 className="text-lg font-medium">{t('subtitle3')}</h3>
+              <p className="text-gray-600">{t('description3')}</p>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ const InfoSeminar = () => {
         {/* Second Section - DESCRIPTION */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
-            DESCRIPTION
+            {t('title2')}
           </h2>
           <div className="grid grid-cols-6 grid-rows-1 ">
             <FaRegClock
@@ -71,8 +71,8 @@ const InfoSeminar = () => {
               className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Duration</h3>
-              <p className="text-gray-600">3 Full Days</p>
+              <h3 className="text-lg font-medium">{t('subtitle4')}</h3>
+              <p className="text-gray-600">{t('description4')}</p>
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
@@ -81,10 +81,8 @@ const InfoSeminar = () => {
               className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Include Transport</h3>
-              <p className="text-gray-600">
-                We can take you to the exact location for your security -{' '}
-              </p>
+              <h3 className="text-lg font-medium">{t('subtitle5')}</h3>
+              <p className="text-gray-600">{t('description5')}</p>
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
@@ -93,11 +91,8 @@ const InfoSeminar = () => {
               className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Price</h3>
-              <p className="text-gray-600">
-                $60 USD per person (includes entrance fees, guided tours, and
-                transportation within the site)
-              </p>
+              <h3 className="text-lg font-medium">{t('subtitle6')}</h3>
+              <p className="text-gray-600">{t('description6')}</p>
             </div>
           </div>
         </div>
@@ -109,7 +104,7 @@ const InfoSeminar = () => {
         {/* Third Section - PRICING */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
-            PRICING
+            {t('title3')}
           </h2>
           <div className="grid grid-cols-6 grid-rows-1 ">
             <GiClothes
@@ -117,10 +112,8 @@ const InfoSeminar = () => {
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Time</h3>
-              <p className="text-gray-600">
-                8:00 AM - 5:00 PM (Lunch included)
-              </p>
+              <h3 className="text-lg font-medium">{t('subtitle7')}</h3>
+              <p className="text-gray-600">{t('description7')}</p>
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
@@ -129,8 +122,8 @@ const InfoSeminar = () => {
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Regular Price</h3>
-              <p className="text-gray-600">1000 USD</p>
+              <h3 className="text-lg font-medium">{t('subtitle8')}</h3>
+              <p className="text-gray-600">{t('description8')}</p>
             </div>
           </div>
         </div>

@@ -1,6 +1,121 @@
 {
   "hero": {
-    "title": "Bienvenido a la página de inicio",
-    "subtitle": "Este es un subtítulo de la página de inicio"
+    "title": "Descubre los Secretos de la Acupuntura con Kiiko Matsumoto",
+    "subtitle": "Seminario Intensivo y Experiencias Únicas en México",
+    "cta": "Regístrate Ahora",
+    "cta2": "Ver Más"
+  },
+  "seminarSection": {
+    "date": "14-17 DE FEBRERO DE 2025",
+    "title": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: HOMBRO A HOMBRO",
+    "paragraph": "Ella comparte este conocimiento con sus pacientes en su clínica y con estudiantes de todo el mundo en sus seminarios. La pasión de Kiiko por compartir su investigación la convierte en una docente popular y muy solicitada. Sus estudiantes encuentran que sus seminarios son prácticos, divertidos y dinámicos. Ahora, por primera vez, tenemos la increíble oportunidad de ser enseñados por ella hombro a hombro, mientras tratamos pacientes a su lado.",
+    "cta": "VER DETALLES"
+  },
+  "separators": {
+    "1": "SEMINARIO INTENSIVO HOMBRO A HOMBRO DE KIIKO MATSUMOTO EN MÉXICO 14-17 DE FEBRERO DE 2025",
+    "2": "EXPLORA MÉXICO CON NUESTROS paseos opcionales al centro de la Ciudad de México, ruinas del Templo Mayor, Pirámides de Teotihuacán, Xochimilco y más.",
+    "3": "MÁS SOBRE KIIKO Y LOS COMENTARIOS DE SUS USUARIOS"
+  },
+  "benefits": {
+    "title": "DISFRUTA LA EXPERIENCIA",
+    "title2": "APRENDER",
+    "list": [
+      "DIAGNÓSTICO EN SEGUNDOS",
+      "RETROALIMENTACIÓN INMEDIATA A TRAVÉS DE LA PALPACIÓN",
+      "ORIENTADO A RESULTADOS",
+      "Aumenta el flujo en tu clínica",
+      "Comprende la retroalimentación",
+      "Los mejores resultados"
+    ],
+    "description": [
+      "Aprende a obtener un diagnóstico detallado en poco tiempo.",
+      "Diagnóstico y tratamiento basado en palpación abdominal con respuesta inmediata y confirmación por parte de los pacientes.",
+      "Se obtiene un diagnóstico completo en un tiempo muy corto.",
+      "Aprende directamente de la maestra viva.",
+      "Entiende cómo recibir retroalimentación objetiva e inmediata con cada aguja colocada.",
+      "Logra el nivel más alto de resultados con solo unas pocas agujas."
+    ]
+  },
+  "slider": {
+    "slides": {
+      "1": {
+        "title": "CIUDAD DE MÉXICO TEMPLO MAYOR",
+        "paragraph": "La Ciudad de México es la capital de México y es conocida por las ruinas del Templo Mayor, la Catedral Metropolitana barroca de los conquistadores españoles y el Palacio Nacional."
+      },
+      "2": {
+        "title": "PIRÁMIDES DE TEOTIHUACÁN",
+        "paragraph": "Teotihuacán es una antigua ciudad mesoamericana ubicada a 30 millas (50 km) al noreste de la Ciudad de México moderna."
+      },
+      "3": {
+        "title": "XOCHIMILCO",
+        "paragraph": "Xochimilco es conocido por su extensa serie de canales, todo lo que queda del antiguo Lago Xochimilco."
+      }
+    },
+    "viewDetails": "VER DETALLES"
+  },
+  "aboutKiiko": {
+    "title": "Acerca de Kiiko",
+    "description": "Kiiko Matsumoto es la fundadora del Estilo Kiiko de Acupuntura y es considerada una maestra viva de la acupuntura. El enfoque de Kiiko Matsumoto se enseña en muchas escuelas de acupuntura. Regularmente enseña su estilo de acupuntura en todo el mundo y en los EE. UU. Su dedicación a la investigación y comprensión de los clásicos médicos chinos la convierte en una de las autoridades en el tema de la acupuntura."
+  },
+  "testimonial": {
+    "title": "Testimonios",
+    "paragraph1": "¡Este servicio es increíble! Nunca había visto algo igual.",
+    "paragraph2": "El equipo fue increíblemente servicial y los resultados fueron fantásticos.",
+    "paragraph3": "Lo recomendaría a cualquiera que busque un servicio de primera calidad."
+  },
+  "footer": {
+    "disclaimer": "¡Somos una organización independiente de Kiiko Matsumoto! Para ver su sitio web o contactarla, por favor visita Kiikomatsumoto.com.",
+    "copyright": "Derechos de autor © 2024 Designmedicine, Todos los derechos reservados."
+  },
+  "seminar": {
+    "title": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: HOMBRO A HOMBRO",
+    "description": "Kiiko Matsumoto explorará y revisará pacientes contigo. Ella compartirá su investigación más reciente sobre las aplicaciones de la literatura clásica y te mostrará las muchas formas en que esto puede manifestarse sintomáticamente y sus estrategias de tratamiento más recientes. Disfruta de sus fascinantes explicaciones teóricas sobre puntos y meridianos mientras tratas pacientes a su lado. Trataremos pacientes con condiciones complejas y difíciles con múltiples tratamientos farmacológicos, y más. Verla a tu lado asegurará que sepas cómo aplicar su enfoque al día siguiente en tu clínica para obtener resultados reales.",
+    "subtitle": "Este entrenamiento presencial de tres días es para ti si quieres",
+    "list": [
+      "Aumentar el flujo en tu clínica con el sistema más efectivo y eficiente en acupuntura hoy en día aprendiendo de la maestra viva",
+      "Entender las aplicaciones de la literatura clásica",
+      "Aprender a corregir el desequilibrio constitucional del paciente con efecto inmediato en el diagnóstico",
+      "Entender cómo recibir retroalimentación objetiva e inmediata con cada aguja",
+      "Aprender a obtener un diagnóstico detallado en poco tiempo",
+      "Abordar el problema raíz con efecto inmediato",
+      "Lograr el nivel más alto de resultados con solo unas pocas agujas"
+    ],
+    "thirdtitle": "NCCAOM PDA’S Y CEU’S APROBADOS",
+    "2ndparagraph": "Kiiko Matsumoto es la fundadora del Estilo Kiiko de Acupuntura y se considera una Maestra Viviente de Acupuntura. Es conocida por su capacidad para integrar el trabajo de algunos de los maestros japoneses más famosos, entre ellos el Maestro Nagano, el Maestro Kawai y el Maestro Manaka. Introdujo su conocimiento en su práctica durante las últimas tres décadas. Su estilo de acupuntura se enfoca en tratar la causa raíz con énfasis en todo el cuerpo en lugar de un solo síntoma. Como resultado, los pacientes encuentran que los tratamientos de Kiiko son efectivos y duraderos. El enfoque de Kiiko Matsumoto se enseña en muchas escuelas de acupuntura. Ella enseña regularmente su estilo de acupuntura alrededor del mundo y en EE.UU. Su dedicación a la investigación y comprensión de los clásicos médicos chinos la convierte en una de las autoridades en el tema de la acupuntura. Comparte este conocimiento con sus pacientes en su clínica y con estudiantes de todo el mundo en sus seminarios. La pasión de Kiiko por compartir su investigación la convierte en una docente popular y muy solicitada. Sus estudiantes encuentran que sus seminarios son prácticos, divertidos y dinámicos. Ahora, por primera vez, tenemos la increíble oportunidad de ser enseñados por ella hombro a hombro, mientras tratamos pacientes a su lado. Las razones por las que el estilo de acupuntura japonesa de Kiiko Matsumoto se ha convertido en una de las técnicas con los mejores resultados y demanda en todo el mundo.",
+    "2ndlist": [
+      "Es un estilo de acupuntura palpatoria que proporciona retroalimentación instantánea y efectividad inmediata.",
+      "Se obtiene un diagnóstico completo en un tiempo muy corto.",
+      "Diagnóstico y tratamiento basados en palpación abdominal con respuesta inmediata y confirmación por parte de los pacientes.",
+      "Se utilizan muy pocas agujas."
+    ],
+    "separator": "RESEÑAS DE USUARIOS"
+  },
+  "infoseminar": {
+    "title1": "GENERAL",
+    "title2": "DESCRIPCIÓN",
+    "title3": "PRECIOS",
+    "subtitle1": "Instructor",
+    "subtitle2": "Idioma",
+    "subtitle3": "Ubicación",
+    "subtitle4": "Duración",
+    "subtitle5": "Incluye Transporte",
+    "subtitle6": "Precio",
+    "subtitle7": "Horario",
+    "subtitle8": "Precio Regular",
+    "description1": "DRA. KIIKO MATSUMOTO, LAC, PHD",
+    "description2": "Inglés, Español",
+    "description3": "Ciudad de México, México",
+    "description4": "3 Días",
+    "description5": "Podemos llevarte al lugar exacto por tu seguridad",
+    "description6": "$1,500",
+    "description7": "9:00 AM - 5:00 PM",
+    "description8": "$1,500"
+  },
+  "paymentsection": {
+    "title": "PAGA TU INSCRIPCIÓN",
+    "subtitle": "Escoge tu método de pago preferido en la sección de abajo.",
+    "cta1": "Pagar con PayPal",
+    "cta2": "Pagar con Transferencia Bancaria",
+    "cta3": "Pagar con Tarjeta de Crédito"
   }
 }

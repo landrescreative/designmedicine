@@ -2,7 +2,12 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-const AboutKiiko: React.FC = () => {
+type AboutKiikoProps = {
+  abouttitle: string;
+  aboutdes: string;
+};
+
+const AboutKiiko: React.FC<AboutKiikoProps> = ({ abouttitle, aboutdes }) => {
   return (
     <div className="flex flex-col items-center pt-16 relative">
       <div className="w-full rounded-3xl flex justify-center items-center">
@@ -16,16 +21,10 @@ const AboutKiiko: React.FC = () => {
       </div>
       <div className="flex flex-col justify-center items-center py-16">
         <h1 className="text-2xl font-bold mb-4 text-center text-primary">
-          About Kiiko
+          {abouttitle}
         </h1>
         <p className="text-lg mb-8 text-center md:w-3/4 text-[#58585A] ">
-          Kiiko Matsumoto is the founder of Kiiko Style of Acupuncture and
-          considered to be a "living Master of Acupuncture". Kiiko Matsumoto's
-          approach is taught in many acupuncture schools. She regularly teaches
-          her style of acupuncture around the world and in the U.S. Her
-          dedication to researching and understanding the Chinese medical
-          classics makes her one of the authorities on the subject of
-          acupuncture.
+          {aboutdes}
         </p>
       </div>
       <div className="absolute w-screen opacity-50 md:scale-y-90 -z-20 top-[1rem] md:top-[-2rem]">

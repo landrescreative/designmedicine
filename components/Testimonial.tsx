@@ -5,21 +5,31 @@ import React, { useState, useEffect } from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
 import { IoIosArrowBack } from 'react-icons/io';
 
-const Testimonial = () => {
+type TestimonialProps = {
+  testimonial1: string;
+  testimonial2: string;
+  testimonial3: string;
+};
+
+const Testimonial: React.FC<TestimonialProps> = ({
+  testimonial1,
+  testimonial2,
+  testimonial3
+}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const testimonials = [
     {
       id: 1,
-      text: "This service is amazing! I've never seen anything like it."
+      text: testimonial1
     },
     {
       id: 2,
-      text: 'The team was incredibly helpful and the results were fantastic.'
+      text: testimonial2
     },
     {
       id: 3,
-      text: 'I would recommend this to anyone looking for top-notch service.'
+      text: testimonial3
     }
   ];
 

@@ -1,37 +1,41 @@
 'use client';
-import { url } from 'inspector';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 // Icons
 import { IoIosArrowForward } from 'react-icons/io';
 
-const Slider = () => {
+const Slider = ({
+  slide1title,
+  slide2title,
+  slide3title,
+  slide1parag,
+  slide2parag,
+  slide3parag
+}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const slides = [
     {
       id: 1,
       image: '/1.jpg',
-      title: 'MEXICO CITY TEMPLO MAYOR RUINS',
-      paragraph:
-        ' Mexico City is the capital of Mexico and is known for its Templo Mayor ruins, the baroque Catedral Metropolitana de México of the Spanish conquistadors and the Palacio Nacional.',
+      title: slide1title,
+      paragraph: slide1parag,
       url: '/templomayor'
     },
     {
       id: 2,
       image: '/2.jpg',
-      title: 'TEOTIHUACAN PYRAMIDS',
-      paragraph:
-        ' Teotihuacan is an ancient Mesoamerican city located 30 miles (50 km) northeast of modern-day Mexico City. ',
+      title: slide2title,
+      paragraph: slide2parag,
       url: '/teotihuacan'
     },
     {
       id: 3,
       image: '/3.jpg',
-      title: 'XOCHIMILCO',
-      paragraph:
-        ' Xochimilco is known for its extended series of canals — all that remains of the ancient Lake Xochimilco. ',
+      title: slide3title,
+      paragraph: slide3parag,
       url: '/xochimilco'
     }
   ];
@@ -40,9 +44,14 @@ const Slider = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
   };
 
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 5000); // Cambia de diapositiva cada 5 segundos
+    return () => clearInterval(interval); // Limpia el intervalo al desmontar el componente
+  }, []);
+
   return (
     <div
-      className="relative py-24 flex justify-center items-center w-full xl:w-9/12 "
+      className="relative py-24 flex justify-center items-center w-full xl:w-9/12"
       id="tours"
     >
       <div className="flex justify-center items-center">
@@ -56,19 +65,19 @@ const Slider = () => {
               <img
                 src={slide.image}
                 alt={slide.title}
-                className="object-cover rounded-t-lg w-full h-[20rem]  shadow-lg"
+                className="object-cover rounded-t-lg w-full h-[20rem] shadow-lg"
               />
               <div className="px-11 py-5">
                 <h2 className="text-xl font-bold mb-2">{slide.title}</h2>
                 <p className="text-gray-600">{slide.paragraph}</p>
               </div>
-              <a className="flex items-center justify-center justify-self-end bg-primary text-white p-4  w-full rounded-b-lg ">
-                VIEW DETAILS{' '}
+              <span className="flex items-center justify-center justify-self-end bg-primary text-white p-4 w-full rounded-b-lg">
+                VIEW DETAILS
                 <IoIosArrowForward
                   className="card-hover-effect transition-all duration-300"
                   size={32}
                 />
-              </a>
+              </span>
             </Link>
           ))}
         </div>

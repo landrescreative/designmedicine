@@ -83,7 +83,7 @@ const Navbar = () => {
         </button>
       </div>
       <div
-        className={`md:hidden flex flex-col items-end absolute top-16 w-screen shadow-lg bg-primary ${
+        className={`md:hidden flex flex-col items-end pr-6 absolute top-16 w-screen shadow-lg bg-primary ${
           isOpen ? 'block' : 'hidden'
         }`}
       >

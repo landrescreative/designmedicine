@@ -1,14 +1,17 @@
+import { useTranslations } from 'next-intl';
 import React from 'react';
+import LanguageSwitcher from './LanguageSwitchter';
+import Link from 'next/link';
 
 const Footer = () => {
+  const t = useTranslations('footer');
   return (
     <footer className="bg-gray-800 text-gray-300 py-8 px-5 md:px-20 w-screen">
       <div className="flex flex-col space-y-6">
         {/* First Section - Phrase */}
         <div className="text-center flex justify-center items-center">
           <p className="text-lg font-light uppercase md:w-2/4">
-            We are a separate organization from Kiiko Matsumoto herself! To see
-            her website or contact her please go to Kiikomatsumoto.com.
+            {t('disclaimer')}
           </p>
         </div>
         <hr className="border-gray-500 " />
@@ -20,26 +23,23 @@ const Footer = () => {
           </div>
           {/* Links */}
           <div className="flex space-x-4">
-            <a href="/" className="hover:text-white underline">
+            <Link href="/" className="hover:text-white underline">
               HOME
-            </a>
-            <a href="/seminar" className="hover:text-white underline">
+            </Link>
+            <Link href="/seminar" className="hover:text-white underline">
               SEMINAR
-            </a>
-            <a href="/tours" className="hover:text-white underline">
+            </Link>
+            <Link href="/#tours" className="hover:text-white underline">
               TOURS
-            </a>
-            <a href="/about-us" className="hover:text-white underline">
-              ABOUT US
-            </a>
+            </Link>
           </div>
         </div>
         <hr className="border-gray-500 " />
         {/* Third Section - Copyright, Social Media, Language */}
         <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           {/* Copyright */}
-          <div className="text-sm">
-            Copyright © 2024 Designmedicine, All rights reserved. 
+          <div className="text-sm text-center md:text-left">
+            {t('copyright')}
           </div>
           {/* Social Media Links */}
           <div className="flex space-x-4">
@@ -74,10 +74,6 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          {/* Language Button */}
-          <button className="bg-gray-700 text-white px-4 py-2 rounded-md hover:bg-gray-600">
-            Change Language
-          </button>
         </div>
       </div>
     </footer>

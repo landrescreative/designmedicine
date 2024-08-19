@@ -1,11 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const Benefits: React.FC = () => {
+  const t = useTranslations();
   return (
     <section className="md:mx-20 flex flex-col gap-5 py-10 justify-center items-center w-10/12">
       <h2 className="text-2xl font-bold mb-4 text-center text-primary ">
-        ENJOY THE EXPERIENCE
+        {t('benefits.title')}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 ">
         <div className="bg-white p-8 ">
@@ -18,10 +20,10 @@ const Benefits: React.FC = () => {
               alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-primary uppercase text-center">
-              DIAGNOSIS IN SECONDS
+              {t('benefits.list.0')}
             </h3>
             <p className="text-gray-500 text-center">
-              Learn to gain a detailed diagnosis in little time
+              {t('benefits.description.0')}
             </p>
           </div>
         </div>
@@ -35,11 +37,10 @@ const Benefits: React.FC = () => {
               alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-primary uppercase text-center">
-              IMMEDIATE FEEDBACK THROUGH PALPATION
+              {t('benefits.list.1')}
             </h3>
             <p className="text-gray-500 text-center">
-              Diagnosis and treatment based on abdominal palpation with
-              immediate response with confirmation from the patients.
+              {t('benefits.description.1')}
             </p>
           </div>
         </div>
@@ -53,16 +54,16 @@ const Benefits: React.FC = () => {
               alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-primary uppercase text-center">
-              RESULTS ORIENTED
+              {t('benefits.list.2')}
             </h3>
             <p className="text-gray-500 text-center">
-              A complete diagnosis is obtained in a very short time.
+              {t('benefits.description.2')}
             </p>
           </div>
         </div>
       </div>
       <h2 className="text-2xl font-bold mb-4 text-center text-primary ">
-        LEARN
+        {t('benefits.title2')}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <div className="bg-white p-4 ">
@@ -75,10 +76,10 @@ const Benefits: React.FC = () => {
               alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-primary uppercase text-center">
-              Increase your clinic flow
+              {t('benefits.list.3')}
             </h3>
             <p className="text-gray-500 text-center">
-              Learn from the living master herself.
+              {t('benefits.description.3')}
             </p>
           </div>
         </div>
@@ -92,11 +93,10 @@ const Benefits: React.FC = () => {
               alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-primary uppercase text-center">
-              Understand the feedback
+              {t('benefits.list.4')}
             </h3>
             <p className="text-gray-500 text-center">
-              Understand how to receive immediate, objective feedback with every
-               needle placed.
+              {t('benefits.description.4')}
             </p>
           </div>
         </div>
@@ -110,10 +110,10 @@ const Benefits: React.FC = () => {
               alt="test"
             ></Image>
             <h3 className="text-lg font-regular text-primary uppercase text-center">
-              Highest results6
+              {t('benefits.list.5')}
             </h3>
             <p className="text-gray-500 text-center">
-              Achieve  the highest level of results with just few  needles.
+              {t('benefits.description.5')}
             </p>
           </div>
         </div>
