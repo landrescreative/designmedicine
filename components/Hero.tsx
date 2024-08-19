@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -13,14 +14,20 @@ const Hero = () => {
             Intensive Seminar and Unique Experiences in Mexico
           </h1>
         </div>
-        <button className="bg-primary hover:bg-[#c74d4d] hover:scale-110 text-white py-2 px-5  rounded-xl shadow-xl transition-all duration-300 ">
+        <Link
+          href="/seminar"
+          className="bg-primary hover:bg-[#c74d4d] hover:scale-110 text-white py-2 px-5  rounded-xl shadow-xl transition-all duration-300 "
+        >
           Register Now
-        </button>
+        </Link>
       </div>
-      <div className="flex flex-col text-white justify-center items-center">
+      <Link
+        href="#viewmore"
+        className="flex flex-col text-white justify-center items-center"
+      >
         <span>View More</span>
         <IoIosArrowDown className="text-3xl text-primary" />
-      </div>
+      </Link>
       <video
         autoPlay
         playsInline
@@ -28,7 +35,7 @@ const Hero = () => {
         loop
         className=" absolute top-0 left-0 w-full h-full -z-40 object-cover"
       >
-        <source src="/video1.webm" type="video/webm" />
+        <source src="/vidbackground.mp4" type="video/webm" />
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70 -z-40 object-cover"></div>
     </div>

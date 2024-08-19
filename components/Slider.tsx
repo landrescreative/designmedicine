@@ -48,7 +48,8 @@ const Slider = () => {
       <div className="flex justify-center items-center">
         <div className="flex flex-col md:flex-row gap-5 justify-between">
           {slides.map((slide) => (
-            <div
+            <Link
+              href={slide.url}
               key={slide.id}
               className="card-slider bg-white rounded-xl shadow-md w-full flex flex-col justify-between gap-5 border-t-8 border-primary md:hover:scale-105 transition-all duration-300"
             >
@@ -61,17 +62,14 @@ const Slider = () => {
                 <h2 className="text-xl font-bold mb-2">{slide.title}</h2>
                 <p className="text-gray-600">{slide.paragraph}</p>
               </div>
-              <Link
-                href={slide.url}
-                className="flex items-center justify-center justify-self-end bg-primary text-white p-4  w-full rounded-b-lg "
-              >
+              <a className="flex items-center justify-center justify-self-end bg-primary text-white p-4  w-full rounded-b-lg ">
                 VIEW DETAILS{' '}
                 <IoIosArrowForward
                   className="card-hover-effect transition-all duration-300"
                   size={32}
                 />
-              </Link>
-            </div>
+              </a>
+            </Link>
           ))}
         </div>
       </div>

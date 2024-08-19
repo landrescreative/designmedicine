@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 // Icons
 import { IoIosArrowForward } from 'react-icons/io';
@@ -33,18 +33,16 @@ const Testimonial = () => {
     );
   };
 
-  const automaticSlide = () => {
-    setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-    }, 5000);
-  };
-  automaticSlide();
+  useEffect(() => {
+    const interval = setInterval(nextTestimonial, 5000); // Cambia de diapositiva cada 5 segundos
+    return () => clearInterval(interval); // Limpia el intervalo al desmontar el componente
+  }, []);
 
   return (
-    <div className="relative h-screen flex flex-col justify-center align-center  text-center overflow-hidden w-screen ">
-      <div className="overflow-hidden  ">
+    <div className="relative h-screen flex flex-col justify-center align-center text-center overflow-hidden w-screen">
+      <div className="overflow-hidden">
         <div
-          className="flex transition-transform duration-500 ease-in-out "
+          className="flex transition-transform duration-500 ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {testimonials.map((testimonial) => (
@@ -61,13 +59,13 @@ const Testimonial = () => {
       </div>
       <button
         onClick={prevTestimonial}
-        className="hidden  absolute top-1/2 transform -translate-y-1/2 left-[10%] text-white px-4 py-2 rounded-full text-center "
+        className="hidden absolute top-1/2 transform -translate-y-1/2 left-[10%] text-white px-4 py-2 rounded-full text-center"
       >
         <IoIosArrowBack size={40} />
       </button>
       <button
         onClick={nextTestimonial}
-        className="hidden  absolute top-1/2 transform -translate-y-1/2 right-[10%] text-white px-4 py-2 rounded-full text-center "
+        className="hidden absolute top-1/2 transform -translate-y-1/2 right-[10%] text-white px-4 py-2 rounded-full text-center"
       >
         <IoIosArrowForward size={40} />
       </button>

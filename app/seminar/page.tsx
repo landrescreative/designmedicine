@@ -5,18 +5,21 @@ import Testimonial from '@/components/Testimonial';
 import Footer from '@/components/Footer';
 import InfoSeminar from '@/components/InfoSeminar';
 import PaymentSection from '@/components/PaymentSection';
+import Image from 'next/image';
 
 const Page = () => {
   return (
     <div className="flex justify-center items-center flex-col overflow-x-hidden">
       <Header text="" />
-      <video
-        className="lg:w-3/4 p-5 h-full object-cover aspect-video"
-        muted
-        controls
-      >
-        <source src="video1.webm" type="video/webm" />
-      </video>
+      <div className="lg:w-3/4 p-5 h-full object-cover">
+        <Image
+          src="/seminar01.jpg"
+          alt="seminar"
+          width={1920}
+          height={1080}
+          className="rounded-3xl object-cover shadow-2xl"
+        />
+      </div>
       <div className="flex flex-col gap-5 py-10 w-5/6 md:w-4/6">
         <h1 className="font-bold text-2xl uppercase text-primary">
           KIIKO MATSUMOTO 3 DAY INTENSIVE  SHOULDER TO SHOULDER

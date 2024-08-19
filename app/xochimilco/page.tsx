@@ -47,10 +47,10 @@ const Page = () => {
         hideScrollbar={true}
         elementClassNames="flex flex-wrap justify-center"
       >
-        <a href="/3.jpg" className="m-0 p-0 w-full h-full">
+        <a href="/xochimilco03.jpg" className="m-0 p-0 w-full h-full">
           <img
-            src="/3.jpg"
-            alt="Xochimilco"
+            src="/xochimilco03.jpg"
+            alt="Image 1"
             className="h-5/6 w-full object-cover  shadow-lg rounded-3xl m-0 "
           />
         </a>
@@ -95,11 +95,11 @@ const Page = () => {
         <div className="max-w-md relative rounded-2xl overflow-hidden shadow-lg">
           <img
             className="w-full h-full object-cover"
-            src="/3.jpg"
+            src="/xochimilco03.jpg"
             alt="Isla de las Muñecas"
           />
           <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
-            Isla de las Muñecas
+            Trajinera en xochimico
           </h1>
         </div>
         <InfoTemplo />

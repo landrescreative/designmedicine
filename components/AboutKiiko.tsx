@@ -6,13 +6,13 @@ const AboutKiiko: React.FC = () => {
   return (
     <div className="flex flex-col items-center pt-16 relative">
       <div className="w-full rounded-3xl flex justify-center items-center">
-        <video
-          className="lg:w-3/4 h-full object-cover aspect-video rounded-3xl shadow-xl"
-          muted
-          controls
-        >
-          <source src="video1.webm" type="video/webm" />
-        </video>
+        <iframe
+          src="https://www.youtube.com/embed/beHL3kQQsLc?si=Q-0xPofHXewSj0W3"
+          className="w-3/4 h-full aspect-video rounded-3xl"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"
+        />
       </div>
       <div className="flex flex-col justify-center items-center py-16">
         <h1 className="text-2xl font-bold mb-4 text-center text-primary">
