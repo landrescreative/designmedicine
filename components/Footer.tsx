@@ -1,6 +1,5 @@
 import { useTranslations } from 'next-intl';
 import React from 'react';
-import LanguageSwitcher from './LanguageSwitchter';
 import Link from 'next/link';
 
 const Footer = () => {
