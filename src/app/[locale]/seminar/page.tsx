@@ -22,6 +22,7 @@ const Page = () => {
           className="rounded-3xl object-cover shadow-2xl"
         />
       </div>
+      
       <div className="flex flex-col gap-5 py-10 w-5/6 md:w-4/6">
         <h1 className="font-bold text-2xl uppercase text-primary">
           {t('seminar.title')}

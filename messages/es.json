@@ -69,6 +69,7 @@
   },
   "seminar": {
     "title": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: HOMBRO A HOMBRO",
+    "date": "14-17 DE FEBRERO DE 2025",
     "description": "Kiiko Matsumoto explorará y revisará pacientes contigo. Ella compartirá su investigación más reciente sobre las aplicaciones de la literatura clásica y te mostrará las muchas formas en que esto puede manifestarse sintomáticamente y sus estrategias de tratamiento más recientes. Disfruta de sus fascinantes explicaciones teóricas sobre puntos y meridianos mientras tratas pacientes a su lado. Trataremos pacientes con condiciones complejas y difíciles con múltiples tratamientos farmacológicos, y más. Verla a tu lado asegurará que sepas cómo aplicar su enfoque al día siguiente en tu clínica para obtener resultados reales.",
     "subtitle": "Este entrenamiento presencial de tres días es para ti si quieres",
     "list": [
@@ -117,5 +118,67 @@
     "cta1": "Pagar con PayPal",
     "cta2": "Pagar con Transferencia Bancaria",
     "cta3": "Pagar con Tarjeta de Crédito"
+  },
+  "templomayorsite": {
+    "lenght": "1 dia",
+    "activities": "2 Actividades",
+    "title": "Ciudad de México Templo Mayor",
+    "paragraph": "Además de explorar la historia, te ofrecemos la oportunidad de visitar uno de los sitios más emblemáticos de México. El Templo Mayor fue el centro religioso más importante de la antigua Tenochtitlán, la capital del imperio azteca.",
+    "whattoexpect": "¿Qué esperar?",
+    "lagranpiramide": "La Gran Pirámide",
+    "lagranpiramideparagraph": "Comienza tu recorrido en el Templo Mayor, explorando la estructura de la Gran Pirámide. Aprende sobre su construcción y la importancia religiosa en la cultura azteca. Descubre los altares y las deidades que fueron honradas aquí, como Huitzilopochtli y Tláloc.",
+    "museo": "Museo del Templo Mayor",
+    "museoparagraph": "Continúa tu visita en el Museo del Templo Mayor, donde podrás admirar una amplia colección de artefactos descubiertos en las excavaciones del sitio. Aprende sobre la vida cotidiana, las prácticas religiosas y los sacrificios que fueron una parte integral de la cultura azteca.",
+    "viewmap": "VER EN MAPA",
+    "viewmapparagraph": "Consulta reseñas, explora la zona, etc."
+  },
+  "teotihuacansite": {
+    "length": "1 day",
+    "activities": "2 Activities",
+    "title": "Teotihuacan Pyramids",
+    "paragraph": "Adicional a la conferencia, te ofrecemos la oportunidad de visitar uno de los lugares más increíbles de México. Teotihuacan es una de las zonas arqueológicas más importantes de México y un lugar que no te puedes perder.",
+    "whattoexpect": "¿Qué esperar?",
+    "piramidedelsol": "Piramide del Sol",
+    "piramidedelsolparagraph": "Pirámide del Sol: Comienza tu aventura con un recorrido guiado por la pirámide más grande de Teotihuacán, la Pirámide del Sol. Aprende sobre su construcción, su importancia histórica y los misteriosos rituales que se llevaban a cabo aquí. Sube a la cima para disfrutar de una vista impresionante de la antigua ciudad y el paisaje circundante.",
+    "piramidedelaluna": "Piramide de la Luna",
+    "piramidedelalunaparagraph": "Continúa tu recorrido con una visita al Piramide de la Luna, la segunda pirámide más grande de Teotihuacán. Explora las estructuras y los templos que rodean la pirámide, y aprende sobre la historia y la cultura de esta antigua ciudad. Disfruta de las vistas panorámicas desde la cima y sumérgete en la atmósfera mística de este lugar sagrado.",
+    "viewmap": "VER EN MAPA",
+    "viewmapparagraph": "Consulta reseñas, explora la zona, etc."
+  },
+  "xochimilcosite": {
+    "length": "1 dia",
+    "activities": "2 Actividades",
+    "title": "Xochimilco",
+    "paragraph": "Te invitamos a disfrutar de la magia de Xochimilco, un sitio emblemático de la Ciudad de México famoso por sus canales, trajineras coloridas, y su rica historia cultural que se remonta a la época prehispánica.",
+    "whattoexpect": "¿Qué esperar?",
+    "paseotrajinera": "Paseo en Trajinera",
+    "paseotrajineraparagraph": "Disfruta de un relajante paseo en trajinera por los canales de Xochimilco. Este recorrido te permitirá admirar la belleza natural de la zona mientras te sumerges en las tradiciones locales. Escucha música mariachi, prueba antojitos mexicanos, y descubre el encanto único de Xochimilco.",
+    "viewmap": "VER EN MAPA",
+    "viewmapparagraph": "Consulta reseñas, explora la zona, etc.",
+    "highlight": "Aspectos Destacados",
+    "highlight1title": "Guías Expertos",
+    "highlight1paragraph": "Disfruta tu viaje con un guía local",
+    "highlight2title": "Vistas Increíbles",
+    "highlight2paragraph": "Disfruta de hermosas vistas desde la cima de las pirámides.",
+    "highlight3title": "Ubicación Segura",
+    "highlight3paragraph": "Ciudad de México - CDMX | TOURS OPCIONALES",
+    "tourdetails": "DETALLES DEL TOUR",
+    "tourdetails1title": "Duración",
+    "tourdetails1paragraph": "Tour de día completo (aproximadamente de 8:00 AM a 5:00 PM)",
+    "tourdetails2title": "Incluye Transporte",
+    "tourdetails2paragraph": "Podemos llevarte al lugar exacto por tu seguridad",
+    "tourdetails3title": "Precio",
+    "tourdetails3paragraph": "$150 por persona",
+    "whattobring": "¿Qué llevar?",
+    "whattobring1": "Ropa cómoda y zapatos para caminar",
+    "whattobring2": "Sombrero y protector solar",
+    "whattobring3": "Agua y bocadillos",
+    "whattobring4": "Cámara para capturar recuerdos"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "seminar": "Seminario",
+    "tours": "Tours",
+    "register": "Regístrate Ahora"
   }
 }

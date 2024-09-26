@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
-const Navbar = () => {
+const Navbar = ({ home, seminar, tours, register }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="z-10 bg-gray-200 fixed w-screen h-16 md:h-20 grid grid-cols-12 gap-0.5 border-b-2 border-gray-200">
+    <div className="z-10 bg-white md:bg-gray-200 fixed w-screen h-16 md:h-20 grid grid-cols-12 gap-0.5 border-b-2 border-gray-200">
       <div className="bg-white flex justify-start px-5 md:py-0 md:justify-center items-center md:col-start-1 md:col-end-4 col-start-1 col-end-10 text-primary">
         <Image
           src="/navbarlogo.svg"
@@ -35,7 +35,7 @@ const Navbar = () => {
             pathname === '/' ? 'active' : ''
           }`}
         >
-          Home
+          {home}
         </Link>
         <Link
           href="/seminar"
@@ -43,7 +43,7 @@ const Navbar = () => {
             pathname === '/seminar' ? 'active' : ''
           }`}
         >
-          Intensive Seminar
+          {seminar}
         </Link>
         <Link
           href="/#tours"
@@ -51,7 +51,7 @@ const Navbar = () => {
             pathname === '/#tours' ? 'active' : ''
           }`}
         >
-          Tours
+          {tours}
         </Link>
         {/* Corregido el enlace */}
       </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
           href="/seminar/#register"
           className="hidden md:block text-sm px-7 py-3 text-white font-semibold bg-primary transition-transform duration-300 transform hover:scale-105"
         >
-          Register Now
+          {register}
         </Link>
       </div>
       <div className="md:hidden flex justify-end items-center col-start-11">
@@ -89,7 +89,7 @@ const Navbar = () => {
       >
         <Link href="/" onClick={closeMenu}>
           <span className="block text-sm px-2 py-4 text-white font-semibold md:hover:bg-blue-500 transition duration-300">
-            Home
+            {home}
           </span>
         </Link>
 
@@ -97,19 +97,19 @@ const Navbar = () => {
           {' '}
           {/* Corregido el enlace */}
           <span className="block text-sm px-2 py-4 text-white font-semibold md:hover:bg-blue-500 transition duration-300">
-            Seminar
+            {seminar}
           </span>
         </Link>
 
         <Link href="/#tours" onClick={closeMenu}>
           <span className="block text-sm px-2 py-4 text-white font-semibold md:hover:bg-blue-500 transition duration-300">
-            Tours
+            {tours}
           </span>
         </Link>
 
         <Link href="/seminar/#register" onClick={closeMenu}>
           <span className="block text-sm px-6 py-4 text-black font-semibold uppercase bg-white">
-            Register Now
+            {register}
           </span>
         </Link>
       </div>

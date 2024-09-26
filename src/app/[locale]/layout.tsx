@@ -4,6 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { NextIntlClientProvider } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,11 +22,17 @@ export default function LocaleLayout({
   children,
   params: { locale }
 }: RootLayoutProps) {
+  const t = useTranslations('navbar');
   return (
     <html lang={locale} className="overflow-x-hidden">
       <body className={inter.className}>
         <NextIntlClientProvider messages={{}}>
-          <Navbar />
+          <Navbar
+            home={t('home')}
+            seminar={t('seminar')}
+            tours={t('tours')}
+            register={t('register')}
+          />
           {children}
           <Footer />
         </NextIntlClientProvider>

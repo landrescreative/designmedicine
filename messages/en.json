@@ -69,6 +69,7 @@
   },
   "seminar": {
     "title": "KIIKO MATSUMOTO 3 DAY INTENSIVE  SHOULDER TO SHOULDER",
+    "date": "FEBRUARY 14-17TH  2025",
     "description": "Kiiko Matsumoto, will explore and review patients with you. She will share her latest research about the  applications of classical literature, and show you the  many ways this can manifest symptomatically and her latest treatment strategies. Enjoy her fascinating theoretical explanations regarding  points and meridians , while treating patients along her side. We will treat patients with complex and difficult conditions with multiple drug treatments , and more. Seeing her by your side will ensure you will know how to apply her approach the next day in your clinic to get real results.",
     "subtitle": "This three day In-person training  is for you if you want to",
     "list": [
@@ -117,5 +118,67 @@
     "cta1": "Pay with PayPal",
     "cta2": "Pay with Bank Transfer",
     "cta3": "Pay with Credit Card"
+  },
+  "templomayorsite": {
+    "length": "1 day",
+    "activities": "2 Activities",
+    "title": "Mexico City Templo Mayor",
+    "paragraph": "In addition to exploring history, we offer you the opportunity to visit one of the most emblematic sites in Mexico. The Templo Mayor was the most important religious center of ancient Tenochtitlán, the capital of the Aztec empire.",
+    "whattoexpect": "What to expect?",
+    "lagranpiramide": "The Great Pyramid",
+    "lagranpiramideparagraph": "Start your tour at the Templo Mayor, exploring the structure of the Great Pyramid. Learn about its construction and religious importance in Aztec culture. Discover the altars and deities that were honored here, such as Huitzilopochtli and Tláloc.",
+    "museo": "Templo Mayor Museum",
+    "museoparagraph": "Continue your visit at the Templo Mayor Museum, where you can admire a wide collection of artifacts discovered during the site's excavations. Learn about daily life, religious practices, and sacrifices that were an integral part of Aztec culture.",
+    "viewmap": "VIEW ON MAP",
+    "viewmapparagraph": "Check reviews, explore the area, etc."
+  },
+  "teotihuacansite": {
+    "length": "1 day",
+    "activities": "2 Activities",
+    "title": "Teotihuacan Pyramids",
+    "paragraph": "In addition to the conference, we offer you the opportunity to visit one of the most incredible places in Mexico. Teotihuacan is one of the most important archaeological sites in Mexico and a place you cannot miss.",
+    "whattoexpect": "What to expect?",
+    "piramidedelsol": "Pyramid of the Sun",
+    "piramidedelsolparagraph": "Pyramid of the Sun: Start your adventure with a guided tour of the largest pyramid in Teotihuacan, the Pyramid of the Sun. Learn about its construction, its historical significance, and the mysterious rituals that took place here. Climb to the top to enjoy an impressive view of the ancient city and the surrounding landscape.",
+    "piramidedelaluna": "Pyramid of the Moon",
+    "piramidedelalunaparagraph": "Continue your tour with a visit to the Pyramid of the Moon, the second largest pyramid in Teotihuacan. Explore the structures and temples surrounding the pyramid, and learn about the history and culture of this ancient city. Enjoy panoramic views from the top and immerse yourself in the mystical atmosphere of this sacred place.",
+    "viewmap": "VIEW ON MAP",
+    "viewmapparagraph": "Check reviews, explore the area, etc."
+  },
+  "xochimilcosite": {
+    "length": "1 day",
+    "activities": "2 Activities",
+    "title": "Xochimilco",
+    "paragraph": "We invite you to enjoy the magic of Xochimilco, an emblematic site in Mexico City famous for its canals, colorful trajineras, and rich cultural history dating back to pre-Hispanic times.",
+    "whattoexpect": "What to expect?",
+    "paseotrajinera": "Trajinera Ride",
+    "paseotrajineraparagraph": "Enjoy a relaxing trajinera ride through the canals of Xochimilco. This tour will allow you to admire the natural beauty of the area while immersing yourself in local traditions. Listen to mariachi music, try Mexican snacks, and discover the unique charm of Xochimilco.",
+    "viewmap": "VIEW ON MAP",
+    "viewmapparagraph": "Check reviews, explore the area, etc.",
+    "highlight": "Highlights",
+    "highlight1title": "Expert Guides",
+    "highlight1paragraph": "Enjoy your trip with a local guide",
+    "highlight2title": "Incredible Views",
+    "highlight2paragraph": "Enjoy beatiful views from the top of the pyramids.",
+    "highlight3title": "Secure Location",
+    "highlight3paragraph": "Mexico City - CDMX | OPTIONAL TOURS",
+    "tourdetails": "TOUR DETAILS",
+    "tourdetails1title": "Duration",
+    "tourdetails1paragraph": "Full-day tour (approximately 8:00 AM to 5:00 PM)",
+    "tourdetails2title": "Include Transportation",
+    "tourdetails2paragraph": "We can take you to the exact location for your security",
+    "tourdetails3title": "Price",
+    "tourdetails3paragraph": "$150 per person",
+    "whattobring": "What to bring?",
+    "whattobring1": "Comfortable clothing and walking shoes",
+    "whattobring2": "Hat and sunscreen",
+    "whattobring3": "Water and snacks",
+    "whattobring4": "Camera for capturing memories"
+  },
+  "navbar": {
+    "home": "Home",
+    "seminar": "Seminar",
+    "tours": "Tours",
+    "register": "Register Now"
   }
 }
