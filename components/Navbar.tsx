@@ -18,8 +18,8 @@ const Navbar = ({ home, seminar, tours, register }) => {
   const pathname = usePathname();
 
   return (
-    <div className="z-10 bg-white md:bg-gray-200 fixed w-screen h-16 md:h-20 grid grid-cols-12 gap-0.5 border-b-2 border-gray-200">
-      <div className="bg-white flex justify-start px-5 md:py-0 md:justify-center items-center md:col-start-1 md:col-end-4 col-start-1 col-end-10 text-primary">
+    <div className="z-10 bg-white md:bg-gray-200 fixed w-screen h-16 md:h-20 grid grid-cols-12 border-b-2 border-gray-200 shadow-lg">
+      <div className="bg-white flex justify-center items-center px-5 py-5 md:justify-center md:col-start-1 md:col-end-10 col-start-1 col-end-15 text-primary w-screen">
         <Image
           src="/navbarlogo.svg"
           alt="DesignMedicine Logo"
@@ -28,7 +28,7 @@ const Navbar = ({ home, seminar, tours, register }) => {
           className="w-36 text-primary fill-primary "
         />
       </div>
-      <div className="hidden md:flex justify-evenly items-center col-start-4 col-end-10 bg-white ">
+      <div className="hidden md:flex justify-evenly items-center col-start-1 col-end-10 py-4 bg-white ">
         <Link
           href="/"
           className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full ${
@@ -58,7 +58,7 @@ const Navbar = ({ home, seminar, tours, register }) => {
       <div className="bg-white hidden md:flex justify-center items-center col-start-10 col-end-13">
         <Link
           href="/seminar/#register"
-          className="hidden md:block text-sm px-7 py-3 text-white font-semibold bg-primary transition-transform duration-300 transform hover:scale-105"
+          className="hidden md:block text-sm px-7 py-4 text-white font-semibold bg-primary transition-transform duration-300 transform hover:scale-105"
         >
           {register}
         </Link>

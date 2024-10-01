@@ -65,7 +65,10 @@
   },
   "footer": {
     "disclaimer": "¡Somos una organización independiente de Kiiko Matsumoto! Para ver su sitio web o contactarla, por favor visita Kiikomatsumoto.com.",
-    "copyright": "Derechos de autor © 2024 Designmedicine, Todos los derechos reservados."
+    "copyright": "Derechos de autor © 2024 Design Medicine, Todos los derechos reservados.",
+    "home": "Inicio",
+    "seminar": "Seminario",
+    "tours": "Tours"
   },
   "seminar": {
     "title": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: HOMBRO A HOMBRO",

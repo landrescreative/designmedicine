@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
   const t = useTranslations('footer');
   return (
-    <footer className="bg-gray-800 text-gray-300 py-8 px-5 md:px-20 w-screen">
+    <footer className="bg-gray-800 text-gray-300 py-8 px-5 md:px-20 w-full">
       <div className="flex flex-col space-y-6">
         {/* First Section - Phrase */}
         <div className="text-center flex justify-center items-center">
@@ -23,13 +23,13 @@ const Footer = () => {
           {/* Links */}
           <div className="flex space-x-4">
             <Link href="/" className="hover:text-white underline">
-              HOME
+              {t('home')}
             </Link>
             <Link href="/seminar" className="hover:text-white underline">
-              SEMINAR
+              {t('seminar')}
             </Link>
             <Link href="/#tours" className="hover:text-white underline">
-              TOURS
+              {t('tours')}
             </Link>
           </div>
         </div>

@@ -40,7 +40,7 @@ const Page: React.FC = () => {
         {t('title')}
       </h1>
       <p className="text-lg text-center max-w-prose pb-10">{t('paragraph')}</p>
-      <div className="img-hero w-3/4">
+      <div className="img-hero w-3/4 my-8">
         <img src="/1.jpg" alt="Templo Mayor" className="rounded-2xl" />
       </div>
 
