@@ -7,7 +7,14 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoClose } from 'react-icons/io5';
 
-const Navbar = ({ home, seminar, tours, register }) => {
+interface NavbarProps {
+  home: string;
+  seminar: string;
+  tours: string;
+  register: string;
+}
+
+const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
