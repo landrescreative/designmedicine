@@ -60,7 +60,7 @@ const Slider: React.FC<SliderProps> = ({
 
   return (
     <div
-      className="relative py-24 flex justify-center items-center w-full xl:w-9/12"
+      className="min-h-screen relative py-24 flex justify-center items-center w-full xl:w-9/12"
       id="tours"
     >
       <div className="flex justify-center items-center">

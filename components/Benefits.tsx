@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 const Benefits: React.FC = () => {
   const t = useTranslations();
   return (
-    <section className="md:mx-20 flex flex-col gap-5 py-10 justify-center items-center w-10/12">
+    <section className="min-h-screen md:mx-20 flex flex-col gap-5 py-10 justify-center items-center w-10/12">
       <h2 className="text-2xl font-bold mb-4 text-center text-primary ">
         {t('benefits.title')}
       </h2>

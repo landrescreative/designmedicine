@@ -1,72 +1,130 @@
-import React from 'react';
+'use client';
+import { useState } from 'react';
 
 const Register = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
+  const [status, setStatus] = useState('');
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    setStatus('Sending...');
+
+    const res = await fetch('/api/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(formData)
+    });
+
+    if (res.status === 200) {
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
+      setStatus('Message sent successfully!');
+    } else {
+      setStatus('Failed to send message.');
+    }
+  };
+
   return (
-    <div className="flex flex-col items-center justify-center gap-10 py-20 w-full">
-      {/* Container for the two sections */}
-      <div className="flex flex-col md:flex-row rounded-lg overflow-hidden gap-20 ">
-        {/* Left Section - Form */}
-        <div className="md:w-3/4 md:p-8">
-          <h2 className="text-3xl font-light text-center text-[#79A17A] md:text-left">
-            Contact us for any question.
-          </h2>
-          <p className="text-gray-600 mb-6 text-center md:text-left">
-            For more information about our seminar and tours in Mexico City,
-            please complete the following form and we will contact you shortly.
-          </p>
-
-          <form className="space-y-4 flex flex-col  ">
-            {/* Name Field */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700">
-                Name
-              </label>
-              <input
-                type="text"
-                className="mt-1 block w-full px-4 py-2 border border-gray-700  shadow-sm focus:ring-blue-500 focus:border-blue-500"
-              />
-            </div>
-
-            {/* Email Field */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700">
-                Email
-              </label>
-              <input
-                type="email"
-                className="mt-1 block w-full px-4 py-2 border border-gray-700  shadow-sm focus:ring-blue-500 focus:border-blue-500"
-              />
-            </div>
-
-            {/* Phone Field */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700">
-                Phone
-              </label>
-              <input
-                type="tel"
-                className="mt-1 block w-full px-4 py-2 border border-gray-700  shadow-sm focus:ring-blue-500 focus:border-blue-500"
-              />
-            </div>
-
-            {/* Submit Button */}
-            <div>
-              <button className="bg-[#79A17A] hover:bg-[#5c805d] text-white p-2 px-10 rounded-xl my-3 ">
-                SUBMIT
-              </button>
-            </div>
-          </form>
-        </div>
-
-        {/* Right Section - Image */}
-        <div className="md:w-1/3">
-          <img
-            src="https://via.placeholder.com/400x500"
-            alt="Register Illustration"
-            className="object-cover w-full h-full shadow-2xl rounded-3xl"
+    <div className="flex flex-col min-h-[60dvh] w-5/6 md:w-3/6 mx-auto p-6 bg-white  rounded-lg">
+      <h2 className="text-2xl font-bold mb-6 text-center text-primary">
+        Contact Us
+      </h2>
+      <form onSubmit={handleSubmit} className="space-y-4 ">
+        <div>
+          <label
+            htmlFor="name"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Your Name
+          </label>
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            placeholder="John Doe"
+            required
+            className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary sm:text-sm"
           />
         </div>
-      </div>
+        <div>
+          <label
+            htmlFor="email"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Your Email
+          </label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            placeholder="john@example.com"
+            required
+            className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary sm:text-sm"
+          />
+        </div>
+        <div>
+          <label
+            htmlFor="subject"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Subject
+          </label>
+          <input
+            type="text"
+            name="subject"
+            value={formData.subject}
+            onChange={handleChange}
+            placeholder="Enter subject"
+            required
+            className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary sm:text-sm"
+          />
+        </div>
+        <div>
+          <label
+            htmlFor="message"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Message
+          </label>
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            placeholder="Enter your message"
+            required
+            className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary sm:text-sm"
+          />
+        </div>
+        <button type="submit" className="btn">
+          Send Message
+        </button>
+        {status && (
+          <p className="mt-4 text-center text-sm text-gray-700">{status}</p>
+        )}
+      </form>
     </div>
   );
 };

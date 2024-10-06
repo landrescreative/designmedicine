@@ -7,6 +7,7 @@ import InfoSeminar from '@/components/InfoSeminar';
 import PaymentSection from '@/components/PaymentSection';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import Register from '@/components/Register';
 
 const Page = () => {
   const t = useTranslations('');
@@ -22,7 +23,7 @@ const Page = () => {
           className="rounded-3xl object-cover shadow-2xl"
         />
       </div>
-      
+
       <div className="flex flex-col gap-5 py-10 w-5/6 md:w-4/6">
         <h1 className="font-bold text-2xl uppercase text-primary">
           {t('seminar.title')}
@@ -54,6 +55,7 @@ const Page = () => {
       <h1 id="register"></h1>
       <InfoSeminar />
       <PaymentSection />
+      <Register />
       <Separator text={t('seminar.separator')} />
       <Testimonial
         testimonial1={t('testimonial.paragraph1')}

@@ -28,5 +28,13 @@ html {
   color: #ff6e6e;
 }
 
+/* Componentes */
+@layer components {
+  /* BOTON DEFAULT */
+  .btn {
+    @apply bg-primary hover:bg-[#c74d4d] hover:scale-110 text-white py-4 px-8 uppercase  rounded-xl shadow-xl transition-all duration-300;
+  }
+}
+
 @import '~slick-carousel/slick/slick.css';
 @import '~slick-carousel/slick/slick-theme.css';

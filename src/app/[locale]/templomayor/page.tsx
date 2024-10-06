@@ -19,16 +19,16 @@ const Page: React.FC = () => {
   const t = useTranslations('templomayorsite');
 
   return (
-    <div className="min-h-screen pt-24  flex flex-col items-center p-4">
+    <div className="min-h-screen pt-24  flex flex-col items-center mt-4 p-4">
       <div className="flex flex-row items-center gap-3">
-        <span className=" bg-red-200 opacity font-bold rounded-full px-5 py-1 text-red-500 text-center">
+        <span className=" bg-green-500/20 opacity font-bold rounded-full px-5 py-1 text-primary text-center">
           <FaRegClock
             className="inline-block mr-2 text-primary font-bold"
             size={20}
           />
           {t('length')}
         </span>
-        <span className=" bg-red-200 opacity font-bold rounded-full px-5 py-1 text-red-500  text-center">
+        <span className=" bg-green-500/20 opacity font-bold rounded-full px-5 py-1 text-primary  text-center">
           <MdLocalActivity
             className="inline-block mr-2 text-primary font-bold"
             size={20}
@@ -45,7 +45,7 @@ const Page: React.FC = () => {
       </div>
 
       <div className="descripcion del tour flex flex-col items-center mb-8">
-        <h2 className="text-3xl text-left w-full pt-6 text-primary uppercase font-bold">
+        <h2 className="text-3xl text-left w-full pt-6 text-secondary tracking-widest  uppercase font-bold">
           {t('whattoexpect')}
         </h2>
         <h2 className="text-lg text-left w-full py-3 text-primary uppercase font-bold ">
@@ -68,7 +68,7 @@ const Page: React.FC = () => {
             src="/templo01.jpg"
             alt="Templo Mayor"
           />
-          <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
+          <h1 className="absolute bottom-0 left-0 bg-secondary text-white p-2 px-5 text-lg font-bold">
             {t('lagranpiramide')}
           </h1>
         </div>
@@ -78,13 +78,13 @@ const Page: React.FC = () => {
             src="/templo02.webp"
             alt="Museo del Templo Mayor"
           />
-          <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
+          <h1 className="absolute bottom-0 left-0 bg-secondary text-white p-2 px-5 text-lg font-bold">
             {t('museo')}
           </h1>
         </div>
         <InfoXochimilco />
         <div>
-          <h1 className="text-3xl text-center max-w-prose text-primary font-bold uppercase">
+          <h1 className="text-3xl text-center max-w-prose text-secondary font-bold uppercase">
             {t('viewmap')}
           </h1>
           <h2 className="text-gray-500 text-xl ">{t('viewmapparagraph')}</h2>
