@@ -11,14 +11,12 @@ import Footer from '../../../components/Footer';
 import InfoSeminar from '../../../components/InfoSeminar';
 import PaymentSection from '../../../components/PaymentSection';
 import { useTranslations } from 'next-intl';
-import ShopifyBuyButton from '@/components/ShopifyBuyButton';
 
 export default function Home() {
   const t = useTranslations();
   return (
     <main className="flex justify-center items-center flex-col px-10 md:px-28 lg:px-30 overflow-x-hidden">
       <Hero />
-      <ShopifyBuyButton />
       <Separator text={t('separators.1')} />
       {/* <Separator text="DISCOVER THE UNIQUE BENEFITS OF OUR SPECIALIZED SEMINAR" /> */}
       <SeminarSection />
