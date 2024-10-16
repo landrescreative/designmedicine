@@ -1,103 +1,137 @@
 {
   "hero": {
-    "title": "Descubre los Secretos de la Acupuntura con Kiiko Matsumoto",
+    "title": "¡Domina la Acupuntura con Kiiko Matsumoto!",
     "subtitle": "Seminario Intensivo y Experiencias Únicas en México",
     "cta": "Regístrate Ahora",
     "cta2": "Ver Más"
   },
   "seminarSection": {
-    "date": "14-17 DE FEBRERO DE 2025",
-    "title": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: HOMBRO A HOMBRO",
-    "paragraph": "Ella comparte este conocimiento con sus pacientes en su clínica y con estudiantes de todo el mundo en sus seminarios. La pasión de Kiiko por compartir su investigación la convierte en una docente popular y muy solicitada. Sus estudiantes encuentran que sus seminarios son prácticos, divertidos y dinámicos. Ahora, por primera vez, tenemos la increíble oportunidad de ser enseñados por ella hombro a hombro, mientras tratamos pacientes a su lado.",
+    "date": "14-17 de Febrero, 2025 | Ciudad de México",
+    "title": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: SENSEI A TU LADO ",
+    "paragraph": "Vive una oportunidad única de aprender directamente de Kiiko Matsumoto, una Gran Maestra reconocida de la acupuntura. En este exclusivo taller práctico, no solo perfeccionarás tus técnicas de acupuntura, sino que también adquirirás conocimientos prácticos y reales mientras tratas pacientes con Kiiko guiándote en cada paso.",
     "cta": "VER DETALLES"
   },
   "separators": {
-    "1": "SEMINARIO INTENSIVO HOMBRO A HOMBRO DE KIIKO MATSUMOTO EN MÉXICO 14-17 DE FEBRERO DE 2025",
-    "2": "EXPLORA MÉXICO CON NUESTROS paseos opcionales al centro de la Ciudad de México, ruinas del Templo Mayor, Pirámides de Teotihuacán, Xochimilco y más.",
-    "3": "MÁS SOBRE KIIKO Y LOS COMENTARIOS DE SUS USUARIOS"
+    "1": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: SENSEI A TU LADO, 14-17 DE FEBRERO 2025",
+    "2": "¡EXPLORA MÉXICO CON NUESTROS VIAJES OPCIONALES AL CENTRO DE LA CIUDAD DE MÉXICO, LAS RUINAS DEL TEMPLO MAYOR, LAS PIRÁMIDES DE TEOTIHUACÁN, XOCHIMILCO Y MÁS!",
+    "3": "MÁS SOBRE KIIKO Y LOS TESTIMONIOS DE SUS USUARIOS"
   },
   "benefits": {
-    "title": "DISFRUTA LA EXPERIENCIA",
-    "title2": "APRENDER",
+    "title": "¿Por Qué Asistir?",
+    "title2": "Aspectos Destacados del Curso",
     "list": [
-      "DIAGNÓSTICO EN SEGUNDOS",
-      "RETROALIMENTACIÓN INMEDIATA A TRAVÉS DE LA PALPACIÓN",
-      "ORIENTADO A RESULTADOS",
-      "Aumenta el flujo en tu clínica",
-      "Comprende la retroalimentación",
-      "Los mejores resultados"
+      "Perfeccionamiento Personalizado de Técnicas",
+      "Acceso a Investigación de Vanguardia",
+      "Participación en la Excelencia Clínica",
+      "Resultados Inmediatos y Medibles",
+      "Mejora de tu Flujo Clínico",
+      "Comprensión de Aplicaciones Clásicas",
+      "Corrección de Desequilibrios Constitucionales",
+      "Retroalimentación Objetiva con Cada Aguja",
+      "Diagnóstico y Tratamiento Rápidos"
     ],
     "description": [
-      "Aprende a obtener un diagnóstico detallado en poco tiempo.",
-      "Diagnóstico y tratamiento basado en palpación abdominal con respuesta inmediata y confirmación por parte de los pacientes.",
-      "Se obtiene un diagnóstico completo en un tiempo muy corto.",
-      "Aprende directamente de la maestra viva.",
-      "Entiende cómo recibir retroalimentación objetiva e inmediata con cada aguja colocada.",
-      "Logra el nivel más alto de resultados con solo unas pocas agujas."
+      "Kiiko corregirá y perfeccionará tus métodos de acupuntura en tiempo real, asegurando que domines su estilo reconocido.",
+      "Descubre las últimas estrategias de tratamiento y aplicaciones de la literatura clásica, directamente desde décadas de investigación y experiencia de Kiiko.",
+      "Trabaja con pacientes que enfrentan condiciones médicas simples y complejas, mientras recibes retroalimentación instantánea para asegurar resultados efectivos.",
+      "Aprende a aplicar sus técnicas en tu propia práctica y presencia transformaciones clínicas.",
+      "Aprende el sistema de acupuntura más eficiente directamente de la maestra y mejora los resultados de tus pacientes.",
+      "Sumérgete en la literatura clásica de acupuntura y sus aplicaciones modernas.",
+      "Domina las habilidades para diagnosticar y tratar desequilibrios constitucionales para mejorar inmediatamente a tus pacientes.",
+      "Recibe retroalimentación precisa e instantánea sobre tu técnica de punción.",
+      "Aprende cómo lograr diagnósticos precisos y tratamientos efectivos en poco tiempo, utilizando solo unas pocas agujas."
     ]
   },
   "slider": {
     "slides": {
       "1": {
-        "title": "CIUDAD DE MÉXICO TEMPLO MAYOR",
-        "paragraph": "La Ciudad de México es la capital de México y es conocida por las ruinas del Templo Mayor, la Catedral Metropolitana barroca de los conquistadores españoles y el Palacio Nacional."
+        "title": "Templo Mayor en la Ciudad de México",
+        "paragraph": "La Ciudad de México, capital de México, es conocida por las ruinas del Templo Mayor, la catedral metropolitana barroca de los conquistadores españoles y el Palacio Nacional."
       },
       "2": {
-        "title": "PIRÁMIDES DE TEOTIHUACÁN",
-        "paragraph": "Teotihuacán es una antigua ciudad mesoamericana ubicada a 30 millas (50 km) al noreste de la Ciudad de México moderna."
+        "title": "Pirámides de Teotihuacán",
+        "paragraph": "Teotihuacán es una antigua ciudad mesoamericana ubicada a 30 millas (50 km) al noreste de la actual Ciudad de México."
       },
       "3": {
-        "title": "XOCHIMILCO",
-        "paragraph": "Xochimilco es conocido por su extensa serie de canales, todo lo que queda del antiguo Lago Xochimilco."
+        "title": "Xochimilco",
+        "paragraph": "Xochimilco es conocido por su extensa serie de canales, todo lo que queda del antiguo lago Xochimilco."
       }
     },
     "viewDetails": "VER DETALLES"
   },
   "aboutKiiko": {
-    "title": "Acerca de Kiiko",
-    "description": "Kiiko Matsumoto es la fundadora del Estilo Kiiko de Acupuntura y es considerada una maestra viva de la acupuntura. El enfoque de Kiiko Matsumoto se enseña en muchas escuelas de acupuntura. Regularmente enseña su estilo de acupuntura en todo el mundo y en los EE. UU. Su dedicación a la investigación y comprensión de los clásicos médicos chinos la convierte en una de las autoridades en el tema de la acupuntura."
+    "title": "Sobre Kiiko Matsumoto",
+    "description": "Kiiko Matsumoto, fundadora del “Estilo Kiiko” de acupuntura, es celebrada por su capacidad para integrar la sabiduría de los maestros más renombrados de Japón, incluidos Nagano, Kawai y Manaka. Su práctica se enfoca en tratar la causa raíz de la enfermedad, proporcionando resultados duraderos y profundos. Con más de tres décadas de experiencia e investigación, Kiiko es una educadora reverenciada, llevando su conocimiento a acupunturistas de todo el mundo."
   },
   "testimonial": {
     "title": "Testimonios",
-    "paragraph1": "¡Este servicio es increíble! Nunca había visto algo igual.",
-    "paragraph2": "El equipo fue increíblemente servicial y los resultados fueron fantásticos.",
-    "paragraph3": "Lo recomendaría a cualquiera que busque un servicio de primera calidad."
+    "paragraph1": "¡Este servicio es increíble! Nunca había visto algo así.",
+    "paragraph2": "El equipo fue increíblemente útil y los resultados fueron fantásticos.",
+    "paragraph3": "Recomendaría esto a cualquiera que busque un servicio de primera."
   },
   "footer": {
-    "disclaimer": "¡Somos una organización independiente de Kiiko Matsumoto! Para ver su sitio web o contactarla, por favor visita Kiikomatsumoto.com.",
-    "copyright": "Derechos de autor © 2024 Design Medicine, Todos los derechos reservados.",
+    "disclaimer": "¡Somos una organización separada de Kiiko Matsumoto! Para ver su sitio web o contactarla, por favor visita Kiikomatsumoto.com.",
+    "copyright": "Derechos de Autor © 2024 Design Medicine, Todos los derechos reservados.",
     "home": "Inicio",
     "seminar": "Seminario",
     "tours": "Tours"
   },
   "seminar": {
-    "title": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: HOMBRO A HOMBRO",
-    "date": "14-17 DE FEBRERO DE 2025",
-    "description": "Kiiko Matsumoto explorará y revisará pacientes contigo. Ella compartirá su investigación más reciente sobre las aplicaciones de la literatura clásica y te mostrará las muchas formas en que esto puede manifestarse sintomáticamente y sus estrategias de tratamiento más recientes. Disfruta de sus fascinantes explicaciones teóricas sobre puntos y meridianos mientras tratas pacientes a su lado. Trataremos pacientes con condiciones complejas y difíciles con múltiples tratamientos farmacológicos, y más. Verla a tu lado asegurará que sepas cómo aplicar su enfoque al día siguiente en tu clínica para obtener resultados reales.",
-    "subtitle": "Este entrenamiento presencial de tres días es para ti si quieres",
+    "title": "Taller Clínico Intensivo de 3 Días con Kiiko Matsumoto: Sensei a Tu Lado",
+    "date": "14-17 de Febrero, 2025 | Ciudad de México",
+    "description": "Kiiko Matsumoto viene a ti! En un formato novedoso de enseñanza clínica, tendrás la oportunidad de experimentar a una gran maestra a tu lado. Explorarás y revisarás pacientes con ella mientras te corrige tus técnicas de acupuntura, a la vez que compartirá su investigación más reciente sobre las aplicaciones de la literatura clásica y te mostrará las muchas formas en que esto puede manifestarse sintomáticamente con sus estrategias de tratamiento más recientes. Disfruta de sus fascinantes explicaciones teóricas sobre puntos y meridianos mientras tratas pacientes a su lado. Trataremos pacientes con condiciones complejas y difíciles, con múltiples tratamientos farmacológicos y más. Tener a la sensei a tu lado asegurará que sepas cómo aplicar lo aprendido al día siguiente en tu clínica para obtener resultados clínicamente sorprendentes.",
+    "subtitle": "¿Por Qué Asistir?",
     "list": [
-      "Aumentar el flujo en tu clínica con el sistema más efectivo y eficiente en acupuntura hoy en día aprendiendo de la maestra viva",
-      "Entender las aplicaciones de la literatura clásica",
-      "Aprender a corregir el desequilibrio constitucional del paciente con efecto inmediato en el diagnóstico",
-      "Entender cómo recibir retroalimentación objetiva e inmediata con cada aguja",
-      "Aprender a obtener un diagnóstico detallado en poco tiempo",
-      "Abordar el problema raíz con efecto inmediato",
-      "Lograr el nivel más alto de resultados con solo unas pocas agujas"
+      "Perfeccionamiento Personalizado de Técnicas: \n  Kiiko corregirá y perfeccionará tus métodos de acupuntura en tiempo real, asegurando que domines su estilo reconocido.",
+      "Acceso a Investigación de Vanguardia: \n  Descubre las últimas estrategias de tratamiento y aplicaciones de la literatura clásica, directamente desde décadas de investigación y experiencia de Kiiko.",
+      "Participación en la Excelencia Clínica: \n  Trabaja con pacientes que enfrentan condiciones médicas simples y complejas, mientras recibes retroalimentación instantánea para asegurar resultados efectivos.",
+      "Resultados Inmediatos y Medibles: \n  Aprende a aplicar sus técnicas en tu propia práctica y presencia transformaciones clínicas.",
+      "Trata el problema de raíz con resultados inmediatos.",
+      "Obtén los mejores resultados con solo unas pocas agujas."
+    ],
+    "subtitle2": "Aspectos Destacados del Curso",
+    "list2": [
+      "Mejora de tu Flujo Clínico",
+      "Aprende el sistema de acupuntura más eficiente directamente de la maestra y mejora los resultados de tus pacientes.",
+      "Comprensión de Aplicaciones Clásicas",
+      "Sumérgete en la literatura clásica de acupuntura y sus aplicaciones modernas.",
+      "Corrección de Desequilibrios Constitucionales",
+      "Domina las habilidades para diagnosticar y tratar desequilibrios constitucionales para mejorar inmediatamente a tus pacientes.",
+      "Retroalimentación Objetiva con Cada Aguja",
+      "Recibe retroalimentación precisa e instantánea sobre tu técnica de punción.",
+      "Diagnóstico y Tratamiento Rápidos",
+      "Aprende cómo lograr diagnósticos precisos y tratamientos efectivos en poco tiempo, utilizando solo unas pocas agujas."
     ],
     "thirdtitle": "NCCAOM PDA’S Y CEU’S APROBADOS",
-    "2ndparagraph": "Kiiko Matsumoto es la fundadora del Estilo Kiiko de Acupuntura y se considera una Maestra Viviente de Acupuntura. Es conocida por su capacidad para integrar el trabajo de algunos de los maestros japoneses más famosos, entre ellos el Maestro Nagano, el Maestro Kawai y el Maestro Manaka. Introdujo su conocimiento en su práctica durante las últimas tres décadas. Su estilo de acupuntura se enfoca en tratar la causa raíz con énfasis en todo el cuerpo en lugar de un solo síntoma. Como resultado, los pacientes encuentran que los tratamientos de Kiiko son efectivos y duraderos. El enfoque de Kiiko Matsumoto se enseña en muchas escuelas de acupuntura. Ella enseña regularmente su estilo de acupuntura alrededor del mundo y en EE.UU. Su dedicación a la investigación y comprensión de los clásicos médicos chinos la convierte en una de las autoridades en el tema de la acupuntura. Comparte este conocimiento con sus pacientes en su clínica y con estudiantes de todo el mundo en sus seminarios. La pasión de Kiiko por compartir su investigación la convierte en una docente popular y muy solicitada. Sus estudiantes encuentran que sus seminarios son prácticos, divertidos y dinámicos. Ahora, por primera vez, tenemos la increíble oportunidad de ser enseñados por ella hombro a hombro, mientras tratamos pacientes a su lado. Las razones por las que el estilo de acupuntura japonesa de Kiiko Matsumoto se ha convertido en una de las técnicas con los mejores resultados y demanda en todo el mundo.",
+    "2ndparagraph": "Kiiko Matsumoto es la fundadora del “Estilo Kiiko” de Acupuntura y se considera una gran Maestra Viva. Es conocida por su capacidad para integrar el trabajo de algunos de los maestros japoneses más famosos, entre ellos el Maestro Nagano, el Maestro Kawai y el Maestro Manaka. Introdujo su conocimiento en su práctica durante las últimas tres décadas. Su estilo de acupuntura se enfoca en tratar la causa raíz ,con énfasis en todo el cuerpo en lugar de un solo síntoma. Como resultado, los pacientes encuentran que los tratamientos de Kiiko son muy efectivos y duraderos. El enfoque de Kiiko Matsumoto se enseña en muchas escuelas de acupuntura. Ella enseña regularmente su estilo de acupuntura alrededor del mundo y en EE.UU. Su dedicación a la investigación y comprensión de los clásicos médicos chinos la convierte en una de las autoridades en el tema de la acupuntura. Comparte este conocimiento con sus pacientes en su clínica y con estudiantes de todo el mundo en sus seminarios. La pasión de Kiiko por compartir su investigación la convierte en una docente muy popular y solicitada. Sus estudiantes encuentran que sus seminarios son prácticos, divertidos y dinámicos.Por primera vez en América, Kiiko Matsumoto nos dará la increíble oportunidad de recibir sus enseñanzas mientras tratamos pacientes a su lado. Después de este seminario intensivo comprobarás por ti mismo las razones por las que el estilo de Kiiko se ha convertido en una de las técnicas con los mejores resultados y demanda en todo el mundo.",
     "2ndlist": [
-      "Es un estilo de acupuntura palpatoria que proporciona retroalimentación instantánea y efectividad inmediata.",
+      "La acupuntura de Kiiko consiste en un método palpatorio que proporciona retroalimentación instantánea y efectividad inmediata.",
       "Se obtiene un diagnóstico completo en un tiempo muy corto.",
-      "Diagnóstico y tratamiento basados en palpación abdominal con respuesta inmediata y confirmación por parte de los pacientes.",
+      "El diagnóstico y tratamiento se basan en palpación abdominal con respuesta inmediata y confirmación por parte de los pacientes.",
       "Se utilizan muy pocas agujas."
     ],
-    "separator": "RESEÑAS DE USUARIOS"
+    "separator": "RESEÑAS DE USUARIOS",
+    "fourthtitle": "¿Qué Esperar?",
+    "3rdlisttitles": [
+      "Instrucción Directa de Kiiko",
+      "Aplicación Inmediata de Conocimientos",
+      "Sesiones Exclusivas de Preguntas y Respuestas"
+    ],
+    "3rdlistparagraphs": [
+      "Aprende el Método de Acupuntura Japonesa de Kiiko Matsumoto en un seminario intensivo y práctico donde trabajarás lado a lado con la misma Kiiko.",
+      "Obtén conocimientos prácticos sobre la localización de puntos, técnicas de punción y la relevancia clínica de los puntos de acupuntura con retroalimentación constante de Kiiko.",
+      "Cada día incluye tiempo dedicado para que los participantes hagan preguntas a Kiiko y profundicen en la comprensión de su método."
+    ],
+    "fivetitle": "Recibe un Certificado de Finalización",
+    "5thparagraph": "Los participantes recibirán un certificado de finalización firmado por Kiiko Matsumoto, junto con créditos PDA/CEU.",
+    "sixtitle": "Únete a una Comunidad de Aprendizaje Solidaria",
+    "6thparagraph": "Conéctate con otros acupunturistas y aprende en un entorno colaborativo y centrado en la comunidad que mejorará tu experiencia educativa.",
+    "7thparagraph": "¡Esta es tu oportunidad de aprender de una leyenda viviente de la acupuntura! No te pierdas esta oportunidad única de elevar tu práctica y lograr resultados clínicos notables."
   },
   "infoseminar": {
     "title1": "GENERAL",
     "title2": "DESCRIPCIÓN",
-    "title3": "PRECIOS",
+    "title3": "PRECIO",
     "subtitle1": "Instructor",
     "subtitle2": "Idioma",
     "subtitle3": "Ubicación",
@@ -106,7 +140,7 @@
     "subtitle6": "Precio",
     "subtitle7": "Horario",
     "subtitle8": "Precio Regular",
-    "description1": "DRA. KIIKO MATSUMOTO, LAC, PHD",
+    "description1": "DRA KIIKO MATSUMOTO, LAC, PHD",
     "description2": "Inglés, Español",
     "description3": "Ciudad de México, México",
     "description4": "3 Días",
@@ -117,50 +151,50 @@
   },
   "paymentsection": {
     "title": "PAGA TU INSCRIPCIÓN",
-    "subtitle": "Escoge tu método de pago preferido en la sección de abajo.",
+    "subtitle": "Elige tu método de pago preferido en la sección de abajo.",
     "cta1": "Pagar con PayPal",
     "cta2": "Pagar con Transferencia Bancaria",
     "cta3": "Pagar con Tarjeta de Crédito"
   },
   "templomayorsite": {
-    "lenght": "1 dia",
+    "length": "1 día",
     "activities": "2 Actividades",
-    "title": "Ciudad de México Templo Mayor",
+    "title": "Templo Mayor de la Ciudad de México",
     "paragraph": "Además de explorar la historia, te ofrecemos la oportunidad de visitar uno de los sitios más emblemáticos de México. El Templo Mayor fue el centro religioso más importante de la antigua Tenochtitlán, la capital del imperio azteca.",
     "whattoexpect": "¿Qué esperar?",
     "lagranpiramide": "La Gran Pirámide",
-    "lagranpiramideparagraph": "Comienza tu recorrido en el Templo Mayor, explorando la estructura de la Gran Pirámide. Aprende sobre su construcción y la importancia religiosa en la cultura azteca. Descubre los altares y las deidades que fueron honradas aquí, como Huitzilopochtli y Tláloc.",
+    "lagranpiramideparagraph": "Comienza tu recorrido en el Templo Mayor, explorando la estructura de la Gran Pirámide. Aprende sobre su construcción y su importancia religiosa en la cultura azteca. Descubre los altares y deidades que se honraban aquí, como Huitzilopochtli y Tláloc.",
     "museo": "Museo del Templo Mayor",
-    "museoparagraph": "Continúa tu visita en el Museo del Templo Mayor, donde podrás admirar una amplia colección de artefactos descubiertos en las excavaciones del sitio. Aprende sobre la vida cotidiana, las prácticas religiosas y los sacrificios que fueron una parte integral de la cultura azteca.",
+    "museoparagraph": "Continúa tu visita en el Museo del Templo Mayor, donde podrás admirar una amplia colección de artefactos descubiertos durante las excavaciones del sitio. Aprende sobre la vida cotidiana, las prácticas religiosas y los sacrificios que formaban parte integral de la cultura azteca.",
     "viewmap": "VER EN MAPA",
-    "viewmapparagraph": "Consulta reseñas, explora la zona, etc."
+    "viewmapparagraph": "Revisa reseñas, explora el área, etc."
   },
   "teotihuacansite": {
-    "length": "1 day",
-    "activities": "2 Activities",
-    "title": "Teotihuacan Pyramids",
-    "paragraph": "Adicional a la conferencia, te ofrecemos la oportunidad de visitar uno de los lugares más increíbles de México. Teotihuacan es una de las zonas arqueológicas más importantes de México y un lugar que no te puedes perder.",
+    "length": "1 día",
+    "activities": "2 Actividades",
+    "title": "Pirámides de Teotihuacán",
+    "paragraph": "Además de la conferencia, te ofrecemos la oportunidad de visitar uno de los lugares más increíbles de México. Teotihuacán es uno de los sitios arqueológicos más importantes de México y un lugar que no puedes perderte.",
     "whattoexpect": "¿Qué esperar?",
-    "piramidedelsol": "Piramide del Sol",
+    "piramidedelsol": "Pirámide del Sol",
     "piramidedelsolparagraph": "Pirámide del Sol: Comienza tu aventura con un recorrido guiado por la pirámide más grande de Teotihuacán, la Pirámide del Sol. Aprende sobre su construcción, su importancia histórica y los misteriosos rituales que se llevaban a cabo aquí. Sube a la cima para disfrutar de una vista impresionante de la antigua ciudad y el paisaje circundante.",
-    "piramidedelaluna": "Piramide de la Luna",
-    "piramidedelalunaparagraph": "Continúa tu recorrido con una visita al Piramide de la Luna, la segunda pirámide más grande de Teotihuacán. Explora las estructuras y los templos que rodean la pirámide, y aprende sobre la historia y la cultura de esta antigua ciudad. Disfruta de las vistas panorámicas desde la cima y sumérgete en la atmósfera mística de este lugar sagrado.",
+    "piramidedelaluna": "Pirámide de la Luna",
+    "piramidedelalunaparagraph": "Continúa tu recorrido con una visita a la Pirámide de la Luna, la segunda pirámide más grande de Teotihuacán. Explora las estructuras y templos que rodean la pirámide y aprende sobre la historia y cultura de esta antigua ciudad. Disfruta de vistas panorámicas desde la cima e inmersiónate en la atmósfera mística de este lugar sagrado.",
     "viewmap": "VER EN MAPA",
-    "viewmapparagraph": "Consulta reseñas, explora la zona, etc."
+    "viewmapparagraph": "Revisa reseñas, explora el área, etc."
   },
   "xochimilcosite": {
-    "length": "1 dia",
+    "length": "1 día",
     "activities": "2 Actividades",
     "title": "Xochimilco",
-    "paragraph": "Te invitamos a disfrutar de la magia de Xochimilco, un sitio emblemático de la Ciudad de México famoso por sus canales, trajineras coloridas, y su rica historia cultural que se remonta a la época prehispánica.",
+    "paragraph": "Te invitamos a disfrutar de la magia de Xochimilco, un sitio emblemático de la Ciudad de México famoso por sus canales, coloridas trajineras y rica historia cultural que se remonta a tiempos prehispánicos.",
     "whattoexpect": "¿Qué esperar?",
     "paseotrajinera": "Paseo en Trajinera",
-    "paseotrajineraparagraph": "Disfruta de un relajante paseo en trajinera por los canales de Xochimilco. Este recorrido te permitirá admirar la belleza natural de la zona mientras te sumerges en las tradiciones locales. Escucha música mariachi, prueba antojitos mexicanos, y descubre el encanto único de Xochimilco.",
+    "paseotrajineraparagraph": "Disfruta de un relajante paseo en trajinera a través de los canales de Xochimilco. Este tour te permitirá admirar la belleza natural de la zona mientras te sumerges en las tradiciones locales. Escucha música de mariachi, prueba bocadillos mexicanos y descubre el encanto único de Xochimilco.",
     "viewmap": "VER EN MAPA",
-    "viewmapparagraph": "Consulta reseñas, explora la zona, etc.",
+    "viewmapparagraph": "Revisa reseñas, explora el área, etc.",
     "highlight": "Aspectos Destacados",
     "highlight1title": "Guías Expertos",
-    "highlight1paragraph": "Disfruta tu viaje con un guía local",
+    "highlight1paragraph": "Disfruta de tu viaje con un guía local",
     "highlight2title": "Vistas Increíbles",
     "highlight2paragraph": "Disfruta de hermosas vistas desde la cima de las pirámides.",
     "highlight3title": "Ubicación Segura",
@@ -173,7 +207,7 @@
     "tourdetails3title": "Precio",
     "tourdetails3paragraph": "$150 por persona",
     "whattobring": "¿Qué llevar?",
-    "whattobring1": "Ropa cómoda y zapatos para caminar",
+    "whattobring1": "Ropa y zapatos cómodos para caminar",
     "whattobring2": "Sombrero y protector solar",
     "whattobring3": "Agua y bocadillos",
     "whattobring4": "Cámara para capturar recuerdos"

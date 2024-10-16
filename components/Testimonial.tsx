@@ -81,7 +81,7 @@ const Testimonial: React.FC<TestimonialProps> = ({
       </button>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-100 -z-40 object-cover">
         <img
-          src="/BU1I2082.jpg"
+          src="/seminar_01.jpg"
           alt="testimonial"
           className="h-[100vh] w-[100vw] object-cover blur-sm grayscale opacity-30"
         />

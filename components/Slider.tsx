@@ -46,6 +46,14 @@ const Slider: React.FC<SliderProps> = ({
       title: slide3title,
       paragraph: slide3parag,
       url: '/xochimilco'
+    },
+    {
+      id: 4,
+      image: '/Lucha-libre-México-CMLL.webp',
+      title: 'Luchas',
+      paragraph:
+        'Disfruta de una experiencia única en las luchas de la ciudad de México',
+      url: '/xochimilco'
     }
   ];
 

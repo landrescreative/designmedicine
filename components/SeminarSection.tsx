@@ -7,7 +7,7 @@ const SeminarSection: React.FC = () => {
   const t = useTranslations();
   return (
     <div
-      className="min-h-screen flex flex-col justify-center items-center w-screen md:flex-row py-10 px-10 md:px-24 gap-10 "
+      className="min-h-screen flex flex-col justify-center items-center w-screen md:flex-row py-10 px-10 md:px-24 gap-10  "
       id="viewmore"
     >
       <div className="md:w-1/4">

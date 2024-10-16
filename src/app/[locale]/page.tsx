@@ -15,7 +15,7 @@ import { useTranslations } from 'next-intl';
 export default function Home() {
   const t = useTranslations();
   return (
-    <main className="flex justify-center items-center flex-col px-10 md:px-28 lg:px-30 overflow-x-hidden">
+    <main className="flex justify-center items-center flex-col overflow-x-hidden">
       <Hero />
       <Separator text={t('separators.1')} />
       {/* <Separator text="DISCOVER THE UNIQUE BENEFITS OF OUR SPECIALIZED SEMINAR" /> */}

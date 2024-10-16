@@ -9,10 +9,12 @@ const Hero = () => {
     <div className="relative w-screen h-screen flex flex-col justify-between items-center pt-24 px-10 py-10">
       <div className="flex flex-col justify-center items-center pt-16 gap-5">
         <div className="flex flex-col gap-1">
-          <h1 className="text-center text-white font-normal text-3xl shadow">
+          <h1 className="text-center text-white  text-3xl shadow mb-4 font-serif">
             {t('hero.title')}
           </h1>
-
+          <h1 className="text-center text-white uppercase">
+            {t('hero.subtitle')}
+          </h1>
           <h1 className="text-center text-white">{t('seminarSection.date')}</h1>
         </div>
         <Link href="/seminar" className="btn">
