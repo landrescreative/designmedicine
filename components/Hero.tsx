@@ -15,6 +15,7 @@ const Hero = () => {
           <h1 className="text-center text-white uppercase">
             {t('hero.subtitle')}
           </h1>
+          <h1>testing design</h1>
           <h1 className="text-center text-white">{t('seminarSection.date')}</h1>
         </div>
         <Link href="/seminar" className="btn">
