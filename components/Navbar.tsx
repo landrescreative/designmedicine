@@ -74,6 +74,14 @@ const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
         >
           {tours}
         </Link>
+        <Link
+          href="/shop"
+          className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full tracking-wider uppercase ${
+            pathname === '/#tours' ? 'active' : ''
+          }`}
+        >
+          Shop
+        </Link>
       </div>
       <div className="md:hidden flex justify-end items-center col-start-11">
         <button
@@ -121,6 +129,11 @@ const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
             <Link href="/#tours" onClick={closeMenu}>
               <span className="block  px-2 py-4 text-gray-700 text-lg font-medium md:hover:bg-blue-500 transition duration-300 uppercase tracking-widest">
                 {tours}
+              </span>
+            </Link>
+            <Link href="/shop" onClick={closeMenu}>
+              <span className="block  px-2 py-4 text-gray-700 text-lg font-medium md:hover:bg-blue-500 transition duration-300 uppercase tracking-widest">
+                Shop
               </span>
             </Link>
           </motion.div>
