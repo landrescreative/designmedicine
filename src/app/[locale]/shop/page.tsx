@@ -1,18 +1,66 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+"use client"; // Necesario para usar hooks como useState en un componente cliente
 
-const Page: React.FC = () => {
-  const carouselSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false, // Ocultar flechas
+import React, { useState } from 'react';
+
+// Carrusel personalizado (CustomCarousel)
+const images = [
+  'https://symposium.pacificcollege.edu/wp-content/uploads/2021/02/Kiiko-02-1.jpg',
+  'https://www.qiology.com.au/wp-content/uploads/2019/05/Kiiko-866x1024.jpg',
+  'https://altaivida.net/wp-content/uploads/2017/01/kiiko-matsumoto-altaivida-e1483914916971-300x273.jpeg',
+  'https://m.media-amazon.com/images/I/A1aTrRY3W7L._AC_UF894,1000_QL80_.jpg',
+  'https://m.media-amazon.com/images/I/81dB8Q2iqqL._AC_CR0%2C0%2C0%2C0_SY315_.jpg',
+  'https://www.easterncurrents.ca/wp-content/uploads/2020/01/B5760.jpg',
+  // Agrega más imágenes si es necesario
+];
+
+const CustomCarousel: React.FC = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 3 : prevIndex - 1
+    );
   };
 
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex >= images.length - 3 ? 0 : prevIndex + 1
+    );
+  };
+
+  return (
+    <div className="relative w-full max-w-5xl mx-auto mt-8 mb-40">
+      <h1 className="text-[#5b737b] text-3xl font-bold mb-10">LASTEST PRODUCTS</h1>
+      <div className="flex overflow-hidden">
+        {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Imagen ${currentIndex + index + 1}`}
+            className="w-[400px] h-[400px] object-cover rounded-lg mx-2"
+          />
+        ))}
+      </div>
+
+      {/* Botones de navegación */}
+      <button
+        onClick={prevSlide}
+        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-black text-white px-2 py-1 rounded-full"
+      >
+        &#8249;
+      </button>
+      <button
+        onClick={nextSlide}
+        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black text-white px-2 py-1 rounded-full"
+      >
+        &#8250;
+      </button>
+    </div>
+  );
+};
+
+// Página principal (Page)
+const Page: React.FC = () => {
   return (
     <>
       {/* Sección de Design Medicine Shop con fondo verde */}
@@ -69,7 +117,7 @@ const Page: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-4">
           {Array.from({ length: 4 }, (_, index) => (
             <div key={index} className="text-center bg-white p-4 rounded-lg shadow-md">
-              <img src={`producto${index + 1}.jpg`} alt={`Producto ${index + 1}`} className="w-full h-48 object-cover rounded" />
+              <img src={`https://m.media-amazon.com/images/I/81dB8Q2iqqL._AC_CR0%2C0%2C0%2C0_SY315_.jpg`} alt={`Producto ${index + 1}`} className="w-full h-48 object-cover rounded" />
               <p className="text-[#5b737b] mt-4">Producto {index + 1} - ${29.99 + index * 10}</p>
               <label className="text-[#5b737b] mt-2" htmlFor={`color${index + 1}`}>Variante:</label>
               <select id={`color${index + 1}`} className="mt-1 mb-2">
@@ -83,10 +131,32 @@ const Page: React.FC = () => {
         </div>
       </div>
 
-      {/* Sección Latest Products con carrusel */}
-      
+      {/* Sección ALL PRODUCTS*/}
+      <CustomCarousel />
 
-       
+      <div className="w-full bg-white p-32">
+  <div className="flex justify-between items-center">
+    <h1 className="text-[#5b737b] text-3xl font-bold">ALL PRODUCT</h1>
+    <a href="#" className="text-[#5b737b] underline">View All</a>
+  </div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-4">
+    {Array.from({ length: 12 }, (_, index) => (
+      <div key={index} className="text-center bg-white p-4 rounded-lg shadow-md">
+        <img src={`https://m.media-amazon.com/images/I/81dB8Q2iqqL._AC_CR0%2C0%2C0%2C0_SY315_.jpg`} alt={`Producto ${index + 1}`} className="w-full h-48 object-cover rounded" />
+        <p className="text-[#5b737b] mt-4">Producto {index + 1} - ${29.99 + index * 10}</p>
+        <label className="text-[#5b737b] mt-2" htmlFor={`color${index + 1}`}>Variante:</label>
+        <select id={`color${index + 1}`} className="mt-1 mb-2">
+          <option value="color1">Color 1</option>
+          <option value="color2">Color 2</option>
+          <option value="color3">Color 3</option>
+        </select>
+        <button className="bg-[#004f44] text-white px-4 py-2 mt-2 rounded">Buy</button>
+      </div>
+    ))}
+  </div>
+</div>
+
+      
     </>
   );
 };
