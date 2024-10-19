@@ -112,7 +112,7 @@ const Page: React.FC = () => {
       <div className="w-full bg-white p-32">
         <div className="flex justify-between items-center">
           <h1 className="text-[#5b737b] text-3xl font-bold">Featured</h1>
-          <a href="#" className="text-[#5b737b] underline">View All</a>
+          <a href="/listProducts" className="text-[#5b737b] underline">View All</a>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-4">
           {Array.from({ length: 4 }, (_, index) => (
@@ -137,7 +137,7 @@ const Page: React.FC = () => {
       <div className="w-full bg-white p-32">
   <div className="flex justify-between items-center">
     <h1 className="text-[#5b737b] text-3xl font-bold">ALL PRODUCT</h1>
-    <a href="#" className="text-[#5b737b] underline">View All</a>
+    <a href="/listProducts" className="text-[#5b737b] underline">View All</a>
   </div>
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-4">
     {Array.from({ length: 12 }, (_, index) => (
