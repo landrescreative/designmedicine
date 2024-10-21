@@ -2,6 +2,7 @@ import React from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { IoIosArrowRoundForward } from 'react-icons/io';
 
 const Hero = () => {
   const t = useTranslations();
