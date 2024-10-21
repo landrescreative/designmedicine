@@ -1,6 +1,7 @@
-"use client"; // Esto asegura que el componente se ejecute en el cliente
+'use client'; // Esto asegura que el componente se ejecute en el cliente
 
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 // Carrusel personalizado (CustomCarousel)
@@ -10,23 +11,29 @@ const images = [
   'https://altaivida.net/wp-content/uploads/2017/01/kiiko-matsumoto-altaivida-e1483914916971-300x273.jpeg',
   'https://m.media-amazon.com/images/I/A1aTrRY3W7L._AC_UF894,1000_QL80_.jpg',
   'https://m.media-amazon.com/images/I/81dB8Q2iqqL._AC_CR0%2C0%2C0%2C0_SY315_.jpg',
-  'https://www.easterncurrents.ca/wp-content/uploads/2020/01/B5760.jpg',
+  'https://www.easterncurrents.ca/wp-content/uploads/2020/01/B5760.jpg'
 ];
 
 const CustomCarousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 3 : prevIndex - 1));
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 3 : prevIndex - 1
+    );
   };
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex >= images.length - 3 ? 0 : prevIndex + 1));
+    setCurrentIndex((prevIndex) =>
+      prevIndex >= images.length - 3 ? 0 : prevIndex + 1
+    );
   };
 
   return (
     <div className="relative w-full max-w-5xl mx-auto mt-8 mb-40">
-      <h1 className="text-[#5b737b] text-3xl font-bold mb-10">LATEST PRODUCTS</h1>
+      <h1 className="text-[#5b737b] text-3xl font-bold mb-10">
+        LATEST PRODUCTS
+      </h1>
       <div className="flex overflow-hidden">
         {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
           <img
@@ -83,12 +90,25 @@ const Page: React.FC = () => {
       <div className="bg-[#5b737b] min-h-screen p-6 md:p-20 flex justify-center items-center">
         <div className="flex flex-col md:flex-row justify-center items-center w-full md:w-10/12">
           {/* Lado izquierdo: Design Medicine Shop */}
-          <div className="w-full md:w-1/2 text-center md:text-left" style={{ maxWidth: '420px', backgroundColor: '#5b737b', borderRadius: '8px', padding: '20px' }}>
-            <h1 className="text-white text-4xl md:text-6xl font-bold">Design</h1>
-            <h1 className="text-white text-4xl md:text-6xl font-bold">Medicine</h1>
+          <div
+            className="w-full md:w-1/2 text-center md:text-left"
+            style={{
+              maxWidth: '420px',
+              backgroundColor: '#5b737b',
+              borderRadius: '8px',
+              padding: '20px'
+            }}
+          >
+            <h1 className="text-white text-4xl md:text-6xl font-bold">
+              Design
+            </h1>
+            <h1 className="text-white text-4xl md:text-6xl font-bold">
+              Medicine
+            </h1>
             <h1 className="text-white text-4xl md:text-6xl font-bold">Shop</h1>
             <p className="text-white mt-4">
-              Our environment, the world in which we live and work, is a mirror of our attitudes and expectations.
+              Our environment, the world in which we live and work, is a mirror
+              of our attitudes and expectations.
             </p>
             <div className="mt-6 flex justify-center md:justify-start">
               <button
@@ -113,12 +133,14 @@ const Page: React.FC = () => {
               <div className="w-[150px] h-[150px] md:w-[230px] md:h-[230px] bg-white p-4 flex flex-col justify-between rounded-lg"></div>
             </div>
             <div className="w-[250px] h-[350px] md:w-[380px] md:h-[475px] bg-white p-4 flex flex-col justify-between rounded-lg mt-4 md:ml-4">
-            <div>
-  <h1 className="text-xl md:text-3xl font-bold text-[#5f827b] text-center md:text-left">Relevant Product</h1>
-  <p className="mt-2 text-[#5f827b] text-center md:text-left px-2 md:px-3">
-    Descripción del producto, dimensiones, características, etc.
-  </p>
-</div>
+              <div>
+                <h1 className="text-xl md:text-3xl font-bold text-[#5f827b] text-center md:text-left">
+                  Relevant Product
+                </h1>
+                <p className="mt-2 text-[#5f827b] text-center md:text-left px-2 md:px-3">
+                  Descripción del producto, dimensiones, características, etc.
+                </p>
+              </div>
               <div className="mt-4">
                 <button
                   className="bg-[#004f44] text-white px-10 py-2 w-full md:w-80"
@@ -139,32 +161,38 @@ const Page: React.FC = () => {
       <div className="w-full bg-white p-6 md:p-32">
         <div className="flex justify-between items-center">
           <h1 className="text-[#5b737b] text-3xl font-bold">Featured</h1>
-          <a href="/listProducts" className="text-[#5b737b] underline">View All</a>
+          <a href="/listProducts" className="text-[#5b737b] underline">
+            View All
+          </a>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-4">
           {Array.from({ length: 4 }, (_, index) => (
-            <div
-              key={index}
+            <Link
+              href={'/ProductPage'}
               className="text-center bg-white p-4 rounded-lg shadow-md"
-              onClick={() => handleProductClick(index)} // Redirección al hacer clic en la imagen
             >
               {/* Imagen aleatoria */}
               <img
-                src={`https://m.media-amazon.com/images/I/81dB8Q2iqqL._AC_CR0%2C0%2C0%2C0_SY315_.jpg`} 
+                src={`https://m.media-amazon.com/images/I/81dB8Q2iqqL._AC_CR0%2C0%2C0%2C0_SY315_.jpg`}
                 alt={`Producto ${index + 1}`}
                 className="w-full h-48 object-cover rounded cursor-pointer"
               />
-              
+
               {/* Nombre del producto y precio */}
               <div className="flex justify-between items-center mt-4">
                 <p className="text-[#5b737b]">Producto {index + 1}</p>
-                <p className="text-[#5b737b] font-bold">${(29.99 + index * 10).toFixed(2)}</p>
+                <p className="text-[#5b737b] font-bold">
+                  ${(29.99 + index * 10).toFixed(2)}
+                </p>
               </div>
-              
+
               {/* Variante y círculos de colores */}
               <div className="flex justify-between items-center mt-2">
                 <div>
-                  <label className="text-sm text-[#5b737b]" htmlFor={`color${index + 1}`}>
+                  <label
+                    className="text-sm text-[#5b737b]"
+                    htmlFor={`color${index + 1}`}
+                  >
                     Variante:
                   </label>
                   <div className="flex space-x-2 mt-1">
@@ -174,20 +202,21 @@ const Page: React.FC = () => {
                     <div className="w-4 h-4 rounded-full bg-yellow-500 border"></div>
                   </div>
                 </div>
-                
+
                 {/* Botón Buy */}
-                <button className="bg-[#004f44] text-white px-4 py-2 rounded">Buy</button>
+                <button className="bg-[#004f44] text-white px-4 py-2 rounded">
+                  Buy
+                </button>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
 
       {/* Sección LASTEST PRODUCTS */}
       <div className="w-full bg-[#f2fdf3] p-6 rounded-lg">
-  <CustomCarousel />
-</div>
-
+        <CustomCarousel />
+      </div>
 
       {/* BANNER */}
       <div className="w-[90%] md:w-[90%] bg-[#004F44] text-white p-6 md:p-16 text-center rounded-lg mt-8 mx-auto">
@@ -198,7 +227,9 @@ const Page: React.FC = () => {
       <div className="w-full bg-white p-6 md:p-32">
         <div className="flex justify-between items-center">
           <h1 className="text-[#5b737b] text-3xl font-bold">ALL PRODUCTS</h1>
-          <a href="/listProducts" className="text-[#5b737b] underline">View All</a>
+          <a href="/listProducts" className="text-[#5b737b] underline">
+            View All
+          </a>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-4">
           {Array.from({ length: 12 }, (_, index) => (
@@ -209,21 +240,26 @@ const Page: React.FC = () => {
             >
               {/* Imagen aleatoria */}
               <img
-                src={`https://m.media-amazon.com/images/I/81dB8Q2iqqL._AC_CR0%2C0%2C0%2C0_SY315_.jpg`} 
+                src={`https://m.media-amazon.com/images/I/81dB8Q2iqqL._AC_CR0%2C0%2C0%2C0_SY315_.jpg`}
                 alt={`Producto ${index + 1}`}
                 className="w-full h-48 object-cover rounded cursor-pointer"
               />
-              
+
               {/* Nombre del producto y precio */}
               <div className="flex justify-between items-center mt-4">
                 <p className="text-[#5b737b]">Producto {index + 1}</p>
-                <p className="text-[#5b737b] font-bold">${(29.99 + index * 10).toFixed(2)}</p>
+                <p className="text-[#5b737b] font-bold">
+                  ${(29.99 + index * 10).toFixed(2)}
+                </p>
               </div>
-              
+
               {/* Variante y círculos de colores */}
               <div className="flex justify-between items-center mt-2">
                 <div>
-                  <label className="text-sm text-[#5b737b]" htmlFor={`color${index + 1}`}>
+                  <label
+                    className="text-sm text-[#5b737b]"
+                    htmlFor={`color${index + 1}`}
+                  >
                     Variante:
                   </label>
                   <div className="flex space-x-2 mt-1">
@@ -233,9 +269,11 @@ const Page: React.FC = () => {
                     <div className="w-4 h-4 rounded-full bg-yellow-500 border"></div>
                   </div>
                 </div>
-                
+
                 {/* Botón Buy */}
-                <button className="bg-[#004f44] text-white px-4 py-2 rounded">Buy</button>
+                <button className="bg-[#004f44] text-white px-4 py-2 rounded">
+                  Buy
+                </button>
               </div>
             </div>
           ))}
