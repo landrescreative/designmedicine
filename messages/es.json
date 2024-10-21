@@ -13,7 +13,7 @@
   },
   "separators": {
     "1": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: SENSEI A TU LADO, 14-17 DE FEBRERO 2025",
-    "2": "¡EXPLORA MÉXICO CON NUESTROS VIAJES OPCIONALES AL CENTRO DE LA CIUDAD DE MÉXICO, LAS RUINAS DEL TEMPLO MAYOR, LAS PIRÁMIDES DE TEOTIHUACÁN, XOCHIMILCO Y MÁS!",
+    "2": "¡EXPLORA MÉXICO CON NUESTROS VIAJES OPCIONALES AL CENTRO DE LA CIUDAD DE MÉXICO!",
     "3": "MÁS SOBRE KIIKO Y LOS TESTIMONIOS DE SUS USUARIOS"
   },
   "benefits": {
@@ -217,5 +217,67 @@
     "seminar": "Seminario",
     "tours": "Tours",
     "register": "Regístrate Ahora"
+  },
+  "face-reading": {
+    "title": "Sesión Extra Exclusiva: Lectura de Rostro y Acupuntura Cosmética",
+    "date": "Fecha: Lunes, 17 de febrero de 2025",
+    "time": "Hora: 9:00 AM - 1:00 PM",
+    "instructor": "Ana Nieves, M.D.",
+    "cost": "Costo: $500 por persona",
+    "subtitle": "Lo Que Aprenderás:",
+    "seminartitle": "Unlock the Hidden Wisdom of the Face: A Critical Diagnostic Tool in Chinese Medicine",
+    "paragraph": "In Traditional Chinese Medicine (TCM), Face Reading and Diagnosis are far more than aesthetic tools—they are integral components of a practitioner’s diagnostic repertoire, offering in-depth insights into a patient&#39;s internal health. Much like pulse or tongue diagnosis, the face reflects the balance of internal organs and energy. Mastering this diagnostic skill allows you to better understand the root causes of illness and effectively tailor treatments for long-term healing.",
+    "paragraph2": "This exclusive, hands-on workshop provides a rare opportunity to explore the vast and clinically-proven applications of face diagnosis, coupled with cutting-edge cosmetic acupuncture techniques. Led by the esteemed Dr. Ana Nieves, an expert in facial reading and cosmetic acupuncture, you will learn to uncover health imbalances through facial features and apply this knowledge in treating skin conditions, rejuvenation and beyond.",
+    "bullettitle1": "Diagnóstico Facial como Herramienta Clínica Clave:",
+    "bullet1": "El diagnóstico facial ofrece una ventana al estado interno del cuerpo. Aprende a interpretar las características comunes del rostro—arrugas, decoloraciones, contornos—y entiende sus implicaciones clínicas. Esta poderosa herramienta diagnóstica ayuda a revelar patrones de desarmonía, permitiendo diagnósticos más profundos y precisos.",
+    "bullettitle2": "Técnicas Avanzadas en el Tratamiento del Acné",
+    "bullet2": "El acné es más que una condición superficial—el diagnóstico facial ayuda a identificar los desequilibrios subyacentes que lo causan. Aprenderás protocolos específicos de acupuntura que abordan estas causas de raíz, ayudándote a tratar el acné con precisión y resultados duraderos.",
+    "bullettitle3": "Acupuntura Cosmética para el Rejuvenecimiento Facial",
+    "bullet3": "Explora un enfoque holístico oriental de la belleza, que promueve un rejuvenecimiento natural y duradero. Serás entrenado en técnicas de acupuntura cosmética diseñadas para levantar, tonificar y mejorar la apariencia facial, junto con modificaciones en el estilo de vida y la dieta que promueven la salud de la piel desde adentro.",
+    "subtitle2": "Por Qué el Diagnóstico Facial es Importante en Tu Práctica:",
+    "bullettitle4": "Expande Tu Experiencia Diagnóstica",
+    "bullet4": "Incorporar la lectura del rostro en tu práctica diaria eleva tu capacidad para evaluar la salud de los pacientes de manera holística. Al interpretar las señales faciales, puedes detectar desequilibrios que otras herramientas de diagnóstico podrían pasar por alto, asegurando un enfoque de tratamiento más completo.",
+    "bullettitle5": "Mejora los Resultados para Tus Pacientes",
+    "bullet5": "Con una comprensión enriquecida del diagnóstico facial, estarás mejor equipado para abordar tanto los problemas de salud internos como externos, lo que conducirá a una atención más efectiva e individualizada.",
+    "bullettitle6": "Satisface la Creciente Demanda de Rejuvenecimiento Natural:",
+    "bullet6": "A medida que la acupuntura cosmética gana popularidad, este taller te brindará las habilidades necesarias para ofrecer un servicio muy solicitado que es tanto terapéutico como cosmético, permitiendo que tus pacientes logren salud y belleza de forma natural.",
+    "bullettitle7": "Experiencia Clínica del Mundo Real:",
+
+    "bullet7": "Aprende de la Dra. Ana Nieves, M.D., quien aporta años de extensa práctica clínica e investigación en el campo de la Medicina Tradicional China. Su rica experiencia garantiza que obtendrás conocimientos basados en aplicaciones del mundo real, ayudándote a ganar confianza en tus habilidades de diagnóstico y tratamiento.",
+    "bulletittle8": "Aplicación Inmediata:",
+    "bullet8": "Este taller está diseñado para proporcionar técnicas prácticas que puedes comenzar a usar de inmediato. Recibirás retroalimentación directa sobre tus técnicas de lectura facial y acupuntura, asegurando que salgas con la capacidad de implementar estas nuevas habilidades con confianza en tu clínica.",
+    "bulletittle9": "Aprendizaje Integral:",
+
+    "bullet9": "Desde el diagnóstico facial hasta la acupuntura cosmética y las estrategias de rejuvenecimiento, esta sesión lo cubre todo. No solo te irás con conocimiento teórico, sino también con la experiencia clínica necesaria para ofrecer a tus pacientes tratamientos basados en resultados.",
+    "bulletittle10": "Acceso Directo a la Experiencia:",
+
+    "bullet10": "Benefíciate de la orientación personalizada de la Dra. Ana Nieves durante sesiones de preguntas y respuestas y demostraciones interactivas. Este mentorazgo directo mejorará tu experiencia de aprendizaje y perfeccionará tu técnica de acupuntura.",
+    "subtitle3": "Regístrate Hoy: Transforma Tu Práctica con el Diagnóstico Facial y la Acupuntura Cosmética",
+    "description": "Este taller te dará una ventaja tanto en diagnóstico como en tratamiento, destacándote como un practicante de medicina oriental con un conjunto de habilidades especializadas. Saldrás con la confianza y las herramientas necesarias para incorporar la lectura del rostro y la acupuntura cosmética en tu práctica, ofreciendo un cuidado holístico que aborda tanto la salud interna como la belleza externa.",
+    "conclusion": "Los cupos son limitados, así que no pierdas la oportunidad de mejorar tu práctica clínica y atraer a más pacientes que buscan tratamientos naturales y efectivos.",
+    "subtitle4": "¿Por Qué Asistir a Este Taller?",
+    "list": [
+      "GENERAL",
+      "DESCRIPCIÓN",
+      "PRECIO",
+      "Instructor",
+      "Idioma",
+      "Ubicación",
+      "Duración",
+      "Incluye Transporte",
+      "Fecha",
+      "Hora",
+      "Precio"
+    ],
+    "list2": [
+      "Ana Nieves, M.D.",
+      "Inglés, Español",
+      "Ciudad de México, México",
+      "Taller de medio día (9:00 AM - 1:00 PM)",
+      "Podemos llevarte al lugar exacto por tu seguridad",
+      "Lunes, 17 de febrero de 2025",
+      "9:00 AM - 1:00 PM",
+      "$500 por persona"
+    ]
   }
 }

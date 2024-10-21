@@ -1,19 +1,24 @@
 import React from 'react';
 import Separator from '@/components/Separator';
-import Header from '@/components/Header';
 import Testimonial from '@/components/Testimonial';
-import Footer from '@/components/Footer';
-import InfoSeminar from '@/components/InfoSeminar';
 import PaymentSection from '@/components/PaymentSection';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import Register from '@/components/Register';
+import InfoFaceReading from '@/components/InfoFaceReading';
 
 const Page = () => {
   const t = useTranslations('');
   return (
     <div className="flex justify-center items-center  flex-col overflow-x-hidden">
-      <Header text="" />
+      <div className="w-full flex justify-center items-center flex-col py-10 mt-24">
+        <h1 className="font-bold text-3xl uppercase text-primary">
+          {t('face-reading.title')}
+        </h1>
+        <h2 className=" text-lg">{t('face-reading.date')}</h2>
+        <h2 className=" text-lg">{t('face-reading.time')}</h2>
+        <h2 className=" text-lg">{t('face-reading.cost')}</h2>
+        <h2 className=" text-lg">{t('face-reading.instructor')}</h2>
+      </div>
       <div className="lg:w-3/4 lg:max-h-[700px] overflow-hidden p-5 h-full object-cover rounded-3xl">
         <Image
           src="/seminar_01.jpg"
@@ -23,86 +28,65 @@ const Page = () => {
           className="rounded-3xl object-cover"
         />
       </div>
-      <div className="flex justify-center flex-col md:flex-row items-center w-11/12 mt-28">
+      <div className="flex justify-center flex-col md:flex-row items-center w-10/12 mt-28">
         <div className="w-full ">
           <div className="flex flex-col gap-5 py-10 ">
             <h1 className="font-bold text-2xl uppercase text-primary">
-              {t('seminar.title')}
+              {t('face-reading.seminartitle')}
             </h1>
-            <p>{t('seminar.description')}</p>
+            <p>{t('face-reading.paragraph')}</p>
+            <p>{t('face-reading.paragraph2')}</p>
             <h2 className="font-bold text-2xl uppercase text-primary">
-              {t('seminar.subtitle')}
+              {t('face-reading.subtitle')}
             </h2>
             <ul className="list-disc px-10">
-              <li className="mb-2">{t('seminar.list.0')}</li>
-              <li className="mb-2">{t('seminar.list.1')}</li>
-              <li className="mb-2">{t('seminar.list.2')}</li>
-              <li className="mb-2">{t('seminar.list.3')}</li>
+              <li className="font-bold">{t('face-reading.bullettitle1')}</li>
+              <p className="mb-2">{t('face-reading.bullet1')}</p>
+              <li className="font-bold">{t('face-reading.bullettitle2')}</li>
+              <p className="mb-2">{t('face-reading.bullet2')}</p>
+              <li className="font-bold">{t('face-reading.bullettitle3')}</li>
+              <p className="mb-2">{t('face-reading.bullet3')}</p>
             </ul>
             <h2 className="font-bold text-2xl uppercase text-primary">
-              {t('seminar.subtitle2')}
+              {t('face-reading.subtitle2')}
             </h2>
             <ul className="list-disc px-10">
-              <li className="mb-2 font-bold text-primary">
-                {t('seminar.list2.0')}
-              </li>
-              <p>{t('seminar.list2.1')}</p>
-              <li className="mb-2 font-bold text-primary">
-                {t('seminar.list2.2')}
-              </li>
-              <p>{t('seminar.list2.3')}</p>
-              <li className="mb-2 font-bold text-primary">
-                {t('seminar.list2.4')}
-              </li>
-              <p>{t('seminar.list2.5')}</p>
-              <li className="mb-2 font-bold text-primary">
-                {t('seminar.list2.6')}
-              </li>
-              <p>{t('seminar.list2.7')}</p>
-              <li className="mb-2 font-bold text-primary">
-                {t('seminar.list2.8')}
-              </li>
-              <p>{t('seminar.list2.9')}</p>
+              <li className="mb-2">{t('face-reading.bullettitle4')}</li>
+              <p className="mb-2">{t('face-reading.bullet4')}</p>
+              <li className="mb-2">{t('face-reading.bullettitle5')}</li>
+              <p className="mb-2">{t('face-reading.bullet5')}</p>
+              <li className="mb-2">{t('face-reading.bullettitle6')}</li>
+              <p className="mb-2">{t('face-reading.bullet6')}</p>
             </ul>
-            <h2 className="font-bold text-2xl text-primary">
-              {t('seminar.thirdtitle')}
-            </h2>
-            <p>{t('seminar.2ndparagraph')}</p>
-            <ul className="list-disc px-10">
-              <li className="mb-2">{t('seminar.2ndlist.0')}</li>
-              <li className="mb-2">{t('seminar.2ndlist.1')}</li>
-              <li className="mb-2">{t('seminar.2ndlist.2')}</li>
-              <li className="mb-2">{t('seminar.2ndlist.3')}</li>
-            </ul>
-            <h2 className="font-bold text-2xl text-primary">
-              {t('seminar.thirdtitle')}
+            <h2 className="font-bold text-2xl uppercase text-primary">
+              {t('face-reading.subtitle4')}
             </h2>
             <ul className="list-disc px-10">
-              <li className=" font-bold text-primary">
-                {t('seminar.3rdlisttitles.0')}
+              <li className="mb-2 font-bold">
+                {t('face-reading.bullettitle7')}
               </li>
-              <p className="mb-5">{t('seminar.3rdlistparagraphs.0')}</p>
-              <li className=" font-bold text-primary">
-                {t('seminar.3rdlisttitles.1')}
+              <p className="mb-2">{t('face-reading.bullet7')}</p>
+              <li className="mb-2 font-bold">
+                {t('face-reading.bulletittle8')}
               </li>
-              <p className="mb-5">{t('seminar.3rdlistparagraphs.1')}</p>
-              <li className=" font-bold text-primary">
-                {t('seminar.3rdlisttitles.2')}
+              <p className="mb-2">{t('face-reading.bullet8')}</p>
+              <li className="mb-2 font-bold">
+                {t('face-reading.bulletittle9')}
               </li>
-              <p className="mb-5">{t('seminar.3rdlistparagraphs.2')}</p>
+              <p className="mb-2">{t('face-reading.bullet9')}</p>
+              <li className="mb-2 font-bold">
+                {t('face-reading.bulletittle10')}
+              </li>
+              <p className="mb-2">{t('face-reading.bullet10')}</p>
             </ul>
-            <h2 className="font-bold text-2xl text-primary">
-              {t('seminar.fivetitle')}
+            <h2 className="font-bold text-2xl uppercase text-primary">
+              {t('face-reading.subtitle3')}
             </h2>
-            <p>{t('seminar.5thparagraph')}</p>
-            <h2 className="font-bold text-2xl text-primary">
-              {t('seminar.sixtitle')}
-            </h2>
-            <p className="">{t('seminar.6thparagraph')}</p>
-            <p>{t('seminar.7thparagraph')}</p>
+            <p>{t('face-reading.description')}</p>
+            <div className="w-full h-1 bg-slate-300"></div>
+            <p>{t('face-reading.conclusion')}</p>
           </div>
-          <h1 id="register"></h1>
-          <InfoSeminar />
+          <InfoFaceReading />
           <PaymentSection />
         </div>
         <div className="flex flex-col items-center justify-center w-full md:w-1/3 self-start gap-10 ">

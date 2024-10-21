@@ -23,8 +23,8 @@ const Page = () => {
           className="rounded-3xl object-cover "
         />
       </div>
-      <div className="flex justify-center flex-col md:flex-row items-center w-11/12 mt-28">
-        <div className="w-full ">
+      <div className="flex justify-center flex-col md:flex-row items-center w-10/12 mt-28">
+        <div className="w-full px-10">
           <div className="flex flex-col gap-5 py-10 ">
             <h1 className="font-bold text-2xl uppercase text-primary">
               {t('seminar.title')}
@@ -106,11 +106,8 @@ const Page = () => {
           <PaymentSection />
         </div>
         <div className="flex flex-col items-center justify-center w-full md:w-1/3 self-start gap-10 ">
-          <div className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80   p-10">
-            <h1>
-              Another way to register is by filling out the form below and
-              submit it.
-            </h1>
+          <div className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 p-10 flex justify-center items-center">
+            <h1>EXPLORA NUESTRO NUEVO CURSO DE FACE-READING</h1>
           </div>
           <div className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80   p-10">
             <h1>
