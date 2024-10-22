@@ -30,37 +30,34 @@ const CustomCarousel: React.FC = () => {
 
   return (
     <div className="relative w-full mx-1 mt-8 mb-40 p-6 md:p-32">
-  <h1 className="text-[#004F44] font-montserrat font-normal text-[40px]  leading-[48.76px] tracking-[0.5px]">
+    <h1 className="text-[#004F44] font-montserrat font-normal text-[40px] leading-[48.76px] tracking-[0.5px]">
       LATEST PRODUCTS
     </h1>
-  <div className="flex items-center gap-4 mt-10 "> {/* Alineación de las imágenes y el texto "more-->" */}
-    <div className="flex overflow-hidden gap-4"> {/* Añadimos un gap entre imágenes */}
-      {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
-        <img
-          key={index}
-          src={image}
-          alt={`Imagen ${currentIndex + index + 1}`}
-          className="w-[550px] h-[466.78px] object-cover opacity-100"
-          style={{
-            top: '2018.11px',
-            left: '170.4px',
-            opacity: '1',
-          }}
-        />
-      ))}
-    </div>
-
-    {/* Texto para cambiar imágenes centrado verticalmente con las imágenes */}
-    <div className="flex items-center justify-center">
-      <button
-        onClick={nextSlide} // Función que avanza al siguiente conjunto de imágenes
-        className="text-[#5b737b] font-bold cursor-pointer"
-      >
-        more➔
-      </button>
+    <div className="flex flex-col md:flex-row items-center gap-4 mt-10">
+      {/* Carrusel de imágenes */}
+      <div className="flex overflow-hidden gap-4">
+        {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Imagen ${currentIndex + index + 1}`}
+            className="w-[550px] h-[466.78px] object-cover opacity-100"
+          />
+        ))}
+      </div>
+  
+      {/* Botón more➔, que se va abajo del carrusel en móviles */}
+      <div className="flex items-center justify-center mt-4 md:mt-0">
+        <button
+          onClick={nextSlide}
+          className="text-[#5b737b] font-bold cursor-pointer"
+        >
+          more➔
+        </button>
+      </div>
     </div>
   </div>
-</div>
+  
 
   
   
@@ -119,43 +116,49 @@ const Page: React.FC = () => {
         </Link>
         <Link href="/productPage">
           <button className="bg-[#5b737b] text-white px-4 py-2 rounded">
-            Explore Products     ->
+            Explore Products     🠖
           </button>
         </Link>
       </div>
     </div>
 
-    {/* Lado derecho: Cuadros pequeños apilados verticalmente y rectángulo grande al lado derecho */}
+{/* lado derecho del recuadro */}
     <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-center items-center md:justify-start relative mt-8 md:mt-0 space-y-4 md:space-y-0 md:space-x-4">
-      <div className="flex flex-col justify-center items-center w-full md:w-auto space-y-4">
-        <div className="w-[90%] md:w-[222px] h-[257px] bg-white p-4 flex flex-col justify-between"></div> {/* Ajuste del ancho en pantalla chica */}
-        <div className="w-[90%] md:w-[222px] h-[257px] bg-white p-4 flex flex-col justify-between mt-4 md:mt-0"></div>
-      </div>
-      <div className="w-[90%] md:w-[379px] h-[530px] bg-white p-4 flex flex-col justify-end mt-4 md:ml-4">
-  <div>
-    <h1 className="text-[#5f827b] text-left" style={{ fontFamily: 'Montserrat', fontSize: '28px', fontWeight: 400, lineHeight: '34.13px', textAlign: 'left' }}>
-      Relevant Product
-    </h1>
-    <p className="mt-2 text-[#5f827b] text-center md:text-left px-2 md:px-3">
-      Descripción del producto, dimensiones, características, etc.
-    </p>
+  <div className="flex flex-col justify-center items-center w-full md:w-auto space-y-4">
+    {/* Ajuste del ancho en pantalla chica */}
+    <div className="w-[90%] md:w-[222px] h-[257px] bg-white p-4 flex flex-col justify-between"></div>
+    <div className="w-[90%] md:w-[222px] h-[257px] bg-white p-4 flex flex-col justify-between mt-4 md:mt-0"></div>
   </div>
 
-  {/* Botón colocado en la parte inferior */}
-  <div className="mt-2">
-    <Link href="/productPage">
-      <button className="bg-[#004f44] text-white" style={{ width: '327.1px', height: '48.3px' }}>READ MORE</button>
-    </Link>
-        </div>
-      </div>
+  <div className="w-[90%] md:w-[379px] h-[530px] bg-white p-4 flex flex-col justify-end mt-4 md:ml-4">
+    <div>
+      <h1 className="text-[#5f827b] text-left" style={{ fontFamily: 'Montserrat', fontSize: '28px', fontWeight: 400, lineHeight: '34.13px', textAlign: 'left' }}>
+        Relevant Product
+      </h1>
+      <p className="text-[#5f827b] text-left"> {/* Eliminamos el padding horizontal */}
+        Descripción del producto, dimensiones, características, etc.
+      </p>
+    </div>
+
+    {/* Botón pegado al párrafo */}
+    <div className="mt-0"> {/* Eliminamos el margen superior */}
+      <Link href="/productPage">
+        <button className="bg-[#004f44] text-white w-full md:w-[327.1px] h-[48.3px]">READ MORE</button>
+      </Link>
     </div>
   </div>
 </div>
+  </div>
+</div>
+
+
+
+
 
 {/*COMPONENTE FEATURED*/}
-<div className="w-full bg-white p-6 md:p-32">
+<div className="w-full bg-white p-4 sm:p-6 md:p-32"> {/* Ajuste de padding para móviles */}
   <div className="flex justify-between items-center">
-    <h1 className="text-[#004F44] font-montserrat font-normal text-[40px] leading-[48.76px] tracking-[0.5px]">
+    <h1 className="text-[#004F44] font-montserrat font-normal text-[40px] ml-3 leading-[48.76px] tracking-[0.5px]">
       FEATURED
     </h1>
     <Link href="/listProducts" className="text-[#5b737b] underline">
@@ -214,13 +217,14 @@ const Page: React.FC = () => {
 
 
 
+
       {/* Sección LATEST PRODUCTS */}
       <div className="w-full bg-[#f2fdf3] p-6 rounded-lg">
         <CustomCarousel />
       </div>
 
       {/* BANNER */}
-      <div className="w-full md:w-[1590px] h-[291px] bg-[#004F44] text-white p-6 md:p-16 text-center rounded-lg mt-8 mx-auto flex justify-center items-center">
+      <div className="w-full max-w-[1590px] h-[291px] bg-[#004F44] text-white p-6 md:p-16 text-center rounded-lg mt-8 mx-auto flex justify-center items-center">
   <h2 className="font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] tracking-[0.05em] md:tracking-[0.22em] text-center" style={{ fontFamily: 'Poppins', fontWeight: 900 }}>
     BANNER/FLYER
   </h2>
@@ -229,23 +233,15 @@ const Page: React.FC = () => {
 
 
 
-      {/* Sección de ALL PRODUCTS */}
-      <div className="w-full bg-white p-6 md:p-32">
-  <div className="flex justify-between items-center">
-  <h1 
-  className="text-[#004F44]" 
-  style={{ 
-    fontFamily: 'Montserrat', 
-    fontSize: '40px', 
-    fontWeight: 400, 
-    lineHeight: '48.76px', 
-    letterSpacing: '0.5px', 
-    textAlign: 'left' 
-  }}
->
-  ALL PRODUCTS
-</h1>
 
+
+
+      {/* Sección de ALL PRODUCTS */}
+      <div className="w-full bg-white p-4 sm:p-6 md:p-32"> {/* Ajuste de padding para móviles */}
+  <div className="flex justify-between items-center">
+    <h1 className="text-[#004F44] font-montserrat font-normal text-[40px] ml-3 leading-[48.76px] tracking-[0.5px]">
+      All PRODUCTS
+    </h1>
     <Link href="/listProducts" className="text-[#5b737b] underline">
       View All
     </Link>
@@ -297,6 +293,7 @@ const Page: React.FC = () => {
     ))}
   </div>
 </div>
+
 
     </>
   );

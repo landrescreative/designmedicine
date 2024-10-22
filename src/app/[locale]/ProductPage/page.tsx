@@ -33,37 +33,33 @@ const CustomCarousel: React.FC = () => {
 
   return (
     <div className="relative w-full mx-1 mt-8 mb-40 p-6 md:p-32">
-  <h1 className="text-[#004F44] font-montserrat font-normal text-[40px]  leading-[48.76px] tracking-[0.5px]">
-      MORE PRODUCTS
+    <h1 className="text-[#004F44] font-montserrat font-normal text-[40px] leading-[48.76px] tracking-[0.5px]">
+      LATEST PRODUCTS
     </h1>
-  <div className="flex items-center gap-4 mt-10 "> {/* Alineación de las imágenes y el texto "more-->" */}
-    <div className="flex overflow-hidden gap-4"> {/* Añadimos un gap entre imágenes */}
-      {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
-        <img
-          key={index}
-          src={image}
-          alt={`Imagen ${currentIndex + index + 1}`}
-          className="w-[550px] h-[466.78px] object-cover opacity-100"
-          style={{
-            top: '2018.11px',
-            left: '170.4px',
-            opacity: '1',
-          }}
-        />
-      ))}
-    </div>
-
-    {/* Texto para cambiar imágenes centrado verticalmente con las imágenes */}
-    <div className="flex items-center justify-center">
-      <button
-        onClick={nextSlide} // Función que avanza al siguiente conjunto de imágenes
-        className="text-[#5b737b] font-bold cursor-pointer"
-      >
-        more➔
-      </button>
+    <div className="flex flex-col md:flex-row items-center gap-4 mt-10">
+      {/* Carrusel de imágenes */}
+      <div className="flex overflow-hidden gap-4">
+        {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Imagen ${currentIndex + index + 1}`}
+            className="w-[550px] h-[466.78px] object-cover opacity-100"
+          />
+        ))}
+      </div>
+  
+      {/* Botón more➔, que se va abajo del carrusel en móviles */}
+      <div className="flex items-center justify-center mt-4 md:mt-0">
+        <button
+          onClick={nextSlide}
+          className="text-[#5b737b] font-bold cursor-pointer"
+        >
+          more➔
+        </button>
+      </div>
     </div>
   </div>
-</div>
 
   
   
@@ -205,15 +201,15 @@ const ProductPage: React.FC = () => {
   </div>
 
   {/* Choose a size con radio buttons  Choose quantity */}
-  <div className="mb-4 w-full max-w-lg border-b border-[#E4E4E4] pb-4">
+  <div className="mb-4 w-full max-w-lg border-b border-[#E4E4E4] pb-4 px-6">
   <h2 className="text-xl font-semibold mb-2">Choose a size:</h2>
-  <div className="flex justify-center md:justify-start space-x-2"> {/* Espacio reducido entre óvalos */}
+  <div className="flex flex-wrap justify-center md:justify-start space-x-2"> {/* Habilitar el wrap */}
     {['Small', 'Medium', 'Large', 'Extra Large', 'XXL'].map((size) => (
       <div
         key={size}
-        className="bg-[#EDF0F8] rounded-full px-3 py-0.5" // Aún más delgado
+        className="bg-[#EDF0F8] rounded-full px-3 py-0.5"
       >
-        <label className="inline-flex items-center space-x-1"> {/* Espacio reducido */}
+        <label className="inline-flex items-center space-x-1">
           <input
             type="radio"
             name="size"
@@ -222,7 +218,7 @@ const ProductPage: React.FC = () => {
             onChange={() => handleSizeChange(size)}
             className="form-radio text-[#004f44]"
           />
-          <span className="text-xs">{size}</span> {/* Tamaño de texto más pequeño */}
+          <span className="text-xs">{size}</span>
         </label>
       </div>
     ))}
@@ -232,7 +228,12 @@ const ProductPage: React.FC = () => {
 
 
 
-{/* Choose quantity */}
+
+
+
+
+
+
 
 
 
@@ -297,7 +298,7 @@ const ProductPage: React.FC = () => {
       
 
       {/* Sección de pestañas debajo de la información del producto */}
-      <div className="col-span-2 mt-10 justify-center flex flex-col items-center md:items-center">
+      <div className="col-span-2 mt-10 justify-center flex flex-col items-center mx-4  md:items-center">
         <div className="flex border-b border-gray-300 w-full max-w-5xl">
           <button
             className={`px-4 py-2 font-bold ${
