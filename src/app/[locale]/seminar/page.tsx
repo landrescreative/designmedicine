@@ -8,6 +8,7 @@ import PaymentSection from '@/components/PaymentSection';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Register from '@/components/Register';
+import Link from 'next/link';
 
 const Page = () => {
   const t = useTranslations('');
@@ -23,8 +24,8 @@ const Page = () => {
           className="rounded-3xl object-cover "
         />
       </div>
-      <div className="flex justify-center flex-col md:flex-row items-center w-10/12 mt-28">
-        <div className="w-full px-10">
+      <div className="flex justify-center flex-col md:flex-row items-center w-full px-5 md:px-0 md:w-10/12 mt-28">
+        <div className="w-full md:px-10">
           <div className="flex flex-col gap-5 py-10 ">
             <h1 className="font-bold text-2xl uppercase text-primary">
               {t('seminar.title')}
@@ -42,38 +43,57 @@ const Page = () => {
             <h2 className="font-bold text-2xl uppercase text-primary">
               {t('seminar.subtitle2')}
             </h2>
-            <ul className="list-disc px-10">
-              <li className="mb-2 font-bold text-primary">
-                {t('seminar.list2.0')}
-              </li>
-              <p>{t('seminar.list2.1')}</p>
-              <li className="mb-2 font-bold text-primary">
-                {t('seminar.list2.2')}
-              </li>
-              <p>{t('seminar.list2.3')}</p>
-              <li className="mb-2 font-bold text-primary">
-                {t('seminar.list2.4')}
-              </li>
-              <p>{t('seminar.list2.5')}</p>
-              <li className="mb-2 font-bold text-primary">
-                {t('seminar.list2.6')}
-              </li>
-              <p>{t('seminar.list2.7')}</p>
-              <li className="mb-2 font-bold text-primary">
-                {t('seminar.list2.8')}
-              </li>
-              <p>{t('seminar.list2.9')}</p>
-            </ul>
+
+            <div className="flex gap-5 justify-center my-10 flex-wrap">
+              <div className="p-10 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all  flex-grow">
+                <span className="font-bold text-secondary text-lg">
+                  {t('seminar.list2.0')}
+                </span>
+                <p>{t('seminar.list2.1')}</p>
+              </div>
+              <div className="p-10 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all  flex-grow">
+                <span className="font-bold text-secondary text-lg">
+                  {t('seminar.list2.2')}
+                </span>
+                <p>{t('seminar.list2.3')}</p>
+              </div>
+              <div className="p-10 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all  flex-grow">
+                <span className="font-bold text-secondary text-lg">
+                  {t('seminar.list2.4')}
+                </span>
+                <p>{t('seminar.list2.5')}</p>
+              </div>
+              <div className="p-10 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all  flex-grow">
+                <span className="font-bold text-secondary text-lg">
+                  {t('seminar.list2.6')}
+                </span>
+                <p>{t('seminar.list2.7')}</p>
+              </div>
+              <div className="p-10 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all  flex-grow">
+                <span className="font-bold text-secondary text-lg">
+                  {t('seminar.list2.8')}
+                </span>
+                <p>{t('seminar.list2.9')}</p>
+              </div>
+            </div>
             <h2 className="font-bold text-2xl text-primary">
-              {t('seminar.thirdtitle')}
+              ABOUT KIIKO MATSUMOTO
             </h2>
             <p>{t('seminar.2ndparagraph')}</p>
-            <ul className="list-disc px-10">
-              <li className="mb-2">{t('seminar.2ndlist.0')}</li>
-              <li className="mb-2">{t('seminar.2ndlist.1')}</li>
-              <li className="mb-2">{t('seminar.2ndlist.2')}</li>
-              <li className="mb-2">{t('seminar.2ndlist.3')}</li>
-            </ul>
+            <div className="flex gap-5 justify-center my-10 flex-wrap">
+              <span className="p-10 flex-1 bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all text-lg flex-grow">
+                {t('seminar.2ndlist.0')}
+              </span>
+              <span className="p-10 flex-1 bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all text-lg flex-grow">
+                {t('seminar.2ndlist.1')}
+              </span>
+              <span className="p-10 flex-1 bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all text-lg flex-grow">
+                {t('seminar.2ndlist.2')}
+              </span>
+              <span className="p-10 flex-1 bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all text-lg flex-grow">
+                {t('seminar.2ndlist.3')}
+              </span>
+            </div>
             <h2 className="font-bold text-2xl text-primary">
               {t('seminar.thirdtitle')}
             </h2>
@@ -105,19 +125,42 @@ const Page = () => {
           <InfoSeminar />
           <PaymentSection />
         </div>
-        <div className="flex flex-col items-center justify-center w-full md:w-1/3 self-start gap-10 ">
-          <div className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 p-10 flex justify-center items-center">
-            <h1>EXPLORA NUESTRO NUEVO CURSO DE FACE-READING</h1>
-          </div>
-          <div className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80   p-10">
-            <h1>
-              Another way to register is by filling out the form below and
-              submit it.
-            </h1>
-          </div>
+        <div className="tarjetas flex flex-col items-center justify-center w-full md:w-1/3 self-start gap-10 ">
+          <Link
+            href={'/face-reading'}
+            className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 overflow-hidden flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out"
+          >
+            <Image
+              src="/flyer_facereading.png"
+              alt="separator"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link
+            href={'/seminar'}
+            className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 overflow-hidden flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out"
+          >
+            <Image
+              src="/flyer_kiiko.jpg"
+              alt="separator"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link
+            href={'/seminar'}
+            className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 overflow-hidden flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out"
+          >
+            <Image
+              src="/flyer_shop.jpg"
+              alt="separator"
+              width={500}
+              height={500}
+            />
+          </Link>
         </div>
       </div>
-      {/* <Register /> */}
       <Separator text={t('seminar.separator')} />
       <Testimonial
         testimonial1={t('testimonial.paragraph1')}

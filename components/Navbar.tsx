@@ -110,7 +110,7 @@ const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.5 }}
-            className="h-screen z-50 md:hidden flex flex-col pr-6 absolute top-16 justify-evenly items-center  w-screen shadow-lg bg-white"
+            className="min-h-[50vh] z-50 md:hidden flex flex-col pr-6 absolute top-16 justify-evenly items-center  w-screen shadow-lg bg-white"
           >
             <Link href="/" onClick={closeMenu}>
               <span className="block  px-2 py-4 text-gray-700 text-lg font-medium md:hover:bg-blue-500 transition duration-300 uppercase tracking-widest">

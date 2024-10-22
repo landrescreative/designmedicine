@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 import Image from 'next/image';
 import React from 'react';
 import { useTranslations } from 'next-intl';
@@ -20,7 +13,9 @@ const Header: React.FC<HeaderProps> = ({ text }) => {
       <h2 className=" text-2xl md:text-4xl flex justify-center items-center text-center uppercase font-light text-primary">
         {t('title')}
       </h2>
-      <h2 className="text-xl md:text-3xl font-bold text-center">{t('date')}</h2>
+      <h2 className="text-xl md:text-2xl font-bold text-center mt-2 text-slate-500">
+        {t('date')}
+      </h2>
       <div className="w-full md:w-1/2 flex justify-center items-center absolute left-0 top-[3rem] md:top-[-5rem] object-fit overflow-hidden">
         <Image
           src="/patron.svg"

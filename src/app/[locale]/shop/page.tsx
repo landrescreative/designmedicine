@@ -112,12 +112,12 @@ const Page: React.FC = () => {
       </div>
 
       <div className="mt-6 flex justify-center md:justify-start">
-        <Link href="/listProducts">
+        <Link href="/ProductPage">
           <button className="bg-white text-[#5b737b] px-4 py-2 rounded mr-4">
             Shop Now
           </button>
         </Link>
-        <Link href="/productPage">
+        <Link href="/ProductPage">
           <button className="bg-[#5b737b] text-white px-4 py-2 rounded">
             Explore Products     ->
           </button>
@@ -143,7 +143,7 @@ const Page: React.FC = () => {
 
   {/* Botón colocado en la parte inferior */}
   <div className="mt-2">
-    <Link href="/productPage">
+    <Link href="/ProductPage">
       <button className="bg-[#004f44] text-white" style={{ width: '327.1px', height: '48.3px' }}>READ MORE</button>
     </Link>
         </div>
@@ -166,7 +166,7 @@ const Page: React.FC = () => {
     {Array.from({ length: 4 }, (_, index) => (
       <Link
         key={index}
-        href={`/productPage?id=${index + 1}`}
+        href={`/ProductPage?id=${index + 1}`}
         className="text-center bg-white p-4 rounded-lg"
       >
         {/* Imagen con tamaño especificado y sin borde redondeado */}
@@ -254,7 +254,7 @@ const Page: React.FC = () => {
     {Array.from({ length: 12 }, (_, index) => (
       <Link
         key={index}
-        href={`/productPage?id=${index + 1}`}
+        href={`/ProductPage?id=${index + 1}`}
         className="text-center bg-white p-4 rounded-lg"
       >
         {/* Imagen con tamaño especificado y sin borde redondeado */}
