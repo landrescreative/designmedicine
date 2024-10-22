@@ -13,22 +13,11 @@ const productImages = [
 const ListProductsPage: React.FC = () => {
   return (
     <>
-       <div className="w-full bg-white p-6 md:p-32">
+      <div className="w-full bg-white p-4 sm:p-6 md:p-32"> {/* Ajuste de padding para móviles */}
   <div className="flex justify-between items-center">
-  <h1 
-  className="text-[#004F44]" 
-  style={{ 
-    fontFamily: 'Montserrat', 
-    fontSize: '40px', 
-    fontWeight: 400, 
-    lineHeight: '48.76px', 
-    letterSpacing: '0.5px', 
-    textAlign: 'left' 
-  }}
->
-  ALL PRODUCTS
-</h1>
-
+    <h1 className="text-[#004F44] font-montserrat font-normal text-[40px] ml-3 leading-[48.76px] tracking-[0.5px]">
+    PRODUCTS
+    </h1>
     <Link href="/listProducts" className="text-[#5b737b] underline">
       View All
     </Link>

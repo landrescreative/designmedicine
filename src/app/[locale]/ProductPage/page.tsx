@@ -32,33 +32,26 @@ const CustomCarousel: React.FC = () => {
 
   return (
     <div className="relative w-full mx-1 mt-8 mb-40 p-6 md:p-32">
-      <h1 className="text-[#004F44] font-montserrat font-normal text-[40px]  leading-[48.76px] tracking-[0.5px]">
-        MORE PRODUCTS
+      <h1 className="text-[#004F44] font-montserrat font-normal text-[40px] leading-[48.76px] tracking-[0.5px]">
+        LATEST PRODUCTS
       </h1>
-      <div className="flex items-center gap-4 mt-10 ">
-        {' '}
-        {/* Alineación de las imágenes y el texto "more-->" */}
+      <div className="flex flex-col md:flex-row items-center gap-4 mt-10">
+        {/* Carrusel de imágenes */}
         <div className="flex overflow-hidden gap-4">
-          {' '}
-          {/* Añadimos un gap entre imágenes */}
           {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
             <img
               key={index}
               src={image}
               alt={`Imagen ${currentIndex + index + 1}`}
               className="w-[550px] h-[466.78px] object-cover opacity-100"
-              style={{
-                top: '2018.11px',
-                left: '170.4px',
-                opacity: '1'
-              }}
             />
           ))}
         </div>
-        {/* Texto para cambiar imágenes centrado verticalmente con las imágenes */}
-        <div className="flex items-center justify-center">
+
+        {/* Botón more➔, que se va abajo del carrusel en móviles */}
+        <div className="flex items-center justify-center mt-4 md:mt-0">
           <button
-            onClick={nextSlide} // Función que avanza al siguiente conjunto de imágenes
+            onClick={nextSlide}
             className="text-[#5b737b] font-bold cursor-pointer"
           >
             more➔
@@ -303,7 +296,7 @@ const ProductPage: React.FC = () => {
       </div>
 
       {/* Sección de pestañas debajo de la información del producto */}
-      <div className="col-span-2 mt-10 justify-center flex flex-col items-center md:items-center">
+      <div className="col-span-2 mt-10 justify-center flex flex-col items-center mx-4  md:items-center">
         <div className="flex border-b border-gray-300 w-full max-w-5xl">
           <button
             className={`px-4 py-2 font-bold ${
