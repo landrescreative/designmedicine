@@ -39,7 +39,7 @@ const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
     <div className="z-[100] bg-white w-screen h-16 grid grid-cols-12 border-b-2 border-gray-200 shadow-lg ">
       <Link
         href={'/'}
-        className="bg-white flex justify-center items-center px-5 py-1 md:py-6 md:justify-center md:col-start-1 md:col-end-13 col-start-1 col-end-9 text-primary "
+        className="bg-white flex justify-center items-center px-5 py-1 md:py-6 md:justify-center md:col-start-1 md:col-end-13 col-start-1 col-end-9 text-primary z-[100] "
       >
         <Image
           src="/navbarlogo.svg"
@@ -49,7 +49,7 @@ const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
           className="w-36  text-primary fill-primary hover:scale-110 transition-all duration-300 "
         />
       </Link>
-      <div className="hidden md:flex justify-evenly items-center col-start-1 col-end-13 py-5 bg-white z-[100] ">
+      <div className="hidden md:flex justify-evenly items-center col-start-1 col-end-13 py-5 bg-white  z-[100]">
         <Link
           href="/"
           className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full tracking-wider uppercase ${

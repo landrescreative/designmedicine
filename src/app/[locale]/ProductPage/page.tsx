@@ -34,7 +34,7 @@ const CustomCarousel: React.FC = () => {
   return (
     <div className="relative w-full mx-1 mt-8 mb-40 p-6 md:p-32">
     <h1 className="text-[#004F44] font-montserrat font-normal text-[40px] leading-[48.76px] tracking-[0.5px]">
-      LATEST PRODUCTS
+      MORE PRODUCTS
     </h1>
     <div className="flex flex-col md:flex-row items-center gap-4 mt-10">
       {/* Carrusel de imágenes */}
@@ -53,7 +53,7 @@ const CustomCarousel: React.FC = () => {
       <div className="flex items-center justify-center mt-4 md:mt-0">
         <button
           onClick={nextSlide}
-          className="text-[#5b737b] font-bold cursor-pointer"
+          className="text-[#5b737b]  cursor-pointer"
         >
           more➔
         </button>
@@ -129,26 +129,28 @@ const ProductPage: React.FC = () => {
   
   {/* Nombre del producto y descripción corta */}
   <div className="flex justify-between items-center mb-4 w-full max-w-lg border-b border-[#E4E4E4] pb-4">
-    <div>
-      <h1 className="text-3xl md:text-4xl font-bold text-[#000000]">Product</h1>
-      <p className="text-sm text-gray-500">Product Description</p>
+  <div>
+    <h1 className="text-3xl md:text-4xl font-bold text-[#000000]">Product</h1>
+    <p className="text-sm text-gray-500 mb-4">Product Description</p> {/* Aumentar espacio debajo de la descripción */}
+  </div>
+  
+  {/* Iconos de guardado y compartir */}
+  <div className="flex space-x-2 justify-end">
+    <div 
+      className="bg-[#EDF0F8] p-2 rounded-xl inline-flex items-center justify-center"
+      style={{ width: '40px', height: '40px' }} 
+    >
+      <FaBookmark className="text-[#5b737b] cursor-pointer" size={24} /> 
     </div>
-    {/* Iconos de guardado y compartir */}
-    <div className="flex space-x-2 justify-end">
-      <div 
-        className="bg-[#EDF0F8] p-2 rounded-xl inline-flex items-center justify-center"
-        style={{ width: '40px', height: '40px' }} 
-      >
-        <FaBookmark className="text-[#5b737b] cursor-pointer" size={24} /> 
-      </div>
-      <div 
-        className="bg-[#EDF0F8] p-2 rounded-xl inline-flex items-center justify-center"
-        style={{ width: '40px', height: '40px' }} 
-      >
-        <FaShareAlt className="text-[#5b737b] cursor-pointer" size={24} />
-      </div>
+    <div 
+      className="bg-[#EDF0F8] p-2 rounded-xl inline-flex items-center justify-center"
+      style={{ width: '40px', height: '40px' }} 
+    >
+      <FaShareAlt className="text-[#5b737b] cursor-pointer" size={24} />
     </div>
   </div>
+</div>
+
 
   {/* Precio y calificación */}
   <div className="flex justify-between items-center mb-4 w-full max-w-lg border-b border-[#E4E4E4] pb-4">

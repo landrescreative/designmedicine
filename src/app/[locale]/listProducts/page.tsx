@@ -13,16 +13,19 @@ const productImages = [
 const ListProductsPage: React.FC = () => {
   return (
     <>
-      <div className="w-full bg-white p-4 sm:p-6 md:p-32"> {/* Ajuste de padding para móviles */}
+    <div className="w-full bg-white p-4 sm:p-6 md:p-32">
+  {/* Ajuste de padding para móviles */}
   <div className="flex justify-between items-center">
     <h1 className="text-[#004F44] font-montserrat font-normal text-[40px] ml-3 leading-[48.76px] tracking-[0.5px]">
-    PRODUCTS
+      ALL PRODUCTS
     </h1>
-    <Link href="/listProducts" className="text-[#5b737b] underline">
+    <Link href="/listProducts" className="text-[#5b737b] ">
       View All
     </Link>
   </div>
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-4">
+
+  {/* Grid que ajusta el número de columnas según el tamaño de pantalla */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-4">
     {Array.from({ length: 64 }, (_, index) => (
       <Link
         key={index}
@@ -33,22 +36,24 @@ const ListProductsPage: React.FC = () => {
         <img
           src={`https://m.media-amazon.com/images/I/81dB8Q2iqqL._AC_CR0%2C0%2C0%2C0_SY315_.jpg`}
           alt={`Producto ${index + 1}`}
-          className="w-[355px] h-[360px] object-cover cursor-pointer"
+          className="w-full h-auto max-w-[355px] max-h-[360px] object-contain mx-auto cursor-pointer"
         />
 
         {/* Nombre del producto y precio alineados */}
         <div className="flex justify-between items-center mt-4">
-          <p className="text-[#004F44] text-left" style={{ width: '355px' }}> {/* Alineado al borde de la imagen */}
+          <p className="text-[#004F44] text-left" style={{ width: '355px' }}>
+            {/* Alineado al borde de la imagen */}
             Producto {index + 1}
           </p>
-          <p className="text-[#5b737b] font-bold text-right">
+          <p className="text-[#1c6f63] font-bold text-right">
             ${(29.99 + index * 10).toFixed(1)}
           </p>
         </div>
 
         {/* Variante y círculos de colores alineados */}
         <div className="flex justify-between items-center mt-2">
-          <div className="text-left" style={{ width: '355px' }}> {/* Alineado al borde de la imagen */}
+          <div className="text-left" style={{ width: '355px' }}>
+            {/* Alineado al borde de la imagen */}
             <label className="text-[#9EA9A7]" htmlFor={`color${index + 1}`}>
               Variante:
             </label>
@@ -61,7 +66,7 @@ const ListProductsPage: React.FC = () => {
           </div>
 
           {/* Botón Buy alineado al borde derecho de la imagen */}
-          <button className="bg-[#004f44] text-white px-4 py-2 text-right" style={{ marginLeft: 'auto' }}>
+          <button className="bg-[#5e7377] text-white px-4 py-2 text-right" style={{ marginLeft: 'auto' }}>
             Buy
           </button>
         </div>
