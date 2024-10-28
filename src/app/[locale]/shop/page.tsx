@@ -75,7 +75,7 @@ const Page: React.FC = () => {
     <>
       {/* Sección de Design Medicine Shop con fondo verde */}
       <div className="bg-[#5b737b] min-h-screen p-6 md:p-32 flex justify-center items-center">
-  <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 ml-0 gap-2 mt-4">
+  <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-2 mt-4">
     {/* Lado izquierdo: Design Medicine Shop */}
     <div className="w-full max-w-[420px] bg-[#5b737b] rounded-lg p-5 text-center md:text-left">
   {/* Contenido aquí */}
@@ -96,9 +96,8 @@ const Page: React.FC = () => {
         style={{ fontFamily: 'Montserrat', fontWeight: 500 }}>
         Shop
       </h1>
-      <p className="text-white mt-4 text-left font-montserrat text-base leading-6 tracking-[0.3px]">
-  Our environment, the world in which we live and work
-  
+     <p className="text-white mt-4 text-left font-montserrat text-base leading-6 tracking-[0.3px]">
+  Our environment, the world in which we live and work<br />
   is a mirror of our attitudes and expectations.
 </p>
 
