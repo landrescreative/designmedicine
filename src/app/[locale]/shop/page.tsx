@@ -6,12 +6,10 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 
 // Carrusel personalizado (CustomCarousel)
 const images = [
-  'https://symposium.pacificcollege.edu/wp-content/uploads/2021/02/Kiiko-02-1.jpg',
-  'https://www.qiology.com.au/wp-content/uploads/2019/05/Kiiko-866x1024.jpg',
-  'https://altaivida.net/wp-content/uploads/2017/01/kiiko-matsumoto-altaivida-e1483914916971-300x273.jpeg',
-  'https://m.media-amazon.com/images/I/A1aTrRY3W7L._AC_UF894,1000_QL80_.jpg',
-  'https://m.media-amazon.com/images/I/81dB8Q2iqqL._AC_CR0%2C0%2C0%2C0_SY315_.jpg',
-  'https://www.easterncurrents.ca/wp-content/uploads/2020/01/B5760.jpg',
+ 'https://symposium.pacificcollege.edu/wp-content/uploads/2021/02/Kiiko-02-1.jpg',
+    'https://www.qiology.com.au/wp-content/uploads/2019/05/Kiiko-866x1024.jpg',
+    'https://www.dulwichacupuncture.com/pub/media/catalog/product/d/v/dvd-open.jpg',
+    'https://www.easterncurrents.ca/wp-content/uploads/2020/01/B5760.jpg',
 ];
 
 const CustomCarousel: React.FC = () => {
@@ -30,8 +28,8 @@ const CustomCarousel: React.FC = () => {
   };
 
   return (
-    <div className="relative w-full mx-1 mt-8 mb-40 p-6 md:p-32">
-    <h1 className="text-[#004F44] font-montserrat font-normal text-[40px] leading-[48.76px] tracking-[0.5px]">
+    <div className="relative w-full mx-1 mt-8 mb-40 p-6 md:p-32 ">
+    <h1 className="text-[#004F44] font-montserrat  font-normal text-[40px] leading-[48.76px] tracking-[0.5px]">
       LATEST PRODUCTS
     </h1>
     <div className="flex flex-col md:flex-row items-center gap-4 mt-10">
@@ -97,7 +95,7 @@ const Page: React.FC = () => {
         Shop
       </h1>
      <p className="text-white mt-4 text-left font-montserrat text-base leading-6 tracking-[0.3px]">
-  Our environment, the world in which we live and work<br />
+  Our environment, the world in which we live and wor
   is a mirror of our attitudes and expectations.
 </p>
 
