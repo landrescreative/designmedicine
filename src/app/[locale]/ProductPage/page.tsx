@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { FaSave, FaShareAlt, FaStar, FaTruck } from 'react-icons/fa';
 import { FaBookmark } from 'react-icons/fa6';
+import { FiCheck } from 'react-icons/fi';
 
 // Carrusel de "More Products"
 // Carrusel personalizado (CustomCarousel)
@@ -68,7 +69,7 @@ const ProductPage: React.FC = () => {
     'https://symposium.pacificcollege.edu/wp-content/uploads/2021/02/Kiiko-02-1.jpg',
     'https://www.qiology.com.au/wp-content/uploads/2019/05/Kiiko-866x1024.jpg',
     'https://www.dulwichacupuncture.com/pub/media/catalog/product/d/v/dvd-open.jpg',
-    'https://www.easterncurrents.ca/wp-content/uploads/2020/01/B5760.jpg',
+    'https://www.easterncurrents.ca/wp-content/uploads/2020/01/B5760.jpg'
   ];
 
   const [selectedImage, setSelectedImage] = useState(images[0]);
@@ -88,33 +89,35 @@ const ProductPage: React.FC = () => {
   const handleQuantityChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setQuantity(Number(e.target.value));
   };
- {/* pagina principal */}
+  {
+    /* pagina principal */
+  }
   return (
     <>
-     <div className="max-w-6xl mx-auto mt-40 px-4 md:px-20 py-12 flex flex-col md:grid md:grid-cols-2 gap-8">
-  {/* Columna izquierda - Imagen grande y miniaturas */}
-  <div className="flex flex-col items-center">
-    <img
-      src={selectedImage}
-      alt="Producto grande"
-      className="w-full h-[500px] md:h-[500px] object-cover rounded-lg"
-    />
+      <div className="max-w-6xl mx-auto mt-40 px-4 md:px-20 py-12 flex flex-col md:grid md:grid-cols-2 gap-8">
+        {/* Columna izquierda - Imagen grande y miniaturas */}
+        <div className="flex flex-col items-center">
+          <img
+            src={selectedImage}
+            alt="Producto grande"
+            className="w-full h-[500px] md:h-[500px] object-cover rounded-lg"
+          />
 
-    {/* Miniaturas debajo de la imagen */}
-    <div className="flex mt-4 space-x-2 justify-center md:justify-start">
-      {images.map((image, index) => (
-        <img
-          key={index}
-          src={image}
-          alt={`Producto miniatura ${index + 1}`}
-          className={`w-16 h-16 md:w-20 md:h-20 object-cover rounded-lg cursor-pointer ${
-            selectedImage === image ? 'border-4 border-[#004f44]' : ''
-          }`}
-          onClick={() => setSelectedImage(image)}
-        />
-      ))}
-    </div>
-  </div>
+          {/* Miniaturas debajo de la imagen */}
+          <div className="flex mt-4 space-x-2 justify-center md:justify-start">
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Producto miniatura ${index + 1}`}
+                className={`w-16 h-16 md:w-20 md:h-20 object-cover rounded-lg cursor-pointer ${
+                  selectedImage === image ? 'border-4 border-[#004f44]' : ''
+                }`}
+                onClick={() => setSelectedImage(image)}
+              />
+            ))}
+          </div>
+        </div>
 
         {/* Columna derecha - Información del producto */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left flex-grow">
@@ -296,162 +299,174 @@ const ProductPage: React.FC = () => {
       </div>
 
       {/* Sección de pestañas debajo de la información del producto */}
-     <div className="col-span-2 mt-10 flex flex-col items-start mx-4 md:items-center">
-  <div className="flex border-b border-gray-300 w-full max-w-3xl">
-    <button
-      className={`px-4 py-2 font-bold ${
-        activeTab === 'description'
-          ? 'border-b-4 border-[#004f44] text-[#004f44]'
-          : 'text-gray-600'
-      }`}
-      onClick={() => setActiveTab('description')}
-    >
-      Description
-    </button>
-    <button
-      className={`px-4 py-2 font-bold ${
-        activeTab === 'reviews'
-          ? 'border-b-4 border-[#004f44] text-[#004f44]'
-          : 'text-gray-600'
-      }`}
-      onClick={() => setActiveTab('reviews')}
-    >
-      Reviews
-    </button>
-  </div>
+      <div className="col-span-2 mt-10 flex flex-col items-start mx-4 md:items-center">
+        <div className="flex border-b border-gray-300 w-full max-w-3xl">
+          <button
+            className={`px-4 py-2 font-bold ${
+              activeTab === 'description'
+                ? 'border-b-4 border-[#004f44] text-[#004f44]'
+                : 'text-gray-600'
+            }`}
+            onClick={() => setActiveTab('description')}
+          >
+            Description
+          </button>
+          <button
+            className={`px-4 py-2 font-bold ${
+              activeTab === 'reviews'
+                ? 'border-b-4 border-[#004f44] text-[#004f44]'
+                : 'text-gray-600'
+            }`}
+            onClick={() => setActiveTab('reviews')}
+          >
+            Reviews
+          </button>
+        </div>
 
-  {/* Contenido de las pestañas */}
-  <div className="mt-6 max-w-3xl w-full mr-64">
-    {activeTab === 'description' && (
-      <div className="text-left">
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">Product Description</h2>
-          <p className="text-gray-700 font-sans text-base font-normal leading-[27.2px]">
-          When it's colder than the far side of the moon and spitting rain too, you've still got to look good. From water-repellent leather to a rugged outsole, the Lunar Force 1 adapts AF-1 style, so you can keep your flame burning when the weather hits. Metal lace hardware and extended tongue bring mountain boot toughness, while the star-studded toe design gives your look the edge.
-          </p>
-        </section>
+        {/* Contenido de las pestañas */}
+        <div className="mt-6 max-w-3xl w-full mr-64">
+          {activeTab === 'description' && (
+            <div className="text-left">
+              <section className="mb-6">
+                <h2 className="text-2xl font-semibold mb-2">
+                  Product Description
+                </h2>
+                <p className="text-gray-700 font-sans text-base font-normal leading-[27.2px]">
+                  When it's colder than the far side of the moon and spitting
+                  rain too, you've still got to look good. From water-repellent
+                  leather to a rugged outsole, the Lunar Force 1 adapts AF-1
+                  style, so you can keep your flame burning when the weather
+                  hits. Metal lace hardware and extended tongue bring mountain
+                  boot toughness, while the star-studded toe design gives your
+                  look the edge.
+                </p>
+              </section>
 
+              <section className="mb-6">
+                <h2 className="text-2xl font-semibold mb-2">Benefits</h2>
+                <ul className="list-none pl-0 text-gray-700 font-sans text-base font-normal leading-[27.2px]">
+                  <li className="flex items-center mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                      <FiCheck className="text-blue-500" />
+                    </div>
+                    Durable leather is easily cleanable so you can keep your
+                    look fresh.
+                  </li>
+                  <li className="flex items-center mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                      <FiCheck className="text-blue-500" />
+                    </div>
+                    Water-repellent finish and internal membrane help keep your
+                    feet dry.
+                  </li>
+                  <li className="flex items-center mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                      <FiCheck className="text-blue-500" />
+                    </div>
+                    Toe piece with star pattern adds durability.
+                  </li>
+                  <li className="flex items-center mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                      <FiCheck className="text-blue-500" />
+                    </div>
+                    Synthetic insulation helps keep you warm.
+                  </li>
+                  <li className="flex items-center mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                      <FiCheck className="text-blue-500" />
+                    </div>
+                    Originally designed for performance hoops, the Air unit
+                    delivers lightweight cushioning.
+                  </li>
+                  <li className="flex items-center mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                      <FiCheck className="text-blue-500" />
+                    </div>
+                    Plush tongue wraps over the ankle to help keep out the
+                    moisture and cold.
+                  </li>
+                  <li className="flex items-center mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                      <FiCheck className="text-blue-500" />
+                    </div>
+                    Rubber outsole with aggressive traction pattern adds durable
+                    grip.
+                  </li>
+                  <li className="flex items-center mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                      <FiCheck className="text-blue-500" />
+                    </div>
+                    Durable leather is easily cleanable so you can keep your
+                    look fresh.
+                  </li>
+                </ul>
+              </section>
 
+              <section className="mb-6">
+                <h2 className="text-2xl font-semibold mb-2">Product Details</h2>
+                <ul className="list-none">
+                  <li className="flex items-center mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                      <FiCheck className="text-blue-500" />
+                    </div>
+                    Not intended for use as Personal Protective Equipment (PPE).
+                  </li>
+                  <li className="flex items-center mb-4">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                      <FiCheck className="text-blue-500" />
+                    </div>
+                    Water-repellent finish and internal membrane help keep your
+                    feet dry.
+                  </li>
+                </ul>
+              </section>
 
-<section className="mb-6">
-  <h2 className="text-2xl font-semibold mb-2">Benefits</h2>
-  <ul className="list-none pl-0 text-gray-700 font-sans text-base font-normal leading-[27.2px]">
-    <li className="flex items-center mb-4">
-      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-        <FiCheck className="text-blue-500" />
-      </div>
-      Durable leather is easily cleanable so you can keep your look fresh.
-    </li>
-    <li className="flex items-center mb-4">
-      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-        <FiCheck className="text-blue-500" />
-      </div>
-      Water-repellent finish and internal membrane help keep your feet dry.
-    </li>
-    <li className="flex items-center mb-4">
-      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-        <FiCheck className="text-blue-500" />
-      </div>
-      Toe piece with star pattern adds durability.
-    </li>
-    <li className="flex items-center mb-4">
-      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-        <FiCheck className="text-blue-500" />
-      </div>
-      Synthetic insulation helps keep you warm.
-    </li>
-    <li className="flex items-center mb-4">
-      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-        <FiCheck className="text-blue-500" />
-      </div>
-      Originally designed for performance hoops, the Air unit delivers lightweight cushioning.
-    </li>
-    <li className="flex items-center mb-4">
-      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-        <FiCheck className="text-blue-500" />
-      </div>
-      Plush tongue wraps over the ankle to help keep out the moisture and cold.
-    </li>
-    <li className="flex items-center mb-4">
-      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-        <FiCheck className="text-blue-500" />
-      </div>
-      Rubber outsole with aggressive traction pattern adds durable grip.
-    </li>
-    <li className="flex items-center mb-4">
-      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-        <FiCheck className="text-blue-500" />
-      </div>
-      Durable leather is easily cleanable so you can keep your look fresh.
-    </li>
-  </ul>
-</section>
+              <section className="mb-6">
+                <h2 className="text-2xl font-semibold mb-2">More Details</h2>
+                <p className="text-gray-700 font-sans text-base font-normal leading-[27.2px]">
+                  <ul className="list-none">
+                    <li className="flex items-center mb-4">
+                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                        <FiCheck className="text-blue-500" />
+                      </div>
+                      Lunarlon midsole delivers ultra-plush responsiveness.
+                    </li>
+                    <li className="flex items-center mb-4">
+                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                        <FiCheck className="text-blue-500" />
+                      </div>
+                      Encapsulated Air-Sole heel unit for lightweight
+                      cushioning.
+                    </li>
+                    <li className="flex items-center mb-4">
+                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                        <FiCheck className="text-blue-500" />
+                      </div>
+                      Colour Shown: Ale Brown/Black/Goldtone/Ale Brown.
+                    </li>
+                    <li className="flex items-center mb-4">
+                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
+                        <FiCheck className="text-blue-500" />
+                      </div>
+                      Style: 805899-202.
+                    </li>
+                  </ul>
+                </p>
+              </section>
+            </div>
+          )}
 
-
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">Product Details</h2>
-          <ul className="list-none">
-  <li className="flex items-center mb-4">
-    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-      <FiCheck className="text-blue-500" />
-    </div>
-    Not intended for use as Personal Protective Equipment (PPE).
-  </li>
-  <li className="flex items-center mb-4">
-    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-      <FiCheck className="text-blue-500" />
-    </div>
-    Water-repellent finish and internal membrane help keep your feet dry.
-  </li>
-</ul>
-        </section>
-
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-2">More Details</h2>
-          <p className="text-gray-700 font-sans text-base font-normal leading-[27.2px]">
-          <ul className="list-none">
-  <li className="flex items-center mb-4">
-    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-      <FiCheck className="text-blue-500" />
-    </div>
-    Lunarlon midsole delivers ultra-plush responsiveness.
-  </li>
-  <li className="flex items-center mb-4">
-    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-      <FiCheck className="text-blue-500" />
-    </div>
-    Encapsulated Air-Sole heel unit for lightweight cushioning.
-  </li>
-  <li className="flex items-center mb-4">
-    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-      <FiCheck className="text-blue-500" />
-    </div>
-    Colour Shown: Ale Brown/Black/Goldtone/Ale Brown.
-  </li>
-  <li className="flex items-center mb-4">
-    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#e6f4fd] mr-3">
-      <FiCheck className="text-blue-500" />
-    </div>
-    Style: 805899-202.
-  </li>
-</ul>
-          </p>
-        </section>
+          {activeTab === 'reviews' && (
+            <div className="text-left font-sans text-base font-normal leading-[27.2px]">
+              <h2 className="text-2xl font-semibold mb-2">Customer Reviews</h2>
+              <p className="text-gray-700">
+                Todavía no hay reseñas para este producto. ¡Sé el primero en
+                dejar una reseña!
+              </p>
+            </div>
+          )}
+        </div>
       </div>
-    )}
-
-    {activeTab === 'reviews' && (
-      <div className="text-left font-sans text-base font-normal leading-[27.2px]">
-        <h2 className="text-2xl font-semibold mb-2">Customer Reviews</h2>
-        <p className="text-gray-700">
-          Todavía no hay reseñas para este producto. ¡Sé el primero en dejar una reseña!
-        </p>
-      </div>
-    )}
-  </div>
-</div>
-
-
 
       {/* Sección More Products con carrusel personalizado */}
       <CustomCarousel />
