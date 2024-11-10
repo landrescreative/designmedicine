@@ -17,7 +17,6 @@ import lgZoom from 'lightgallery/plugins/zoom';
 import InfoXochimilco from '@/components/InfoXochimilco';
 import HeroSectionTrips from '@/components/HeroSectionTrips';
 import InfoTeotihuacan from '@/components/InfoTeotihuacan';
-import Register from '@/components/Register';
 import Tarjetas from '@/components/Tarjetas';
 import Formulario from '@/components/Formulario';
 

@@ -7,7 +7,6 @@ import InfoSeminar from '@/components/InfoSeminar';
 import PaymentSection from '@/components/PaymentSection';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import Register from '@/components/Register';
 import Link from 'next/link';
 import Formulario from '@/components/Formulario';
 import Tarjetas from '@/components/Tarjetas';

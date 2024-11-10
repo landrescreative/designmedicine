@@ -50,7 +50,7 @@ const Page = () => {
             {t('whattoexpect')}
           </h2>
           <div className="cards flex gap-5 justify-center my-6 flex-wrap">
-            {t.raw('highlights').map((highlight, index) => (
+            {t.raw('highlights').map((highlight: string, index: number) => (
               <div
                 key={index}
                 className="px-3 py-7 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all"
@@ -62,7 +62,7 @@ const Page = () => {
           <h3 className="text-xl font-semibold text-primary mt-5">
             Full Description
           </h3>
-          {t.raw('fullDescription').map((paragraph, index) => (
+          {t.raw('fullDescription').map((paragraph: string, index: number) => (
             <p key={index} className="text-gray-700 my-2">
               {paragraph}
             </p>
@@ -73,7 +73,7 @@ const Page = () => {
             Tour Includes
           </h3>
           <ul className="list-disc pl-6 space-y-1 text-gray-700">
-            {t.raw('includes').map((include, index) => (
+            {t.raw('includes').map((include: string, index: number) => (
               <li key={index}>{include}</li>
             ))}
           </ul>
@@ -83,9 +83,11 @@ const Page = () => {
             Recommendations
           </h3>
           <ul className="list-disc pl-6 space-y-1 text-gray-700">
-            {t.raw('recommendations').map((recommendation, index) => (
-              <li key={index}>{recommendation}</li>
-            ))}
+            {t
+              .raw('recommendations')
+              .map((recommendation: string, index: number) => (
+                <li key={index}>{recommendation}</li>
+              ))}
           </ul>
 
           {/* Additional Details */}
@@ -108,30 +110,34 @@ const Page = () => {
           {t('whattoexpect')}
         </h2>
         <div className="cards flex gap-5 justify-center my-6 flex-wrap">
-          {t.raw('museum.highlights').map((highlight, index) => (
-            <div
-              key={index}
-              className="px-3 py-7 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all"
-            >
-              <p>{highlight}</p>
-            </div>
-          ))}
+          {t
+            .raw('museum.highlights')
+            .map((highlight: string, index: number) => (
+              <div
+                key={index}
+                className="px-3 py-7 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all"
+              >
+                <p>{highlight}</p>
+              </div>
+            ))}
         </div>
 
         {/* Museum Full Description */}
         <h3 className="text-xl font-semibold text-primary mt-8">
           Full Description
         </h3>
-        {t.raw('museum.fullDescription').map((paragraph, index) => (
-          <p key={index} className="text-gray-700 my-2">
-            {paragraph}
-          </p>
-        ))}
+        {t
+          .raw('museum.fullDescription')
+          .map((paragraph: string, index: number) => (
+            <p key={index} className="text-gray-700 my-2">
+              {paragraph}
+            </p>
+          ))}
 
         {/* Museum Includes */}
         <h3 className="text-xl font-semibold text-primary mt-5">Includes</h3>
         <ul className="list-disc pl-6 space-y-1 text-gray-700 font-bold">
-          {t.raw('museum.includes').map((include, index) => (
+          {t.raw('museum.includes').map((include: string, index: number) => (
             <li key={index}>{include}</li>
           ))}
         </ul>
@@ -144,7 +150,7 @@ const Page = () => {
           General Tour Includes
         </h3>
         <ul className="list-disc pl-6 text-gray-700 my-4">
-          {t.raw('generalIncludes').map((include, index) => (
+          {t.raw('generalIncludes').map((include: string, index: number) => (
             <li key={index}>{include}</li>
           ))}
         </ul>

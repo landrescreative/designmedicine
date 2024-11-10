@@ -8,14 +8,9 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoClose } from 'react-icons/io5';
 import { useTranslations } from 'next-intl';
 
-interface NavbarProps {
-  home: string;
-  seminar: string;
-  tours: string;
-  register: string;
-}
+interface NavbarProps {}
 
-const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
+const Navbar = ({}: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
