@@ -24,36 +24,29 @@ const Slider: React.FC<SliderProps> = ({
   slide3parag
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const t = useTranslations('');
 
   const slides = [
     {
-      id: 1,
-      image: '/1.jpg',
-      title: slide1title,
-      paragraph: slide1parag,
-      url: '/templomayor'
-    },
-    {
       id: 2,
       image: '/2.jpg',
-      title: slide2title,
-      paragraph: slide2parag,
+      title: t('slider.slides.2.title') as string,
+      paragraph: t('slider.slides.2.paragraph') as string,
       url: '/teotihuacan'
     },
     {
       id: 3,
       image: '/3.jpg',
-      title: slide3title,
-      paragraph: slide3parag,
+      title: t('slider.slides.3.title') as string,
+      paragraph: t('slider.slides.3.paragraph') as string,
       url: '/xochimilco'
     },
     {
       id: 4,
       image: '/Lucha-libre-México-CMLL.webp',
-      title: 'Luchas',
-      paragraph:
-        'Disfruta de una experiencia única en las luchas de la ciudad de México',
-      url: '/xochimilco'
+      title: t('luchas.event.title') as string,
+      paragraph: t('luchas.event.subtitle2') as string,
+      url: '/luchas'
     }
   ];
 
@@ -68,7 +61,7 @@ const Slider: React.FC<SliderProps> = ({
 
   return (
     <div
-      className="min-h-screen relative py-24 flex justify-center items-center w-full xl:w-9/12"
+      className="min-h-screen relative py-24 px-3 flex justify-center items-center w-full lg:w-10/12"
       id="tours"
     >
       <div className="flex justify-center items-center">

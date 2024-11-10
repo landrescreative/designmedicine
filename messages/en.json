@@ -81,6 +81,7 @@
     "date": "February 14-17, 2025| Mexico City",
     "description": "Experience a groundbreaking opportunity to learn directly from Kiiko Matsumoto, a renowned Grand Master of acupuncture. In this exclusive hands-on workshop, you will not only enhance your acupuncture techniques but also gain practical, real-world knowledge as you treat patients with Kiiko guiding you every step of the way.",
     "subtitle": "Why Attend?",
+    "link": "Check out our recommended hotels!",
     "list": [
       "Personalized Technique Refinement: \n  Kiiko will correct and perfect your acupuncture methods in real-time, ensuring mastery of her renowned style.",
       "Access to Cutting-Edge Research: \n  Discover the latest treatment strategies and applications of classical literature, directly from Kiiko’s decades of research and experience. ",
@@ -173,21 +174,148 @@
     "length": "1 day",
     "activities": "2 Activities",
     "title": "Teotihuacan Pyramids and Guadalupe Shirine",
-    "paragraph": "In addition to the conference, we offer you the opportunity to visit one of the most incredible places in Mexico. Teotihuacan is one of the most important archaeological sites in Mexico and a place you cannot miss.",
-    "whattoexpect": "TRIP DETAILS",
+    "paragraph": "Discover Mexican history by visiting some of its top landmarks: Teotihuacan Pyramids and  Guadalupe Shrine.",
+    "whattoexpect": "HIGHLIGHTS",
+    "highlight": [
+      "Live a unique experience flying over the skies of Teotihuacan",
+      "Explore Teotihuacan, one of the most impressive archaeological sites in Mexico",
+      "Visit Guadalupe Shrine, one of the world’s top Catholic pilgrimage sites.",
+      "Immerse yourself in Mexican history."
+    ],
+    "tourincludes": [
+      "Roundtrip Transportation from Mexico City to Globopuerto ",
+      "Teotihuacan Archaeological Zone  and Guadalupe Shrine ",
+      "Pick up from CDMX Hotel City Express Insurgentes at 4:30 am ",
+      "Shared balloon flight of 40-60 minutes in the Teotihuacan area ",
+      "Welcome coffee break",
+      "Personalized flight certificate ",
+      "Toast at the end of the flight ",
+      "Breakfast at the restaurant 'La huigera' at the end of the ballon flight ",
+      "Travel insurance",
+      "Visit to the Archaeological Zone (entrance included) with 2 free hours of visit.",
+      "Lunch box",
+      "Visit to the Guadalupe Shrine",
+      "Approximate return between 3:00-5:00 pm "
+    ],
+    "tourexcludes": [
+      "Tourist Guide in the Archaeological Zone",
+      "Tourist Guide in Guadalupe Shrine ",
+      "Souvenirs ",
+      "Tips"
+    ],
+    "phototitle": ["Teotihuacan Pyramids", "Guadalupe Shrine"],
+    "fulldescription": [
+      "Make the most of your next seminar to Mexico City with a duo of Mexico’s must-see historical monuments. Mexican Root is a celebration of the civilizations and cultures that have made Mexico what it is today. Visit the legendary Shrine of Our Lady of Guadalupe, and the Pyramids of Teotihuacan on this full-day excursion from Mexico City.",
+      "Your first stop will be in Teotihuacan. Live a unique experience flying over the archaeological site, at the end of the flight you will toast and have breakfast then head to one of the most jaw-dropping sites in Mexico, the great Teotihuacan Pyramids to explore the mystical site. See the Pyramid of the Sun, with its more than 200 feet tall, the largest in Mesoamerica. Along with a trip along the Avenue of the Dead learn about the origins of this religious city and see the Temples of Quetzalpapalotl, the Temple of the Feathered Shells, and the Pyramid of the Moon.",
+      "Have time to lunch and recharge energies while heading to Guadalupe Shrine, located in the Basilica of Our Lady of Guadalupe. In this 18th-century shrine, you’ll see a cloak with the image of Guadalupe as you learn about her significance to the culture and people of modern Mexico. Spot where Our Lady of Guadalupe is said to have appeared to an indigenous Mexican.",
+      "Enjoy a tour full of adventure, history, and some of the most breathtaking views of Mexico."
+    ],
     "piramidedelsol": "Highlights",
     "piramidedelsolparagraph": "Live a unique experience flying over the skies of Teotihuacan ",
     "piramidedelaluna": "Pyramid of the Moon",
     "piramidedelalunaparagraph": "Continue your tour with a visit to the Pyramid of the Moon, the second largest pyramid in Teotihuacan. Explore the structures and temples surrounding the pyramid, and learn about the history and culture of this ancient city. Enjoy panoramic views from the top and immerse yourself in the mystical atmosphere of this sacred place.",
     "viewmap": "VIEW ON MAP",
-    "viewmapparagraph": "Check reviews, explore the area, etc."
+    "viewmapparagraph": "Check reviews, explore the area, etc.",
+    "highlights": {
+      "title": "Highlights",
+      "viewsTitle": "Incredible Views",
+      "viewsDescription": "Enjoy beautiful views from the top of the pyramids",
+      "locationTitle": "Secure Location",
+      "locationDescription": "MEXICO CITY - MEXICO"
+    },
+    "tourDetails": {
+      "title": "Tour Details",
+      "durationTitle": "Duration",
+      "durationDescription": "Full-day tour (approximately 4:30 AM to 5:00 PM)",
+      "transportTitle": "Include Transport",
+      "transportDescription": "We can take you to the exact location for your security",
+      "priceTitle": "Price",
+      "priceDescription": "$215 USD per person"
+    },
+    "whatToBring": {
+      "title": "What to bring",
+      "clothingTitle": "Comfortable clothing and walking shoes",
+      "hatTitle": "Hat and sunscreen",
+      "waterTitle": "Water and snacks",
+      "cameraTitle": "Camera for capturing memories"
+    }
   },
   "xochimilcosite": {
+    "tour": {
+      "date": "Thursday 13th February 2025",
+      "title": "Xochimilco: Kayak Tour",
+      "description": "Enjoy a beautiful view at sunrise and immerse yourself in the spectacular natural environment of Lake Xochimilco. Travel via kayak and marvel at this famous world heritage site of humanity alongside a guide."
+    },
+    "highlights": [
+      "Marvel at the stunning sunrise or sunset",
+      "Discover the fascinating history of Xochimilco",
+      "Learn about Mexico City from your guide",
+      "Meet the Axolotl at a conservation center",
+      "Be on the lookout for migratory birds"
+    ],
+    "fullDescription": [
+      "Discover the last vestiges of Mexico City in its pre-Hispanic era. Follow your local guide and learn about the history of Xochimilco, a World Heritage cultural site which is also a protected natural area.",
+      "Meet your guide at the Cuemanco Pier where you will be trained to use your kayak. Begin your adventure by embarking on a kayak to see the sunrise or sunset. Be on the lookout for different species of migratory and local birds on your journey.",
+      "Take a break in the middle of the lagoon and capture memorable photos of the amazing views. If the weather permits, you will also be able to see the volcanoes of Mexico.",
+      "Set sail and visit the Axolotl conservation center. Get up close and see the Axolotl in person, an animal that is in danger of extinction and is native to Xochimilco."
+    ],
+    "includes": [
+      "A brief stop at Chinampa",
+      "Kayak ride",
+      "Visit the axolotl conservation center",
+      "Bilingual local guide",
+      "Breakfast"
+    ],
+    "recommendations": [
+      "Bring extra clothes in case you get wet",
+      "Mittens and hat (low temperature this time of the year)"
+    ],
+    "pickup": "Pick up at 5:10 am at City Express Plus by Marriott Insurgentes",
+    "duration": "3-hour tour",
+    "kayaks": "Kayaks: singles or doubles",
+    "experience": "No experience needed",
+    "museum": {
+      "title": "National Museum of Anthropology",
+      "description": "Considered one of the world’s most comprehensive natural history museums, the National Museum of Anthropology (Museo Nacional de Antropología) is Mexico City’s most visited museum. Its collection includes notable historical items such as the Aztec Stone of the Sun, the giant carved heads of the Olmec people, and the Aztec Xochipilli statue. Explore Toltec and Mayan art on display.",
+      "fullDescription": [
+        "Enter the National Museum of Anthropology in Mexico City almost a half century after it was established, and discover why it remains the flagship enclosure safeguarding the legacy of the Mexican indigenous people. Standing as a symbol of identity and a mentor to generations seeking to dig into their cultural roots, the museum is the most popular in Mexico, attracting some 2 million visitors per year.",
+        "Get insights into the various exhibits and their significance from your guide. Look at objects excavated from archaeological sites, covering vast territories in what is now modern-day Mexico. Learn about the various cultures that created them.",
+        "Visit rooms where small objects, such as spear points are on display. These were used by early hunters on the continent more than 10,000 years ago. See simple clay pieces used in daily life and as symbolic articles in religious ceremonies.",
+        "Admire impressive objects such as the Stone of the Sun (Aztec calendar stone). Your guide will explain the meaning of these valuable contributions to Mexico, as well as the ways historians have been challenged to re-think the development of the Mesoamerican people including Mayan, Aztec and Zapotec cultures."
+      ],
+      "includes": [
+        "Guide",
+        "Entrance to the National Museum of Anthropology",
+        "Transportation",
+        "2-3 hour Guided Experience"
+      ],
+      "highlights": [
+        "Guided tour of the National Museum of Anthropology",
+        "Delight your senses as you explore one of Latin America's most important cultural sites.",
+        "Experience the amazing culture of Mexico",
+        "Admire the masterpieces of ancient Mexican civilizations",
+        "Immerse in the history and culture of Mexico",
+        "Learn about the pre-hispanic heritage of the region",
+        "Private tour experience, personalized for you"
+      ],
+      "return": "We will return from the Polanco area around 1 pm, drop off at City Express Plus by Marriott Insurgentes."
+    },
+    "generalIncludes": [
+      "Xochimilco Kayak and National Museum of Anthropology",
+      "Transportation: To Xochimilco and National Museum of Anthropology",
+      "Pick up and drop off at City Express Plus by Marriott Insurgentes",
+      "Breakfast",
+      "Entrance fees",
+      "Guides",
+      "Kayak (single or double)",
+      "Safety vest"
+    ],
+    "cost": "250 USD",
     "length": "1 day",
     "activities": "2 Activities",
     "title": "Xochimilco",
     "paragraph": "We invite you to enjoy the magic of Xochimilco, an emblematic site in Mexico City famous for its canals, colorful trajineras, and rich cultural history dating back to pre-Hispanic times.",
-    "whattoexpect": "What to expect?",
+    "whattoexpect": "HIGHLIGHTS",
     "paseotrajinera": "Trajinera Ride",
     "paseotrajineraparagraph": "Enjoy a relaxing trajinera ride through the canals of Xochimilco. This tour will allow you to admire the natural beauty of the area while immersing yourself in local traditions. Listen to mariachi music, try Mexican snacks, and discover the unique charm of Xochimilco.",
     "viewmap": "VIEW ON MAP",
@@ -201,22 +329,27 @@
     "highlight3paragraph": "Mexico City - CDMX | OPTIONAL TOURS",
     "tourdetails": "TOUR DETAILS",
     "tourdetails1title": "Duration",
-    "tourdetails1paragraph": "Full-day tour (approximately 8:00 AM to 5:00 PM)",
+    "tourdetails1paragraph": "Full-day tour (approximately 5:00 AM to 2:00 PM)",
     "tourdetails2title": "Include Transportation",
     "tourdetails2paragraph": "We can take you to the exact location for your security",
     "tourdetails3title": "Price",
-    "tourdetails3paragraph": "$150 per person",
+    "tourdetails3paragraph": "$250 per person",
     "whattobring": "What to bring?",
-    "whattobring1": "Comfortable clothing and walking shoes",
+    "whattobring1": "Bring extra clothes in case you get wet , mittens and hat",
     "whattobring2": "Hat and sunscreen",
     "whattobring3": "Water and snacks",
-    "whattobring4": "Camera for capturing memories"
+    "whattobring4": "Camera for capturing memories",
+    "phototitle": [
+      "Xochimilco Trajinera Ride",
+      "National Museum of Anthropology"
+    ]
   },
   "navbar": {
     "home": "Home",
     "seminar": "Seminar",
     "tours": "Tours",
-    "register": "Register Now"
+    "register": "Register Now",
+    "face-reading": "Face Reading & Cosmetic Acupuncture"
   },
   "face-reading": {
     "title": "Exclusive Extra Session: Face Reading & Cosmetic Acupuncture",
@@ -276,5 +409,47 @@
       "9:00 AM - 1:00 PM",
       "$500 per person"
     ]
+  },
+  "luchas": {
+    "event": {
+      "date": "Friday, February 14th, 2025",
+      "title": "Mezcal and Taco Tasting + Lucha Libre",
+      "subtitle": "Free Wrestling, Arena Mexico",
+      "description": "Celebrate Valentine’s Day in the most atypical way! Get ready for an unforgettable night in the heart of Mexico City at the legendary Arena Mexico, the largest and most iconic venue for lucha libre! Immerse yourself in the vibrant atmosphere as you cheer for your favorite luchador and witness breathtaking acrobatic performances that will leave you on the edge of your seat, while you sip a chilled beer.",
+      "subtitle2": "MEZCAL AND TACO TASTING + LUCHA LIBRE, FREE WRESTLING, ARENA MEXICO."
+    },
+    "experience": {
+      "intro": "Join the passionate crowd and experience the unique blend of athleticism, drama, and cultural tradition that makes lucha libre a must-see event. From the colorful masks to the high-flying moves, every match is a spectacle filled with excitement and energy.",
+      "cta": "Don’t miss your chance to be part of this thrilling adventure—book your tickets now and get ready for a night of unforgettable entertainment!",
+      "evening": "The evening will start at the class venue with a mezcal & taco tasting and then we will head on to the arena to finish our evening."
+    },
+    "package": {
+      "includesTitle": "Your package includes:",
+      "includes": [
+        "Mezcal and taco tasting",
+        "Entrance fees",
+        "Transportation from the tasting venue to Arena Mexico",
+        "Convenient drop-off at City Express Plus by Marriott Insurgentes"
+      ],
+      "excludesTitle": "What is not included:",
+      "excludes": ["Extra meals and beverages"]
+    },
+    "details": {
+      "duration": "Total time: 3-4 hours of pure excitement!",
+      "signup": "Sign up today and let the lucha libre experience captivate you!",
+      "cost": "Total Cost: 150 USD"
+    },
+    "viewmap": "VIEW ON MAP",
+    "viewmapparagraph": "Check reviews, explore the area, etc.",
+    "phototitle": ["Mezcal and Taco Tasting", "Lucha Libre"]
+  },
+  "formulario": {
+    "title": "Register Now",
+    "subtitle": "Fill out the form below to secure your spot in the seminar.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "subject": "Subject",
+    "submit": "Submit"
   }
 }

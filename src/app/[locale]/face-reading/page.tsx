@@ -6,12 +6,14 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import InfoFaceReading from '@/components/InfoFaceReading';
 import Link from 'next/link';
+import Tarjetas from '@/components/Tarjetas';
+import Formulario from '@/components/Formulario';
 
 const Page = () => {
   const t = useTranslations('');
   return (
-    <div className="flex justify-center items-center  flex-col overflow-x-hidden">
-      <div className="w-full flex justify-center items-center flex-col py-10 mt-24">
+    <div className="flex justify-center items-center  flex-col overflow-x-hidden ">
+      <div className="w-full flex justify-center items-center flex-col py-10 mt-24 px-4 md:px-0">
         <h1 className="font-bold text-center text-3xl uppercase text-primary">
           {t('face-reading.title')}
         </h1>
@@ -21,16 +23,16 @@ const Page = () => {
           {t('face-reading.instructor')}
         </h2>
       </div>
-      <div className="lg:w-3/4 lg:max-h-[700px] overflow-hidden p-5 h-full object-cover rounded-3xl">
+      <div className="lg:w-3/4 lg:max-h-[700px] overflow-hidden p-5 h-full object-cover rounded-3xl px-4 md:px-0">
         <Image
-          src="/seminar_01.jpg"
+          src="/3Y9P1786.jpg"
           alt="seminar"
           width={1920}
           height={1080}
           className="rounded-3xl object-cover"
         />
       </div>
-      <div className="flex justify-center flex-col md:flex-row items-center w-10/12 mt-28">
+      <div className="flex justify-center flex-col lg:flex-row items-center lg:w-10/12 mt-28 px-4 md:px-0">
         <div className="w-full md:px-10">
           <div className="flex flex-col gap-5 py-10 ">
             <h1 className="font-bold text-2xl uppercase text-primary">
@@ -102,45 +104,13 @@ const Page = () => {
             <p>{t('face-reading.conclusion')}</p>
           </div>
           <InfoFaceReading />
-          <PaymentSection />
+          {/* <PaymentSection /> */}
         </div>
-        <div className="flex flex-col items-center justify-center w-full md:w-1/3 self-start gap-10 ">
-          <Link
-            href={'/face-reading'}
-            className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 overflow-hidden flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out"
-          >
-            <Image
-              src="/flyer_facereading.png"
-              alt="separator"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link
-            href={'/seminar'}
-            className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 overflow-hidden flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out"
-          >
-            <Image
-              src="/flyer_kiiko.jpg"
-              alt="separator"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link
-            href={'/seminar'}
-            className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 overflow-hidden flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out"
-          >
-            <Image
-              src="/flyer_shop.jpg"
-              alt="separator"
-              width={500}
-              height={500}
-            />
-          </Link>
-        </div>
+        <Tarjetas />
       </div>
-      {/* <Register /> */}
+      <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
+        <Formulario />
+      </div>
       <Separator text={t('seminar.separator')} />
       <Testimonial
         testimonial1={t('testimonial.paragraph1')}

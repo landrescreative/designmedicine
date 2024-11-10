@@ -1,41 +1,36 @@
+// src/app/layout.tsx
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
+import { Montserrat } from 'next/font/google'; // Importa la fuente Montserrat
+import ServerLayout from './ServerLayout';
+import ClientLayout from './ClientLayout';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { NextIntlClientProvider } from 'next-intl';
-import { useTranslations } from 'next-intl';
-
-const inter = Inter({ subsets: ['latin'] });
+import Preloader from '@/components/Preloader';
 
 export const metadata: Metadata = {
   title: 'Design Medicine - Seminar',
   description: 'Design Medicine Website'
 };
 
-interface RootLayoutProps {
+// Configuración de la fuente Montserrat
+const montserrat = Montserrat({ subsets: ['latin'] });
+
+interface LocaleLayoutProps {
   children: React.ReactNode;
   params: { locale: string };
 }
 
-export default function LocaleLayout({
-  children,
-  params: { locale }
-}: RootLayoutProps) {
-  const t = useTranslations('navbar');
+export default function LocaleLayout({ children, params }: LocaleLayoutProps) {
   return (
-    <html lang={locale} className="overflow-x-hidden">
-      <body className={inter.className}>
-        <NextIntlClientProvider messages={{}}>
-          <Navbar
-            home={t('home')}
-            seminar={t('seminar')}
-            tours={t('tours')}
-            register={t('register')}
-          />
-          {children}
+    <html lang={params.locale}>
+      {/* Aplica la clase de Montserrat al body */}
+      <body className={montserrat.className}>
+        <ServerLayout params={params}>
+          {/* <Preloader></Preloader> */}
+          <Navbar />
+          <ClientLayout>{children}</ClientLayout>
           <Footer />
-        </NextIntlClientProvider>
+        </ServerLayout>
       </body>
     </html>
   );

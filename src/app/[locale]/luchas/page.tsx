@@ -17,102 +17,95 @@ import lgZoom from 'lightgallery/plugins/zoom';
 import InfoXochimilco from '@/components/InfoXochimilco';
 import HeroSectionTrips from '@/components/HeroSectionTrips';
 import InfoTeotihuacan from '@/components/InfoTeotihuacan';
+import Register from '@/components/Register';
 import Tarjetas from '@/components/Tarjetas';
 import Formulario from '@/components/Formulario';
 
 const Page = () => {
   // Add translated strings here
-  const t = useTranslations('teotihuacansite');
+  const t = useTranslations('luchas');
   return (
-    <div className="pt-16  flex flex-col items-center ">
+    <div className="pt-16 flex flex-col items-center ">
       <HeroSectionTrips
-        title={t('title')}
-        paragraph={t('paragraph')}
-        img="/pyramids.jpg"
+        title={t('event.title')}
+        paragraph={t('event.date')}
+        img="/Lucha-libre-México-CMLL.webp"
       />
 
       <div className="flex justify-center gap-10 flex-col-reverse md:flex-row items-start w-full px-5 mt-16 lg:w-10/12">
         <Tarjetas />
         <div className="descripcion del tour flex flex-col items-center mb-8 w-full">
-          <h2 className="text-3xl text-center w-full  text-primary uppercase font-bold">
-            {t('whattoexpect')}
+          <h2 className="text-3xl text-left w-full  text-primary uppercase font-bold">
+            {t('event.subtitle2')}
+          </h2>
+          <p className="text-gray-700 my-2 text-left w-full">
+            {t('event.description')}
+          </p>
+          <p className="text-gray-700 my-2 text-left w-full">
+            {t('experience.intro')}
+          </p>
+          <p className="text-gray-700 my-2 text-left w-full">
+            {t('experience.cta')}
+          </p>
+          <p className="text-gray-700 my-2 text-left w-full">
+            {t('experience.evening')}
+          </p>
+          <h2 className="text-3xl text-left w-full mt-6 text-primary uppercase font-bold">
+            {t('package.includesTitle')}
           </h2>
           <div className="cards flex gap-5 justify-center my-6 flex-wrap">
             <div className="px-3 py-7 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all">
-              <p>{t('highlight.0')}</p>
+              <p>{t('package.includes.0')}</p>
             </div>
             <div className="px-3 py-7 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all">
-              <p>{t('highlight.1')}</p>
+              <p>{t('package.includes.1')}</p>
             </div>
             <div className="px-3 py-7 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all">
-              <p>{t('highlight.2')}</p>
+              <p>{t('package.includes.2')}</p>
             </div>
             <div className="px-3 py-7 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all">
-              <p>{t('highlight.3')}</p>
+              <p>{t('package.includes.3')}</p>
             </div>
           </div>
-          <div className="my-4 self-start w-full">
-            <h3 className="text-xl font-semibold text-primary mb-2">
-              Tour Includes
-            </h3>
-            <ul className="list-disc pl-6 space-y-1 text-gray-700 ">
-              <li>{t('tourincludes.0')}</li>
-              <li>{t('tourincludes.1')}</li>
-              <li>{t('tourincludes.2')}</li>
-              <li>{t('tourincludes.3')}</li>
-              <li>{t('tourincludes.4')}</li>
-              <li>{t('tourincludes.5')}</li>
-              <li>{t('tourincludes.6')}</li>
-              <li>{t('tourincludes.7')}</li>
-              <li>{t('tourincludes.8')}</li>
-              <li>{t('tourincludes.9')}</li>
-              <li>{t('tourincludes.10')}</li>
-              <li>{t('tourincludes.11')}</li>
-              <li>{t('tourincludes.12')}</li>
-            </ul>
+          <div className="self-start w-full">
             <h3 className="text-xl font-semibold text-primary my-5">
-              Does not include
+              {t('package.excludesTitle')}
             </h3>
             <ul className="list-disc pl-6 space-y-1 text-gray-700">
-              <li>{t('tourexcludes.0')}</li>
-              <li>{t('tourexcludes.1')}</li>
-              <li>{t('tourexcludes.2')}</li>
-              <li>{t('tourexcludes.3')}</li>
+              <li>{t('package.excludes.0')}</li>
             </ul>
-            <h3 className="text-xl text-left font-semibold text-primary mt-5">
-              Full Description
-            </h3>
-            <p className="text-gray-700 my-2">{t('fulldescription.0')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.1')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.2')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.3')}</p>
+            <p className="text-primary my-2 font-bold">
+              {t('details.duration')}
+            </p>
+            <p className="text-primary my-2 font-bold">{t('details.signup')}</p>
+            <p className="text-primary my-2 font-bold">{t('details.cost')}</p>
+          </div>
+          <div className="flex gap-10 flex-col md:flex-row w-full my-5">
+            <div className=" relative rounded-2xl overflow-hidden shadow-lg">
+              <img
+                className="w-full h-full object-cover"
+                src="/Imagen-de-Teotihuacan.webp"
+                alt="Image 1"
+              />
+              <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
+                {t('phototitle.0')}
+              </h1>
+            </div>
+            <div className=" relative rounded-2xl overflow-hidden shadow-lg">
+              <img
+                className="w-full h-full object-cover"
+                src="/11154952_445560532268265_5060642880520825132_o.webp"
+                alt="Image 2"
+              />
+              <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
+                {t('phototitle.1')}
+              </h1>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="atracciones flex flex-wrap justify-center gap-10">
-        <div className="flex gap-10 flex-col md:flex-row px-2 md:w-10/12">
-          <div className=" relative rounded-2xl overflow-hidden shadow-lg">
-            <img
-              className="w-full h-full object-cover"
-              src="/Imagen-de-Teotihuacan.webp"
-              alt="Image 1"
-            />
-            <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
-              {t('phototitle.0')}
-            </h1>
-          </div>
-          <div className=" relative rounded-2xl overflow-hidden shadow-lg">
-            <img
-              className="w-full h-full object-cover"
-              src="/11154952_445560532268265_5060642880520825132_o.webp"
-              alt="Image 2"
-            />
-            <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
-              {t('phototitle.1')}
-            </h1>
-          </div>
-        </div>
+      <div className="atracciones flex flex-col flex-wrap justify-center items-center my-10 gap-10 w-full">
         <InfoTeotihuacan />
         <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
           <Formulario />

@@ -9,11 +9,15 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Register from '@/components/Register';
 import Link from 'next/link';
+import Formulario from '@/components/Formulario';
+import Tarjetas from '@/components/Tarjetas';
+import StickyBanner from '@/components/StickyBanner';
 
 const Page = () => {
   const t = useTranslations('');
   return (
     <div className="flex justify-center items-center  flex-col overflow-x-hidden">
+      <StickyBanner />
       <Header text="" />
       <div className="lg:w-3/4 lg:max-h-[700px] overflow-hidden p-5 h-full object-cover rounded-3xl">
         <Image
@@ -120,46 +124,21 @@ const Page = () => {
             </h2>
             <p className="">{t('seminar.6thparagraph')}</p>
             <p>{t('seminar.7thparagraph')}</p>
+            <Link href="/hotels">
+              <span className="text-primary font-bold text-lg cursor-pointer underline">
+                {t('seminar.link')}
+              </span>
+            </Link>
           </div>
-          <h1 id="register"></h1>
-          <InfoSeminar />
-          <PaymentSection />
+
+          {/* <PaymentSection /> */}
+          {/* <Register /> */}
         </div>
-        <div className="tarjetas flex flex-col items-center justify-center w-full md:w-1/3 self-start gap-10 ">
-          <Link
-            href={'/face-reading'}
-            className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 overflow-hidden flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out"
-          >
-            <Image
-              src="/flyer_facereading.png"
-              alt="separator"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link
-            href={'/seminar'}
-            className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 overflow-hidden flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out"
-          >
-            <Image
-              src="/flyer_kiiko.jpg"
-              alt="separator"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link
-            href={'/seminar'}
-            className="card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 overflow-hidden flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out"
-          >
-            <Image
-              src="/flyer_shop.jpg"
-              alt="separator"
-              width={500}
-              height={500}
-            />
-          </Link>
-        </div>
+        <Tarjetas />
+      </div>
+      <InfoSeminar />
+      <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
+        <Formulario />
       </div>
       <Separator text={t('seminar.separator')} />
       <Testimonial

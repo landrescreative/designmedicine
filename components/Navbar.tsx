@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoClose } from 'react-icons/io5';
+import { useTranslations } from 'next-intl';
 
 interface NavbarProps {
   home: string;
@@ -16,6 +17,7 @@ interface NavbarProps {
 
 const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -25,8 +27,6 @@ const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
     setIsOpen(false);
   };
 
-  const pathname = usePathname();
-
   useEffect(() => {
     if (isOpen) {
       document.body.classList.add('overflow-hidden');
@@ -35,52 +35,78 @@ const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
     }
   }, [isOpen]);
 
+  // Función para verificar si el enlace es el activo
+  const isActiveLink = (linkPath: string) => {
+    const pathWithoutLocale = pathname.split('/').slice(2).join('/');
+    return pathWithoutLocale === linkPath.replace(/^\//, '');
+  };
+
+  const t = useTranslations('navbar');
+
   return (
-    <div className="z-[100] bg-white w-screen h-16 grid grid-cols-12 border-b-2 border-gray-200 shadow-lg ">
+    <div className="z-[20] bg-white w-screen h-16 grid grid-cols-12 border-b-2 border-gray-200 shadow-lg">
       <Link
-        href={'/'}
-        className="bg-white flex justify-center items-center px-5 py-1 md:py-6 md:justify-center md:col-start-1 md:col-end-13 col-start-1 col-end-9 text-primary z-[100] "
+        href="/"
+        className="bg-white flex justify-center items-center px-5 py-1 md:py-6 md:justify-center md:col-start-1 md:col-end-13 col-start-1 col-end-9 text-primary z-[100]"
       >
         <Image
           src="/navbarlogo.svg"
           alt="DesignMedicine Logo"
           width={1}
           height={1}
-          className="w-36  text-primary fill-primary hover:scale-110 transition-all duration-300 "
+          className="w-36 text-primary fill-primary hover:scale-110 transition-all duration-300"
         />
       </Link>
-      <div className="hidden md:flex justify-evenly items-center col-start-1 col-end-13 py-5 bg-white  z-[100]">
+      <div className="hidden md:flex justify-evenly items-center col-start-1 col-end-13 py-5 bg-white z-[100]">
         <Link
           href="/"
-          className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full tracking-wider uppercase ${
-            pathname === '/' ? 'active' : ''
+          className={`relative transition-all duration-300 tracking-wider uppercase ${
+            isActiveLink('') ? 'text-primary font-semibold' : 'text-gray-700'
           }`}
         >
-          {home}
+          {t('home')}
+          {isActiveLink('') && (
+            <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary"></span>
+          )}
         </Link>
         <Link
           href="/seminar"
-          className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full tracking-wider uppercase ${
-            pathname === '/seminar' ? 'active' : ''
+          className={`relative transition-all duration-300 tracking-wider uppercase ${
+            isActiveLink('seminar')
+              ? 'text-primary font-semibold'
+              : 'text-gray-700'
           }`}
         >
-          {seminar}
+          {t('seminar')}
+          {isActiveLink('seminar') && (
+            <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary"></span>
+          )}
         </Link>
         <Link
           href="/#tours"
-          className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full tracking-wider uppercase ${
-            pathname === '/#tours' ? 'active' : ''
+          className={`relative transition-all duration-300 tracking-wider uppercase ${
+            isActiveLink('#tours')
+              ? 'text-primary font-semibold'
+              : 'text-gray-700'
           }`}
         >
-          {tours}
+          {t('tours')}
+          {isActiveLink('#tours') && (
+            <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary"></span>
+          )}
         </Link>
         <Link
-          href="/shop"
-          className={`relative hover:text-primary transition-all duration-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full tracking-wider uppercase ${
-            pathname === '/#tours' ? 'active' : ''
+          href="/face-reading"
+          className={`relative transition-all duration-300 tracking-wider uppercase ${
+            isActiveLink('face-reading')
+              ? 'text-primary font-semibold'
+              : 'text-gray-700'
           }`}
         >
-          Shop
+          {t('face-reading')}
+          {isActiveLink('face-reading') && (
+            <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary"></span>
+          )}
         </Link>
       </div>
       <div className="md:hidden flex justify-end items-center col-start-11">
@@ -110,30 +136,26 @@ const Navbar = ({ home, seminar, tours, register }: NavbarProps) => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.5 }}
-            className="min-h-[50vh] z-50 md:hidden flex flex-col pr-6 absolute top-16 justify-evenly items-center  w-screen shadow-lg bg-white"
+            className="min-h-[50vh] z-50 md:hidden flex flex-col pr-6 absolute top-16 justify-evenly items-center w-screen shadow-lg bg-white"
           >
             <Link href="/" onClick={closeMenu}>
-              <span className="block  px-2 py-4 text-gray-700 text-lg font-medium md:hover:bg-blue-500 transition duration-300 uppercase tracking-widest">
-                {home}
+              <span className="block px-2 py-4 text-gray-700 text-lg font-medium uppercase tracking-widest">
+                {t('home')}
               </span>
             </Link>
-
             <Link href="/seminar" onClick={closeMenu}>
-              {' '}
-              {/* Corregido el enlace */}
-              <span className="block  px-2 py-4 text-gray-700 text-lg font-medium md:hover:bg-blue-500 transition duration-300 uppercase tracking-widest">
-                {seminar}
+              <span className="block px-2 py-4 text-gray-700 text-lg font-medium uppercase tracking-widest">
+                {t('seminar')}
               </span>
             </Link>
-
             <Link href="/#tours" onClick={closeMenu}>
-              <span className="block  px-2 py-4 text-gray-700 text-lg font-medium md:hover:bg-blue-500 transition duration-300 uppercase tracking-widest">
-                {tours}
+              <span className="block px-2 py-4 text-gray-700 text-lg font-medium uppercase tracking-widest">
+                {t('tours')}
               </span>
             </Link>
-            <Link href="/shop" onClick={closeMenu}>
-              <span className="block  px-2 py-4 text-gray-700 text-lg font-medium md:hover:bg-blue-500 transition duration-300 uppercase tracking-widest">
-                Shop
+            <Link href="/face-reading" onClick={closeMenu}>
+              <span className="block px-2 py-4 text-center text-gray-700 text-lg font-medium uppercase tracking-widest">
+                {t('face-reading')}
               </span>
             </Link>
           </motion.div>

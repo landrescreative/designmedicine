@@ -1,60 +1,50 @@
+// components/InfoTeotihuacan.js
 import React from 'react';
-import { FaInfoCircle, FaClipboardList, FaDollarSign } from 'react-icons/fa';
-
-// Icons
-import { FaUser } from 'react-icons/fa';
+import { useTranslations } from 'next-intl';
+import { FaRegClock, FaBus, FaCamera, FaHatCowboySide } from 'react-icons/fa';
 import { BsFillFileImageFill } from 'react-icons/bs';
 import { FaLocationDot } from 'react-icons/fa6';
-import { FaRegClock } from 'react-icons/fa';
-import { FaBus } from 'react-icons/fa';
 import { AiFillDollarCircle } from 'react-icons/ai';
 import { GiClothes } from 'react-icons/gi';
-import { FaHatCowboySide } from 'react-icons/fa';
 import { IoIosWater } from 'react-icons/io';
-import { FaCamera } from 'react-icons/fa';
 
 const InfoTeotihuacan = () => {
+  const t = useTranslations('teotihuacansite');
+
   return (
     <div className="flex justify-center items-center pb-12 w-full">
-      <div className="flex flex-col lg:flex-row justify-start w-11/12 xl:w-9/12">
+      <div className="flex flex-col lg:flex-row justify-start md:w-10/12">
         {/* First Section - GENERAL */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
-            Highlights
+            {t('highlights.title')}
           </h2>
-          <div className="grid grid-cols-6 grid-rows-1 ">
-            <FaUser
-              size={30}
-              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
-            />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Expert Guides</h3>
-              <p className="text-gray-600">
-                Enjoy your trip with a expert guide.
-              </p>
-            </div>
-          </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
+
+          <div className="grid grid-cols-6 grid-rows-1">
             <BsFillFileImageFill
               size={30}
-              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
+              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
             />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Incredible Views</h3>
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('highlights.viewsTitle')}
+              </h3>
               <p className="text-gray-600">
-                Enjoy beatiful views from the top of the pyramids
+                {t('highlights.viewsDescription')}
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
+          <div className="grid grid-cols-6 grid-rows-1">
             <FaLocationDot
               size={30}
-              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
+              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
             />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Secure Location</h3>
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('highlights.locationTitle')}
+              </h3>
               <p className="text-gray-600">
-                MEXICO CITY - MEXICO | OPTIONAL TOURS
+                {t('highlights.locationDescription')}
               </p>
             </div>
           </div>
@@ -67,42 +57,47 @@ const InfoTeotihuacan = () => {
         {/* Second Section - DESCRIPTION */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
-            TOUR DETAILS
+            {t('tourDetails.title')}
           </h2>
-          <div className="grid grid-cols-6 grid-rows-1 ">
+          <div className="grid grid-cols-6 grid-rows-1">
             <FaRegClock
               size={30}
-              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
+              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center"
             />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Duration</h3>
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('tourDetails.durationTitle')}
+              </h3>
               <p className="text-gray-600">
-                Full-day tour (approximately 8:00 AM to 5:00 PM)
+                {t('tourDetails.durationDescription')}
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
+          <div className="grid grid-cols-6 grid-rows-1">
             <FaBus
               size={30}
-              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
+              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center"
             />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Include Transport</h3>
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('tourDetails.transportTitle')}
+              </h3>
               <p className="text-gray-600">
-                We can take you to the exact location for your security -{' '}
+                {t('tourDetails.transportDescription')}
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
+          <div className="grid grid-cols-6 grid-rows-1">
             <AiFillDollarCircle
               size={30}
-              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
+              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center"
             />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Price</h3>
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('tourDetails.priceTitle')}
+              </h3>
               <p className="text-gray-600">
-                $60 USD per person (includes entrance fees, guided tours, and
-                transportation within the site)
+                {t('tourDetails.priceDescription')}
               </p>
             </div>
           </div>
@@ -112,48 +107,52 @@ const InfoTeotihuacan = () => {
         <div className="border-t border-primary md:hidden"></div>
         <div className="w-1 bg-primary hidden md:block"></div>
 
-        {/* Third Section - PRICING */}
+        {/* Third Section - WHAT TO BRING */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
-            What to bring
+            {t('whatToBring.title')}
           </h2>
-          <div className="grid grid-cols-6 grid-rows-1 ">
+          <div className="grid grid-cols-6 grid-rows-1">
             <GiClothes
               size={30}
-              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
             />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
               <h3 className="text-lg font-medium">
-                Comfortable clothing and walking shoes
+                {t('whatToBring.clothingTitle')}
               </h3>
             </div>
           </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
+          <div className="grid grid-cols-6 grid-rows-1">
             <FaHatCowboySide
               size={30}
-              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
             />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Hat and sunscreen</h3>
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('whatToBring.hatTitle')}
+              </h3>
             </div>
           </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
+          <div className="grid grid-cols-6 grid-rows-1">
             <IoIosWater
               size={30}
-              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
             />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">Water and snacks</h3>
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('whatToBring.waterTitle')}
+              </h3>
             </div>
           </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
+          <div className="grid grid-cols-6 grid-rows-1">
             <FaCamera
               size={30}
-              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
             />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
               <h3 className="text-lg font-medium">
-                Camera for capturing memories
+                {t('whatToBring.cameraTitle')}
               </h3>
             </div>
           </div>

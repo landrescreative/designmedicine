@@ -10,7 +10,7 @@ const SeminarSection: React.FC = () => {
       className="min-h-screen flex flex-col justify-center items-center w-screen md:flex-row py-10 px-10 md:px-24 gap-10  "
       id="viewmore"
     >
-      <div className="md:w-1/4">
+      <div className="lg:w-1/4">
         <video
           className="w-full rounded shadow-lg"
           autoPlay
@@ -22,7 +22,7 @@ const SeminarSection: React.FC = () => {
           Your browser does not support the video tag.
         </video>
       </div>
-      <div className=" md:w-1/2 flex flex-col justify-center items-center md:items-start gap-4 text-black">
+      <div className=" lg:w-1/2 flex flex-col justify-center items-center md:items-start gap-4 text-black">
         <h3 className="text-center md:text-left font-bold w-3/4 py-1 px-5 rounded-full text-white bg-primary">
           {t('seminarSection.date')}
         </h3>

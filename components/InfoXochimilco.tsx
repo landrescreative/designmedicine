@@ -18,7 +18,7 @@ const InfoTemplo = () => {
   const t = useTranslations('xochimilcosite');
   return (
     <div className="flex justify-center items-center pb-12 w-full">
-      <div className="flex flex-col lg:flex-row justify-start w-11/12 xl:w-9/12">
+      <div className="flex flex-col lg:flex-row justify-start md:w-9/12">
         {/* First Section - GENERAL */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
