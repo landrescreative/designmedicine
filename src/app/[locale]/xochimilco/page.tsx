@@ -157,8 +157,8 @@ const Page = () => {
       </div>
 
       {/* IMAGES  */}
-      <div className="flex gap-10 flex-col md:flex-row px-2 md:w-10/12">
-        <div className=" relative rounded-2xl overflow-hidden shadow-lg">
+      <div className="flex gap-10 flex-col md:flex-row px-2 md:w-10/12 my-10">
+        <div className="relative rounded-2xl overflow-hidden shadow-lg">
           <img
             className="w-full h-full object-cover"
             src="/3.jpg"
