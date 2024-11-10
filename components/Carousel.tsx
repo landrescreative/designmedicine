@@ -5,7 +5,11 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
-export default function Carousel({ images }) {
+interface CarouselProps {
+  images: string[];
+}
+
+export default function Carousel({ images }: CarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Cambiar al siguiente slide cada 5 segundos
@@ -24,7 +28,7 @@ export default function Carousel({ images }) {
     setCurrentIndex((currentIndex - 1 + images.length) % images.length);
   };
 
-  const goToSlide = (index) => {
+  const goToSlide = (index: number) => {
     setCurrentIndex(index);
   };
 
@@ -38,7 +42,7 @@ export default function Carousel({ images }) {
   return (
     <div id="default-carousel" className="relative w-full">
       {/* Carousel wrapper */}
-      <div className="relative h-56 overflow-hidden rounded-3xl md:h-96">
+      <div className="relative h-56 overflow-hidden rounded- md:h-96">
         <AnimatePresence initial={false}>
           <motion.div
             key={currentIndex} // Cambia cuando cambia la imagen

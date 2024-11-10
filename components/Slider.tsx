@@ -6,23 +6,11 @@ import React, { useState, useEffect } from 'react';
 // Icons
 import { IoIosArrowForward } from 'react-icons/io';
 
-type SliderProps = {
-  slide1title: string;
-  slide2title: string;
-  slide3title: string;
-  slide1parag: string;
-  slide2parag: string;
-  slide3parag: string;
-};
+interface SliderProps {
+  // Define any props here if needed
+}
 
-const Slider: React.FC<SliderProps> = ({
-  slide1title,
-  slide2title,
-  slide3title,
-  slide1parag,
-  slide2parag,
-  slide3parag
-}) => {
+const Slider: React.FC<SliderProps> = ({}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const t = useTranslations('');
 
