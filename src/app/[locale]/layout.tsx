@@ -26,7 +26,7 @@ export default function LocaleLayout({ children, params }: LocaleLayoutProps) {
       {/* Aplica la clase de Montserrat al body */}
       <body className={montserrat.className}>
         <ServerLayout params={params}>
-          {/* <Preloader></Preloader> */}
+          <Preloader></Preloader>
           <Navbar />
           <ClientLayout>{children}</ClientLayout>
           <Footer />
