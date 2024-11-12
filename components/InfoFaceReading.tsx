@@ -13,12 +13,14 @@ import { FaHatCowboySide } from 'react-icons/fa';
 import { IoIosWater } from 'react-icons/io';
 import { FaCamera } from 'react-icons/fa';
 import { useTranslations } from 'next-intl';
+import { BsTranslate } from 'react-icons/bs';
+import { MdOutlineDateRange } from 'react-icons/md';
 
 const InfoSeminar = () => {
   const t = useTranslations('face-reading');
   return (
     <div className="flex justify-center items-center pb-12 w-full">
-      <div className="flex flex-col lg:flex-row justify-start w-11/12 xl:w-9/12">
+      <div className="flex flex-col lg:flex-row justify-start w-full">
         {/* First Section - GENERAL */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
@@ -35,7 +37,7 @@ const InfoSeminar = () => {
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
-            <BsFillFileImageFill
+            <BsTranslate
               size={30}
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
             />
@@ -85,16 +87,6 @@ const InfoSeminar = () => {
               <p className="text-gray-600">{t('list2.4')}</p>
             </div>
           </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
-            <AiFillDollarCircle
-              size={30}
-              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
-            />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('list.8')}</h3>
-              <p className="text-gray-600">{t('list2.5')}</p>
-            </div>
-          </div>
         </div>
 
         {/* Line Separator */}
@@ -107,7 +99,7 @@ const InfoSeminar = () => {
             {t('list.2')}
           </h2>
           <div className="grid grid-cols-6 grid-rows-1 ">
-            <GiClothes
+            <MdOutlineDateRange
               size={30}
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
             />
@@ -117,7 +109,7 @@ const InfoSeminar = () => {
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
-            <FaHatCowboySide
+            <AiFillDollarCircle
               size={30}
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
             />

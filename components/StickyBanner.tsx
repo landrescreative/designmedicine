@@ -15,14 +15,14 @@ export default function StickyBanner() {
   return (
     <div
       id="sticky-banner"
-      className="fixed top-0 left-0 z-50 flex justify-between w-full p-4 border-b border-gray-200  dark:bg-primary dark:border-gray-600"
+      className="fixed top-0 left-0 z-20 flex justify-between w-full p-4 border-b bg-primary border-gray-600"
       role="alert"
     >
       <div className="flex items-center mx-auto">
         <p className="flex items-center text-sm font-normal text-white">
           <span className="inline-flex p-1 mr-3 bg-white rounded-full  w-6 h-6 items-center justify-center flex-shrink-0">
             <svg
-              className="w-3 h-3 text-gray-500 dark:text-gray-400"
+              className="w-3 h-3 text-gray-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -42,7 +42,7 @@ export default function StickyBanner() {
         <button
           onClick={handleClose}
           type="button"
-          className="flex-shrink-0 inline-flex justify-center w-7 h-7 items-center text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 dark:hover:bg-gray-600 dark:hover:text-white"
+          className="flex-shrink-0 inline-flex justify-center w-7 h-7 items-center text-gray-400   rounded-lg text-sm p-1.5 hover:bg-gray-600 hover:text-white"
           aria-label="Close banner"
         >
           <svg
