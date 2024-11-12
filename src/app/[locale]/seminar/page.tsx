@@ -123,6 +123,10 @@ const Page = () => {
             </h2>
             <p className="">{t('seminar.6thparagraph')}</p>
             <p>{t('seminar.7thparagraph')}</p>
+            <p>{t('seminar.newinfo.0')}</p>
+            <p>{t('seminar.newinfo.1')}</p>
+            <p>{t('seminar.newinfo.2')}</p>
+            <p>{t('seminar.newinfo.3')}</p>
             <Link href="/hotels">
               <span className="text-primary font-bold text-lg cursor-pointer underline">
                 {t('seminar.link')}

@@ -16,7 +16,7 @@ const HeroSectionTrips: React.FC<HeroSectionTripsProps> = ({
     <div className="relative w-full min-h-[75vh] text-white flex flex-col items-center justify-center px-6 overflow-hidden">
       {/* Contenedor con efecto de corte de eclipse */}
       <div
-        className="absolute top-0 left-0 w-full h-full bg-cover bg-center rounded-b-[1%] overflow-hidden"
+        className="absolute top-0 left-0 w-full h-full bg-cover bg-center rounded-b-[1%] overflow-hidden bg-fixed"
         style={{ backgroundImage: `url(${img})` }}
       >
         {/* Overlay oscuro para contraste */}
@@ -25,13 +25,14 @@ const HeroSectionTrips: React.FC<HeroSectionTripsProps> = ({
 
       {/* Contenido centrado */}
       <div className="relative z-10 flex flex-col items-center text-center max-w-5xl">
+        <h2 className="uppercase">EXTRA workshops</h2>
         {/* Título grande y destacado */}
         <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4 drop-shadow-lg">
           {title}
         </h1>
 
         {/* Descripción */}
-        <p className="text-lg md:text-2xl mb-6 max-w-lg text-gray-200 drop-shadow-md">
+        <p className="text-lg md:text-2xl mb-6 text-gray-200 drop-shadow-md">
           {paragraph}
         </p>
       </div>
