@@ -11,7 +11,6 @@ import Link from 'next/link';
 import Formulario from '@/components/Formulario';
 import Tarjetas from '@/components/Tarjetas';
 import StickyBanner from '@/components/StickyBanner';
-import PaymentOptions from '@/components/PaymentOptions';
 
 const Page = () => {
   const t = useTranslations('');
