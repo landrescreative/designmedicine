@@ -3,12 +3,16 @@ import { getRequestConfig } from 'next-intl/server';
 
 // Can be imported from a shared config
 const locales = ['en', 'es'];
+const defaultLocale = 'en'; // Define el idioma por defecto aquí
 
 export default getRequestConfig(async ({ locale }) => {
-  // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale as any)) notFound();
+  // Validar que el `locale` entrante sea válido; si no lo es, usar el `defaultLocale`
+  const currentLocale = locales.includes(locale as any)
+    ? locale
+    : defaultLocale;
 
   return {
-    messages: (await import(`../messages/${locale}.json`)).default
+    messages: (await import(`../messages/${currentLocale}.json`)).default,
+    locale: currentLocale
   };
 });

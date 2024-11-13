@@ -1,29 +1,25 @@
 import { NextRequest, NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+import mailgun from 'mailgun-js';
+
+// Inicializa Mailgun con las variables de entorno
+const mg = mailgun({
+  apiKey: process.env.MAILGUN_API_KEY as string,
+  domain: process.env.MAILGUN_DOMAIN as string
+});
 
 export async function POST(req: NextRequest) {
   const { nombre, correo, asunto, mensaje } = await req.json();
 
-  const transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_HOST,
-    port: parseInt(process.env.EMAIL_PORT || '587'),
-    secure: false, // Cambia a false para puerto 587
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS
-    }
-  });
-
-  const mailOptions = {
-    from: process.env.EMAIL_USER,
-    to: process.env.EMAIL_USER,
-    replyTo: correo,
-    subject: `Nuevo mensaje de ${nombre}: ${asunto}`,
+  const data = {
+    from: correo, // Dirección del remitente (correo ingresado en el formulario)
+    to: process.env.EMAIL_TO, // Dirección fija de destino
+    subject: `${asunto} - ${nombre}`,
     text: `Nombre: ${nombre}\nCorreo: ${correo}\nAsunto: ${asunto}\nMensaje:\n${mensaje}`
   };
 
   try {
-    await transporter.sendMail(mailOptions);
+    // Enviar el correo usando Mailgun
+    await mg.messages().send(data);
     return NextResponse.json(
       { message: 'Correo enviado con éxito' },
       { status: 200 }

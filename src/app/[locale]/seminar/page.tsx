@@ -11,6 +11,7 @@ import Link from 'next/link';
 import Formulario from '@/components/Formulario';
 import Tarjetas from '@/components/Tarjetas';
 import StickyBanner from '@/components/StickyBanner';
+import PaymentOptions from '@/components/PaymentOptions';
 
 const Page = () => {
   const t = useTranslations('');
@@ -140,6 +141,8 @@ const Page = () => {
         <Tarjetas />
       </div>
       <InfoSeminar />
+      {/* <PaymentOptions /> */}
+      <PaymentSection buyButtonId="buy_btn_1QKVsEBceNIiOkbgdYH6VsLn" />
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
       </div>

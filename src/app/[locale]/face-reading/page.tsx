@@ -102,12 +102,31 @@ const Page = () => {
             <p>{t('face-reading.description')}</p>
             <div className="w-full h-1 bg-slate-300"></div>
             <p>{t('face-reading.conclusion')}</p>
+            <InfoFaceReading />
           </div>
-          <InfoFaceReading />
           {/* <PaymentSection /> */}
         </div>
         <Tarjetas />
       </div>
+
+      <PaymentSection buyButtonId="buy_btn_1QKX5KBceNIiOkbgoPngOSLc" />
+      <Separator text="" />
+      <div className="flex flex-col w-10/12 justify-center mb-10 gap-2">
+        <h2 className="font-bold text-2xl uppercase text-primary mt-10">
+          {t('face-reading.workshop2title')}
+        </h2>
+        <p>{t('face-reading.workshop2paragraph.0')}</p>
+        <p>{t('face-reading.workshop2paragraph.1')}</p>
+        <p>{t('face-reading.workshop2paragraph.2')}</p>
+        <p>{t('face-reading.workshop2paragraph.3')}</p>
+        <p>{t('face-reading.workshop2paragraph.4')}</p>
+        <p>{t('face-reading.workshop2paragraph.5')}</p>
+        <p>{t('face-reading.workshop2paragraph.6')}</p>
+        <p>{t('face-reading.workshop2paragraph.7')}</p>
+        <p>{t('face-reading.workshop2paragraph.8')}</p>
+      </div>
+      <PaymentSection buyButtonId="buy_btn_1QKWmwBceNIiOkbgt8w5Nq36" />
+
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
       </div>

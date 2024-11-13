@@ -42,6 +42,7 @@ export default function Formulario() {
       setFormData({ nombre: '', correo: '', asunto: '', mensaje: '' });
     } else {
       setStatus('Error al enviar el mensaje.');
+      console.error('Error al enviar el mensaje:', response.statusText);
     }
   };
 

@@ -19,6 +19,7 @@ import HeroSectionTrips from '@/components/HeroSectionTrips';
 import InfoTeotihuacan from '@/components/InfoTeotihuacan';
 import Tarjetas from '@/components/Tarjetas';
 import Formulario from '@/components/Formulario';
+import PaymentSection from '@/components/PaymentSection';
 
 const Page = () => {
   // Add translated strings here
@@ -114,6 +115,7 @@ const Page = () => {
           </div>
         </div>
         <InfoTeotihuacan />
+        <PaymentSection buyButtonId="buy_btn_1QKVgMBceNIiOkbg5CzQKU6N" />
         <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
           <Formulario />
         </div>

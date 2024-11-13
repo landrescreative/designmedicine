@@ -159,8 +159,9 @@
   "paymentsection": {
     "title": "PAY YOUR REGISTRATION",
     "subtitle": "Choose your preferred payment method in the section below.",
+    "advertisement": "Note: Some payment methods may incur additional fees.",
     "cta1": "Pay with PayPal",
-    "cta2": "Pay with Bank Transfer",
+    "cta2": "Pay with Zelle",
     "cta3": "Pay with Credit Card"
   },
   "templomayorsite": {
@@ -365,7 +366,7 @@
     "cost": "Cost: $500 per person",
     "subtitle": "What You Will Learn:",
     "seminartitle": "Unlock the Hidden Wisdom of the Face: A Critical Diagnostic Tool in Chinese Medicine",
-    "paragraph": "In Traditional Chinese Medicine (TCM), Face Reading and Diagnosis are far more than aesthetic tools—they are integral components of a practitioner’s diagnostic repertoire, offering in-depth insights into a patient&#39;s internal health. Much like pulse or tongue diagnosis, the face reflects the balance of internal organs and energy. Mastering this diagnostic skill allows you to better understand the root causes of illness and effectively tailor treatments for long-term healing.",
+    "paragraph": "In Traditional Chinese Medicine (TCM), Face Reading and Diagnosis are far more than aesthetic tools—they are integral components of a practitioner’s diagnostic repertoire, offering in-depth insights into a patient's internal health. Much like pulse or tongue diagnosis, the face reflects the balance of internal organs and energy. Mastering this diagnostic skill allows you to better understand the root causes of illness and effectively tailor treatments for long-term healing.",
     "paragraph2": "This exclusive, hands-on workshop provides a rare opportunity to explore the vast and clinically-proven applications of face diagnosis, coupled with cutting-edge cosmetic acupuncture techniques. Led by the esteemed Dr. Ana Nieves, an expert in facial reading and cosmetic acupuncture, you will learn to uncover health imbalances through facial features and apply this knowledge in treating skin conditions, rejuvenation and beyond.",
     "bullettitle1": "Face Diagnosis as a Key Clinical Tool:",
     "bullet1": "Face diagnosis offers a window into the body’s internal state. Learn to interpret common facial characteristics—wrinkles, discolorations, contours—and understand their clinical implications. This powerful diagnostic tool helps reveal patterns of disharmony, allowing for deeper, more accurate diagnoses.",
@@ -414,6 +415,18 @@
       "Monday, February 17th, 2025",
       "9:00 AM - 1:00 PM",
       "$500 per person"
+    ],
+    "workshop2title": "Workshop 2: Chinese Bioenergetics with Dr. Antonio Merchant",
+    "workshop2paragraph": [
+      "Dr. Antonio Merchant, a seasoned expert in Chinese medicine and bioenergetics, brings you an unparalleled opportunity to:",
+      "Learn and perfect Taiji and Qigong principles for personal health and therapeutic applications.",
+      "Discover how to integrate bioenergetic techniques into your practice to treat patients effectively—without needles.",
+      "Experience the profound connection between movement, energy, and healing under the guidance of a true master.",
+      "This workshop is the perfect complement to your acupuncture and Oriental Medicine expertise, offering new tools to enhance your practice and expand your therapeutic repertoire.",
+      "Don’t Miss Out!",
+      "Spaces are limited for these in-demand workshops, so act fast to secure your spot. Whether you’re looking to advance your clinical expertise or explore innovative bioenergetic practices and therapeutics, this is your chance to learn from the best in the field in an unforgettable setting.",
+      "Reserve Your Place Now",
+      "Sign Up Today and join us for a unique journey of growth, discovery, and professional transformation!"
     ]
   },
   "luchas": {

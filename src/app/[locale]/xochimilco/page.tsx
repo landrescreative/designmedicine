@@ -7,6 +7,7 @@ import Image from 'next/image';
 import InfoXochimilco from '@/components/InfoXochimilco';
 import HeroSectionTrips from '@/components/HeroSectionTrips';
 import Formulario from '@/components/Formulario';
+import PaymentSection from '@/components/PaymentSection';
 
 const Page = () => {
   const t = useTranslations('xochimilcosite');
@@ -180,6 +181,7 @@ const Page = () => {
         </div>
       </div>
       <InfoXochimilco />
+      <PaymentSection buyButtonId="buy_btn_1QKVe8BceNIiOkbgOTHc3v1E" />
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
       </div>
