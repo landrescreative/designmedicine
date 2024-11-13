@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
 
   const data = {
     from: correo, // Dirección del remitente (correo ingresado en el formulario)
-    to: process.env.EMAIL_TO, // Dirección fija de destino
+    to: process.env.EMAIL_TO || 'default@example.com', // Dirección fija de destino
     subject: `${asunto} - ${nombre}`,
     text: `Nombre: ${nombre}\nCorreo: ${correo}\nAsunto: ${asunto}\nMensaje:\n${mensaje}`
   };
