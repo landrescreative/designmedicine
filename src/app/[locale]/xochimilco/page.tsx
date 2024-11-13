@@ -13,7 +13,7 @@ const Page = () => {
   const t = useTranslations('xochimilcosite');
 
   return (
-    <div className="pt-16 flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <HeroSectionTrips
         title={t('tour.title')}
         paragraph={t('tour.description')}
@@ -186,7 +186,7 @@ const Page = () => {
         <Formulario />
       </div>
       {/* Map Section */}
-      <div className="text-center w-full lg:w-10/12 px-5 mt-10">
+      <div className="text-center w-full lg:w-10/12 mt-10">
         <h1 className="text-3xl text-primary font-bold uppercase">
           {t('viewmap')}
         </h1>

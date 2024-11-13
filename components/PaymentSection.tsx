@@ -18,7 +18,7 @@ const PaymentSection = ({ buyButtonId }: { buyButtonId: string }) => {
   const t = useTranslations('paymentsection');
 
   return (
-    <div className="flex flex-col pb-10 md:w-10/12 items-center md:items-start px-5">
+    <div className="flex flex-col mx-4 pb-10 md:w-10/12 items-center md:items-start">
       <h2 className="text-2xl font-bold uppercase text-primary">
         {t('title')}
       </h2>
@@ -30,18 +30,16 @@ const PaymentSection = ({ buyButtonId }: { buyButtonId: string }) => {
       </p>
       <div className="flex flex-col md:flex-row gap-4">
         {/* Bank Transfer Payment Card */}
-        <div className="bg-purple-100 px-14 py-5 w-full rounded-2xl border-2 border-purple-300 hover:border-purple-600 transition-all duration-300 flex flex-col items-center gap-5">
+        <div className="bg-purple-100 px-2 py-5 w-full rounded-2xl border-2 border-purple-300 hover:border-purple-600 transition-all duration-300 flex flex-col items-center gap-5">
           <FaMoneyBillTransfer className="text-6xl text-purple-500" />
           <h3 className="text-lg font-semibold mb-2 text-center">
             {t('cta2')}
           </h3>
-          <p className="text-sm text-gray-600 text-center">
-            Transferencia bancaria a nutricaremx@yahoo.com
-          </p>
+          <p className="text-sm text-gray-600 text-center">{t('zelle')}</p>
         </div>
 
         {/* Stripe Payment Button */}
-        <div className="px-14 py-5 w-full rounded-2xl border-2 border-teal-200 hover:border-teal-600 transition-all duration-300 flex justify-center items-center flex-col gap-5 bg-teal-100 cursor-pointer">
+        <div className="py-5 w-full rounded-2xl border-2 border-teal-200 hover:border-teal-600 transition-all duration-300 flex justify-center items-center flex-col gap-5 bg-teal-100 cursor-pointer">
           <FaCreditCard className="text-6xl text-teal-500" />
           <h3 className="text-lg font-semibold mb-2 text-center">
             {t('cta3')}

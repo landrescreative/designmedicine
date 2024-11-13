@@ -12,7 +12,6 @@ export default function Home() {
   const t = useTranslations();
   return (
     <main className="flex justify-center items-center flex-col overflow-x-hidden">
-      <StickyBanner />
       <Hero />
       <Separator text={t('separators.1')} />
       {/* <Separator text="DISCOVER THE UNIQUE BENEFITS OF OUR SPECIALIZED SEMINAR" /> */}

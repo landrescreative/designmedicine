@@ -15,7 +15,7 @@ export default function StickyBanner() {
   return (
     <div
       id="sticky-banner"
-      className="fixed top-0 left-0 z-20 flex justify-between w-full p-4 border-b bg-primary border-gray-600"
+      className="fixed top-0 left-0 z-10 flex justify-between w-full p-4 border-b bg-primary border-gray-600"
       role="alert"
     >
       <div className="flex items-center mx-auto">

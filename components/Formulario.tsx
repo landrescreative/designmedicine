@@ -49,7 +49,7 @@ export default function Formulario() {
   const t = useTranslations('');
 
   return (
-    <div className="flex w-10/12 items-center justify-center mb-10">
+    <div className="flex w-11/12 md:w-10/12  items-center justify-center mb-10">
       <div className="flex w-full rounded-lg shadow-lg overflow-hidden">
         {/* Columna de la Imagen */}
         <div className="hidden md:flex md:w-1/2 justify-center items-center bg-cover bg-secondary">
@@ -61,7 +61,7 @@ export default function Formulario() {
         </div>
 
         {/* Columna del Formulario */}
-        <div className="w-full md:w-1/2 bg-white px-10 py-20">
+        <div className="w-full md:w-1/2 bg-white px-8 md:px-10 py-20">
           <h2 className="text-3xl font-bold text-center text-gray-700 ">
             {t('formulario.title')}
           </h2>

@@ -152,9 +152,9 @@
     "description3": "Mexico City, Mexico",
     "description4": "3 Days",
     "description5": "We can take you to the exact location for your security",
-    "description6": "$1,500",
+    "description6": "Early Bird Price: $1,380, until January 10th, 2025",
     "description7": "9:00 AM - 5:00 PM",
-    "description8": "$1,500"
+    "description8": "Early Bird Price: $1,380, until January 10th, 2025"
   },
   "paymentsection": {
     "title": "PAY YOUR REGISTRATION",
@@ -162,7 +162,8 @@
     "advertisement": "Note: Some payment methods may incur additional fees.",
     "cta1": "Pay with PayPal",
     "cta2": "Pay with Zelle",
-    "cta3": "Pay with Credit Card"
+    "cta3": "Pay with Credit Card",
+    "zelle": "Pay with Zelle to the following email address: nutricaremx@yahoo.com"
   },
   "templomayorsite": {
     "length": "1 day",
@@ -237,7 +238,8 @@
       "transportTitle": "Include Transport",
       "transportDescription": "We can take you to the exact location for your security",
       "priceTitle": "Price",
-      "priceDescription": "$215 USD per person"
+      "priceDescription": "$215 USD per person",
+      "priceLuchas": "150 USD por persona"
     },
     "whatToBring": {
       "title": "What to bring",

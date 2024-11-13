@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 export default function Tarjetas() {
   return (
-    <div className="tarjetas flex flex-col gap-4 items-center justify-center md:self-start w-full lg:w-1/3 flex-wrap my-10 lg:my-0">
+    <div className="tarjetas hidden md:flex flex-col gap-4 items-center justify-center md:self-start w-full lg:w-1/3 flex-wrap my-10 lg:my-0">
       <h1 className="flex justify-center items-center lg:hidden text-3xl text-primary col-span-2 font-bold text-center ">
         More Events
       </h1>
@@ -66,7 +66,7 @@ export default function Tarjetas() {
         </motion.div>
       </Link>
 
-      <Link
+      {/* <Link
         href="/shop"
         aria-label="Shop Section"
         className="relative card-example bg-secondary/20 shadow-2xl shadow-black/10 rounded-3xl min-h-80 overflow-hidden flex justify-center items-center"
@@ -91,7 +91,7 @@ export default function Tarjetas() {
         >
           <span className="text-white text-lg font-semibold">Shop</span>
         </motion.div>
-      </Link>
+      </Link> */}
     </div>
   );
 }

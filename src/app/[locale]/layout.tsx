@@ -6,6 +6,7 @@ import ClientLayout from './ClientLayout';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Preloader from '@/components/Preloader';
+import StickyBanner from '@/components/StickyBanner';
 
 export const metadata: Metadata = {
   title: 'Design Medicine - Seminar',

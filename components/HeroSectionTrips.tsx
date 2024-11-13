@@ -14,10 +14,13 @@ const HeroSectionTrips: React.FC<HeroSectionTripsProps> = ({
 }) => {
   return (
     <div className="relative w-full min-h-[75vh] text-white flex flex-col items-center justify-center px-6 overflow-hidden">
-      {/* Contenedor con efecto de corte de eclipse */}
+      {/* Contenedor con efecto de corte de eclipse y parallax */}
       <div
-        className="absolute top-0 left-0 w-full h-full bg-cover bg-center rounded-b-[1%] overflow-hidden bg-fixed"
-        style={{ backgroundImage: `url(${img})` }}
+        className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-fixed rounded-b-[1%] overflow-hidden"
+        style={{
+          backgroundImage: `url(${img})`,
+          backgroundAttachment: 'fixed'
+        }}
       >
         {/* Overlay oscuro para contraste */}
         <div className="absolute inset-0 bg-black opacity-40"></div>

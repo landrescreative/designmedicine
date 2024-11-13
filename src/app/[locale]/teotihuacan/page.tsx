@@ -25,7 +25,7 @@ const Page = () => {
   // Add translated strings here
   const t = useTranslations('teotihuacansite');
   return (
-    <div className="pt-16  flex flex-col items-center ">
+    <div className="flex flex-col items-center ">
       <HeroSectionTrips
         title={t('title')}
         paragraph={t('paragraph')}
@@ -91,23 +91,27 @@ const Page = () => {
         </div>
       </div>
 
-      <div className="atracciones flex flex-wrap justify-center gap-10">
-        <div className="flex gap-10 flex-col md:flex-row px-2 md:w-10/12">
+      <div className="atracciones flex flex-wrap justify-center gap-10 ">
+        <div className="flex gap-10 flex-col md:flex-row mx-4 md:w-10/12">
           <div className=" relative rounded-2xl overflow-hidden shadow-lg">
-            <img
+            <Image
               className="w-full h-full object-cover"
               src="/Imagen-de-Teotihuacan.webp"
               alt="Image 1"
+              width={500}
+              height={500}
             />
             <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
               {t('phototitle.0')}
             </h1>
           </div>
           <div className=" relative rounded-2xl overflow-hidden shadow-lg">
-            <img
+            <Image
               className="w-full h-full object-cover"
               src="/11154952_445560532268265_5060642880520825132_o.webp"
               alt="Image 2"
+              width={500}
+              height={500}
             />
             <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
               {t('phototitle.1')}

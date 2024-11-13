@@ -152,17 +152,18 @@
     "description3": "Ciudad de México, México",
     "description4": "3 Días",
     "description5": "Podemos llevarte al lugar exacto por tu seguridad",
-    "description6": "$1,500",
+    "description6": "Precio de Preventa: $1,380, hasta el 10 de enero de 2025",
     "description7": "9:00 AM - 5:00 PM",
-    "description8": "$1,500"
+    "description8": "Precio de Preventa: $1,380, hasta el 10 de enero de 2025"
   },
   "paymentsection": {
     "title": "PAGA TU INSCRIPCIÓN",
     "subtitle": "Elige tu método de pago preferido en la sección de abajo.",
     "advertisement": "Nota: Algunos métodos de pago pueden incurrir en tarifas adicionales.",
     "cta1": "Pagar con PayPal",
-    "cta2": "Pagar con Transferencia Bancaria",
-    "cta3": "Pagar con Tarjeta de Crédito"
+    "cta2": "Pagar con Zelle",
+    "cta3": "Pagar con Tarjeta de Crédito",
+    "zelle": "Pagar con Zelle a la cuenta: nutricaremx@yahoo.com"
   },
   "templomayorsite": {
     "length": "1 día",
@@ -237,7 +238,8 @@
       "transportTitle": "Incluye Transporte",
       "transportDescription": "Podemos llevarte al lugar exacto por tu seguridad",
       "priceTitle": "Precio",
-      "priceDescription": "$215 USD por persona"
+      "priceDescription": "$215 USD por persona",
+      "priceLuchas": "150 USD por persona"
     },
     "whatToBring": {
       "title": "Qué Llevar",

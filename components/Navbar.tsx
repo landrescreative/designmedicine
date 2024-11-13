@@ -39,10 +39,10 @@ const Navbar = ({}: NavbarProps) => {
   const t = useTranslations('navbar');
 
   return (
-    <div className="z-[100] bg-white w-screen h-16 grid grid-cols-12 border-b-2 border-gray-200 shadow-lg">
+    <div className="z-50 fixed top-0 bg-white w-screen h-16 grid grid-cols-12 border-b-2 border-gray-200 shadow-lg">
       <Link
         href="/"
-        className="bg-white flex justify-center items-center px-5 py-1 md:py-6 md:justify-center md:col-start-1 md:col-end-13 col-start-1 col-end-9 text-primary z-[100]"
+        className="bg-white flex justify-center items-center px-5 py-1 md:py-6 md:justify-center md:col-start-1 md:col-end-13 col-start-1 col-end-9 text-primary"
       >
         <Image
           src="/navbarlogo.svg"
@@ -52,7 +52,7 @@ const Navbar = ({}: NavbarProps) => {
           className="w-36 text-primary fill-primary hover:scale-110 transition-all duration-300"
         />
       </Link>
-      <div className="hidden md:flex justify-evenly items-center col-start-1 col-end-13 py-5 bg-white z-[100]">
+      <div className="hidden md:flex justify-evenly items-center col-start-1 col-end-13 py-5 bg-white">
         <Link
           href="/"
           className={`relative transition-all duration-300 tracking-wider uppercase ${
@@ -104,7 +104,7 @@ const Navbar = ({}: NavbarProps) => {
           )}
         </Link>
       </div>
-      <div className="md:hidden  flex justify-end items-center col-start-11">
+      <div className="md:hidden flex justify-end items-center col-start-11">
         <button
           className="outline-none mobile-menu-button"
           onClick={toggleMenu}
@@ -131,7 +131,7 @@ const Navbar = ({}: NavbarProps) => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.5 }}
-            className="min-h-[50vh] z-100 md:hidden flex flex-col pr-6 absolute top-16 justify-evenly items-center w-screen shadow-lg bg-white"
+            className="min-h-[50vh] md:hidden flex flex-col pr-6 absolute top-16 justify-evenly items-center w-screen shadow-lg bg-white"
           >
             <Link href="/" onClick={closeMenu}>
               <span className="block px-2 py-4 text-gray-700 text-lg font-medium uppercase tracking-widest">
