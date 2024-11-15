@@ -152,9 +152,9 @@
     "description3": "Mexico City, Mexico",
     "description4": "3 Days",
     "description5": "We can take you to the exact location for your security",
-    "description6": "Early Bird Price: $1,380, until January 10th, 2025",
+    "description6": "Early Bird Price: $1,380 USD, until January 10th, 2025",
     "description7": "9:00 AM - 5:00 PM",
-    "description8": "Early Bird Price: $1,380, until January 10th, 2025"
+    "description8": "Early Bird Price: $1,380 USD, until January 10th, 2025"
   },
   "paymentsection": {
     "title": "PAY YOUR REGISTRATION",
@@ -239,7 +239,7 @@
       "transportDescription": "We can take you to the exact location for your security",
       "priceTitle": "Price",
       "priceDescription": "$215 USD per person",
-      "priceLuchas": "150 USD por persona"
+      "priceLuchas": "$150 USD por persona"
     },
     "whatToBring": {
       "title": "What to bring",
@@ -342,7 +342,7 @@
     "tourdetails2title": "Include Transportation",
     "tourdetails2paragraph": "We can take you to the exact location for your security",
     "tourdetails3title": "Price",
-    "tourdetails3paragraph": "$250 per person",
+    "tourdetails3paragraph": "$250 USD per person",
     "whattobring": "What to bring?",
     "whattobring1": "Bring extra clothes in case you get wet , mittens and hat",
     "whattobring2": "Hat and sunscreen",
@@ -416,7 +416,7 @@
       "We can take you to the exact location for your security",
       "Monday, February 17th, 2025",
       "9:00 AM - 1:00 PM",
-      "$500 per person"
+      "$500 USD per person"
     ],
     "workshop2title": "Workshop 2: Chinese Bioenergetics with Dr. Antonio Merchant",
     "workshop2paragraph": [

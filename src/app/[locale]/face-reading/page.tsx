@@ -23,9 +23,9 @@ const Page = () => {
           {t('face-reading.instructor')}
         </h2>
       </div>
-      <div className="lg:w-3/4 lg:max-h-[700px] overflow-hidden p-5 h-full object-cover rounded-3xl px-4 md:px-0">
+      <div className="lg:w-3/4  overflow-hidden p-5 h-full object-cover rounded-3xl px-4 md:px-0">
         <Image
-          src="/3Y9P1786.jpg"
+          src="/3Y9P7962.jpg"
           alt="seminar"
           width={1920}
           height={1080}
