@@ -75,10 +75,12 @@ const Testimonial: React.FC = () => {
           animating ? 'opacity-0' : 'opacity-100'
         }`}
       >
-        <h1 className="text-4xl font-bold text-white mb-4">
+        <h1 className="text-4xl font-bold text-white mb-4 mx-16 md:mx-0">
           {currentTestimonial.title}
         </h1>
-        <p className="text-xl text-white mb-6">{currentTestimonial.subtitle}</p>
+        <p className="text-xl text-white mb-6 mx-16 md:mx-0">
+          {currentTestimonial.subtitle}
+        </p>
         <Link href={currentTestimonial.link}>
           <button className="px-6 py-3 btn transition">
             {currentTestimonial.buttonText}
