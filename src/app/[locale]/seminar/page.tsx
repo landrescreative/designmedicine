@@ -146,11 +146,7 @@ const Page = () => {
         <Formulario />
       </div>
       <Separator text={t('seminar.separator')} />
-      <Testimonial
-        testimonial1={t('testimonial.paragraph1')}
-        testimonial2={t('testimonial.paragraph2')}
-        testimonial3={t('testimonial.paragraph3')}
-      />
+      <Testimonial />
     </div>
   );
 };
