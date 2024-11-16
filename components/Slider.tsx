@@ -49,9 +49,21 @@ const Slider: React.FC<SliderProps> = ({}) => {
 
   return (
     <div
-      className="min-h-screen relative py-24 px-3 flex justify-center items-center w-full lg:w-10/12"
+      className="min-h-screen relative py-24 px-3 flex flex-col justify-around items-center w-full lg:w-10/12"
       id="tours"
     >
+      <div className="flex justify-center items-center flex-col">
+        <h2 className="text-3xl font-bold text-center text-primary uppercase">
+          {t('slider.title')}
+        </h2>
+        <a
+          href="mailto:info@designmedicine.org"
+          className="text-primary text-lg underline text-center"
+        >
+          info@designmedicine.org
+        </a>
+      </div>
+
       <div className="flex justify-center items-center">
         <div className="flex flex-col md:flex-row gap-5 justify-between">
           {slides.map((slide) => (

@@ -43,6 +43,8 @@
     ]
   },
   "slider": {
+    "title": "Información de contacto",
+
     "slides": {
       "1": {
         "title": "Templo Mayor en la Ciudad de México",
@@ -70,7 +72,7 @@
     "paragraph3": "Recomendaría esto a cualquiera que busque un servicio de primera."
   },
   "footer": {
-    "disclaimer": "¡Somos una organización separada de Kiiko Matsumoto! Para ver su sitio web o contactarla, por favor visita Kiikomatsumoto.com.",
+    "disclaimer": "¡Somos una organización separada de Kiiko Matsumoto! Para ver su sitio web o contactarla, por favor visita Kiikomatsumoto.com",
     "copyright": "Derechos de Autor © 2024 Design Medicine, Todos los derechos reservados.",
     "home": "Inicio",
     "seminar": "Seminario",
@@ -146,15 +148,15 @@
     "subtitle5": "Incluye Transporte",
     "subtitle6": "Precio",
     "subtitle7": "Horario",
-    "subtitle8": "Precio Regular",
-    "description1": "DRA KIIKO MATSUMOTO, LAC, PHD",
+    "subtitle8": "Precio",
+    "description1": "KIIKO MATSUMOTO, LAC",
     "description2": "Inglés, Español",
     "description3": "Ciudad de México, México",
     "description4": "3 Días",
     "description5": "Podemos llevarte al lugar exacto por tu seguridad",
-    "description6": "Precio de Preventa: $1,380 USD, hasta el 10 de enero de 2025",
+    "description6": "Precio de Preventa: $1,380 USD, hasta el 10 de enero de 2025 \n Precio Regular: $1,500 USD",
     "description7": "9:00 AM - 5:00 PM",
-    "description8": "Precio de Preventa: $1,380 USD, hasta el 10 de enero de 2025"
+    "description8": "Precio de Preventa: $1,380 USD, hasta el 10 de enero de 2025 \n Precio Regular: $1,500 USD"
   },
   "paymentsection": {
     "title": "PAGA TU INSCRIPCIÓN",
@@ -465,12 +467,63 @@
     "phototitle": ["Cata de Mezcal y Tacos", "Lucha Libre"]
   },
   "formulario": {
-    "title": "Regístrate Ahora",
-    "subtitle": "Llena el formulario a continuación para asegurar tu lugar en el seminario.",
+    "title": "Información de contacto",
+    "subtitle": "Rellena el formulario a continuación si tienes alguna pregunta.",
     "name": "Nombre",
     "email": "Correo Electrónico",
     "message": "Mensaje",
     "subject": "Asunto",
     "submit": "Enviar"
-  }
+  },
+  "formulario2": {
+    "title": "Regístrate Ahora",
+    "subtitle": "Rellena el formulario a continuación para asegurar tu lugar en el seminario.",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "subject": "Asunto",
+    "submit": "Enviar"
+  },
+  "merchantinfo": {
+    "list": [
+      "GENERAL",
+      "DESCRIPTION",
+      "PRICING",
+      "Instructor",
+      "Language",
+      "Location",
+      "Duration",
+      "Include Transportation",
+      "Date",
+      "Time",
+      "Price"
+    ],
+    "list2": [
+      "Antonio Merchant, M.D.",
+      "Inglés, Español",
+      "Ciudad de México, México",
+      "Taller de medio día (2:00 PM - 5:00 PM)",
+      "Podemos llevarte al lugar exacto por tu seguridad",
+      "Lunes, 17 de febrero de 2025",
+      "2:00 PM - 5:00 PM",
+      "$350 USD por persona"
+    ]
+  },
+  "testimonials": [
+    {
+      "title": "Viaje a Xochimilco y Museo Nacional de Antropología",
+      "subtitle": "Descubre los canales de Xochimilco y maravíllate con las colecciones del Museo Nacional de Antropología.",
+      "buttonText": "Explora la experiencia"
+    },
+    {
+      "title": "Explora Teotihuacán y la Basílica de Guadalupe",
+      "subtitle": "Sube las pirámides del Sol y la Luna, y visita uno de los santuarios más importantes de México.",
+      "buttonText": "Planifica tu visita"
+    },
+    {
+      "title": "Mezcal, Tacos y Lucha Libre",
+      "subtitle": "Disfruta de una experiencia única: degustación de mezcal y tacos antes de una lucha libre mexicana.",
+      "buttonText": "Reserva tu lugar"
+    }
+  ]
 }

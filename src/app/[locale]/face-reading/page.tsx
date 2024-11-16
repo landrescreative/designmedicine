@@ -8,6 +8,7 @@ import InfoFaceReading from '@/components/InfoFaceReading';
 import Link from 'next/link';
 import Tarjetas from '@/components/Tarjetas';
 import Formulario from '@/components/Formulario';
+import InfoMerchant from '@/components/InfoMerchant';
 
 const Page = () => {
   const t = useTranslations('');
@@ -125,6 +126,7 @@ const Page = () => {
         <p>{t('face-reading.workshop2paragraph.7')}</p>
         <p>{t('face-reading.workshop2paragraph.8')}</p>
       </div>
+      <InfoMerchant />
       <PaymentSection buyButtonId="buy_btn_1QKWmwBceNIiOkbgt8w5Nq36" />
 
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">

@@ -43,6 +43,7 @@
     ]
   },
   "slider": {
+    "title": "Contact information",
     "slides": {
       "1": {
         "title": "Mexico City Templo Mayor",
@@ -70,7 +71,7 @@
     "paragraph3": "I would recommend this to anyone looking for top-notch service."
   },
   "footer": {
-    "disclaimer": "We are a separate organization from Kiiko Matsumoto herself! To see her website or contact her please go to Kiikomatsumoto.com.",
+    "disclaimer": "We are a separate organization from Kiiko Matsumoto herself! To see her website or contact her please go to Kiikomatsumoto.com",
     "copyright": "Copyright © 2024 Design Medicine, All rights reserved.",
     "home": "Home",
     "seminar": "Seminar",
@@ -146,15 +147,15 @@
     "subtitle5": "Include Transportation",
     "subtitle6": "Price",
     "subtitle7": "Time",
-    "subtitle8": "Regular Price",
-    "description1": "DRA KIIKO MATUSMOTO, LAC, PHD",
+    "subtitle8": "Price",
+    "description1": "KIIKO MATUSMOTO, LAC",
     "description2": "English, Spanish",
     "description3": "Mexico City, Mexico",
     "description4": "3 Days",
     "description5": "We can take you to the exact location for your security",
-    "description6": "Early Bird Price: $1,380 USD, until January 10th, 2025",
+    "description6": "Early Bird Price: $1,380 USD, until January 10th, 2025 \n Regular Price: $1,500 USD",
     "description7": "9:00 AM - 5:00 PM",
-    "description8": "Early Bird Price: $1,380 USD, until January 10th, 2025"
+    "description8": "Early Bird Price: $1,380 USD, until January 10th, 2025 \n Regular Price: $1,500 USD"
   },
   "paymentsection": {
     "title": "PAY YOUR REGISTRATION",
@@ -465,6 +466,15 @@
     "phototitle": ["Mezcal and Taco Tasting", "Lucha Libre"]
   },
   "formulario": {
+    "title": "Contact information",
+    "subtitle": "Fill out the form below if you have any questions",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "subject": "Subject",
+    "submit": "Submit"
+  },
+  "formulario2": {
     "title": "Register Now",
     "subtitle": "Fill out the form below to secure your spot in the seminar.",
     "name": "Name",
@@ -472,5 +482,47 @@
     "message": "Message",
     "subject": "Subject",
     "submit": "Submit"
-  }
+  },
+  "merchantinfo": {
+    "list": [
+      "GENERAL",
+      "DESCRIPTION",
+      "PRICING",
+      "Instructor",
+      "Language",
+      "Location",
+      "Duration",
+      "Include Transportation",
+      "Date",
+      "Time",
+      "Price"
+    ],
+    "list2": [
+      "Antonio Merchant, M.D.",
+      "English, Spanish",
+      "Mexico City, Mexico",
+      "Half-day workshop (2:00 PM - 5:00 PM)",
+      "We can take you to the exact location for your security",
+      "Monday, February 17th, 2025",
+      "2:00 PM - 5:00 PM",
+      "$350 USD per person"
+    ]
+  },
+  "testimonials": [
+    {
+      "title": "Trip to Xochimilco and National Museum of Anthropology",
+      "subtitle": "Discover the canals of Xochimilco and marvel at the collections of the National Museum of Anthropology.",
+      "buttonText": "Explore the experience"
+    },
+    {
+      "title": "Explore Teotihuacan and Guadalupe Shrine",
+      "subtitle": "Climb the pyramids of the Sun and Moon, and visit one of Mexico's most important shrines.",
+      "buttonText": "Plan your visit"
+    },
+    {
+      "title": "Mezcal, Tacos, and Lucha Libre",
+      "subtitle": "Enjoy a unique experience: mezcal and taco tasting before a Mexican wrestling match.",
+      "buttonText": "Book your spot"
+    }
+  ]
 }

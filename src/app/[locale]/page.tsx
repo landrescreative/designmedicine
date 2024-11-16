@@ -19,16 +19,12 @@ export default function Home() {
       <Benefits />
       <Separator text={t('separators.2')} />
       <Slider />
-      <Separator text={t('separators.3')} />
+      <Separator text="" />
       <AboutKiiko
         abouttitle={t('aboutKiiko.title')}
         aboutdes={t('aboutKiiko.description')}
       />
-      <Testimonial
-        testimonial1={t('testimonial.paragraph1')}
-        testimonial2={t('testimonial.paragraph2')}
-        testimonial3={t('testimonial.paragraph3')}
-      />
+      <Testimonial />
       {/* <Separator text="REGISTER NOW" /> */}
       {/* <InfoSeminar />
       <PaymentSection />

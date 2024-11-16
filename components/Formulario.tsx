@@ -51,15 +51,74 @@ export default function Formulario() {
   return (
     <div className="flex w-11/12 md:w-10/12  items-center justify-center mb-10">
       <div className="flex w-full rounded-lg shadow-lg overflow-hidden">
-        {/* Columna de la Imagen */}
-        <div className="hidden md:flex md:w-1/2 justify-center items-center bg-cover bg-secondary">
-          <img
-            src="/designmedicine.svg"
-            alt="Contacto"
-            className="object-cover w-3/4"
-          />
+        <div className="w-full md:w-1/2 bg-white px-8 md:px-10 py-20">
+          <h2 className="text-3xl font-bold text-center text-gray-700 ">
+            {t('formulario2.title')}
+          </h2>
+          <p className="mb-4 text-center">{t('formulario2.subtitle')}</p>
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div>
+              <label className="block text-sm font-medium text-gray-700">
+                {t('formulario2.name')}
+              </label>
+              <input
+                type="text"
+                name="nombre"
+                value={formData.nombre}
+                onChange={handleChange}
+                required
+                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">
+                {t('formulario2.email')}
+              </label>
+              <input
+                type="email"
+                name="correo"
+                value={formData.correo}
+                onChange={handleChange}
+                required
+                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">
+                {t('formulario2.subject')}
+              </label>
+              <input
+                type="text"
+                name="asunto"
+                value={formData.asunto}
+                onChange={handleChange}
+                required
+                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">
+                {t('formulario2.message')}
+              </label>
+              <textarea
+                name="mensaje"
+                value={formData.mensaje}
+                onChange={handleChange}
+                required
+                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              className="w-full bg-primary text-white p-2 rounded hover:bg-primary/50 transition-all duration-300"
+            >
+              {t('formulario2.submit')}
+            </button>
+            {status && (
+              <p className="text-center text-sm text-gray-700 mt-2">{status}</p>
+            )}
+          </form>
         </div>
-
         {/* Columna del Formulario */}
         <div className="w-full md:w-1/2 bg-white px-8 md:px-10 py-20">
           <h2 className="text-3xl font-bold text-center text-gray-700 ">

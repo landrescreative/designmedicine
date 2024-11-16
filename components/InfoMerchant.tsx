@@ -1,25 +1,30 @@
 import React from 'react';
+import { FaInfoCircle, FaClipboardList, FaDollarSign } from 'react-icons/fa';
 
 // Icons
 import { FaUser } from 'react-icons/fa';
+import { BsFillFileImageFill } from 'react-icons/bs';
 import { FaLocationDot } from 'react-icons/fa6';
 import { FaRegClock } from 'react-icons/fa';
 import { FaBus } from 'react-icons/fa';
 import { AiFillDollarCircle } from 'react-icons/ai';
-
+import { GiClothes } from 'react-icons/gi';
+import { FaHatCowboySide } from 'react-icons/fa';
+import { IoIosWater } from 'react-icons/io';
+import { FaCamera } from 'react-icons/fa';
 import { useTranslations } from 'next-intl';
 import { BsTranslate } from 'react-icons/bs';
 import { MdOutlineDateRange } from 'react-icons/md';
 
-const InfoSeminar = () => {
-  const t = useTranslations('infoseminar');
+const InfoMerchant = () => {
+  const t = useTranslations('merchantinfo');
   return (
-    <div className="flex justify-center items-center pb-12 w-full">
-      <div className="flex flex-col lg:flex-row justify-start w-11/12 xl:w-9/12">
+    <div className="flex justify-center items-center pb-12 w-full md:w-10/12">
+      <div className="flex flex-col lg:flex-row justify-start w-full">
         {/* First Section - GENERAL */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
-            {t('title1')}
+            {t('list.0')}
           </h2>
           <div className="grid grid-cols-6 grid-rows-1 ">
             <FaUser
@@ -27,8 +32,8 @@ const InfoSeminar = () => {
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('subtitle1')}</h3>
-              <p className="text-gray-600">{t('description1')}</p>
+              <h3 className="text-lg font-medium">{t('list.3')}</h3>
+              <p className="text-gray-600">{t('list2.0')}</p>
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
@@ -37,8 +42,8 @@ const InfoSeminar = () => {
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('subtitle2')}</h3>
-              <p className="text-gray-600">{t('description2')}</p>
+              <h3 className="text-lg font-medium">{t('list.4')}</h3>
+              <p className="text-gray-600">{t('list2.1')}</p>
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
@@ -47,8 +52,8 @@ const InfoSeminar = () => {
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('subtitle3')}</h3>
-              <p className="text-gray-600">{t('description3')}</p>
+              <h3 className="text-lg font-medium">{t('list.5')}</h3>
+              <p className="text-gray-600">{t('list2.2')}</p>
             </div>
           </div>
         </div>
@@ -60,7 +65,7 @@ const InfoSeminar = () => {
         {/* Second Section - DESCRIPTION */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
-            {t('title2')}
+            {t('list.1')}
           </h2>
           <div className="grid grid-cols-6 grid-rows-1 ">
             <FaRegClock
@@ -68,8 +73,8 @@ const InfoSeminar = () => {
               className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('subtitle4')}</h3>
-              <p className="text-gray-600">{t('description4')}</p>
+              <h3 className="text-lg font-medium">{t('list.6')}</h3>
+              <p className="text-gray-600">{t('list2.3')}</p>
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
@@ -78,8 +83,8 @@ const InfoSeminar = () => {
               className="text-green-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('subtitle5')}</h3>
-              <p className="text-gray-600">{t('description5')}</p>
+              <h3 className="text-lg font-medium">{t('list.7')}</h3>
+              <p className="text-gray-600">{t('list2.4')}</p>
             </div>
           </div>
         </div>
@@ -91,26 +96,26 @@ const InfoSeminar = () => {
         {/* Third Section - PRICING */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
-            {t('title3')}
+            {t('list.2')}
           </h2>
-          <div className="grid grid-cols-6 grid-rows-1 ">
-            <AiFillDollarCircle
-              size={30}
-              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
-            />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('subtitle8')}</h3>
-              <p className="text-gray-600">{t('description8')}</p>
-            </div>
-          </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
             <MdOutlineDateRange
               size={30}
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('subtitle7')}</h3>
-              <p className="text-gray-600">{t('description7')}</p>
+              <h3 className="text-lg font-medium">{t('list.9')}</h3>
+              <p className="text-gray-600">{t('list2.6')}</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-6 grid-rows-1 ">
+            <AiFillDollarCircle
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+              <h3 className="text-lg font-medium">{t('list.10')}</h3>
+              <p className="text-gray-600">{t('list2.7')}</p>
             </div>
           </div>
         </div>
@@ -119,4 +124,4 @@ const InfoSeminar = () => {
   );
 };
 
-export default InfoSeminar;
+export default InfoMerchant;

@@ -16,6 +16,12 @@ const Header: React.FC<HeaderProps> = ({ text }) => {
       <h2 className="text-xl md:text-2xl font-bold text-center mt-2 text-slate-500">
         {t('date')}
       </h2>
+      <a
+        href="mailto:info@designmedicine.org"
+        className="text-primary text-lg underline text-center"
+      >
+        info@designmedicine.org
+      </a>
       <div className="w-full md:w-1/2 flex justify-center items-center absolute left-0 top-[3rem] md:top-[-5rem] object-fit overflow-hidden">
         <Image
           src="/patron.svg"
