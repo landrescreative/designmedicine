@@ -67,14 +67,16 @@ export default function Formulario() {
   const t = useTranslations('');
 
   return (
-    <div className="flex w-11/12 md:w-10/12 items-center justify-center mb-10">
-      <div className="flex w-full rounded-lg shadow-lg overflow-hidden">
+    <div className="flex flex-col items-center justify-center w-full px-4 mb-10">
+      <div className="flex flex-col md:flex-row w-full max-w-6xl rounded-lg shadow-lg overflow-hidden">
         {/* Primer Formulario */}
-        <div className="w-full md:w-1/2 bg-white px-8 md:px-10 py-20">
-          <h2 className="text-3xl font-bold text-center text-gray-700">
+        <div className="flex-1 bg-white px-6 md:px-8 py-8 md:py-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-700">
             {t('formulario2.title')}
           </h2>
-          <p className="mb-4 text-center">{t('formulario2.subtitle')}</p>
+          <p className="mb-6 text-center text-gray-500">
+            {t('formulario2.subtitle')}
+          </p>
           <form
             onSubmit={(e) =>
               handleSubmit(e, formData1, setFormData1, setStatus1)
@@ -91,7 +93,7 @@ export default function Formulario() {
                 value={formData1.nombre}
                 onChange={(e) => handleChange(e, setFormData1)}
                 required
-                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-1 p-2 border bg-gray-100 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div>
@@ -104,7 +106,7 @@ export default function Formulario() {
                 value={formData1.correo}
                 onChange={(e) => handleChange(e, setFormData1)}
                 required
-                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-1 p-2 border bg-gray-100 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div>
@@ -117,7 +119,7 @@ export default function Formulario() {
                 value={formData1.asunto}
                 onChange={(e) => handleChange(e, setFormData1)}
                 required
-                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-1 p-2 border bg-gray-100 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div>
@@ -129,12 +131,12 @@ export default function Formulario() {
                 value={formData1.mensaje}
                 onChange={(e) => handleChange(e, setFormData1)}
                 required
-                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-1 p-2 border bg-gray-100 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               ></textarea>
             </div>
             <button
               type="submit"
-              className="w-full bg-primary text-white p-2 rounded hover:bg-primary/50 transition-all duration-300"
+              className="w-full bg-primary text-white p-2 rounded-lg hover:bg-primary/50 transition-all duration-300"
             >
               {t('formulario2.submit')}
             </button>
@@ -145,12 +147,15 @@ export default function Formulario() {
             )}
           </form>
         </div>
+
         {/* Segundo Formulario */}
-        <div className="w-full md:w-1/2 bg-white px-8 md:px-10 py-20">
-          <h2 className="text-3xl font-bold text-center text-gray-700">
+        <div className="flex-1 bg-gray-50 px-6 md:px-8 py-8 md:py-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-700">
             {t('formulario.title')}
           </h2>
-          <p className="mb-4 text-center">{t('formulario.subtitle')}</p>
+          <p className="mb-6 text-center text-gray-500">
+            {t('formulario.subtitle')}
+          </p>
           <form
             onSubmit={(e) =>
               handleSubmit(e, formData2, setFormData2, setStatus2)
@@ -167,7 +172,7 @@ export default function Formulario() {
                 value={formData2.nombre}
                 onChange={(e) => handleChange(e, setFormData2)}
                 required
-                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-1 p-2 border bg-gray-100 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div>
@@ -180,7 +185,7 @@ export default function Formulario() {
                 value={formData2.correo}
                 onChange={(e) => handleChange(e, setFormData2)}
                 required
-                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-1 p-2 border bg-gray-100 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div>
@@ -193,7 +198,7 @@ export default function Formulario() {
                 value={formData2.asunto}
                 onChange={(e) => handleChange(e, setFormData2)}
                 required
-                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-1 p-2 border bg-gray-100 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div>
@@ -205,12 +210,12 @@ export default function Formulario() {
                 value={formData2.mensaje}
                 onChange={(e) => handleChange(e, setFormData2)}
                 required
-                className="mt-1 p-2 border bg-gray-200 rounded-xl w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-1 p-2 border bg-gray-100 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               ></textarea>
             </div>
             <button
               type="submit"
-              className="w-full bg-primary text-white p-2 rounded hover:bg-primary/50 transition-all duration-300"
+              className="w-full bg-primary text-white p-2 rounded-lg hover:bg-primary/50 transition-all duration-300"
             >
               {t('formulario.submit')}
             </button>
