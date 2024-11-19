@@ -17,6 +17,12 @@ const Hero = () => {
             {t('hero.subtitle')}
           </h1>
           <h1 className="text-center text-white">{t('seminarSection.date')}</h1>
+          <a
+            href="mailto:info@designmedicine.org"
+            className="text-white text-lg underline text-center"
+          >
+            info@designmedicine.org
+          </a>
         </div>
         <Link href="/seminar" className="btn">
           {t('hero.cta')}

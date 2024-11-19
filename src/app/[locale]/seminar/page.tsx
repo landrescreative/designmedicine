@@ -1,4 +1,5 @@
-import React from 'react';
+'use client';
+import { useEffect, useState } from 'react';
 import Separator from '@/components/Separator';
 import Header from '@/components/Header';
 import Testimonial from '@/components/Testimonial';
@@ -14,20 +15,36 @@ import StickyBanner from '@/components/StickyBanner';
 
 const Page = () => {
   const t = useTranslations('');
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className="flex justify-center items-center  flex-col overflow-x-hidden">
       <StickyBanner />
       <Header text="" />
       <div className="lg:w-3/4 lg:max-h-[700px] overflow-hidden p-5 h-full object-cover rounded-3xl">
         <Image
-          src="/seminar_01.jpg"
+          src="/seminar_03.jpg"
           alt="seminar"
           width={1920}
           height={1080}
           className="rounded-3xl object-cover "
         />
       </div>
-      <div className="flex justify-center flex-col md:flex-row items-center w-full px-5 md:px-0 md:w-10/12 mt-28">
+      <div className="flex justify-center flex-col md:flex-row items-center w-full px-5 md:px-0 lg:w-10/12 mt-28">
         <div className="w-full md:px-10">
           <div className="flex flex-col gap-5 py-10 ">
             <h1 className="font-bold text-2xl uppercase text-primary">
@@ -140,11 +157,15 @@ const Page = () => {
         <Tarjetas />
       </div>
       <InfoSeminar />
+      <p className="text-center text-lg my-10 opacity-70">
+        *includes transportation, breakfast and lunch (with vegan options)
+      </p>
       {/* <PaymentOptions /> */}
       <PaymentSection buyButtonId="buy_btn_1QKVsEBceNIiOkbgdYH6VsLn" />
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
       </div>
+      {isMobile && <Tarjetas />}
       <Separator text={t('seminar.separator')} />
       <Testimonial />
     </div>

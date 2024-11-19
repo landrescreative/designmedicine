@@ -23,6 +23,12 @@ const Page = () => {
         <h2 className=" text-lg text-slate-600">
           {t('face-reading.instructor')}
         </h2>
+        <a
+          href="mailto:info@designmedicine.org"
+          className="text-primary text-lg underline text-center"
+        >
+          info@designmedicine.org
+        </a>
       </div>
       <div className="lg:w-3/4  overflow-hidden p-5 h-full object-cover rounded-3xl px-4 md:px-0">
         <Image

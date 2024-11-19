@@ -14,7 +14,7 @@ import { MdOutlineDateRange } from 'react-icons/md';
 const InfoSeminar = () => {
   const t = useTranslations('infoseminar');
   return (
-    <div className="flex justify-center items-center pb-12 w-full">
+    <div className="flex justify-center items-center  w-full">
       <div className="flex flex-col lg:flex-row justify-start w-11/12 xl:w-9/12">
         {/* First Section - GENERAL */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
