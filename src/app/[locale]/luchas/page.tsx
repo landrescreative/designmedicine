@@ -112,7 +112,7 @@ const Page = () => {
 
       <div className="atracciones flex flex-col flex-wrap justify-center items-center my-10 gap-10 w-full">
         <InfoLuchas />
-        <PaymentSection buyButtonId="buy_btn_1QKVZTBceNIiOkbgwNhTID1U" />
+        <PaymentSection buyButtonId="buy_btn_1QMzpJBceNIiOkbgNiZe4VVM" />
         <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
           <Formulario />
         </div>

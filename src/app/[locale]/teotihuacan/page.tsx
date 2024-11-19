@@ -119,7 +119,7 @@ const Page = () => {
           </div>
         </div>
         <InfoTeotihuacan />
-        <PaymentSection buyButtonId="buy_btn_1QKVgMBceNIiOkbg5CzQKU6N" />
+        <PaymentSection buyButtonId="buy_btn_1QN0BdBceNIiOkbglJnAktAI" />
         <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
           <Formulario />
         </div>

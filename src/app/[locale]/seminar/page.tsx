@@ -161,7 +161,7 @@ const Page = () => {
         *includes transportation, breakfast and lunch (with vegan options)
       </p>
       {/* <PaymentOptions /> */}
-      <PaymentSection buyButtonId="buy_btn_1QKVsEBceNIiOkbgdYH6VsLn" />
+      <PaymentSection buyButtonId="buy_btn_1QN0HYBceNIiOkbgTyjucxw3" />
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
       </div>

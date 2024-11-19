@@ -116,7 +116,7 @@ const Page = () => {
         <Tarjetas />
       </div>
 
-      <PaymentSection buyButtonId="buy_btn_1QKX5KBceNIiOkbgoPngOSLc" />
+      <PaymentSection buyButtonId="buy_btn_1QMzyiBceNIiOkbghs2IY2jW" />
       <Separator text="" />
       <div className="flex flex-col w-10/12 justify-center mb-10 gap-2">
         <h2 className="font-bold text-2xl uppercase text-primary mt-10">

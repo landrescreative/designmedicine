@@ -181,7 +181,7 @@ const Page = () => {
         </div>
       </div>
       <InfoXochimilco />
-      <PaymentSection buyButtonId="buy_btn_1QKVe8BceNIiOkbgOTHc3v1E" />
+      <PaymentSection buyButtonId="buy_btn_1QN05ZBceNIiOkbgmD0UX6ep" />
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
       </div>
