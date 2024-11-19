@@ -28,7 +28,7 @@ const HeroSectionTrips: React.FC<HeroSectionTripsProps> = ({
 
       {/* Contenido centrado */}
       <div className="relative z-10 flex flex-col items-center text-center max-w-5xl">
-        <h2 className="uppercase">EXTRA workshops</h2>
+        <h2 className="uppercase">EXTRA TOURS</h2>
         {/* Título grande y destacado */}
         <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4 drop-shadow-lg">
           {title}

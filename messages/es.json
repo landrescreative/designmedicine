@@ -231,17 +231,20 @@
       "viewsTitle": "Vistas Increíbles",
       "viewsDescription": "Disfruta de hermosas vistas desde la cima de las pirámides",
       "locationTitle": "Ubicación Segura",
-      "locationDescription": "CIUDAD DE MÉXICO - MÉXICO"
+      "locationDescription": "CIUDAD DE MÉXICO - MÉXICO",
+      "2ndhighlightTitle": "Historia Increíble",
+      "2ndhighlight": "Lugar donde se dice que Nuestra Virgen de Guadalupe se apareció a un indígena mexicano."
     },
     "tourDetails": {
       "title": "Detalles del Tour",
       "durationTitle": "Duración",
       "durationDescription": "Tour de día completo (aproximadamente de 4:30 AM a 5:00 PM)",
+      "durationDescriptionLuchas": "6:30 PM - 10:30 PM",
       "transportTitle": "Incluye Transporte",
       "transportDescription": "Podemos llevarte al lugar exacto por tu seguridad",
       "priceTitle": "Precio",
       "priceDescription": "$215 USD por persona",
-      "priceLuchas": "$150 USD por persona"
+      "priceLuchas": "$150 USD"
     },
     "whatToBring": {
       "title": "Qué Llevar",

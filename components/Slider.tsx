@@ -17,7 +17,7 @@ const Slider: React.FC<SliderProps> = ({}) => {
   const slides = [
     {
       id: 2,
-      image: '/2.jpg',
+      image: '/viaja-en-globo-por-las-piramides-de-teotihuacan.webp',
       title: t('slider.slides.2.title') as string,
       paragraph: t('slider.slides.2.paragraph') as string,
       url: '/teotihuacan'

@@ -230,17 +230,20 @@
       "viewsTitle": "Incredible Views",
       "viewsDescription": "Enjoy beautiful views from the top of the pyramids",
       "locationTitle": "Secure Location",
-      "locationDescription": "MEXICO CITY - MEXICO"
+      "locationDescription": "MEXICO CITY - MEXICO",
+      "2ndhighlightTitle": "Incredible History",
+      "2ndhighlight": "Spot where Our Lady of Guadalupe is said to have appeared to an indigenous Mexican."
     },
     "tourDetails": {
       "title": "Tour Details",
       "durationTitle": "Duration",
       "durationDescription": "Full-day tour (approximately 4:30 AM to 5:00 PM)",
+      "durationDescriptionLuchas": "6:30 PM - 10:30 PM",
       "transportTitle": "Include Transport",
       "transportDescription": "We can take you to the exact location for your security",
       "priceTitle": "Price",
       "priceDescription": "$215 USD per person",
-      "priceLuchas": "$150 USD por persona"
+      "priceLuchas": "$150 USD "
     },
     "whatToBring": {
       "title": "What to bring",

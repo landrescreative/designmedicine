@@ -55,7 +55,7 @@ const InfoLuchas = () => {
                 {t('tourDetails.durationTitle')}
               </h3>
               <p className="text-gray-600">
-                {t('tourDetails.durationDescription')}
+                {t('tourDetails.durationDescriptionLuchas')}
               </p>
             </div>
           </div>

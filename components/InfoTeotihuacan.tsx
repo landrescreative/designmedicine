@@ -35,6 +35,18 @@ const InfoTeotihuacan = () => {
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1">
+            <BsFillFileImageFill
+              size={30}
+              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('highlights.2ndhighlightTitle')}
+              </h3>
+              <p className="text-gray-600">{t('highlights.2ndhighlight')}</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-6 grid-rows-1">
             <FaLocationDot
               size={30}
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
