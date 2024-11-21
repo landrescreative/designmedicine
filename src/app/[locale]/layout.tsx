@@ -26,7 +26,6 @@ export default function LocaleLayout({ children, params }: LocaleLayoutProps) {
     <html lang={params.locale}>
       <head>
         <script
-          nowprocket
           nitro-exclude
           type="text/javascript"
           id="sa-dynamic-optimization"
