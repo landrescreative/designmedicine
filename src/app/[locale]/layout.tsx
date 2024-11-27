@@ -25,6 +25,15 @@ interface LocaleLayoutProps {
 export default function LocaleLayout({ children, params }: LocaleLayoutProps) {
   return (
     <html lang={params.locale}>
+      <head>
+        <script
+          nitro-exclude
+          type="text/javascript"
+          id="sa-dynamic-optimization"
+          data-uuid="76c9826f-52cf-4edc-b5d8-f4923f14ed8d"
+          src="data:text/javascript;base64,dmFyIHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO3NjcmlwdC5zZXRBdHRyaWJ1dGUoIm5vd3Byb2NrZXQiLCAiIik7c2NyaXB0LnNldEF0dHJpYnV0ZSgibml0cm8tZXhjbHVkZSIsICIiKTtzY3JpcHQuc3JjID0gImh0dHBzOi8vZGFzaGJvYXJkLmxpbmtncmFwaC5jb20vc2NyaXB0cy9keW5hbWljX29wdGltaXphdGlvbi5qcyI7c2NyaXB0LmRhdGFzZXQudXVpZCA9ICI3NmM5ODI2Zi01MmNmLTRlZGMtYjVkOC1mNDkyM2YxNGVkOGQiO3NjcmlwdC5pZCA9ICJzYS1keW5hbWljLW9wdGltaXphdGlvbi1sb2FkZXIiO2RvY3VtZW50LmhlYWQuYXBwZW5kQ2hpbGQoc2NyaXB0KTs="
+        ></script>
+      </head>
       {/* Aplica la clase de Montserrat al body */}
       <body className={montserrat.className}>
         <ServerLayout params={params}>
