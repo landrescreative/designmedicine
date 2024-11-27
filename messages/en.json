@@ -75,7 +75,8 @@
     "copyright": "Copyright © 2024 Design Medicine, All rights reserved.",
     "home": "Home",
     "seminar": "Seminar",
-    "tours": "Tours"
+    "tours": "Tours",
+    "EXTRAWORKSHOPS": "Extra Workshops"
   },
   "seminar": {
     "title": "Kiiko Matsumoto 3-Day Intensive Clinical Workshop: Sensei by Your Side",
@@ -112,7 +113,7 @@
       "Diagnosis and treatment based on abdominal palpation with immediate response with confirmation from the patients.",
       "Very few needles used."
     ],
-    "separator": "USERS REVIEWS",
+    "separator": "Exciting places to visit!",
     "fourthtitle": "What to Expect?",
     "3rdlisttitles": [
       "Direct Instruction from Kiiko",
@@ -134,7 +135,8 @@
       "Requirements: Those who have had prior experience with Kiiko Style and would like to brush up on their hands-on technique and be corrected by Kiiko herself",
       "Main seminar focus will be on the hands-on practice opportunity rather than lecture, though there will be plenty of room for Q&A as well as the sharing of clinical pearls.",
       "To preserve the closely supervised nature of our session, space is limited. Grab your spot today!"
-    ]
+    ],
+    "disclaimer": "*includes transportation, breakfast and lunch (with vegan options) \n Cancellation for any reason may be made up through Jan 15th, 2025, for a full refund minus a non-refundable $75 deposit. After Jan 15th, tuition amounts are non-refundable unless cancellation is made due to mandatory COVID-19 related illness or quarantining, in which case you will be refunded except for the $75 deposit. If Design medicine is for some reason forced to cancel this course due to COVID-19 or instructor illness, all participants will be refunded in full.  "
   },
   "infoseminar": {
     "title1": "GENERAL",
@@ -155,7 +157,8 @@
     "description5": "We can take you to the exact location for your security",
     "description6": "Early Bird Price: $1,380 USD, until January 10th, 2025 \n Regular Price: $1,500 USD",
     "description7": "9:00 AM - 5:00 PM",
-    "description8": "Early Bird Price: $1,380 USD, until January 10th, 2025 \n Regular Price: $1,500 USD"
+    "description8": "Early Bird Price: $1,380 USD, until January 10th, 2025 \n Regular Price: $1,500 USD",
+    "description9": "View in Map"
   },
   "paymentsection": {
     "title": "PAY YOUR REGISTRATION",
@@ -527,5 +530,16 @@
       "subtitle": "Enjoy a unique experience: mezcal and taco tasting before a Mexican wrestling match.",
       "buttonText": "Book your spot"
     }
-  ]
+  ],
+  "newsletter": {
+    "title": "Subscribe to our Newsletter!",
+    "description": "Receive the latest news, updates, and exclusive offers directly in your inbox.",
+    "emailPlaceholder": "Enter your email address",
+    "subscribeButton": "Subscribe",
+    "statusSending": "Sending...",
+    "statusSuccess": "Thank you for subscribing!",
+    "statusError": "There was an error. Please try again.",
+    "statusServerError": "Error sending. Please try again later.",
+    "closeButton": "Close"
+  }
 }

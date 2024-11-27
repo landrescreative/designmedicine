@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Preloader from '@/components/Preloader';
 import StickyBanner from '@/components/StickyBanner';
+import NewsletterPopup from '@/components/NewsletterPopup';
 
 export const metadata: Metadata = {
   title: 'Design Medicine - Seminar',
@@ -27,6 +28,7 @@ export default function LocaleLayout({ children, params }: LocaleLayoutProps) {
       {/* Aplica la clase de Montserrat al body */}
       <body className={montserrat.className}>
         <ServerLayout params={params}>
+          <NewsletterPopup />
           <Preloader></Preloader>
           <Navbar />
           <ClientLayout>{children}</ClientLayout>

@@ -31,6 +31,9 @@ const Footer = () => {
             <Link href="/#tours" className="hover:text-white underline">
               {t('tours')}
             </Link>
+            <Link href="/face-reading" className="hover:text-white underline">
+              {t('EXTRAWORKSHOPS')}
+            </Link>
           </div>
         </div>
         <hr className="border-gray-500 " />

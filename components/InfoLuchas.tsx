@@ -20,7 +20,7 @@ const InfoLuchas = () => {
             {t('highlights.title')}
           </h2>
 
-          <div className="grid grid-cols-6 grid-rows-1">
+          <a className="grid grid-cols-6 grid-rows-1">
             <FaLocationDot
               size={30}
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
@@ -33,7 +33,7 @@ const InfoLuchas = () => {
                 {t('highlights.locationDescription')}
               </p>
             </div>
-          </div>
+          </a>
         </div>
 
         {/* Line Separator */}

@@ -138,7 +138,7 @@ const Page = () => {
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
       </div>
-      <Separator text="" />
+      <Separator text={t('seminar.separator')} />
       <Testimonial />
     </div>
   );

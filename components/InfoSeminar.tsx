@@ -41,7 +41,11 @@ const InfoSeminar = () => {
               <p className="text-gray-600">{t('description2')}</p>
             </div>
           </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
+          <a
+            href="https://maps.app.goo.gl/PfATkGYK8ySsVZpj7"
+            target="_blank"
+            className="grid grid-cols-6 grid-rows-1 "
+          >
             <FaLocationDot
               size={30}
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
@@ -49,8 +53,9 @@ const InfoSeminar = () => {
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
               <h3 className="text-lg font-medium">{t('subtitle3')}</h3>
               <p className="text-gray-600">{t('description3')}</p>
+              <p className="text-primary underline ">{t('description9')}</p>
             </div>
-          </div>
+          </a>
         </div>
 
         {/* Line Separator */}

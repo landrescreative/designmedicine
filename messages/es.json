@@ -76,7 +76,8 @@
     "copyright": "Derechos de Autor © 2024 Design Medicine, Todos los derechos reservados.",
     "home": "Inicio",
     "seminar": "Seminario",
-    "tours": "Tours"
+    "tours": "Tours",
+    "TALLERESEXTRA": "Talleres Extra"
   },
   "seminar": {
     "title": "Taller Clínico Intensivo de 3 Días con Kiiko Matsumoto: Sensei a Tu Lado",
@@ -112,7 +113,7 @@
       "El diagnóstico y tratamiento se basan en palpación abdominal con respuesta inmediata y confirmación por parte de los pacientes.",
       "Se utilizan muy pocas agujas."
     ],
-    "separator": "RESEÑAS DE USUARIOS",
+    "separator": "¡Lugares emocionantes para visitar!",
     "fourthtitle": "¿Qué Esperar?",
     "3rdlisttitles": [
       "Instrucción Directa de Kiiko",
@@ -156,7 +157,9 @@
     "description5": "Podemos llevarte al lugar exacto por tu seguridad",
     "description6": "Precio de Preventa: $1,380 USD, hasta el 10 de enero de 2025 \n Precio Regular: $1,500 USD",
     "description7": "9:00 AM - 5:00 PM",
-    "description8": "Precio de Preventa: $1,380 USD, hasta el 10 de enero de 2025 \n Precio Regular: $1,500 USD"
+    "description8": "Precio de Preventa: $1,380 USD, hasta el 10 de enero de 2025 \n Precio Regular: $1,500 USD",
+    "description9": "Ver en mapa",
+    "disclaimer": "*incluye transporte, desayuno y almuerzo (con opciones veganas) \n La cancelación por cualquier motivo puede realizarse hasta el 15 de enero de 2025, para un reembolso completo menos un depósito no reembolsable de $75. Después del 15 de enero, los montos de la matrícula no son reembolsables a menos que la cancelación se realice debido a una enfermedad o cuarentena obligatoria relacionada con COVID-19, en cuyo caso se le reembolsará excepto por el depósito de $75. Si Design Medicine se ve obligada por alguna razón a cancelar este curso debido a COVID-19 o enfermedad del instructor, todos los participantes serán reembolsados en su totalidad."
   },
   "paymentsection": {
     "title": "PAGA TU INSCRIPCIÓN",
@@ -528,5 +531,16 @@
       "subtitle": "Disfruta de una experiencia única: degustación de mezcal y tacos antes de una lucha libre mexicana.",
       "buttonText": "Reserva tu lugar"
     }
-  ]
+  ],
+  "newsletter": {
+    "title": "¡Suscríbete a nuestro Newsletter!",
+    "description": "Recibe las últimas noticias, actualizaciones y ofertas exclusivas directamente en tu correo.",
+    "emailPlaceholder": "Ingresa tu correo electrónico",
+    "subscribeButton": "Suscribirse",
+    "statusSending": "Enviando...",
+    "statusSuccess": "¡Gracias por suscribirte!",
+    "statusError": "Hubo un error. Inténtalo de nuevo.",
+    "statusServerError": "Error al enviar. Por favor, inténtalo más tarde.",
+    "closeButton": "Cerrar"
+  }
 }

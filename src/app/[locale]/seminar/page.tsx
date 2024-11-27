@@ -157,8 +157,8 @@ const Page = () => {
         <Tarjetas />
       </div>
       <InfoSeminar />
-      <p className="text-center text-lg my-10 opacity-70">
-        *includes transportation, breakfast and lunch (with vegan options)
+      <p className="text-center text m-10 opacity-70">
+        {t('seminar.disclaimer')}
       </p>
       {/* <PaymentOptions /> */}
       <PaymentSection buyButtonId="buy_btn_1QN0HYBceNIiOkbgTyjucxw3" />
