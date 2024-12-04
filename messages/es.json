@@ -44,6 +44,9 @@
   },
   "slider": {
     "title": "Información de contacto",
+    "2ndtitle": "Tours Antes del Seminario",
+
+    "advice": "¡Aprovecha al máximo tu experiencia! Las actividades y tours opcionales están diseñados para mejorar tu viaje y se llevarán a cabo antes de que comience el seminario. ¡No te los pierdas!",
 
     "slides": {
       "1": {
@@ -84,6 +87,8 @@
     "date": "14-17 de Febrero, 2025 | Ciudad de México",
     "description": "¡Kiiko Matsumoto viene a ti! En un formato novedoso de enseñanza clínica, tendrás la oportunidad de experimentar a una gran maestra a tu lado. Explorarás y revisarás pacientes con ella mientras te corrige tus técnicas de acupuntura, a la vez que compartirá su investigación más reciente sobre las aplicaciones de la literatura clásica y te mostrará las muchas formas en que esto puede manifestarse sintomáticamente con sus estrategias de tratamiento más recientes. Disfruta de sus fascinantes explicaciones teóricas sobre puntos y meridianos mientras tratas pacientes a su lado. Trataremos pacientes con condiciones complejas y difíciles, con múltiples tratamientos farmacológicos y más. Tener a la sensei a tu lado asegurará que sepas cómo aplicar lo aprendido al día siguiente en tu clínica para obtener resultados clínicamente sorprendentes.",
     "subtitle": "¿Por Qué Asistir?",
+    "description9": "Ver en Mapa",
+
     "list": [
       "Perfeccionamiento Personalizado de Técnicas: \n  Kiiko corregirá y perfeccionará tus métodos de acupuntura en tiempo real, asegurando que domines su estilo reconocido.",
       "Acceso a Investigación de Vanguardia: \n  Descubre las últimas estrategias de tratamiento y aplicaciones de la literatura clásica, directamente desde décadas de investigación y experiencia de Kiiko.",
@@ -542,5 +547,9 @@
     "statusError": "Hubo un error. Inténtalo de nuevo.",
     "statusServerError": "Error al enviar. Por favor, inténtalo más tarde.",
     "closeButton": "Cerrar"
+  },
+  "banner": {
+    "span": "¡No olvides! Hay tours opcionales disponibles antes del seminario para mejorar tu experiencia.",
+    "cta": "Explora los tours"
   }
 }

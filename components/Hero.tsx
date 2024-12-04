@@ -3,6 +3,7 @@ import { IoIosArrowDown } from 'react-icons/io';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { IoIosArrowRoundForward } from 'react-icons/io';
+import { FaLocationDot } from 'react-icons/fa6';
 
 const Hero = () => {
   const t = useTranslations();
@@ -18,6 +19,15 @@ const Hero = () => {
           </h1>
           <h1 className="text-center text-white">{t('seminarSection.date')}</h1>
           <a
+            className="flex  justify-center items-center gap-2"
+            href="https://maps.app.goo.gl/PfATkGYK8ySsVZpj7"
+          >
+            <p className="text-white text-center underline ">
+              {t('infoseminar.description9')}
+            </p>
+            <FaLocationDot className="text-white text-center" />
+          </a>
+          <a
             href="mailto:info@designmedicine.org"
             className="text-white text-lg underline text-center"
           >
@@ -30,7 +40,7 @@ const Hero = () => {
       </div>
       <Link
         href="#viewmore"
-        className="flex flex-col text-white justify-center items-center"
+        className="flex flex-col text-white justify-center items-center animate-bounce"
       >
         <span>{t('hero.cta2')}</span>
         <IoIosArrowDown className="text-3xl text-primary" />

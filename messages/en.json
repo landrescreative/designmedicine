@@ -44,6 +44,8 @@
   },
   "slider": {
     "title": "Contact information",
+    "2ndtitle": "Tours Before the Seminar",
+    "advice": "Make the most of your experience! Optional activities and tours are designed to enhance your journey and will take place before the seminar begins. Don't miss out!",
     "slides": {
       "1": {
         "title": "Mexico City Templo Mayor",
@@ -84,6 +86,7 @@
     "description": "Experience a groundbreaking opportunity to learn directly from Kiiko Matsumoto, a renowned Grand Master of acupuncture. In this exclusive hands-on workshop, you will not only enhance your acupuncture techniques but also gain practical, real-world knowledge as you treat patients with Kiiko guiding you every step of the way.",
     "subtitle": "Why Attend?",
     "link": "Check out our recommended hotels!",
+    "description9": "View in Map",
     "list": [
       "Personalized Technique Refinement: \n  Kiiko will correct and perfect your acupuncture methods in real-time, ensuring mastery of her renowned style.",
       "Access to Cutting-Edge Research: \n  Discover the latest treatment strategies and applications of classical literature, directly from Kiiko’s decades of research and experience. ",
@@ -541,5 +544,9 @@
     "statusError": "There was an error. Please try again.",
     "statusServerError": "Error sending. Please try again later.",
     "closeButton": "Close"
+  },
+  "banner": {
+    "span": "Don't forget! Optional tours are available before the seminar to enhance your experience.",
+    "cta": "Explore the tours"
   }
 }

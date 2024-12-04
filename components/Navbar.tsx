@@ -12,6 +12,8 @@ interface NavbarProps {}
 
 const Navbar = ({}: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true); // Controla la visibilidad de la navbar
+  const [lastScrollY, setLastScrollY] = useState(0); // Guarda la posición del scroll
   const pathname = usePathname();
 
   const toggleMenu = () => {
@@ -36,10 +38,32 @@ const Navbar = ({}: NavbarProps) => {
     return pathWithoutLocale === linkPath.replace(/^\//, '');
   };
 
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+    if (currentScrollY > lastScrollY && currentScrollY > 50) {
+      setIsVisible(false); // Ocultar navbar al hacer scroll hacia abajo
+    } else {
+      setIsVisible(true); // Mostrar navbar al hacer scroll hacia arriba
+    }
+    setLastScrollY(currentScrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY]);
+
   const t = useTranslations('navbar');
 
   return (
-    <div className="z-50 fixed top-0 bg-white w-screen h-16 grid grid-cols-12 border-b-2 border-gray-200 shadow-lg">
+    <div
+      className={`z-50 fixed top-0 w-screen h-16 grid grid-cols-12 border-b-2 border-gray-200 shadow-lg transition-transform duration-300 ${
+        isVisible ? 'translate-y-0' : '-translate-y-52'
+      }`}
+    >
       <Link
         href="/"
         className="bg-white flex justify-center items-center px-5 py-1 md:py-6 md:justify-center md:col-start-1 md:col-end-13 col-start-1 col-end-9 text-primary"

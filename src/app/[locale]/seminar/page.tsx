@@ -33,7 +33,6 @@ const Page = () => {
 
   return (
     <div className="flex justify-center items-center  flex-col overflow-x-hidden">
-      <StickyBanner />
       <Header text="" />
       <div className="lg:w-3/4 lg:max-h-[700px] overflow-hidden p-5 h-full object-cover rounded-3xl">
         <Image

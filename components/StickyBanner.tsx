@@ -1,6 +1,8 @@
 // src/components/StickyBanner.js
 'use client';
 
+import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function StickyBanner() {
@@ -11,6 +13,8 @@ export default function StickyBanner() {
   };
 
   if (!isVisible) return null;
+
+  const t = useTranslations('banner');
 
   return (
     <div
@@ -32,17 +36,20 @@ export default function StickyBanner() {
             </svg>
             <span className="sr-only">Light bulb</span>
           </span>
-          <span>
-            Keep in mind, optional trips are available to enhance your
-            experience!
-          </span>
+          <span>{t('span')}</span>
+          <Link
+            className="text-sm font-medium text-primary bg-white p-2 rounded-md ml-2"
+            href="/#tours"
+          >
+            {t('cta')}
+          </Link>
         </p>
       </div>
       <div className="flex items-center">
         <button
           onClick={handleClose}
           type="button"
-          className="flex-shrink-0 inline-flex justify-center w-7 h-7 items-center text-gray-400   rounded-lg text-sm p-1.5 hover:bg-gray-600 hover:text-white"
+          className="flex-shrink-0 inline-flex justify-center w-7 h-7 items-center text-gray-400 rounded-lg text-sm p-1.5 hover:bg-gray-600 hover:text-white"
           aria-label="Close banner"
         >
           <svg

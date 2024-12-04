@@ -52,17 +52,12 @@ const Slider: React.FC<SliderProps> = ({}) => {
       className="min-h-screen relative py-24 px-3 flex flex-col justify-around items-center w-full lg:w-10/12"
       id="tours"
     >
-      <div className="flex justify-center items-center flex-col mb-10">
-        <h2 className="text-3xl font-bold text-center text-primary uppercase">
-          {t('slider.title')}
-        </h2>
-        <a
-          href="mailto:info@designmedicine.org"
-          className="text-primary text-lg underline text-center"
-        >
-          info@designmedicine.org
-        </a>
-      </div>
+      <h1 className="text-2xl font-bold   text-center text-primary">
+        {t('slider.2ndtitle')}
+      </h1>
+      <h1 className="text-lg mb-10  text-center text-primary">
+        {t('slider.advice')}
+      </h1>
 
       <div className="flex justify-center items-center">
         <div className="flex flex-col md:flex-row gap-5 justify-between">
@@ -82,7 +77,7 @@ const Slider: React.FC<SliderProps> = ({}) => {
                 <p className="text-gray-600">{slide.paragraph}</p>
               </div>
               <span className="flex items-center justify-center justify-self-end bg-primary text-white p-4 w-full rounded-b-lg">
-                VIEW DETAILS
+                {t('slider.viewDetails')}
                 <IoIosArrowForward
                   className="card-hover-effect transition-all duration-300"
                   size={32}
@@ -91,6 +86,17 @@ const Slider: React.FC<SliderProps> = ({}) => {
             </Link>
           ))}
         </div>
+      </div>
+      <div className="flex justify-center items-center flex-col mt-10">
+        <h2 className="text-3xl font-bold text-center text-primary uppercase">
+          {t('slider.title')}
+        </h2>
+        <a
+          href="mailto:info@designmedicine.org"
+          className="text-primary text-lg underline text-center"
+        >
+          info@designmedicine.org
+        </a>
       </div>
     </div>
   );
