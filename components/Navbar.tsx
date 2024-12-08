@@ -60,7 +60,7 @@ const Navbar = ({}: NavbarProps) => {
 
   return (
     <div
-      className={`z-50 fixed top-0 w-screen h-16 grid grid-cols-12 border-b-2 border-gray-200 shadow-lg transition-transform duration-300 ${
+      className={`z-50 fixed top-0 w-screen h-16 grid grid-cols-12 border-b-2 bg-white border-gray-200 shadow-lg transition-transform duration-300 ${
         isVisible ? 'translate-y-0' : '-translate-y-52'
       }`}
     >
@@ -128,7 +128,7 @@ const Navbar = ({}: NavbarProps) => {
           )}
         </Link>
       </div>
-      <div className="md:hidden flex justify-end items-center col-start-11">
+      <div className=" md:hidden flex justify-end items-center col-start-11">
         <button
           className="outline-none mobile-menu-button"
           onClick={toggleMenu}

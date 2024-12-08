@@ -24,9 +24,6 @@ const SeminarSection: React.FC = () => {
         </video>
       </div>
       <div className=" lg:w-1/2 flex flex-col justify-center items-center md:items-start gap-4 text-black">
-        <h3 className="text-center md:text-left font-bold w-3/4 py-1 px-5 rounded-full text-white bg-primary">
-          {t('seminarSection.date')}
-        </h3>
         <a
           className="flex  justify-center items-center gap-2"
           href="https://maps.app.goo.gl/PfATkGYK8ySsVZpj7"
@@ -36,6 +33,10 @@ const SeminarSection: React.FC = () => {
           </p>
           <FaLocationDot className="text-primary text-center" />
         </a>
+        <h3 className="text-center md:text-left font-bold w-3/4 py-1 px-5 rounded-full text-white bg-primary">
+          {t('seminarSection.date')}
+        </h3>
+
         <h2 className="text-2xl font-bold text-center md:text-left text-primary ">
           {t('seminarSection.title')}
         </h2>
