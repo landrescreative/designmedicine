@@ -30,6 +30,8 @@ const Page = () => {
         title={t('title')}
         paragraph={t('paragraph')}
         img="/viaja-en-globo-por-las-piramides-de-teotihuacan.webp"
+        date={t('date')}
+        hours={t('tourDetails.durationDescription')}
       />
 
       <div className="flex justify-center gap-10 flex-col-reverse md:flex-row items-start w-full px-5 mt-16 lg:w-10/12">

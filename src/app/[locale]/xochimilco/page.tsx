@@ -18,6 +18,8 @@ const Page = () => {
         title={t('tour.title')}
         paragraph={t('tour.description')}
         img="/xochimilco03.jpg"
+        date={t('tour.date')}
+        hours={t('tourdetails1paragraph')}
       />
 
       {/* Main Content */}

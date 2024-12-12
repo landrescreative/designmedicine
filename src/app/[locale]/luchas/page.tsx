@@ -31,6 +31,8 @@ const Page = () => {
         title={t('event.title')}
         paragraph={t('event.date')}
         img="/Lucha-libre-México-CMLL.webp"
+        date={t('event.date')}
+        hours={t('durationDescriptionLuchas')}
       />
 
       <div className="flex justify-center gap-10 flex-col-reverse md:flex-row items-start w-full px-5 mt-16 lg:w-10/12">

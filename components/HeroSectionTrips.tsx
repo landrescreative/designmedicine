@@ -5,12 +5,16 @@ interface HeroSectionTripsProps {
   title: string;
   paragraph: string;
   img: string;
+  date: string;
+  hours: string;
 }
 
 const HeroSectionTrips: React.FC<HeroSectionTripsProps> = ({
   title,
   paragraph,
-  img
+  img,
+  date,
+  hours
 }) => {
   return (
     <div className="relative w-full min-h-[75vh] text-white flex flex-col items-center justify-center px-6 overflow-hidden">
@@ -29,6 +33,8 @@ const HeroSectionTrips: React.FC<HeroSectionTripsProps> = ({
       {/* Contenido centrado */}
       <div className="relative z-10 flex flex-col items-center text-center max-w-5xl">
         <h2 className="uppercase">EXTRA TOURS</h2>
+        <h2 className="uppercase text-3xl">{date}</h2>
+        <h2 className="uppercase text-2xl mb-5">{hours}</h2>
         {/* Título grande y destacado */}
         <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4 drop-shadow-lg">
           {title}
