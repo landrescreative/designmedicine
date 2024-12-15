@@ -18,12 +18,14 @@ const Slider: React.FC<SliderProps> = ({}) => {
     {
       id: 2,
       image: '/viaja-en-globo-por-las-piramides-de-teotihuacan.webp',
+      date: t('teotihuacansite.date') as string,
       title: t('slider.slides.2.title') as string,
       paragraph: t('slider.slides.2.paragraph') as string,
       url: '/teotihuacan'
     },
     {
       id: 3,
+      date: t('xochimilcosite.tour.date') as string,
       image: '/3.jpg',
       title: t('slider.slides.3.title') as string,
       paragraph: t('slider.slides.3.paragraph') as string,
@@ -31,6 +33,7 @@ const Slider: React.FC<SliderProps> = ({}) => {
     },
     {
       id: 4,
+      date: t('luchas.event.date') as string,
       image: '/Lucha-libre-México-CMLL.webp',
       title: t('luchas.event.title') as string,
       paragraph: t('luchas.event.subtitle2') as string,
@@ -73,6 +76,9 @@ const Slider: React.FC<SliderProps> = ({}) => {
                 className="object-cover rounded-t-lg w-full h-[20rem] shadow-lg"
               />
               <div className="px-11 py-5">
+                <p className="text-white mb-2 bg-primary px-4 py-1 rounded-2xl">
+                  {slide.date}
+                </p>
                 <h2 className="text-xl font-bold mb-2">{slide.title}</h2>
                 <p className="text-gray-600">{slide.paragraph}</p>
               </div>
