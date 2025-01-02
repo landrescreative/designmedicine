@@ -10,6 +10,7 @@ const Testimonial: React.FC = () => {
   const t = useTranslations();
   const testimonials = [
     {
+      date: t('xochimilcosite.tour.date') as string,
       title: t('testimonials.0.title'),
       subtitle: t('testimonials.0.subtitle'),
       buttonText: t('testimonials.0.buttonText'),
@@ -17,6 +18,7 @@ const Testimonial: React.FC = () => {
       link: '/xochimilco' // Ruta asociada
     },
     {
+      date: t('teotihuacansite.date') as string,
       title: t('testimonials.1.title'),
       subtitle: t('testimonials.1.subtitle'),
       buttonText: t('testimonials.1.buttonText'),
@@ -24,6 +26,7 @@ const Testimonial: React.FC = () => {
       link: '/teotihuacan' // Ruta asociada
     },
     {
+      date: t('luchas.event.date') as string,
       title: t('testimonials.2.title'),
       subtitle: t('testimonials.2.subtitle'),
       buttonText: t('testimonials.2.buttonText'),
@@ -75,6 +78,9 @@ const Testimonial: React.FC = () => {
           animating ? 'opacity-0' : 'opacity-100'
         }`}
       >
+        <h1 className="text-xl  text-white mb-4 mx-16">
+          {currentTestimonial.date}
+        </h1>
         <h1 className="text-4xl font-bold text-white mb-4 mx-16">
           {currentTestimonial.title}
         </h1>
