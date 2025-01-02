@@ -50,7 +50,7 @@ export default function Tarjetas() {
           className="w-full h-full flex justify-center items-center"
         >
           <Image
-            src="/flyer_kiiko.jpg"
+            src="/flyer_kiiko_v4.jpg"
             alt="Seminar Flyer"
             width={500}
             height={500}
