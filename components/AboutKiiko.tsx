@@ -12,7 +12,7 @@ const AboutKiiko: React.FC<AboutKiikoProps> = ({ abouttitle, aboutdes }) => {
     <div className="flex flex-col items-center pt-16 relative">
       <div className="w-full rounded-3xl flex justify-center items-center">
         <iframe
-          src="https://www.youtube.com/embed/beHL3kQQsLc?si=Q-0xPofHXewSj0W3"
+          src="https://www.youtube.com/embed/beHL3kQQsLc?si=1cmy61xX1oK5jSIx"
           className="w-3/4 h-full aspect-video rounded-3xl"
           title="YouTube video player"
           frameBorder="0"
