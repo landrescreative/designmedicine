@@ -160,7 +160,7 @@ const Page = () => {
         {t('seminar.disclaimer')}
       </p>
       {/* <PaymentOptions /> */}
-      <PaymentSection buyButtonId="buy_btn_1QN0HYBceNIiOkbgTyjucxw3" />
+      <PaymentSection buyButtonId="buy_btn_1Qh0FABceNIiOkbg0tL3knm4" />
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
       </div>
