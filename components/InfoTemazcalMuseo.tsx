@@ -1,0 +1,203 @@
+// components/InfoTemazcalMuseo.tsx
+import React from 'react';
+import { useTranslations } from 'next-intl';
+import { FaRegClock, FaBus, FaCamera } from 'react-icons/fa';
+import { BsFillFileImageFill } from 'react-icons/bs';
+import { AiFillDollarCircle } from 'react-icons/ai';
+import { GiClothes } from 'react-icons/gi';
+import { FaHatCowboySide } from 'react-icons/fa';
+
+const InfoTemazcalMuseo = () => {
+  const t = useTranslations('temazcalmuseo');
+
+  return (
+    <div className="flex justify-center items-center pb-12 w-full">
+      <div className="flex flex-col lg:flex-row justify-start md:w-10/12">
+        {/* First Section - HIGHLIGHTS */}
+        <div className="flex-1 bg-white p-6 flex flex-col gap-5">
+          <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
+            {t('whattoexpect')}
+          </h2>
+
+          <div className="grid grid-cols-6 grid-rows-1">
+            <BsFillFileImageFill
+              size={30}
+              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">Temazcal</h3>
+              <p className="text-gray-600">{t('highlight.0')}</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-6 grid-rows-1">
+            <BsFillFileImageFill
+              size={30}
+              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">Museo El Carmen</h3>
+              <p className="text-gray-600">{t('highlight.1')}</p>
+            </div>
+          </div>
+          {t('whatToBring.warning') && (
+            <div className="mt-4 p-3 bg-yellow-100 rounded-lg">
+              <p className="text-yellow-800 font-semibold">
+                {t('whatToBring.warning')}
+              </p>
+            </div>
+          )}
+        </div>
+
+        {/* Line Separator */}
+        <div className="border-t border-primary md:hidden"></div>
+        <div className="w-1 bg-primary hidden md:block"></div>
+
+        {/* Second Section - TOUR DETAILS */}
+        <div className="flex-1 bg-white p-6 flex flex-col gap-5">
+          <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
+            {t('tourDetails.title')}
+          </h2>
+          <div className="grid grid-cols-6 grid-rows-1">
+            <FaRegClock
+              size={30}
+              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('tourDetails.durationTitle')}
+              </h3>
+              <p className="text-gray-600">
+                {t('tourDetails.durationDescription')}
+              </p>
+            </div>
+          </div>
+          <div className="grid grid-cols-6 grid-rows-1">
+            <FaBus
+              size={30}
+              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('tourDetails.transportTitle')}
+              </h3>
+              <p className="text-gray-600">
+                {t('tourDetails.transportDescription')}
+              </p>
+            </div>
+          </div>
+          <div className="grid grid-cols-6 grid-rows-1">
+            <AiFillDollarCircle
+              size={30}
+              className="text-green-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('tourDetails.priceTitle')}
+              </h3>
+              <p className="text-gray-600">
+                {t('tourDetails.priceDescription')}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Line Separator */}
+        <div className="border-t border-primary md:hidden"></div>
+        <div className="w-1 bg-primary hidden md:block"></div>
+
+        {/* Third Section - WHAT TO BRING */}
+        <div className="flex-1 bg-white p-6 flex flex-col gap-5">
+          <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
+            {t('whatToBring.title')}
+          </h2>
+          <div className="grid grid-cols-6 grid-rows-1">
+            <GiClothes
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('whatToBring.clothingTitle')}
+              </h3>
+            </div>
+          </div>
+          <div className="grid grid-cols-6 grid-rows-1">
+            <FaHatCowboySide
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('whatToBring.hatTitle')}
+              </h3>
+            </div>
+          </div>
+          <div className="grid grid-cols-6 grid-rows-1">
+            <GiClothes
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('whatToBring.waterTitle')}
+              </h3>
+            </div>
+          </div>
+          <div className="grid grid-cols-6 grid-rows-1">
+            <GiClothes
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('whatToBring.cameraTitle')}
+              </h3>
+            </div>
+          </div>
+          {t('whatToBring.extra') && (
+            <div className="grid grid-cols-6 grid-rows-1">
+              <GiClothes
+                size={30}
+                className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+              />
+              <div className="col-start-2 col-end-6 self-center justify-self-start">
+                <h3 className="text-lg font-medium">
+                  {t('whatToBring.extra')}
+                </h3>
+              </div>
+            </div>
+          )}
+          {t('whatToBring.extra2') && (
+            <div className="grid grid-cols-6 grid-rows-1">
+              <GiClothes
+                size={30}
+                className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+              />
+              <div className="col-start-2 col-end-6 self-center justify-self-start">
+                <h3 className="text-lg font-medium">
+                  {t('whatToBring.extra2')}
+                </h3>
+              </div>
+            </div>
+          )}
+          {t('whatToBring.extra3') && (
+            <div className="grid grid-cols-6 grid-rows-1">
+              <GiClothes
+                size={30}
+                className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+              />
+              <div className="col-start-2 col-end-6 self-center justify-self-start">
+                <h3 className="text-lg font-medium">
+                  {t('whatToBring.extra3')}
+                </h3>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default InfoTemazcalMuseo;
+

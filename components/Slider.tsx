@@ -16,28 +16,28 @@ const Slider: React.FC<SliderProps> = ({}) => {
 
   const slides = [
     {
+      id: 1,
+      image: '/monarca.jpg',
+      date: t('mariposamonarca.date') as string,
+      title: t('slider.slides.1.title') as string,
+      paragraph: t('slider.slides.1.paragraph') as string,
+      url: '/mariposamonarca'
+    },
+    {
       id: 2,
-      image: '/viaja-en-globo-por-las-piramides-de-teotihuacan.webp',
-      date: t('teotihuacansite.date') as string,
+      date: t('tresmuseos.date') as string,
+      image: '/museos.jpg',
       title: t('slider.slides.2.title') as string,
       paragraph: t('slider.slides.2.paragraph') as string,
-      url: '/teotihuacan'
+      url: '/tresmuseos'
     },
     {
       id: 3,
-      date: t('xochimilcosite.tour.date') as string,
-      image: '/3.jpg',
+      date: t('temazcalmuseo.date') as string,
+      image: '/temazcal.jpg',
       title: t('slider.slides.3.title') as string,
       paragraph: t('slider.slides.3.paragraph') as string,
-      url: '/xochimilco'
-    },
-    {
-      id: 4,
-      date: t('luchas.event.date') as string,
-      image: '/Lucha-libre-México-CMLL.webp',
-      title: t('luchas.event.title') as string,
-      paragraph: t('luchas.event.subtitle2') as string,
-      url: '/luchas'
+      url: '/temazcalmuseo'
     }
   ];
 

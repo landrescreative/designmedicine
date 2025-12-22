@@ -50,16 +50,16 @@
 
     "slides": {
       "1": {
-        "title": "Templo Mayor en la Ciudad de México",
-        "paragraph": "La Ciudad de México, capital de México, es conocida por las ruinas del Templo Mayor, la catedral metropolitana barroca de los conquistadores españoles y el Palacio Nacional."
+        "title": "Santuario de la Mariposa Monarca: Piedra Herrada y Valle de Bravo",
+        "paragraph": "Experimenta el Santuario de la Mariposa Monarca en México y descubre Piedra Herrada, uno de los santuarios de la Reserva de la Biosfera de la Mariposa Monarca, declarado Patrimonio de la Humanidad por la UNESCO en 2008."
       },
       "2": {
-        "title": "Pirámides de Teotihuacán",
-        "paragraph": "Teotihuacán es una antigua ciudad mesoamericana ubicada a 30 millas (50 km) al noreste de la actual Ciudad de México."
+        "title": "Tres Museos: Frida Kahlo, Diego Rivera y Anahuacalli",
+        "paragraph": "Experimenta el vibrante mundo de Frida Kahlo y Diego Rivera en este tour privado por la Ciudad de México. Visita el icónico Museo Frida Kahlo, también conocido como Casa Azul."
       },
       "3": {
-        "title": "Xochimilco",
-        "paragraph": "Xochimilco es conocido por su extensa serie de canales, todo lo que queda del antiguo lago Xochimilco."
+        "title": "Temazcal y Museo El Carmen",
+        "paragraph": "Limpia tu cuerpo y tu alma en una auténtica ceremonia de temazcal y explora uno de los lugares más fascinantes y misteriosos de la Ciudad de México en el Museo del Carmen."
       }
     },
     "viewDetails": "VER DETALLES"
@@ -372,7 +372,7 @@
     "seminar": "Seminario",
     "tours": "Tours",
     "register": "Regístrate Ahora",
-    "face-reading": "lectura de rostro y acupuntura cosmética / medicina energética"
+    "face-reading": "lectura de rostro y acupuntura cosmética"
   },
   "face-reading": {
     "title": "Sesión Extra Exclusiva: Lectura de Rostro y Acupuntura Cosmética",
@@ -480,6 +480,164 @@
     "viewmapparagraph": "Revisa reseñas, explora el área, etc.",
     "phototitle": ["Cata de Mezcal y Tacos", "Lucha Libre"]
   },
+  "mariposamonarca": {
+    "date": "Martes 10 de febrero de 2026",
+    "length": "1 día",
+    "title": "Santuario de la Mariposa Monarca: Piedra Herrada y Valle de Bravo",
+    "paragraph": "Experimenta el Santuario de la Mariposa Monarca en México y descubre Piedra Herrada, uno de los santuarios de la Reserva de la Biosfera de la Mariposa Monarca, declarado Patrimonio de la Humanidad por la UNESCO en 2008. Más tarde, haz una parada en Valle de Bravo para pasear por sus encantadoras calles empedradas, mercados, plazas, parques y numerosos rincones acogedores para disfrutar de un refrigerio. ¡No te pierdas este colorido vuelo!",
+    "whattoexpect": "¿Qué esperar?",
+    "highlight": [
+      "Descubre uno de los santuarios del Santuario de la Mariposa Monarca en México, declarado Patrimonio de la Humanidad por la UNESCO.",
+      "Vive en primera persona uno de los fenómenos naturales más espectaculares y aprende todo sobre estos insectos únicos con un guía local.",
+      "Visita Valle de Bravo y recorre sus hermosas calles empedradas del siglo XVI en su centro histórico.",
+      "Haz una parada en el Museo de Arte Popular y conoce el patrimonio artístico de México.",
+      "Visita una impresionante cascada."
+    ],
+    "fulldescription": [
+      "Comienza tu visita al Santuario de la Mariposa Monarca en México con un encuentro temprano con tu guía. Desde allí, emprenderemos un viaje hacia la Reserva de la Mariposa Monarca en México, una impresionante maravilla natural en los bosques de oyamel de Michoacán y el Estado de México. Esta extraordinaria experiencia te permitirá presenciar uno de los fenómenos naturales más extraordinarios del mundo. De noviembre a marzo, millones de mariposas monarca migran desde el norte de Estados Unidos y Canadá a estos bosques, donde pasan el invierno en la cálida atmósfera del fresco clima de montaña.",
+      "Al llegar al santuario de la Mariposa Monarca, el aire se llenará del suave aleteo de miles de mariposas, que cubren los árboles con un fascinante espectáculo de tonos naranja y negro. Ver tantas mariposas reunidas en un solo lugar es mágico. Estas increíbles criaturas recorren más de 6,400 kilómetros durante su migración, y es aquí, en los tranquilos bosques de Michoacán, donde encuentran descanso y refugio. Este espectáculo natural es uno de los eventos más impresionantes del planeta, y tendrás la oportunidad de presenciarlo de cerca, experimentando la majestuosidad de las mariposas mientras se agrupan en las ramas y vuelan por el aire fresco de la montaña. Tu guía compartirá detalles fascinantes sobre el ciclo de vida de la mariposa monarca, el proceso migratorio y los esfuerzos de conservación para proteger a esta especie en peligro de extinción.",
+      "Después de sumergirnos en el santuario de la mariposa monarca, continuaremos nuestra aventura hacia Valle de Bravo, un encantador pueblo colonial enclavado junto al hermoso lago Avándaro. Este pintoresco pueblo, conocido por sus calles empedradas, arquitectura histórica e impresionantes vistas al lago, es un destino popular tanto para los amantes de la naturaleza como para los aficionados a la historia. Mientras paseamos por el centro histórico, nos rodearemos de los encantadores edificios coloniales y mercados que han hecho famoso a Valle de Bravo.",
+      "También tendremos la oportunidad de probar auténtica comida local. La zona es conocida por su deliciosa gastronomía mexicana, y en sus animadas plazas podremos degustar platillos como tacos, enchiladas y tamales frescos. No dejemos de disfrutar de un helado artesanal, elaborado con frutas locales, para refrescarnos mientras exploramos.",
+      "Mientras paseamos por el pueblo, nuestro guía compartirá historias sobre la historia, la cultura y la belleza natural de la zona. Valle de Bravo tiene algo para todos los gustos, desde su rica importancia cultural hasta sus pintorescas vistas de las montañas y el lago circundantes.",
+      "Después del recorrido y un día lleno de nuevas experiencias, regreso a nuestro vehículo y relax de regreso a la Ciudad de México."
+    ],
+    "tourincludes": [
+      "Guías locales expertos",
+      "Servicio de un guía local multilingüe: Tour en grupos pequeños: Inglés y español (nuestros guías son bilingües). Tour privado: Español e inglés + otros idiomas (p. ej., francés, alemán, italiano, portugués) previa solicitud (sujeto a disponibilidad)",
+      "Transporte",
+      "Transporte de ida y vuelta desde la Ciudad de México: Tour en grupos pequeños: recogida compartida (con otros participantes del grupo) desde un punto determinado. Tour privado: recogida privada (solo para su grupo) desde su alojamiento u otro punto de su elección en la Ciudad de México",
+      "El tipo de vehículo depende del tamaño del grupo y puede incluir un coche, un vehículo de 7 plazas o una minivan",
+      "Comidas",
+      "Bebidas no alcohólicas y refrigerios",
+      "Actividades",
+      "Entrada y visita guiada al Santuario de la Mariposa Monarca Piedra Herrada, la Cascada Velo de Novia y el Museo de Arte Popular de Valle de Bravo; y recorrido a pie por Valle de Bravo"
+    ],
+    "tourexcludes": [
+      "Almuerzo",
+      "Propinas"
+    ],
+    "tourDetails": {
+      "title": "Detalles del Tour",
+      "durationTitle": "Duración",
+      "durationDescription": "Tour de día completo",
+      "transportTitle": "Incluye Transporte",
+      "transportDescription": "Podemos llevarte al lugar exacto por tu seguridad",
+      "priceTitle": "Precio",
+      "priceDescription": "$320 USD por persona"
+    },
+    "whatToBring": {
+      "title": "Qué Llevar",
+      "clothingTitle": "Calzado cómodo",
+      "hatTitle": "Gafas de sol",
+      "waterTitle": "Protector solar",
+      "cameraTitle": "Chaqueta",
+      "extra": "Ropa cómoda"
+    },
+    "viewmap": "VER EN MAPA",
+    "viewmapparagraph": "Revisa reseñas, explora el área, etc."
+  },
+  "tresmuseos": {
+    "date": "Miércoles 11 de febrero de 2026",
+    "length": "1 día",
+    "title": "Tres Museos: Museo Frida Kahlo, Estudio Diego Rivera y Museo Anahuacalli - Tour Privado",
+    "paragraph": "Experimente el vibrante mundo de Frida Kahlo y Diego Rivera en este tour privado por la Ciudad de México. Visite el icónico Museo Frida Kahlo, también conocido como Casa Azul, donde se sumergirá en su arte, sus pertenencias y el espacio donde vivió y trabajó. Explore el Estudio Diego Rivera, donde los artistas colaboraron y crearon innumerables obras maestras. Descubra las historias ocultas detrás del Museo Anahuacalli y maravíllese con su fascinante colección.",
+    "whattoexpect": "¿Qué esperar?",
+    "highlight": [
+      "Visita el icónico Museo Frida Kahlo (Casa Azul)",
+      "Explora el Estudio Diego Rivera donde los artistas colaboraron",
+      "Descubre el Museo Anahuacalli y su fascinante colección",
+      "Guía profesional de arte",
+      "Tour privado personalizado"
+    ],
+    "fulldescription": [
+      "Experimente el vibrante mundo de Frida Kahlo y Diego Rivera en este tour privado por la Ciudad de México. Visite el icónico Museo Frida Kahlo, también conocido como Casa Azul, donde se sumergirá en su arte, sus pertenencias y el espacio donde vivió y trabajó. Explore el Estudio Diego Rivera, donde los artistas colaboraron y crearon innumerables obras maestras. Descubra las historias ocultas detrás del Museo Anahuacalli y maravíllese con su fascinante colección. Con un guía experto a su lado, comprenderá más profundamente el arte y la cultura mexicanos mientras recorre estos reconocidos museos. Inspírese con los tesoros que albergan, mientras la impresionante colección se vuelve accesible para todos. No pierda esta oportunidad de embarcarse en un viaje cautivador a través de las vidas y el legado de Frida Kahlo y Diego Rivera."
+    ],
+    "tourincludes": [
+      "Visita guiada privada",
+      "Entradas incluidas",
+      "Duración: 3 horas y 30 minutos",
+      "Transporte al museo (desde City Express Plus by Marriott Insurgentes Sur) y entre museos",
+      "Guía de arte profesional"
+    ],
+    "tourexcludes": [
+      "Almuerzo",
+      "Propinas"
+    ],
+    "tourDetails": {
+      "title": "Detalles del Tour",
+      "durationTitle": "Duración",
+      "durationDescription": "3 horas y 30 minutos",
+      "transportTitle": "Incluye Transporte",
+      "transportDescription": "Podemos llevarte al lugar exacto por tu seguridad",
+      "priceTitle": "Precio",
+      "priceDescription": "$240 USD por persona"
+    },
+    "whatToBring": {
+      "title": "Qué Llevar",
+      "clothingTitle": "Ropa cómoda",
+      "hatTitle": "Cámara para fotografías",
+      "waterTitle": "Agua",
+      "cameraTitle": "Cámara para capturar recuerdos"
+    },
+    "viewmap": "VER EN MAPA",
+    "viewmapparagraph": "Revisa reseñas, explora el área, etc."
+  },
+  "temazcalmuseo": {
+    "date": "Jueves 12 de febrero de 2026",
+    "length": "1 día",
+    "title": "Temazcal y Museo El Carmen",
+    "paragraph": "Limpia tu cuerpo y tu alma en una auténtica ceremonia de temazcal. Un temazcal es un tipo de cabaña de sudación originaria de los pueblos indígenas de Mesoamérica. Después, embárcate en un viaje a través del tiempo en el histórico Museo del Carmen, un lugar donde el pasado susurra sus secretos, famoso por su singular colección de momias preservadas naturalmente.",
+    "whattoexpect": "¿Qué esperar?",
+    "highlight": [
+      "Experiencia auténtica de temazcal (cabaña de sudación)",
+      "Visita al histórico Museo del Carmen",
+      "Explora una de las colecciones más fascinantes de momias preservadas naturalmente",
+      "Conoce la historia del antiguo convento carmelita",
+      "Guía local bilingüe"
+    ],
+    "fulldescription": [
+      "Un temazcal es un tipo de cabaña de sudación originaria de los pueblos indígenas de Mesoamérica. El término temazcal proviene del náhuatl, ya sea de las palabras teme (bañar) y calli (casa), o de temazcalli (casa de calor).",
+      "En la antigua Mesoamérica, se utilizaba como parte de una ceremonia curativa que se creía purificaba el cuerpo tras el esfuerzo físico, como después de una batalla o un juego de pelota ceremonial. También se usaba para sanar a los enfermos, mejorar la salud y para que las mujeres dieran a luz. Aún se utiliza hoy en día en culturas indígenas de México y Centroamérica que formaron parte de la antigua región mesoamericana con fines de sanación espiritual y para el bienestar.",
+      "El temazcal suele ser una estructura permanente; a veces es una cúpula circular que representa el útero. Para producir vapor, se vierte agua sobre piedras volcánicas calientes, que no se agrietan ni explotan como otras rocas en espacios confinados de alta temperatura. Las piedras se pueden calentar con fuego desde un orificio exterior o colocarse en un hoyo ubicado en el centro o cerca de una pared del temazcal.",
+      "Museo de El Carmen",
+      "El Carmen es un antiguo convento convertido en museo en San Ángel, un suburbio al sur de la Ciudad de México. El convento fue fundado el 29 de junio de 1615 por los Carmelitas Descalzos en la zona del poblado azteca de Tenanitla, que posteriormente pasó a llamarse San Ángel. El fundador fue el padre Andrés de San Miguel. Este convento fue construido entre 1615 y 1626.",
+      "El museo alberga una gran colección de arte religioso colonial mexicano, que incluye pinturas de Miguel Cabrera, así como mobiliario original del monasterio y una colección relacionada con la historia del monasterio y la vida de los carmelitas",
+      "Embárcate en un viaje a través del tiempo en el histórico Museo del Carmen, un lugar donde el pasado susurra sus secretos. En este recorrido único, explorarás uno de los lugares más fascinantes y misteriosos de la Ciudad de México, famoso por su singular colección de momias preservadas naturalmente.",
+      "Esta experiencia es más que un simple recorrido: es una oportunidad para conectar con la historia y el misterio de una manera íntima y personal. No te pierdas la oportunidad de descubrir uno de los tesoros más extraordinarios de la Ciudad de México."
+    ],
+    "tourincludes": [
+      "Servicio de un guía local multilingüe",
+      "Transporte redondo desde City Express Plus by Marriott Insurgentes Sur",
+      "Bebidas no alcohólicas y aperitivos",
+      "Entrada y visita guiada a la Zona Arqueológica de Teotihuacán; experiencia de temazcal en una comunidad local"
+    ],
+    "tourexcludes": [
+      "Almuerzo",
+      "Propinas"
+    ],
+    "tourDetails": {
+      "title": "Detalles del Tour",
+      "durationTitle": "Duración",
+      "durationDescription": "Tour de medio día",
+      "transportTitle": "Incluye Transporte",
+      "transportDescription": "Podemos llevarte al lugar exacto por tu seguridad",
+      "priceTitle": "Precio",
+      "priceDescription": "$220 USD por persona"
+    },
+    "whatToBring": {
+      "title": "Qué Llevar",
+      "clothingTitle": "Calzado cómodo",
+      "hatTitle": "Gafas de sol",
+      "waterTitle": "Toalla",
+      "cameraTitle": "Sandalias",
+      "extra": "Seguro de viaje",
+      "extra2": "Camiseta",
+      "extra3": "Pantalones cortos",
+      "warning": "No recomendable para embarazadas"
+    },
+    "viewmap": "VER EN MAPA",
+    "viewmapparagraph": "Revisa reseñas, explora el área, etc."
+  },
   "formulario": {
     "title": "Información de contacto",
     "subtitle": "Rellena el formulario a continuación si tienes alguna pregunta.",
@@ -525,18 +683,18 @@
   },
   "testimonials": [
     {
-      "title": "Viaje a Xochimilco y Museo Nacional de Antropología",
-      "subtitle": "Descubre los canales de Xochimilco y maravíllate con las colecciones del Museo Nacional de Antropología.",
+      "title": "Santuario de la Mariposa Monarca: Piedra Herrada y Valle de Bravo",
+      "subtitle": "Experimenta el Santuario de la Mariposa Monarca en México y descubre Piedra Herrada, uno de los santuarios de la Reserva de la Biosfera de la Mariposa Monarca, declarado Patrimonio de la Humanidad por la UNESCO en 2008.",
       "buttonText": "Explora la experiencia"
     },
     {
-      "title": "Explora Teotihuacán y la Basílica de Guadalupe",
-      "subtitle": "Sube las pirámides del Sol y la Luna, y visita uno de los santuarios más importantes de México.",
+      "title": "Tres Museos: Museo Frida Kahlo, Estudio Diego Rivera y Museo Anahuacalli",
+      "subtitle": "Experimente el vibrante mundo de Frida Kahlo y Diego Rivera en este tour privado por la Ciudad de México. Visite el icónico Museo Frida Kahlo, también conocido como Casa Azul.",
       "buttonText": "Planifica tu visita"
     },
     {
-      "title": "Mezcal, Tacos y Lucha Libre",
-      "subtitle": "Disfruta de una experiencia única: degustación de mezcal y tacos antes de una lucha libre mexicana.",
+      "title": "Temazcal y Museo El Carmen",
+      "subtitle": "Limpia tu cuerpo y tu alma en una auténtica ceremonia de temazcal. Embárcate en un viaje a través del tiempo en el histórico Museo del Carmen, famoso por su singular colección de momias preservadas naturalmente.",
       "buttonText": "Reserva tu lugar"
     }
   ],

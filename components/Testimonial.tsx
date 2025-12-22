@@ -10,28 +10,28 @@ const Testimonial: React.FC = () => {
   const t = useTranslations();
   const testimonials = [
     {
-      date: t('xochimilcosite.tour.date') as string,
+      date: t('mariposamonarca.date') as string,
       title: t('testimonials.0.title'),
       subtitle: t('testimonials.0.subtitle'),
       buttonText: t('testimonials.0.buttonText'),
-      imageUrl: '/xochimilco03.jpg',
-      link: '/xochimilco' // Ruta asociada
+      imageUrl: '/monarca.jpg',
+      link: '/mariposamonarca' // Ruta asociada
     },
     {
-      date: t('teotihuacansite.date') as string,
+      date: t('tresmuseos.date') as string,
       title: t('testimonials.1.title'),
       subtitle: t('testimonials.1.subtitle'),
       buttonText: t('testimonials.1.buttonText'),
-      imageUrl: '/1540469443356.jpg',
-      link: '/teotihuacan' // Ruta asociada
+      imageUrl: '/museos.jpg',
+      link: '/tresmuseos' // Ruta asociada
     },
     {
-      date: t('luchas.event.date') as string,
+      date: t('temazcalmuseo.date') as string,
       title: t('testimonials.2.title'),
       subtitle: t('testimonials.2.subtitle'),
       buttonText: t('testimonials.2.buttonText'),
-      imageUrl: '/Lucha-libre-México-CMLL.webp',
-      link: '/luchas' // Ruta asociada
+      imageUrl: '/temazcal.jpg',
+      link: '/temazcalmuseo' // Ruta asociada
     }
   ];
 
