@@ -6,13 +6,13 @@
     "cta2": "Ver Más"
   },
   "seminarSection": {
-    "date": "14-16 de Febrero, 2025 | Ciudad de México",
+    "date": "14-15 de Febrero, 2026 | Ciudad de México",
     "title": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: SENSEI A TU LADO ",
     "paragraph": "Vive una oportunidad única de aprender directamente de Kiiko Matsumoto, una Gran Maestra reconocida de la acupuntura. En este exclusivo taller práctico, no solo perfeccionarás tus técnicas de acupuntura, sino que también adquirirás conocimientos prácticos y reales mientras tratas pacientes con Kiiko guiándote en cada paso.",
     "cta": "VER DETALLES"
   },
   "separators": {
-    "1": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: SENSEI A TU LADO, 14-16 DE FEBRERO 2025",
+    "1": "KIIKO MATSUMOTO SEMINARIO INTENSIVO DE 3 DÍAS: SENSEI A TU LADO, 14-15 DE FEBRERO 2026",
     "2": "¡EXPLORA MÉXICO CON NUESTROS VIAJES OPCIONALES a lugares increibles!",
     "3": "MÁS SOBRE KIIKO Y LOS TESTIMONIOS DE SUS USUARIOS"
   },
@@ -50,16 +50,24 @@
 
     "slides": {
       "1": {
+        "title": "Tour Privado Museo Soumaya",
+        "paragraph": "Descubre uno de los hitos arquitectónicos y colecciones de arte más icónicos de la Ciudad de México en el Museo Soumaya, con obras de maestros europeos y mexicanos."
+      },
+      "2": {
         "title": "Santuario de la Mariposa Monarca: Piedra Herrada y Valle de Bravo",
         "paragraph": "Experimenta el Santuario de la Mariposa Monarca en México y descubre Piedra Herrada, uno de los santuarios de la Reserva de la Biosfera de la Mariposa Monarca, declarado Patrimonio de la Humanidad por la UNESCO en 2008."
       },
-      "2": {
+      "3": {
         "title": "Tres Museos: Frida Kahlo, Diego Rivera y Anahuacalli",
         "paragraph": "Experimenta el vibrante mundo de Frida Kahlo y Diego Rivera en este tour privado por la Ciudad de México. Visita el icónico Museo Frida Kahlo, también conocido como Casa Azul."
       },
-      "3": {
-        "title": "Temazcal y Museo El Carmen",
-        "paragraph": "Limpia tu cuerpo y tu alma en una auténtica ceremonia de temazcal y explora uno de los lugares más fascinantes y misteriosos de la Ciudad de México en el Museo del Carmen."
+      "4": {
+        "title": "Xochimilco: Tour en Kayak",
+        "paragraph": "Disfruta de una hermosa vista al amanecer e inmersiónate en el espectacular entorno natural del Lago de Xochimilco. Viaja en kayak y maravíllate con este famoso sitio del patrimonio mundial."
+      },
+      "5": {
+        "title": "Temazcal y Museo del Carmen",
+        "paragraph": "Limpia tu cuerpo y tu alma en una auténtica ceremonia de temazcal. Un temazcal es un tipo de cabaña de sudación originaria de los pueblos indígenas de Mesoamérica. Después, embárcate en un viaje a través del tiempo en el histórico Museo del Carmen, un lugar donde el pasado susurra sus secretos, famoso por su singular colección de momias preservadas naturalmente."
       }
     },
     "viewDetails": "VER DETALLES"
@@ -83,8 +91,8 @@
     "TALLERESEXTRA": "Talleres Extra"
   },
   "seminar": {
-    "title": "Taller Clínico Intensivo de 3 Días con Kiiko Matsumoto: Sensei a Tu Lado",
-    "date": "14-16 de Febrero, 2025 | Ciudad de México",
+    "title": "Taller Clínico Intensivo de 2 Días con Kiiko Matsumoto: Sensei a Tu Lado",
+    "date": "14-15 de Febrero, 2026 | Ciudad de México",
     "description": "¡Kiiko Matsumoto viene a ti! En un formato novedoso de enseñanza clínica, tendrás la oportunidad de experimentar a una gran maestra a tu lado. Explorarás y revisarás pacientes con ella mientras te corrige tus técnicas de acupuntura, a la vez que compartirá su investigación más reciente sobre las aplicaciones de la literatura clásica y te mostrará las muchas formas en que esto puede manifestarse sintomáticamente con sus estrategias de tratamiento más recientes. Disfruta de sus fascinantes explicaciones teóricas sobre puntos y meridianos mientras tratas pacientes a su lado. Trataremos pacientes con condiciones complejas y difíciles, con múltiples tratamientos farmacológicos y más. Tener a la sensei a tu lado asegurará que sepas cómo aplicar lo aprendido al día siguiente en tu clínica para obtener resultados clínicamente sorprendentes.",
     "subtitle": "¿Por Qué Asistir?",
     "description9": "Ver en Mapa",
@@ -158,11 +166,11 @@
     "description1": "KIIKO MATSUMOTO, LAC",
     "description2": "Inglés, Español",
     "description3": "Ciudad de México, México",
-    "description4": "3 Días",
+    "description4": "2 Días",
     "description5": "Podemos llevarte al lugar exacto por tu seguridad",
     "description6": "Precio de Preventa: $1,380 USD, hasta el 10 de enero de 2025 \n Precio Regular: $1,500 USD",
     "description7": "9:00 AM - 5:00 PM",
-    "description8": "Precio de Preventa: $1,380 USD, hasta el 10 de enero de 2025 \n Precio Regular: $1,500 USD",
+    "description8": "Precio: $1,155 USD",
     "description9": "Ver en mapa",
     "disclaimer": "*incluye transporte, desayuno y almuerzo (con opciones veganas) \n La cancelación por cualquier motivo puede realizarse hasta el 15 de enero de 2025, para un reembolso completo menos un depósito no reembolsable de $75. Después del 15 de enero, los montos de la matrícula no son reembolsables a menos que la cancelación se realice debido a una enfermedad o cuarentena obligatoria relacionada con COVID-19, en cuyo caso se le reembolsará excepto por el depósito de $75. Si Design Medicine se ve obligada por alguna razón a cancelar este curso debido a COVID-19 o enfermedad del instructor, todos los participantes serán reembolsados en su totalidad."
   },
@@ -293,7 +301,7 @@
     "whattobring3": "Agua y bocadillos",
     "whattobring4": "Cámara para capturar recuerdos",
     "tour": {
-      "date": "Jueves 13 de Febrero 2025",
+      "date": "Viernes 13 de Febrero 2026",
       "title": "Xochimilco: Tour en Kayak",
       "description": "Disfruta de una hermosa vista al amanecer e inmersiónate en el espectacular entorno natural del Lago de Xochimilco. Viaja en kayak y maravíllate con este famoso sitio del patrimonio mundial de la humanidad junto a un guía."
     },
@@ -361,7 +369,7 @@
       "Kayak (individual o doble)",
       "Chaleco de seguridad"
     ],
-    "cost": "250 USD",
+    "cost": "180 USD",
     "phototitle": [
       "Paseo en Trajinera en Xochimilco",
       "Museo Nacional de Antropología"
@@ -376,10 +384,10 @@
   },
   "face-reading": {
     "title": "Sesión Extra Exclusiva: Lectura de Rostro y Acupuntura Cosmética",
-    "date": "Fecha: Lunes, 17 de febrero de 2025",
-    "time": "Hora: 9:00 AM - 1:00 PM",
+    "date": "Fecha: Viernes, 13 de febrero de 2026",
+    "time": "Hora: 2:00 PM - 6:00 PM",
     "instructor": "Ana Nieves, M.D.",
-    "cost": "Costo: $500 USD por persona",
+    "cost": "Costo: $580 USD por persona",
     "subtitle": "Lo Que Aprenderás:",
     "seminartitle": "Desbloquea la Sabiduría Oculta del Rostro: Una Herramienta Diagnóstica Crítica en la Medicina China",
     "paragraph": "En la Medicina Tradicional China (MTC), la Lectura y Diagnóstico del Rostro son mucho más que herramientas estéticas: son componentes integrales del repertorio diagnóstico de un practicante, ofreciendo profundos conocimientos sobre la salud interna de un paciente. Al igual que el diagnóstico del pulso o de la lengua, el rostro refleja el equilibrio de los órganos internos y la energía. Dominar esta habilidad diagnóstica te permite comprender mejor las causas raíz de las enfermedades y adaptar eficazmente los tratamientos para una curación a largo plazo.",
@@ -426,11 +434,11 @@
       "Ana Nieves, M.D.",
       "Inglés, Español",
       "Ciudad de México, México",
-      "Taller de medio día (9:00 AM - 1:00 PM)",
+      "Taller de medio día (2:00 PM - 6:00 PM)",
       "Podemos llevarte al lugar exacto por tu seguridad",
-      "Lunes, 17 de febrero de 2025",
-      "9:00 AM - 1:00 PM",
-      "$500 por persona"
+      "Viernes, 13 de febrero de 2026",
+      "2:00 PM - 6:00 PM",
+      "$580 por persona"
     ],
     "workshop2title": "Workshop 2: Bioenergética China con el Dr. Antonio Merchant",
     "workshop2paragraph": [
@@ -495,22 +503,17 @@
     ],
     "fulldescription": [
       "Comienza tu visita al Santuario de la Mariposa Monarca en México con un encuentro temprano con tu guía. Desde allí, emprenderemos un viaje hacia la Reserva de la Mariposa Monarca en México, una impresionante maravilla natural en los bosques de oyamel de Michoacán y el Estado de México. Esta extraordinaria experiencia te permitirá presenciar uno de los fenómenos naturales más extraordinarios del mundo. De noviembre a marzo, millones de mariposas monarca migran desde el norte de Estados Unidos y Canadá a estos bosques, donde pasan el invierno en la cálida atmósfera del fresco clima de montaña.",
-      "Al llegar al santuario de la Mariposa Monarca, el aire se llenará del suave aleteo de miles de mariposas, que cubren los árboles con un fascinante espectáculo de tonos naranja y negro. Ver tantas mariposas reunidas en un solo lugar es mágico. Estas increíbles criaturas recorren más de 6,400 kilómetros durante su migración, y es aquí, en los tranquilos bosques de Michoacán, donde encuentran descanso y refugio. Este espectáculo natural es uno de los eventos más impresionantes del planeta, y tendrás la oportunidad de presenciarlo de cerca, experimentando la majestuosidad de las mariposas mientras se agrupan en las ramas y vuelan por el aire fresco de la montaña. Tu guía compartirá detalles fascinantes sobre el ciclo de vida de la mariposa monarca, el proceso migratorio y los esfuerzos de conservación para proteger a esta especie en peligro de extinción.",
+      "Al llegar al santuario de la Mariposa Monarca, el aire se llenará del suave aleteo de miles de mariposas, que cubren los árboles con un fascinante espectáculo de tonos naranja y negro. Ver tantas mariposas reunidas en un solo lugar es mágico. Estas increíbles criaturas recorren más de 6,400 kilómetros durante su migración, y es aquí, en los tranquilos bosques de Michoacán, donde encuentran descanso y refugio. Este espectáculo natural es uno de los eventos más impresionantes del planeta, y tendrá la oportunidad de presenciarlo de cerca, experimentando la majestuosidad de las mariposas mientras se agrupan en las ramas y vuelan por el aire fresco de la montaña. Su guía compartirá detalles fascinantes sobre el ciclo de vida de la mariposa monarca, el proceso migratorio y los esfuerzos de conservación para proteger a esta especie en peligro de extinción.",
       "Después de sumergirnos en el santuario de la mariposa monarca, continuaremos nuestra aventura hacia Valle de Bravo, un encantador pueblo colonial enclavado junto al hermoso lago Avándaro. Este pintoresco pueblo, conocido por sus calles empedradas, arquitectura histórica e impresionantes vistas al lago, es un destino popular tanto para los amantes de la naturaleza como para los aficionados a la historia. Mientras paseamos por el centro histórico, nos rodearemos de los encantadores edificios coloniales y mercados que han hecho famoso a Valle de Bravo.",
       "También tendremos la oportunidad de probar auténtica comida local. La zona es conocida por su deliciosa gastronomía mexicana, y en sus animadas plazas podremos degustar platillos como tacos, enchiladas y tamales frescos. No dejemos de disfrutar de un helado artesanal, elaborado con frutas locales, para refrescarnos mientras exploramos.",
-      "Mientras paseamos por el pueblo, nuestro guía compartirá historias sobre la historia, la cultura y la belleza natural de la zona. Valle de Bravo tiene algo para todos los gustos, desde su rica importancia cultural hasta sus pintorescas vistas de las montañas y el lago circundantes.",
-      "Después del recorrido y un día lleno de nuevas experiencias, regreso a nuestro vehículo y relax de regreso a la Ciudad de México."
+      "Mientras paseamos por el pueblo, nuestro guía compartirá historias sobre la historia, la cultura y la belleza natural de la zona. Valle de Bravo tiene algo para todos los gustos, desde su rica importancia cultural hasta sus pintorescas vistas de las montañas y el lago circundantes. Después del recorrido y un día lleno de nuevas experiencias, regreso a nuestro vehículo y relax de regreso a la Ciudad de México."
     ],
     "tourincludes": [
       "Guías locales expertos",
-      "Servicio de un guía local multilingüe: Tour en grupos pequeños: Inglés y español (nuestros guías son bilingües). Tour privado: Español e inglés + otros idiomas (p. ej., francés, alemán, italiano, portugués) previa solicitud (sujeto a disponibilidad)",
-      "Transporte",
-      "Transporte de ida y vuelta desde la Ciudad de México: Tour en grupos pequeños: recogida compartida (con otros participantes del grupo) desde un punto determinado. Tour privado: recogida privada (solo para su grupo) desde su alojamiento u otro punto de su elección en la Ciudad de México",
-      "El tipo de vehículo depende del tamaño del grupo y puede incluir un coche, un vehículo de 7 plazas o una minivan",
-      "Comidas",
-      "Bebidas no alcohólicas y refrigerios",
-      "Actividades",
-      "Entrada y visita guiada al Santuario de la Mariposa Monarca Piedra Herrada, la Cascada Velo de Novia y el Museo de Arte Popular de Valle de Bravo; y recorrido a pie por Valle de Bravo"
+      "Servicio de un guía local multilingüe: Tour en grupos pequeños: Inglés y español (nuestros guías son bilingües). Tour privado: Español e inglés + otros idiomas (p. ej., francés, alemán, italiano, portugués) previa solicitud (sujeto a disponibilidad).",
+      "Transporte: Transporte de ida y vuelta desde la Ciudad de México: Tour en grupos pequeños: recogida compartida (con otros participantes del grupo) desde un punto determinado. Tour privado: recogida privada (solo para su grupo) desde su alojamiento u otro punto de su elección en la Ciudad de México. El tipo de vehículo depende del tamaño del grupo y puede incluir un coche, un vehículo de 7 plazas o una minivan.",
+      "Comidas: Bebidas no alcohólicas y refrigerios.",
+      "Actividades: Entrada y visita guiada al Santuario de la Mariposa Monarca Piedra Herrada, la Cascada Velo de Novia y el Museo de Arte Popular de Valle de Bravo; y recorrido a pie por Valle de Bravo."
     ],
     "tourexcludes": [
       "Almuerzo",
@@ -523,15 +526,62 @@
       "transportTitle": "Incluye Transporte",
       "transportDescription": "Podemos llevarte al lugar exacto por tu seguridad",
       "priceTitle": "Precio",
-      "priceDescription": "$320 USD por persona"
+      "priceDescription": "$340 USD por persona"
+    },
+    "whatToBring": {
+      "title": "Qué Llevar",
+      "clothingTitle": "Ropa cómoda y zapatos para caminar",
+      "hatTitle": "Gafas de sol y protector solar",
+      "waterTitle": "Chaqueta",
+      "cameraTitle": "Cámara para capturar recuerdos"
+    },
+    "viewmap": "VER EN MAPA",
+    "viewmapparagraph": "Revisa reseñas, explora el área, etc."
+  },
+  "soumaya": {
+    "date": "Lunes 9 de febrero de 2026",
+    "length": "1 día",
+    "title": "Experiencia inmersiva en la Ciudad de México y el Museo Soumaya",
+    "paragraph": "Prepárate para un viaje inmersivo único a través de 25 salas temáticas que te transportarán a los escenarios más emblemáticos de México, ¡sin salir de la Ciudad de México!",
+    "whattoexpect": "¿Qué esperar?",
+    "highlight": [
+      "Vive la magia del Día de Muertos",
+      "Siente la nostalgia en la Vecindad del Chavo del 8",
+      "Maravíllate con la grandeza del Templo de Santo Domingo en Oaxaca",
+      "Déjate envolver por el romance del Callejón del Beso"
+    ],
+    "fulldescription": [
+      "Prepárate para un viaje inmersivo único a través de 25 salas temáticas que te transportarán a los escenarios más emblemáticos de México, ¡sin salir de la Ciudad de México!",
+      "Vive la magia del Día de Muertos, siente la nostalgia en la Vecindad del Chavo del 8, maravíllate con la grandeza del Templo de Santo Domingo en Oaxaca y déjate envolver por el romance del Callejón del Beso.",
+      "Cada sala está diseñada para despertar tus sentidos con colores, sonidos y emociones que capturan la esencia de la cultura mexicana. En tan solo 90 minutos, experimentarás la diversidad, la historia y la alegría de todo un país en un solo lugar. Una experiencia que no querrás perderte.",
+      "El museo Soumaya se ha convertido en un referente en la cultura no solo de México sino a nivel mundial, mostrando obras nunca antes vistas de las primeras y últimas etapas de muchos artistas que han revolucionado la historia del arte. Su acervo integra más de 70 mil piezas, sobresale la colección más importante que existe fuera de Francia de Auguste Rodin. En este recorrido único en su tipo que ninguna agencia tiene, te vamos a contar el contexto y análisis de la obra y el lado humano del artista, te vamos a explicar la historia del arte como nunca antes la habías escuchado."
+    ],
+    "tourincludes": [
+      "Transporte de ida y vuelta desde la Ciudad de México desde City Express Plus by Marriott Insurgentes Sur. El tipo de vehículo depende del tamaño del grupo y puede ser un auto, un vehículo de 7 plazas o una minivan",
+      "Acceso a 25 salas interactivas",
+      "Experiencia inmersiva de 3 horas",
+      "Museo Soumaya de 2 horas"
+    ],
+    "tourexcludes": [
+      "Almuerzo",
+      "Propinas"
+    ],
+    "tourDetails": {
+      "title": "Detalles del Tour",
+      "durationTitle": "Duración",
+      "durationDescription": "Experiencia inmersiva de 3 horas + Museo Soumaya de 2 horas",
+      "transportTitle": "Incluye Transporte",
+      "transportDescription": "Podemos llevarte al lugar exacto por tu seguridad",
+      "priceTitle": "Precio",
+      "priceDescription": "$235 USD por persona"
     },
     "whatToBring": {
       "title": "Qué Llevar",
       "clothingTitle": "Calzado cómodo",
       "hatTitle": "Gafas de sol",
       "waterTitle": "Protector solar",
-      "cameraTitle": "Chaqueta",
-      "extra": "Ropa cómoda"
+      "cameraTitle": "Chamarra",
+      "extraTitle": "Ropa cómoda"
     },
     "viewmap": "VER EN MAPA",
     "viewmapparagraph": "Revisa reseñas, explora el área, etc."
@@ -570,7 +620,7 @@
       "transportTitle": "Incluye Transporte",
       "transportDescription": "Podemos llevarte al lugar exacto por tu seguridad",
       "priceTitle": "Precio",
-      "priceDescription": "$240 USD por persona"
+      "priceDescription": "$255 USD por persona"
     },
     "whatToBring": {
       "title": "Qué Llevar",
@@ -585,7 +635,7 @@
   "temazcalmuseo": {
     "date": "Jueves 12 de febrero de 2026",
     "length": "1 día",
-    "title": "Temazcal y Museo El Carmen",
+    "title": "Temazcal y Museo del Carmen",
     "paragraph": "Limpia tu cuerpo y tu alma en una auténtica ceremonia de temazcal. Un temazcal es un tipo de cabaña de sudación originaria de los pueblos indígenas de Mesoamérica. Después, embárcate en un viaje a través del tiempo en el histórico Museo del Carmen, un lugar donde el pasado susurra sus secretos, famoso por su singular colección de momias preservadas naturalmente.",
     "whattoexpect": "¿Qué esperar?",
     "highlight": [
@@ -596,20 +646,18 @@
       "Guía local bilingüe"
     ],
     "fulldescription": [
-      "Un temazcal es un tipo de cabaña de sudación originaria de los pueblos indígenas de Mesoamérica. El término temazcal proviene del náhuatl, ya sea de las palabras teme (bañar) y calli (casa), o de temazcalli (casa de calor).",
+      "Un temazcal es un tipo de cabaña de sudación originaria de los pueblos indígenas de Mesoamérica. El término temazcal proviene del náhuatl, ya sea de las palabras teme (bañar) y calli (casa), o de temāzcalli (casa de calor).",
       "En la antigua Mesoamérica, se utilizaba como parte de una ceremonia curativa que se creía purificaba el cuerpo tras el esfuerzo físico, como después de una batalla o un juego de pelota ceremonial. También se usaba para sanar a los enfermos, mejorar la salud y para que las mujeres dieran a luz. Aún se utiliza hoy en día en culturas indígenas de México y Centroamérica que formaron parte de la antigua región mesoamericana con fines de sanación espiritual y para el bienestar.",
       "El temazcal suele ser una estructura permanente; a veces es una cúpula circular que representa el útero. Para producir vapor, se vierte agua sobre piedras volcánicas calientes, que no se agrietan ni explotan como otras rocas en espacios confinados de alta temperatura. Las piedras se pueden calentar con fuego desde un orificio exterior o colocarse en un hoyo ubicado en el centro o cerca de una pared del temazcal.",
-      "Museo de El Carmen",
       "El Carmen es un antiguo convento convertido en museo en San Ángel, un suburbio al sur de la Ciudad de México. El convento fue fundado el 29 de junio de 1615 por los Carmelitas Descalzos en la zona del poblado azteca de Tenanitla, que posteriormente pasó a llamarse San Ángel. El fundador fue el padre Andrés de San Miguel. Este convento fue construido entre 1615 y 1626.",
-      "El museo alberga una gran colección de arte religioso colonial mexicano, que incluye pinturas de Miguel Cabrera, así como mobiliario original del monasterio y una colección relacionada con la historia del monasterio y la vida de los carmelitas",
-      "Embárcate en un viaje a través del tiempo en el histórico Museo del Carmen, un lugar donde el pasado susurra sus secretos. En este recorrido único, explorarás uno de los lugares más fascinantes y misteriosos de la Ciudad de México, famoso por su singular colección de momias preservadas naturalmente.",
-      "Esta experiencia es más que un simple recorrido: es una oportunidad para conectar con la historia y el misterio de una manera íntima y personal. No te pierdas la oportunidad de descubrir uno de los tesoros más extraordinarios de la Ciudad de México."
+      "El museo alberga una gran colección de arte religioso colonial mexicano, que incluye pinturas de Miguel Cabrera, así como mobiliario original del monasterio y una colección relacionada con la historia del monasterio y la vida de los carmelitas.",
+      "Embárcate en un viaje a través del tiempo en el histórico Museo del Carmen, un lugar donde el pasado susurra sus secretos. En este recorrido único, explorarás uno de los lugares más fascinantes y misteriosos de la Ciudad de México, famoso por su singular colección de momias preservadas naturalmente. Esta experiencia es más que un simple recorrido: es una oportunidad para conectar con la historia y el misterio de una manera íntima y personal. No te pierdas la oportunidad de descubrir uno de los tesoros más extraordinarios de la Ciudad de México."
     ],
     "tourincludes": [
-      "Servicio de un guía local multilingüe",
+      "Servicio de un guía local multilingüe.",
       "Transporte redondo desde City Express Plus by Marriott Insurgentes Sur",
-      "Bebidas no alcohólicas y aperitivos",
-      "Entrada y visita guiada a la Zona Arqueológica de Teotihuacán; experiencia de temazcal en una comunidad local"
+      "Bebidas no alcohólicas y aperitivos.",
+      "Entrada y visita guiada al Museo El Carmen, experiencia de temazcal"
     ],
     "tourexcludes": [
       "Almuerzo",
@@ -622,7 +670,7 @@
       "transportTitle": "Incluye Transporte",
       "transportDescription": "Podemos llevarte al lugar exacto por tu seguridad",
       "priceTitle": "Precio",
-      "priceDescription": "$220 USD por persona"
+      "priceDescription": "$235 USD por persona"
     },
     "whatToBring": {
       "title": "Qué Llevar",
@@ -630,9 +678,8 @@
       "hatTitle": "Gafas de sol",
       "waterTitle": "Toalla",
       "cameraTitle": "Sandalias",
-      "extra": "Seguro de viaje",
-      "extra2": "Camiseta",
-      "extra3": "Pantalones cortos",
+      "extraTitle": "Camiseta",
+      "extraTitle2": "Pantalones cortos",
       "warning": "No recomendable para embarazadas"
     },
     "viewmap": "VER EN MAPA",
@@ -683,19 +730,29 @@
   },
   "testimonials": [
     {
+      "title": "Experiencia inmersiva en la Ciudad de México y el Museo Soumaya",
+      "subtitle": "Prepárate para un viaje inmersivo único a través de 25 salas temáticas que te transportarán a los escenarios más emblemáticos de México, ¡sin salir de la Ciudad de México!",
+      "buttonText": "Explora la experiencia"
+    },
+    {
       "title": "Santuario de la Mariposa Monarca: Piedra Herrada y Valle de Bravo",
       "subtitle": "Experimenta el Santuario de la Mariposa Monarca en México y descubre Piedra Herrada, uno de los santuarios de la Reserva de la Biosfera de la Mariposa Monarca, declarado Patrimonio de la Humanidad por la UNESCO en 2008.",
       "buttonText": "Explora la experiencia"
     },
     {
-      "title": "Tres Museos: Museo Frida Kahlo, Estudio Diego Rivera y Museo Anahuacalli",
-      "subtitle": "Experimente el vibrante mundo de Frida Kahlo y Diego Rivera en este tour privado por la Ciudad de México. Visite el icónico Museo Frida Kahlo, también conocido como Casa Azul.",
-      "buttonText": "Planifica tu visita"
+      "title": "Tres Museos: Frida Kahlo, Diego Rivera y Anahuacalli",
+      "subtitle": "Experimenta el vibrante mundo de Frida Kahlo y Diego Rivera en este tour privado por la Ciudad de México. Visita el icónico Museo Frida Kahlo, también conocido como Casa Azul.",
+      "buttonText": "Explora la experiencia"
     },
     {
-      "title": "Temazcal y Museo El Carmen",
-      "subtitle": "Limpia tu cuerpo y tu alma en una auténtica ceremonia de temazcal. Embárcate en un viaje a través del tiempo en el histórico Museo del Carmen, famoso por su singular colección de momias preservadas naturalmente.",
-      "buttonText": "Reserva tu lugar"
+      "title": "Temazcal y Museo del Carmen",
+      "subtitle": "Limpia tu cuerpo y tu alma en una auténtica ceremonia de temazcal. Después, embárcate en un viaje a través del tiempo en el histórico Museo del Carmen, un lugar donde el pasado susurra sus secretos.",
+      "buttonText": "Explora la experiencia"
+    },
+    {
+      "title": "Viaje a Xochimilco y Museo Nacional de Antropología",
+      "subtitle": "Descubre los canales de Xochimilco y maravíllate con las colecciones del Museo Nacional de Antropología.",
+      "buttonText": "Explora la experiencia"
     }
   ],
   "newsletter": {

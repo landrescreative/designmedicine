@@ -20,7 +20,7 @@ const Hero = () => {
           <h1 className="text-center text-white">{t('seminarSection.date')}</h1>
           <a
             className="flex  justify-center items-center gap-2"
-            href="https://maps.app.goo.gl/PfATkGYK8ySsVZpj7"
+            href="https://maps.app.goo.gl/Y8cGMt6E5C8uhgvS6?g_st=iw"
           >
             <p className="text-white text-center underline ">
               {t('infoseminar.description9')}

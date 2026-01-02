@@ -12,6 +12,7 @@ import Link from 'next/link';
 import Formulario from '@/components/Formulario';
 import Tarjetas from '@/components/Tarjetas';
 import StickyBanner from '@/components/StickyBanner';
+import Script from 'next/script';
 
 const Page = () => {
   const t = useTranslations('');
@@ -113,9 +114,6 @@ const Page = () => {
                 {t('seminar.2ndlist.3')}
               </span>
             </div>
-            <h2 className="font-bold text-2xl text-primary">
-              {t('seminar.thirdtitle')}
-            </h2>
             <ul className="list-disc px-10">
               <li className=" font-bold text-primary">
                 {t('seminar.3rdlisttitles.0')}
@@ -130,10 +128,6 @@ const Page = () => {
               </li>
               <p className="mb-5">{t('seminar.3rdlistparagraphs.2')}</p>
             </ul>
-            <h2 className="font-bold text-2xl text-primary">
-              {t('seminar.fivetitle')}
-            </h2>
-            <p>{t('seminar.5thparagraph')}</p>
             <h2 className="font-bold text-2xl text-primary">
               {t('seminar.sixtitle')}
             </h2>
@@ -160,7 +154,12 @@ const Page = () => {
         {t('seminar.disclaimer')}
       </p>
       {/* <PaymentOptions /> */}
-      <PaymentSection buyButtonId="buy_btn_1Qh0FABceNIiOkbg0tL3knm4" />
+      <Script
+        async
+        src="https://js.stripe.com/v3/buy-button.js"
+        strategy="afterInteractive"
+      />
+      <PaymentSection buyButtonId="buy_btn_1SkuUJBceNIiOkbgTHMveCfq" />
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
       </div>

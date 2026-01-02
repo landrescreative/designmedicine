@@ -26,7 +26,7 @@ const SeminarSection: React.FC = () => {
       <div className=" lg:w-1/2 flex flex-col justify-center items-center md:items-start gap-4 text-black">
         <a
           className="flex  justify-center items-center gap-2"
-          href="https://maps.app.goo.gl/PfATkGYK8ySsVZpj7"
+          href="https://maps.app.goo.gl/Y8cGMt6E5C8uhgvS6?g_st=iw"
         >
           <p className="text-primary text-center underline ">
             {t('infoseminar.description9')}

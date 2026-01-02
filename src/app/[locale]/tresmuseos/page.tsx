@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
+import Script from 'next/script';
 
 import InfoTresMuseos from '@/components/InfoTresMuseos';
 import HeroSectionTrips from '@/components/HeroSectionTrips';
@@ -14,10 +15,15 @@ const Page = () => {
 
   return (
     <div className="flex flex-col items-center">
+      <Script
+        async
+        src="https://js.stripe.com/v3/buy-button.js"
+        strategy="afterInteractive"
+      />
       <HeroSectionTrips
         title={t('title')}
         paragraph={t('paragraph')}
-        img="/museos.jpg"
+        img="/MNA_2021_1.jpg"
         date={t('date')}
         hours={t('tourDetails.durationDescription')}
       />
@@ -66,14 +72,18 @@ const Page = () => {
             <h3 className="text-xl text-left font-semibold text-primary mt-5">
               Full Description
             </h3>
-            <p className="text-gray-700 my-2">{t('fulldescription.0')}</p>
+            {t.raw('fulldescription').map((paragraph: string, index: number) => (
+              <p key={index} className="text-gray-700 my-2">
+                {paragraph}
+              </p>
+            ))}
           </div>
         </div>
       </div>
 
       <div className="atracciones flex flex-wrap justify-center gap-10">
         <InfoTresMuseos />
-        <PaymentSection buyButtonId="buy_btn_tresmuseos" />
+        <PaymentSection buyButtonId="buy_btn_1SkweRBceNIiOkbg0Z3df5q5" />
         <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
           <Formulario />
         </div>

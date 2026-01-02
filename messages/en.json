@@ -6,13 +6,13 @@
     "cta2": "View More"
   },
   "seminarSection": {
-    "date": "February 14-16th, 2025 | Mexico City",
-    "title": "Kiiko Matsumoto 3-Day Intensive Clinical Workshop: Sensei by Your Side",
+    "date": "February 14-15th, 2026 | Mexico City",
+    "title": "Kiiko Matsumoto 2-Day Intensive Clinical Workshop: Sensei by Your Side",
     "paragraph": "Experience a groundbreaking opportunity to learn directly from Kiiko Matsumoto, a renowned Grand Master of acupuncture. In this exclusive hands-on workshop, you will not only enhance your acupuncture techniques but also gain practical, real-world knowledge as you treat patients with Kiiko guiding you every step of the way.",
     "cta": "VIEW DETAILS"
   },
   "separators": {
-    "1": "KIIKO MATSUMOTO´S MEXICO SHOULDER TO SHOULDER INTENSIVE SEMINAR FEBRUARY 14-16th  2025",
+    "1": "KIIKO MATSUMOTO´S MEXICO SHOULDER TO SHOULDER INTENSIVE SEMINAR FEBRUARY 14-15th  2026",
     "2": "EXPLORE MEXICO WITH OUR optional day trips to amazing places",
     "3": "MORE ABOUT KIIKO AND THEIR USERS FEEDBACK"
   },
@@ -48,16 +48,24 @@
     "advice": "Make the most of your experience! Optional activities and tours are designed to enhance your journey and will take place before the seminar begins. Don't miss out!",
     "slides": {
       "1": {
+        "title": "Soumaya Museum Private Tour",
+        "paragraph": "Discover one of Mexico City's most iconic architectural landmarks and art collections at the Soumaya Museum, featuring works by European and Mexican masters."
+      },
+      "2": {
         "title": "Monarch Butterfly Sanctuary: Piedra Herrada and Valle de Bravo",
         "paragraph": "Experience the Monarch Butterfly Mexico Sanctuary and discover Piedra Herrada, one of the Monarch Butterfly Biosphere Reserve's sanctuaries, declared a UNESCO World Heritage Site in 2008."
       },
-      "2": {
+      "3": {
         "title": "Three Museums: Frida Kahlo, Diego Rivera & Anahuacalli",
         "paragraph": "Experience the vibrant world of Frida Kahlo and Diego Rivera on this private tour through Mexico City. Visit the iconic Frida Kahlo Museum, also known as Casa Azul."
       },
-      "3": {
-        "title": "Temazcal and El Carmen Museum",
-        "paragraph": "Cleanse your body and soul in an authentic temazcal ceremony and explore one of the most fascinating and mysterious locations in Mexico City at the El Carmen Museum."
+      "4": {
+        "title": "Xochimilco: Kayak Tour",
+        "paragraph": "Enjoy a beautiful view at sunrise and immerse yourself in the spectacular natural environment of Lake Xochimilco. Travel via kayak and marvel at this famous world heritage site."
+      },
+      "5": {
+        "title": "Temazcal and Museo El Carmen",
+        "paragraph": "Cleanse your body and soul in an authentic temazcal ceremony. A temazcal is a type of sweat lodge, which originated with indigenous peoples in Mesoamerica. Afterwards, step into a journey through time at the historic Museo del Carmen, a place where the past whispers its secrets, renowned for its rare display of naturally preserved mummies."
       }
     },
     "viewDetails": " VIEW DETAILS"
@@ -81,8 +89,8 @@
     "EXTRAWORKSHOPS": "Extra Workshops"
   },
   "seminar": {
-    "title": "Kiiko Matsumoto 3-Day Intensive Clinical Workshop: Sensei by Your Side",
-    "date": "February 14-16th, 2025| Mexico City",
+    "title": "Kiiko Matsumoto 2-Day Intensive Clinical Workshop: Sensei by Your Side",
+    "date": "February 14-15th, 2026| Mexico City",
     "description": "Experience a groundbreaking opportunity to learn directly from Kiiko Matsumoto, a renowned Grand Master of acupuncture. In this exclusive hands-on workshop, you will not only enhance your acupuncture techniques but also gain practical, real-world knowledge as you treat patients with Kiiko guiding you every step of the way.",
     "subtitle": "Why Attend?",
     "link": "Check out our recommended hotels!",
@@ -156,11 +164,11 @@
     "description1": "KIIKO MATUSMOTO, LAC",
     "description2": "English, Spanish",
     "description3": "Mexico City, Mexico",
-    "description4": "3 Days",
+    "description4": "2 Days",
     "description5": "We can take you to the exact location for your security",
     "description6": "Early Bird Price: $1,380 USD, until January 10th, 2025 \n Regular Price: $1,500 USD",
     "description7": "9:00 AM - 5:00 PM",
-    "description8": "Early Bird Price: $1,380 USD, until January 10th, 2025 \n Regular Price: $1,500 USD",
+    "description8": "Price: $1,155 USD",
     "description9": "View in Map"
   },
   "paymentsection": {
@@ -262,7 +270,7 @@
   },
   "xochimilcosite": {
     "tour": {
-      "date": "Thursday 13th February 2025",
+      "date": "Friday, February 13th, 2026",
       "title": "Xochimilco: Kayak Tour",
       "description": "Enjoy a beautiful view at sunrise and immerse yourself in the spectacular natural environment of Lake Xochimilco. Travel via kayak and marvel at this famous world heritage site of humanity alongside a guide."
     },
@@ -330,7 +338,7 @@
       "Kayak (single or double)",
       "Safety vest"
     ],
-    "cost": "250 USD",
+    "cost": "180 USD",
     "length": "1 day",
     "activities": "2 Activities",
     "title": "Xochimilco",
@@ -353,7 +361,7 @@
     "tourdetails2title": "Include Transportation",
     "tourdetails2paragraph": "We can take you to the exact location for your security",
     "tourdetails3title": "Price",
-    "tourdetails3paragraph": "$250 USD per person",
+    "tourdetails3paragraph": "$180 USD per person",
     "whattobring": "What to bring?",
     "whattobring1": "Bring extra clothes in case you get wet , mittens and hat",
     "whattobring2": "Hat and sunscreen",
@@ -373,10 +381,10 @@
   },
   "face-reading": {
     "title": "Exclusive Extra Session: Face Reading & Cosmetic Acupuncture",
-    "date": "Date: Monday, February 17th, 2025",
-    "time": "Time: 9:00 AM - 1:00 PM",
+    "date": "Date: Friday, February 13th, 2026",
+    "time": "Time: 2:00 PM - 6:00 PM",
     "instructor": "Ana Nieves, M.D.",
-    "cost": "Cost: $500 per person",
+    "cost": "Cost: $580 per person",
     "subtitle": "What You Will Learn:",
     "seminartitle": "Unlock the Hidden Wisdom of the Face: A Critical Diagnostic Tool in Chinese Medicine",
     "paragraph": "In Traditional Chinese Medicine (TCM), Face Reading and Diagnosis are far more than aesthetic tools—they are integral components of a practitioner’s diagnostic repertoire, offering in-depth insights into a patient's internal health. Much like pulse or tongue diagnosis, the face reflects the balance of internal organs and energy. Mastering this diagnostic skill allows you to better understand the root causes of illness and effectively tailor treatments for long-term healing.",
@@ -423,11 +431,11 @@
       "Ana Nieves, M.D.",
       "English, Spanish",
       "Mexico City, Mexico",
-      "Half-day workshop (9:00 AM - 1:00 PM)",
+      "Half-day workshop (2:00 PM - 6:00 PM)",
       "We can take you to the exact location for your security",
-      "Monday, February 17th, 2025",
-      "9:00 AM - 1:00 PM",
-      "$500 USD per person"
+      "Friday, February 13th, 2026",
+      "2:00 PM - 6:00 PM",
+      "$580 USD per person"
     ],
     "workshop2title": "Workshop 2: Chinese Bioenergetics with Dr. Antonio Merchant",
     "workshop2paragraph": [
@@ -494,19 +502,14 @@
       "As you arrive at the Monarch Butterfly sanctuary, the air will be filled with the gentle fluttering of thousands of butterflies, covering the trees in a mesmerizing display of orange and black. Seeing so many butterflies gathered in one place is nothing short of magical. These incredible creatures travel over 4,000 miles during their migration, and it's here, in the tranquil forests of Michoacán, that they find rest and refuge. This natural spectacle is one of the most awe-inspiring events on Earth, and you'll have the opportunity to witness it up close, experiencing the quiet majesty of the butterflies as they cluster on the branches and fly through the crisp mountain air. Your guide will share fascinating details about the Monarch butterfly's life cycle, the migration process, and the conservation efforts to protect this endangered species.",
       "After diving into the Monarch butterfly sanctuary, we will continue our adventure to Valle de Bravo, a charming colonial town nestled beside the beautiful Lake Avándaro. This quaint town, known for its cobblestone streets, historical architecture, and stunning lake views, is a popular destination for both nature lovers and history enthusiasts. As we stroll through the historic center, you'll be surrounded by the charming colonial buildings and markets that have made Valle de Bravo famous.",
       "You'll also have the opportunity to try some authentic local food. The area is known for its delicious Mexican cuisine, and you can sample dishes like tacos, enchiladas, and fresh tamales in the bustling town squares. Don't miss the chance to enjoy some artisanal ice cream, made from local fruits, to refresh yourself as you explore.",
-      "As you wander through the town, your guide will share stories about the area's history, culture, and natural beauty. Valle de Bravo has something for everyone, from its rich cultural significance to its picturesque views of the surrounding mountains and lake.",
-      "After the tour and a day full of new experiences, return to our vehicle and relax back to Mexico City."
+      "As you wander through the town, your guide will share stories about the area's history, culture, and natural beauty. Valle de Bravo has something for everyone, from its rich cultural significance to its picturesque views of the surrounding mountains and lake. After the tour and a day full of new experiences, return to our vehicle and relax back to Mexico City."
     ],
     "tourincludes": [
       "Local Expert Guides",
       "Service of a multilingual local guide",
-      "Transportation",
-      "Round transportation from Mexico City from City Express Plus by Marriott Insurgentes Sur",
-      "The type of vehicle depends on the size of the group and may include a car, 7-seater, or minivan",
-      "Meals",
-      "Non-alcoholic drinks and snacks",
-      "Activities",
-      "Entrance and guided visit to Piedra Herrada Monarch Butterfly Sanctuary, Velo de Novia Waterfall, and Museum of Popular Art of Valle de Bravo; and walking tour in Valle de Bravo"
+      "Transportation: Round transportation from Mexico City from City Express Plus by Marriott Insurgentes Sur. The type of vehicle depends on the size of the group and may include a car, 7-seater, or minivan.",
+      "Meals: Non-alcoholic drinks and snacks.",
+      "Activities: Entrance and guided visit to Piedra Herrada Monarch Butterfly Sanctuary, Velo de Novia Waterfall, and Museum of Popular Art of Valle de Bravo; and walking tour in Valle de Bravo."
     ],
     "tourexcludes": [
       "Lunch",
@@ -519,7 +522,54 @@
       "transportTitle": "Include Transport",
       "transportDescription": "We can take you to the exact location for your security",
       "priceTitle": "Price",
-      "priceDescription": "$320 USD per person"
+      "priceDescription": "$340 USD per person"
+    },
+    "whatToBring": {
+      "title": "What to bring",
+      "clothingTitle": "Comfortable clothing and walking shoes",
+      "hatTitle": "Sunglasses and sunscreen",
+      "waterTitle": "Jacket",
+      "cameraTitle": "Camera for capturing memories"
+    },
+    "viewmap": "VIEW ON MAP",
+    "viewmapparagraph": "Check reviews, explore the area, etc."
+  },
+  "soumaya": {
+    "date": "Monday, February 9th, 2026",
+    "length": "1 day",
+    "title": "Inmersive experience in Mexico City and Soumaya Museum",
+    "paragraph": "Get ready for a unique immersive journey through 25 themed rooms that will transport you to Mexico's most iconic settings, without ever leaving Mexico City!",
+    "whattoexpect": "What to expect?",
+    "highlight": [
+      "Experience the magic of the Day of the Dead",
+      "Feel the nostalgia in the Vecindad del Chavo del 8 neighborhood",
+      "Marvel at the grandeur of the Santo Domingo Temple in Oaxaca",
+      "Let yourself be enveloped by the romance of the Callejón del Beso"
+    ],
+    "fulldescription": [
+      "Get ready for a unique immersive journey through 25 themed rooms that will transport you to Mexico's most iconic settings, without ever leaving Mexico City!",
+      "Experience the magic of the Day of the Dead, feel the nostalgia in the Vecindad del Chavo del 8 neighborhood, marvel at the grandeur of the Santo Domingo Temple in Oaxaca, and let yourself be enveloped by the romance of the Callejón del Beso.",
+      "Each room is designed to awaken your senses with colors, sounds, and emotions that capture the essence of Mexican culture. In just 90 minutes, you will experience the diversity, history, and joy of an entire country in one place. An experience you won't want to miss.",
+      "The Soumaya Museum has become a cultural landmark not only in Mexico but worldwide, showcasing never-before-seen works from the early and later periods of many artists who have revolutionized art history. Its collection comprises more than 70,000 pieces, most notably the most important collection of Auguste Rodin's work outside of France. On this unique tour, offered by no other agency, we'll provide context and analysis of the artwork and explore the human side of the artist, explaining art history like never before."
+    ],
+    "tourincludes": [
+      "Round-trip transportation from Mexico City from City Express Plus by Marriott Insurgentes Sur. The type of vehicle depends on the size of the group and may include a car, 7-seater, or minivan",
+      "Access to 25 interactive rooms",
+      "3 hour immersive experience",
+      "2 hour Soumaya Museum"
+    ],
+    "tourexcludes": [
+      "Lunch",
+      "Tips"
+    ],
+    "tourDetails": {
+      "title": "Tour Details",
+      "durationTitle": "Duration",
+      "durationDescription": "3 hour immersive experience + 2 hour Soumaya Museum",
+      "transportTitle": "Include Transport",
+      "transportDescription": "We can take you to the exact location for your security",
+      "priceTitle": "Price",
+      "priceDescription": "$235 USD per person"
     },
     "whatToBring": {
       "title": "What to bring",
@@ -527,7 +577,7 @@
       "hatTitle": "Sunglasses",
       "waterTitle": "Sunscreen",
       "cameraTitle": "Jacket",
-      "extra": "Comfortable clothes"
+      "extraTitle": "Comfortable clothes"
     },
     "viewmap": "VIEW ON MAP",
     "viewmapparagraph": "Check reviews, explore the area, etc."
@@ -566,7 +616,7 @@
       "transportTitle": "Include Transport",
       "transportDescription": "We can take you to the exact location for your security",
       "priceTitle": "Price",
-      "priceDescription": "$240 USD per person"
+      "priceDescription": "$255 USD per person"
     },
     "whatToBring": {
       "title": "What to bring",
@@ -592,19 +642,17 @@
       "Bilingual local guide"
     ],
     "fulldescription": [
-      "A temazcal is a type of sweat lodge, which originated with indigenous peoples in Mesoamerica. The term temazcal comes from the Nahuatl language, either from the words teme (to bathe) and calli (house), or from the word temazcalli (house of heat).",
+      "A temazcal is a type of sweat lodge, which originated with indigenous peoples in Mesoamerica. The term temazcal comes from the Nahuatl language, either from the words teme (to bathe) and calli (house), or from the word temāzcalli (house of heat).",
       "In ancient Mesoamerica it was used as part of a curative ceremony thought to purify the body after exertion such as after a battle or a ceremonial ball game. It was also used for healing the sick, improving health, and for women to give birth. It continues to be used today in Indigenous cultures of Mexico and Central America that were part of the ancient Mesoamerican region for spiritual healing and health enrichment reasons.",
-      "The temazcal is usually a permanent structure, it may be a circular dome made to represent the uterus.To produce steam, water is poured over heated volcanic stones, which will not crack and explode like other rocks in confined high temperature areas. The stones may be heated with fire from an outside port or placed in a pit located in the center or near a wall of the temazcal.",
-      "Museum of El Carmen",
-      "El Carmen is a former convent converted to museum in San Ángel, a southern suburb of Mexico City. The convent was founded on 29 June 1615 by the Discalced Carmelites in the area of the Aztec village of Tenanitla, which was later renamed San Ángel. The founder was Father Andrés de San Miguel This convent was built between 1615 and 1626.",
-      "The museum contains a large collection of Mexical colonial religious art including paintings of Miguel Cabrera, as well as original furniture of the monastery, and a collection related to the history of the monastery and relates the life of the Carmelites.",
-      "Step into a journey through time at the historic Museo del Carmen, a place where the past whispers its secrets. On this unique tour, you'll explore one of the most fascinating and mysterious location of Mexico city, renowned for its rare display of naturally preserved mummies.",
-      "This experience is more than a tour—it's a chance to connect with history and mystery in an intimate and personal way. Don't miss this chance to discover one of Mexico City's most extraordinary treasures."
+      "The temazcal is usually a permanent structure, it may be a circular dome made to represent the uterus. To produce steam, water is poured over heated volcanic stones, which will not crack and explode like other rocks in confined high temperature areas. The stones may be heated with fire from an outside port or placed in a pit located in the center or near a wall of the temazcal.",
+      "El Carmen is a former convent converted to museum in San Ángel, a southern suburb of Mexico City. The convent was founded on 29 June 1615 by the Discalced Carmelites in the area of the Aztec village of Tenanitla, which was later renamed San Ángel. The founder was Father Andrés de San Miguel. This convent was built between 1615 and 1626.",
+      "The museum contains a large collection of Mexican colonial religious art including paintings of Miguel Cabrera, as well as original furniture of the monastery, and a collection related to the history of the monastery and relates the life of the Carmelites.",
+      "Step into a journey through time at the historic Museo del Carmen, a place where the past whispers its secrets. On this unique tour, you'll explore one of the most fascinating and mysterious locations of Mexico city, renowned for its rare display of naturally preserved mummies. This experience is more than a tour—it's a chance to connect with history and mystery in an intimate and personal way. Don't miss this chance to discover one of Mexico City's most extraordinary treasures."
     ],
     "tourincludes": [
-      "Bilingual  local guide service",
+      "Bilingual local guide service.",
       "Round-trip transportation from City Express Plus by Marriott Insurgentes Sur",
-      "Non-alcoholic beverages and snacks",
+      "Non-alcoholic beverages and snacks.",
       "Entrance and guided tour of the Museum El Carmen, temazcal experience"
     ],
     "tourexcludes": [
@@ -618,17 +666,17 @@
       "transportTitle": "Include Transport",
       "transportDescription": "We can take you to the exact location for your security",
       "priceTitle": "Price",
-      "priceDescription": "$220 USD per person"
+      "priceDescription": "$235 USD per person"
     },
     "whatToBring": {
-      "title": "What to bring",
+      "title": "What to pack",
       "clothingTitle": "Comfortable shoes",
       "hatTitle": "Sunglasses",
       "waterTitle": "Towel",
       "cameraTitle": "Sandals",
-      "extra": "Travel insurance",
-      "extra2": "T-shirt",
-      "extra3": "Shorts",
+      "extraTitle": "Travel insurance",
+      "extraTitle2": "T-shirt",
+      "extraTitle3": "Shorts",
       "warning": "Not suitable for pregnant women"
     },
     "viewmap": "VIEW ON MAP",
@@ -679,19 +727,29 @@
   },
   "testimonials": [
     {
+      "title": "Inmersive experience in Mexico City and Soumaya Museum",
+      "subtitle": "Get ready for a unique immersive journey through 25 themed rooms that will transport you to Mexico's most iconic settings, without ever leaving Mexico City!",
+      "buttonText": "Explore the experience"
+    },
+    {
       "title": "Monarch Butterfly Mexico Sanctuary: Piedra Herrada Tour and Valle de Bravo",
       "subtitle": "Experience the Monarch Butterfly Mexico Sanctuary and discover Piedra Herrada, one of the Monarch Butterfly Biosphere Reserve's sanctuaries, declared a UNESCO World Heritage Site in 2008.",
       "buttonText": "Explore the experience"
     },
     {
-      "title": "Three Museums: Frida Kahlo Museum, Diego Rivera Studio & Anahuacalli Museum Private Tour",
+      "title": "Three Museums: Frida Kahlo Museum, Diego Rivera Studio & Anahuacalli Museum",
       "subtitle": "Experience the vibrant world of Frida Kahlo and Diego Rivera on this private tour through Mexico City. Visit the iconic Frida Kahlo Museum, also known as Casa Azul.",
-      "buttonText": "Plan your visit"
+      "buttonText": "Explore the experience"
     },
     {
       "title": "Temazcal and Museo El Carmen",
-      "subtitle": "Cleanse your body and soul in an authentic temazcal ceremony. Step into a journey through time at the historic Museo del Carmen, renowned for its rare display of naturally preserved mummies.",
-      "buttonText": "Book your spot"
+      "subtitle": "Cleanse your body and soul in an authentic temazcal ceremony. Afterwards, step into a journey through time at the historic Museo del Carmen, a place where the past whispers its secrets.",
+      "buttonText": "Explore the experience"
+    },
+    {
+      "title": "Trip to Xochimilco and National Museum of Anthropology",
+      "subtitle": "Discover the canals of Xochimilco and marvel at the collections of the National Museum of Anthropology.",
+      "buttonText": "Explore the experience"
     }
   ],
   "newsletter": {

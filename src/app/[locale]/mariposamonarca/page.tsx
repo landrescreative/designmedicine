@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
+import Script from 'next/script';
 
 import InfoMariposaMonarca from '@/components/InfoMariposaMonarca';
 import HeroSectionTrips from '@/components/HeroSectionTrips';
@@ -14,10 +15,15 @@ const Page = () => {
 
   return (
     <div className="flex flex-col items-center">
+      <Script
+        async
+        src="https://js.stripe.com/v3/buy-button.js"
+        strategy="afterInteractive"
+      />
       <HeroSectionTrips
         title={t('title')}
         paragraph={t('paragraph')}
-        img="/monarca.jpg"
+        img="/moon01.jpg"
         date={t('date')}
         hours={t('tourDetails.durationDescription')}
       />
@@ -50,15 +56,9 @@ const Page = () => {
               Tour Includes
             </h3>
             <ul className="list-disc pl-6 space-y-1 text-gray-700">
-              <li>{t('tourincludes.0')}</li>
-              <li>{t('tourincludes.1')}</li>
-              <li>{t('tourincludes.2')}</li>
-              <li>{t('tourincludes.3')}</li>
-              <li>{t('tourincludes.4')}</li>
-              <li>{t('tourincludes.5')}</li>
-              <li>{t('tourincludes.6')}</li>
-              <li>{t('tourincludes.7')}</li>
-              <li>{t('tourincludes.8')}</li>
+              {t.raw('tourincludes').map((include: string, index: number) => (
+                <li key={index}>{include}</li>
+              ))}
             </ul>
             <h3 className="text-xl font-semibold text-primary my-5">
               Does not include
@@ -73,16 +73,13 @@ const Page = () => {
             <p className="text-gray-700 my-2">{t('fulldescription.0')}</p>
             <p className="text-gray-700 my-2">{t('fulldescription.1')}</p>
             <p className="text-gray-700 my-2">{t('fulldescription.2')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.3')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.4')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.5')}</p>
           </div>
         </div>
       </div>
 
       <div className="atracciones flex flex-wrap justify-center gap-10">
         <InfoMariposaMonarca />
-        <PaymentSection buyButtonId="buy_btn_mariposamonarca" />
+        <PaymentSection buyButtonId="buy_btn_1SkwbpBceNIiOkbgLfCG8vAj" />
         <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
           <Formulario />
         </div>
@@ -111,4 +108,3 @@ const Page = () => {
 };
 
 export default Page;
-

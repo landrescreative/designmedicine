@@ -3,6 +3,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
+import Script from 'next/script';
 
 import InfoXochimilco from '@/components/InfoXochimilco';
 import HeroSectionTrips from '@/components/HeroSectionTrips';
@@ -14,6 +15,11 @@ const Page = () => {
 
   return (
     <div className="flex flex-col items-center">
+      <Script
+        async
+        src="https://js.stripe.com/v3/buy-button.js"
+        strategy="afterInteractive"
+      />
       <HeroSectionTrips
         title={t('tour.title')}
         paragraph={t('tour.description')}
@@ -183,7 +189,7 @@ const Page = () => {
         </div>
       </div>
       <InfoXochimilco />
-      <PaymentSection buyButtonId="buy_btn_1QN05ZBceNIiOkbgmD0UX6ep" />
+      <PaymentSection buyButtonId="buy_btn_1SkwmCBceNIiOkbgPZgbWIyS" />
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
       </div>

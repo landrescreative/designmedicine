@@ -42,7 +42,7 @@ const InfoSeminar = () => {
             </div>
           </div>
           <a
-            href="https://maps.app.goo.gl/PfATkGYK8ySsVZpj7"
+            href="https://maps.app.goo.gl/Y8cGMt6E5C8uhgvS6?g_st=iw"
             target="_blank"
             className="grid grid-cols-6 grid-rows-1 "
           >

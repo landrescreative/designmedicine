@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
+import Script from 'next/script';
 
 import InfoTemazcalMuseo from '@/components/InfoTemazcalMuseo';
 import HeroSectionTrips from '@/components/HeroSectionTrips';
@@ -14,6 +15,11 @@ const Page = () => {
 
   return (
     <div className="flex flex-col items-center">
+      <Script
+        async
+        src="https://js.stripe.com/v3/buy-button.js"
+        strategy="afterInteractive"
+      />
       <HeroSectionTrips
         title={t('title')}
         paragraph={t('paragraph')}
@@ -50,11 +56,9 @@ const Page = () => {
               Tour Includes
             </h3>
             <ul className="list-disc pl-6 space-y-1 text-gray-700">
-              <li>{t('tourincludes.0')}</li>
-              <li>{t('tourincludes.1')}</li>
-              <li>{t('tourincludes.2')}</li>
-              <li>{t('tourincludes.3')}</li>
-              <li>{t('tourincludes.4')}</li>
+              {t.raw('tourincludes').map((include: string, index: number) => (
+                <li key={index}>{include}</li>
+              ))}
             </ul>
             <h3 className="text-xl font-semibold text-primary my-5">
               Does not include
@@ -66,23 +70,18 @@ const Page = () => {
             <h3 className="text-xl text-left font-semibold text-primary mt-5">
               Full Description
             </h3>
-            <p className="text-gray-700 my-2">{t('fulldescription.0')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.1')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.2')}</p>
-            <h3 className="text-xl text-left font-semibold text-primary mt-5">
-              {t('fulldescription.3')}
-            </h3>
-            <p className="text-gray-700 my-2">{t('fulldescription.4')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.5')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.6')}</p>
-            <p className="text-gray-700 my-2">{t('fulldescription.7')}</p>
+            {t.raw('fulldescription').map((paragraph: string, index: number) => (
+              <p key={index} className="text-gray-700 my-2">
+                {paragraph}
+              </p>
+            ))}
           </div>
         </div>
       </div>
 
       <div className="atracciones flex flex-wrap justify-center gap-10">
         <InfoTemazcalMuseo />
-        <PaymentSection buyButtonId="buy_btn_temazcalmuseo" />
+        <PaymentSection buyButtonId="buy_btn_1SkwquBceNIiOkbgcN7SRz9t" />
         <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
           <Formulario />
         </div>

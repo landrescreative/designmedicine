@@ -1,8 +1,8 @@
 // components/InfoMariposaMonarca.tsx
 import React from 'react';
 import { useTranslations } from 'next-intl';
-import { FaRegClock, FaBus, FaCamera, FaHatCowboySide } from 'react-icons/fa';
-import { BsFillFileImageFill } from 'react-icons/bs';
+import { FaRegClock, FaBus, FaCamera, FaSun } from 'react-icons/fa';
+import { BsFillFileImageFill, BsSunglasses } from 'react-icons/bs';
 import { FaLocationDot } from 'react-icons/fa6';
 import { AiFillDollarCircle } from 'react-icons/ai';
 import { GiClothes } from 'react-icons/gi';
@@ -126,13 +126,24 @@ const InfoMariposaMonarca = () => {
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1">
-            <FaHatCowboySide
+            <BsSunglasses
               size={30}
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start">
               <h3 className="text-lg font-medium">
                 {t('whatToBring.hatTitle')}
+              </h3>
+            </div>
+          </div>
+          <div className="grid grid-cols-6 grid-rows-1">
+            <FaSun
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                Protector solar
               </h3>
             </div>
           </div>
@@ -148,7 +159,7 @@ const InfoMariposaMonarca = () => {
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1">
-            <GiClothes
+            <FaCamera
               size={30}
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
             />
@@ -158,19 +169,6 @@ const InfoMariposaMonarca = () => {
               </h3>
             </div>
           </div>
-          {t('whatToBring.extra') && (
-            <div className="grid grid-cols-6 grid-rows-1">
-              <GiClothes
-                size={30}
-                className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
-              />
-              <div className="col-start-2 col-end-6 self-center justify-self-start">
-                <h3 className="text-lg font-medium">
-                  {t('whatToBring.extra')}
-                </h3>
-              </div>
-            </div>
-          )}
         </div>
       </div>
     </div>

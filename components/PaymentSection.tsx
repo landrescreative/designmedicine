@@ -45,11 +45,10 @@ const PaymentSection = ({ buyButtonId }: { buyButtonId: string }) => {
             {t('cta3')}
           </h3>
           {/* Botón de compra de Stripe visible al cargar */}
-          <script async src="https://js.stripe.com/v3/buy-button.js"></script>
           <stripe-buy-button
             buy-button-id={buyButtonId}
             publishable-key="pk_live_51QJhL9BceNIiOkbgmFKFoCUk5yS6g0117t64Sm5sjb3q6FP2CsG6LyCgK6Nnb58GaDprQKsSS3WEpLgWNCczn9dG00Tc7GMHtc"
-            class="mt-2"
+            className="mt-2"
           ></stripe-buy-button>
         </div>
       </div>
