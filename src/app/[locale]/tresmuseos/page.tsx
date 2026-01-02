@@ -23,7 +23,7 @@ const Page = () => {
       <HeroSectionTrips
         title={t('title')}
         paragraph={t('paragraph')}
-        img="/MNA_2021_1.jpg"
+        img="/estudio diego rivera.jpeg"
         date={t('date')}
         hours={t('tourDetails.durationDescription')}
       />

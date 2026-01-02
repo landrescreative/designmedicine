@@ -272,107 +272,53 @@
     }
   },
   "xochimilcosite": {
-    "length": "1 día",
-    "activities": "2 Actividades",
-    "title": "Xochimilco",
-    "paragraph": "Te invitamos a disfrutar de la magia de Xochimilco, un sitio emblemático de la Ciudad de México famoso por sus canales, coloridas trajineras y rica historia cultural que se remonta a tiempos prehispánicos.",
     "whattoexpect": "¿Qué esperar?",
-    "paseotrajinera": "Paseo en Trajinera",
-    "paseotrajineraparagraph": "Disfruta de un relajante paseo en trajinera a través de los canales de Xochimilco. Este tour te permitirá admirar la belleza natural de la zona mientras te sumerges en las tradiciones locales. Escucha música de mariachi, prueba bocadillos mexicanos y descubre el encanto único de Xochimilco.",
     "viewmap": "VER EN MAPA",
     "viewmapparagraph": "Revisa reseñas, explora el área, etc.",
-    "highlight": "Aspectos Destacados",
-    "highlight1title": "Guías Expertos",
-    "highlight1paragraph": "Disfruta de tu viaje con un guía local",
-    "highlight2title": "Vistas Increíbles",
-    "highlight2paragraph": "Disfruta de hermosas vistas desde la cima de las pirámides.",
-    "highlight3title": "Ubicación Segura",
-    "highlight3paragraph": "Ciudad de México - CDMX | TOURS OPCIONALES",
     "tourdetails": "DETALLES DEL TOUR",
     "tourdetails1title": "Duración",
-    "tourdetails1paragraph": "Tour de día completo (aproximadamente de 5:00 AM a 1:00 PM)",
+    "tourdetails1paragraph": "Experiencia de 5 horas",
     "tourdetails2title": "Incluye Transporte",
     "tourdetails2paragraph": "Podemos llevarte al lugar exacto por tu seguridad",
     "tourdetails3title": "Precio",
-    "tourdetails3paragraph": "$150 USD por persona",
+    "tourdetails3paragraph": "$180 USD por persona",
     "whattobring": "¿Qué llevar?",
-    "whattobring1": "Ropa y zapatos cómodos para caminar",
-    "whattobring2": "Sombrero y protector solar",
-    "whattobring3": "Agua y bocadillos",
-    "whattobring4": "Cámara para capturar recuerdos",
+    "whattobring1": "Calzado cómodo",
+    "whattobring2": "Gafas de sol",
+    "whattobring3": "Protector solar",
+    "whattobring4": "Chamarra",
+    "whattobring5": "Ropa cómoda",
     "tour": {
-      "date": "Viernes 13 de Febrero 2026",
-      "title": "Xochimilco: Tour en Kayak",
-      "description": "Disfruta de una hermosa vista al amanecer e inmersiónate en el espectacular entorno natural del Lago de Xochimilco. Viaja en kayak y maravíllate con este famoso sitio del patrimonio mundial de la humanidad junto a un guía."
+      "date": "Viernes 13 de febrero 2026",
+      "title": "Xochimilco con desayuno orgánico en chinampa",
+      "description": "Xochimilco es una reserva ecológica única en su tipo, reconocida por su riqueza natural, su legado histórico y sus profundas raíces culturales. En sus aguas navegaron y trabajaron los antiguos pueblos mexicas, desarrollando un ingenioso sistema agrícola. Vive Xochimilco desde otra perspectiva: a bordo de un kayak guiado por una persona local que te llevará a través de los canales de Xochimilco. Disfruta del paisaje, observa aves y otras especies nativas. Para cerrar el recorrido, saborea un desayuno orgánico cosechado en la misma región."
     },
     "highlights": [
-      "Maravíllate con el impresionante amanecer o atardecer",
-      "Descubre la fascinante historia de Xochimilco",
-      "Aprende sobre la Ciudad de México con tu guía",
-      "Conoce al Ajolote en un centro de conservación",
-      "Observa aves migratorias"
+      "Vive Xochimilco desde otra perspectiva a bordo de un kayak",
+      "Navega por los canales de Xochimilco temprano en la mañana",
+      "Observa aves y otras especies nativas",
+      "Disfruta de un desayuno orgánico cosechado en la misma región",
+      "Descubre la reserva ecológica única y su legado cultural"
     ],
     "fullDescription": [
-      "Descubre los últimos vestigios de la Ciudad de México en su era prehispánica. Sigue a tu guía local y aprende sobre la historia de Xochimilco, un sitio cultural patrimonio de la humanidad que también es un área natural protegida.",
-      "Conoce a tu guía en el Embarcadero Cuemanco, donde recibirás entrenamiento para usar el kayak. Inicia tu aventura remando para ver el amanecer o atardecer. Observa diferentes especies de aves migratorias y locales en tu recorrido.",
-      "Haz una pausa en medio de la laguna y captura fotos memorables de las increíbles vistas. Si el clima lo permite, también podrás ver los volcanes de México.",
-      "Zarpa y visita el centro de conservación del ajolote. Acércate y ve al ajolote en persona, un animal en peligro de extinción y nativo de Xochimilco."
+      "Xochimilco es una reserva ecológica única en su tipo, reconocida por su riqueza natural, su legado histórico y sus profundas raíces culturales. En sus aguas navegaron y trabajaron los antiguos pueblos mexicas, desarrollando un ingenioso sistema agrícola.",
+      "Vive Xochimilco desde otra perspectiva: a bordo de un kayak guiado por una persona local que te llevará a través de los canales de Xochimilco. Disfruta del paisaje, observa aves y otras especies nativas.",
+      "Para cerrar el recorrido, saborea un desayuno orgánico cosechado en la misma región."
     ],
     "includes": [
-      "Parada breve en una Chinampa",
-      "Paseo en kayak",
-      "Visita al centro de conservación del ajolote",
-      "Guía local bilingüe",
-      "Desayuno"
+      "Transporte de ida y vuelta desde la Ciudad de México con City Express Plus by Marriott Insurgentes Sur. El tipo de vehículo depende del tamaño del grupo y puede ser un auto, un vehículo de 7 plazas o una minivan.",
+      "Acceso a los canales de Xochimilco",
+      "Experiencia de 5 horas",
+      "Desayuno orgánico"
     ],
-    "recommendations": [
-      "Lleva ropa extra por si te mojas",
-      "Guantes y gorro (bajas temperaturas en esta época del año)"
-    ],
-    "pickup": "Recogida a las 5:10 am en City Express Plus by Marriott Insurgentes",
-    "duration": "Tour de 3 horas",
-    "kayaks": "Kayaks: individuales o dobles",
-    "experience": "No se necesita experiencia",
-    "museum": {
-      "title": "Museo Nacional de Antropología",
-      "description": "Considerado uno de los museos de historia natural más completos del mundo, el Museo Nacional de Antropología (Museo Nacional de Antropología) es el museo más visitado de la Ciudad de México. Su colección incluye artículos históricos notables como la Piedra del Sol azteca, las enormes cabezas talladas del pueblo olmeca y la estatua de Xochipilli azteca. Explora el arte tolteca y maya en exhibición.",
-      "fullDescription": [
-        "Entra al Museo Nacional de Antropología en la Ciudad de México casi medio siglo después de que se estableciera y descubre por qué sigue siendo el recinto principal que protege el legado de los pueblos indígenas mexicanos. Como símbolo de identidad y mentor de generaciones que buscan profundizar en sus raíces culturales, el museo es el más popular en México, atrayendo a unos 2 millones de visitantes por año.",
-        "Obtén información sobre las diversas exhibiciones y su importancia de la mano de tu guía. Observa objetos excavados de sitios arqueológicos que cubren vastos territorios de lo que ahora es México moderno. Aprende sobre las diversas culturas que los crearon.",
-        "Visita salas donde se exhiben objetos pequeños, como puntas de lanza. Estos fueron utilizados por los primeros cazadores en el continente hace más de 10,000 años. Observa piezas de arcilla simples utilizadas en la vida cotidiana y como artículos simbólicos en ceremonias religiosas.",
-        "Admira impresionantes objetos como la Piedra del Sol (calendario azteca). Tu guía explicará el significado de estas valiosas contribuciones a México, así como los desafíos que han enfrentado los historiadores para replantearse el desarrollo de los pueblos mesoamericanos, incluidas las culturas maya, azteca y zapoteca."
-      ],
-      "includes": [
-        "Guía",
-        "Entrada al Museo Nacional de Antropología",
-        "Transporte",
-        "Experiencia guiada de 2-3 horas"
-      ],
-      "highlights": [
-        "Tour guiado del Museo Nacional de Antropología",
-        "Deleita tus sentidos explorando uno de los sitios culturales más importantes de América Latina.",
-        "Experimenta la increíble cultura de México",
-        "Admira las obras maestras de las civilizaciones antiguas mexicanas",
-        "Sumérgete en la historia y cultura de México",
-        "Aprende sobre el patrimonio prehispánico de la región",
-        "Experiencia de tour privado, personalizado para ti"
-      ],
-      "return": "Regresaremos desde el área de Polanco alrededor de la 1 pm, con bajada en City Express Plus by Marriott Insurgentes."
-    },
-    "generalIncludes": [
-      "Kayak en Xochimilco y Museo Nacional de Antropología",
-      "Transporte: A Xochimilco y Museo Nacional de Antropología",
-      "Recogida y regreso en City Express Plus by Marriott Insurgentes",
-      "Desayuno",
-      "Entradas",
-      "Guías",
-      "Kayak (individual o doble)",
-      "Chaleco de seguridad"
+    "excludes": [
+      "No incluye propinas"
     ],
     "cost": "180 USD",
-    "phototitle": [
-      "Paseo en Trajinera en Xochimilco",
-      "Museo Nacional de Antropología"
+    "whattoexpectitems": [
+      "Acceso a los canales de Xochimilco",
+      "Experiencia de 5 horas",
+      "Desayuno orgánico"
     ]
   },
   "navbar": {

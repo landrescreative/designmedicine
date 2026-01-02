@@ -23,7 +23,7 @@ const Page = () => {
       <HeroSectionTrips
         title={t('tour.title')}
         paragraph={t('tour.description')}
-        img="/xochimilco03.jpg"
+        img="/xochimilco.jpeg"
         date={t('tour.date')}
         hours={t('tourdetails1paragraph')}
       />
@@ -87,105 +87,15 @@ const Page = () => {
             ))}
           </ul>
 
-          {/* Recommendations */}
+          {/* Does not include */}
           <h3 className="text-xl font-semibold text-primary my-5">
-            Recommendations
+            Does not include
           </h3>
           <ul className="list-disc pl-6 space-y-1 text-gray-700">
-            {t
-              .raw('recommendations')
-              .map((recommendation: string, index: number) => (
-                <li key={index}>{recommendation}</li>
-              ))}
-          </ul>
-
-          {/* Additional Details */}
-          <div className="text-lg text-gray-700 font-bold text-secondary mt-4 space-y-2">
-            <p>{t('pickup')}</p>
-            <p>{t('duration')}</p>
-            <p>{t('kayaks')}</p>
-            <p>{t('experience')}</p>
-          </div>
-
-          {/* Full Description */}
-        </div>
-      </div>
-
-      {/* Museum Section */}
-      <div className="w-full lg:w-9/12 px-5 mt-10">
-        <h2 className="text-4xl font-bold text-primary">{t('museum.title')}</h2>
-        <p className="text-lg mt-4 text-gray-700">{t('museum.description')}</p>
-        <h2 className="text-3xl my-5 text-primary uppercase font-bold">
-          {t('whattoexpect')}
-        </h2>
-        <div className="cards flex gap-5 justify-center my-6 flex-wrap">
-          {t
-            .raw('museum.highlights')
-            .map((highlight: string, index: number) => (
-              <div
-                key={index}
-                className="px-3 py-7 flex-1 flex flex-col justify-center items-center bg-secondary/20 rounded-tl-2xl rounded-br-2xl text-center text-slate-800 font-serif md:hover:scale-110 duration-300 transition-all"
-              >
-                <p>{highlight}</p>
-              </div>
+            {t.raw('excludes').map((exclude: string, index: number) => (
+              <li key={index}>{exclude}</li>
             ))}
-        </div>
-
-        {/* Museum Full Description */}
-        <h3 className="text-xl font-semibold text-primary mt-8">
-          Full Description
-        </h3>
-        {t
-          .raw('museum.fullDescription')
-          .map((paragraph: string, index: number) => (
-            <p key={index} className="text-gray-700 my-2">
-              {paragraph}
-            </p>
-          ))}
-
-        {/* Museum Includes */}
-        <h3 className="text-xl font-semibold text-primary mt-5">Includes</h3>
-        <ul className="list-disc pl-6 space-y-1 text-gray-700 font-bold">
-          {t.raw('museum.includes').map((include: string, index: number) => (
-            <li key={index}>{include}</li>
-          ))}
-        </ul>
-        <p className="text-lg text-gray-700 mt-4">{t('museum.return')}</p>
-      </div>
-
-      {/* General Includes and Cost */}
-      <div className="w-full lg:w-9/12 px-5 mt-10">
-        <h3 className="text-2xl font-semibold text-primary">
-          General Tour Includes
-        </h3>
-        <ul className="list-disc pl-6 text-gray-700 my-4">
-          {t.raw('generalIncludes').map((include: string, index: number) => (
-            <li key={index}>{include}</li>
-          ))}
-        </ul>
-      </div>
-
-      {/* IMAGES  */}
-      <div className="flex gap-10 flex-col md:flex-row px-2 md:w-10/12 my-10">
-        <div className="relative rounded-2xl overflow-hidden shadow-lg">
-          <img
-            className="w-full h-full object-cover"
-            src="/3.jpg"
-            alt="Image 1"
-          />
-          <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
-            {t('phototitle.0')}
-          </h1>
-        </div>
-        <div className=" relative rounded-2xl overflow-hidden shadow-lg">
-          <img
-            className="w-full h-full object-cover"
-            src="/11154952_445560532268265_5060642880520825132_o.webp"
-            alt="Image 2"
-          />
-          <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
-            {t('phototitle.1')}
-          </h1>
+          </ul>
         </div>
       </div>
       <InfoXochimilco />

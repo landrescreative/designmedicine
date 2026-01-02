@@ -271,106 +271,52 @@
   "xochimilcosite": {
     "tour": {
       "date": "Friday, February 13th, 2026",
-      "title": "Xochimilco: Kayak Tour",
-      "description": "Enjoy a beautiful view at sunrise and immerse yourself in the spectacular natural environment of Lake Xochimilco. Travel via kayak and marvel at this famous world heritage site of humanity alongside a guide."
+      "title": "Early Xochimilco and chinampa organic breakfast",
+      "description": "Xochimilco is a unique ecological reserve, renowned for its natural beauty, historical legacy, and deep cultural roots. The ancient Mexica people navigated and worked its waterways, developing an ingenious agricultural system. Experience Xochimilco from a different perspective: aboard a kayak guided by a local who will take you through the canals of Xochimilco at early morning. Enjoy the scenery, observe birds and other native species. To conclude the tour, savor an organic breakfast made with locally sourced ingredients."
     },
     "highlights": [
-      "Marvel at the stunning sunrise or sunset",
-      "Discover the fascinating history of Xochimilco",
-      "Learn about Mexico City from your guide",
-      "Meet the Axolotl at a conservation center",
-      "Be on the lookout for migratory birds"
+      "Experience Xochimilco from a different perspective aboard a kayak",
+      "Navigate the canals of Xochimilco at early morning",
+      "Observe birds and other native species",
+      "Enjoy an organic breakfast made with locally sourced ingredients",
+      "Discover the unique ecological reserve and its cultural heritage"
     ],
     "fullDescription": [
-      "Discover the last vestiges of Mexico City in its pre-Hispanic era. Follow your local guide and learn about the history of Xochimilco, a World Heritage cultural site which is also a protected natural area.",
-      "Meet your guide at the Cuemanco Pier where you will be trained to use your kayak. Begin your adventure by embarking on a kayak to see the sunrise or sunset. Be on the lookout for different species of migratory and local birds on your journey.",
-      "Take a break in the middle of the lagoon and capture memorable photos of the amazing views. If the weather permits, you will also be able to see the volcanoes of Mexico.",
-      "Set sail and visit the Axolotl conservation center. Get up close and see the Axolotl in person, an animal that is in danger of extinction and is native to Xochimilco."
+      "Xochimilco is a unique ecological reserve, renowned for its natural beauty, historical legacy, and deep cultural roots. The ancient Mexica people navigated and worked its waterways, developing an ingenious agricultural system.",
+      "Experience Xochimilco from a different perspective: aboard a kayak guided by a local who will take you through the canals of Xochimilco at early morning. Enjoy the scenery, observe birds and other native species.",
+      "To conclude the tour, savor an organic breakfast made with locally sourced ingredients."
     ],
     "includes": [
-      "A brief stop at Chinampa",
-      "Kayak ride",
-      "Visit the axolotl conservation center",
-      "Bilingual local guide",
-      "Breakfast"
+      "Round-trip transportation from Mexico City from City Express Plus by Marriott Insurgentes Sur. The type of vehicle depends on the size of the group and may include a car, 7-seater, or minivan.",
+      "Access to Xochimilco canals",
+      "5 hour experience",
+      "Organic breakfast"
     ],
-    "recommendations": [
-      "Bring extra clothes in case you get wet",
-      "Mittens and hat (low temperature this time of the year)"
-    ],
-    "pickup": "Pick up at 5:10 am at City Express Plus by Marriott Insurgentes",
-    "duration": "3-hour tour",
-    "kayaks": "Kayaks: singles or doubles",
-    "experience": "No experience needed",
-    "museum": {
-      "title": "National Museum of Anthropology",
-      "description": "Considered one of the world’s most comprehensive natural history museums, the National Museum of Anthropology (Museo Nacional de Antropología) is Mexico City’s most visited museum. Its collection includes notable historical items such as the Aztec Stone of the Sun, the giant carved heads of the Olmec people, and the Aztec Xochipilli statue. Explore Toltec and Mayan art on display.",
-      "fullDescription": [
-        "Enter the National Museum of Anthropology in Mexico City almost a half century after it was established, and discover why it remains the flagship enclosure safeguarding the legacy of the Mexican indigenous people. Standing as a symbol of identity and a mentor to generations seeking to dig into their cultural roots, the museum is the most popular in Mexico, attracting some 2 million visitors per year.",
-        "Get insights into the various exhibits and their significance from your guide. Look at objects excavated from archaeological sites, covering vast territories in what is now modern-day Mexico. Learn about the various cultures that created them.",
-        "Visit rooms where small objects, such as spear points are on display. These were used by early hunters on the continent more than 10,000 years ago. See simple clay pieces used in daily life and as symbolic articles in religious ceremonies.",
-        "Admire impressive objects such as the Stone of the Sun (Aztec calendar stone). Your guide will explain the meaning of these valuable contributions to Mexico, as well as the ways historians have been challenged to re-think the development of the Mesoamerican people including Mayan, Aztec and Zapotec cultures."
-      ],
-      "includes": [
-        "Guide",
-        "Entrance to the National Museum of Anthropology",
-        "Transportation",
-        "2-3 hour Guided Experience"
-      ],
-      "highlights": [
-        "Guided tour of the National Museum of Anthropology",
-        "Delight your senses as you explore one of Latin America's most important cultural sites.",
-        "Experience the amazing culture of Mexico",
-        "Admire the masterpieces of ancient Mexican civilizations",
-        "Immerse in the history and culture of Mexico",
-        "Learn about the pre-hispanic heritage of the region",
-        "Private tour experience, personalized for you"
-      ],
-      "return": "We will return from the Polanco area around 1 pm, drop off at City Express Plus by Marriott Insurgentes."
-    },
-    "generalIncludes": [
-      "Xochimilco Kayak and National Museum of Anthropology",
-      "Transportation: To Xochimilco and National Museum of Anthropology",
-      "Pick up and drop off at City Express Plus by Marriott Insurgentes",
-      "Breakfast",
-      "Entrance fees",
-      "Guides",
-      "Kayak (single or double)",
-      "Safety vest"
+    "excludes": [
+      "Tips are not included"
     ],
     "cost": "180 USD",
-    "length": "1 day",
-    "activities": "2 Activities",
-    "title": "Xochimilco",
-    "paragraph": "We invite you to enjoy the magic of Xochimilco, an emblematic site in Mexico City famous for its canals, colorful trajineras, and rich cultural history dating back to pre-Hispanic times.",
-    "whattoexpect": "HIGHLIGHTS",
-    "paseotrajinera": "Trajinera Ride",
-    "paseotrajineraparagraph": "Enjoy a relaxing trajinera ride through the canals of Xochimilco. This tour will allow you to admire the natural beauty of the area while immersing yourself in local traditions. Listen to mariachi music, try Mexican snacks, and discover the unique charm of Xochimilco.",
+    "whattoexpectitems": [
+      "Access to Xochimilco canals",
+      "5 hour experience",
+      "Organic breakfast"
+    ],
+    "whattoexpect": "What to expect?",
     "viewmap": "VIEW ON MAP",
     "viewmapparagraph": "Check reviews, explore the area, etc.",
-    "highlight": "Highlights",
-    "highlight1title": "Expert Guides",
-    "highlight1paragraph": "Enjoy your trip with a local guide",
-    "highlight2title": "Incredible Views",
-    "highlight2paragraph": "Enjoy beautiful views from the top of the pyramids.",
-    "highlight3title": "Secure Location",
-    "highlight3paragraph": "Mexico City - CDMX | OPTIONAL TOURS",
     "tourdetails": "TOUR DETAILS",
     "tourdetails1title": "Duration",
-    "tourdetails1paragraph": "Full-day tour (approximately 5:00 AM to 1:00 PM)",
+    "tourdetails1paragraph": "5 hour experience",
     "tourdetails2title": "Include Transportation",
     "tourdetails2paragraph": "We can take you to the exact location for your security",
     "tourdetails3title": "Price",
     "tourdetails3paragraph": "$180 USD per person",
     "whattobring": "What to bring?",
-    "whattobring1": "Bring extra clothes in case you get wet , mittens and hat",
-    "whattobring2": "Hat and sunscreen",
-    "whattobring3": "Water and snacks",
-    "whattobring4": "Camera for capturing memories",
-    "phototitle": [
-      "Xochimilco Trajinera Ride",
-      "National Museum of Anthropology"
-    ]
+    "whattobring1": "Comfortable shoes",
+    "whattobring2": "Sunglasses",
+    "whattobring3": "Sunscreen",
+    "whattobring4": "Jacket",
+    "whattobring5": "Comfortable clothes"
   },
   "navbar": {
     "home": "Home",

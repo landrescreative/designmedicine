@@ -17,7 +17,7 @@ const Slider: React.FC<SliderProps> = ({}) => {
   const slides = [
     {
       id: 1,
-      image: '/museos.jpg',
+      image: '/museo soumaya.jpeg',
       date: t('soumaya.date') as string,
       title: t('slider.slides.1.title') as string,
       paragraph: t('slider.slides.1.paragraph') as string,
@@ -25,7 +25,7 @@ const Slider: React.FC<SliderProps> = ({}) => {
     },
     {
       id: 2,
-      image: '/moon01.jpg',
+      image: '/mariposa monarca.jpeg',
       date: t('mariposamonarca.date') as string,
       title: t('slider.slides.2.title') as string,
       paragraph: t('slider.slides.2.paragraph') as string,
@@ -34,7 +34,7 @@ const Slider: React.FC<SliderProps> = ({}) => {
     {
       id: 3,
       date: t('tresmuseos.date') as string,
-      image: '/MNA_2021_1.jpg',
+      image: '/estudio diego rivera.jpeg',
       title: t('slider.slides.3.title') as string,
       paragraph: t('slider.slides.3.paragraph') as string,
       url: '/tresmuseos'
@@ -42,7 +42,7 @@ const Slider: React.FC<SliderProps> = ({}) => {
     {
       id: 4,
       date: t('temazcalmuseo.date') as string,
-      image: '/temazcal.jpg',
+      image: '/museo el camen.jpeg',
       title: t('temazcalmuseo.title') as string,
       paragraph: t('temazcalmuseo.paragraph') as string,
       url: '/temazcalmuseo'
@@ -50,7 +50,7 @@ const Slider: React.FC<SliderProps> = ({}) => {
     {
       id: 5,
       date: t('xochimilcosite.tour.date') as string,
-      image: '/xochimilco03.jpg',
+      image: '/xochimilco.jpeg',
       title: t('slider.slides.4.title') as string,
       paragraph: t('slider.slides.4.paragraph') as string,
       url: '/xochimilco'

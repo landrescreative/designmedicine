@@ -22,7 +22,7 @@ const HeroSectionTrips: React.FC<HeroSectionTripsProps> = ({
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-fixed rounded-b-[1%] overflow-hidden"
         style={{
-          backgroundImage: `url(${img})`,
+          backgroundImage: `url(${encodeURI(img)})`,
           backgroundAttachment: 'fixed'
         }}
       >

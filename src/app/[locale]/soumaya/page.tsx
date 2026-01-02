@@ -23,7 +23,7 @@ const Page = () => {
       <HeroSectionTrips
         title={t('title')}
         paragraph={t('paragraph')}
-        img="/museos.jpg"
+        img="/museo soumaya.jpeg"
         date={t('date')}
         hours={t('tourDetails.durationDescription')}
       />
@@ -64,11 +64,13 @@ const Page = () => {
             <h3 className="text-xl text-left font-semibold text-primary mt-5">
               Full Description
             </h3>
-            {t.raw('fulldescription').map((paragraph: string, index: number) => (
-              <p key={index} className="text-gray-700 my-2">
-                {paragraph}
-              </p>
-            ))}
+            {t
+              .raw('fulldescription')
+              .map((paragraph: string, index: number) => (
+                <p key={index} className="text-gray-700 my-2">
+                  {paragraph}
+                </p>
+              ))}
           </div>
         </div>
       </div>
@@ -104,4 +106,3 @@ const Page = () => {
 };
 
 export default Page;
-

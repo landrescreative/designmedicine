@@ -3,65 +3,42 @@ import { FaInfoCircle, FaClipboardList, FaDollarSign } from 'react-icons/fa';
 import { useTranslations } from 'next-intl';
 
 // Icons
-import { FaUser } from 'react-icons/fa';
-import { BsFillFileImageFill } from 'react-icons/bs';
-import { FaLocationDot } from 'react-icons/fa6';
 import { FaRegClock } from 'react-icons/fa';
 import { FaBus } from 'react-icons/fa';
 import { AiFillDollarCircle } from 'react-icons/ai';
-import { GiClothes } from 'react-icons/gi';
-import { FaHatCowboySide, FaSun } from 'react-icons/fa';
-import { BsSunglasses } from 'react-icons/bs';
-import { IoIosWater } from 'react-icons/io';
-import { FaCamera } from 'react-icons/fa';
+import { GiClothes, GiShirt, GiConverseShoe } from 'react-icons/gi';
+import { FaSun } from 'react-icons/fa';
+import { BsSunglasses, BsFillFileImageFill } from 'react-icons/bs';
+import { FaLocationDot } from 'react-icons/fa6';
 
 const InfoTemplo = () => {
   const t = useTranslations('xochimilcosite');
   return (
     <div className="flex justify-center items-center pb-12 w-full">
       <div className="flex flex-col lg:flex-row justify-start md:w-9/12">
-        {/* First Section - GENERAL */}
+        {/* First Section - WHAT TO EXPECT */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
-            {t('highlight')}
+            {t('whattoexpect')}
           </h2>
-          <div className="grid grid-cols-6 grid-rows-1 ">
-            <FaUser
-              size={30}
-              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
-            />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('highlight1title')}</h3>
-              <p className="text-gray-600">{t('highlight1paragraph')}</p>
+          {t.raw('whattoexpectitems').map((item: string, index: number) => (
+            <div key={index} className="grid grid-cols-6 grid-rows-1">
+              <BsFillFileImageFill
+                size={30}
+                className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
+              />
+              <div className="col-start-2 col-end-6 self-center justify-self-start">
+                <p className="text-gray-600">{item}</p>
+              </div>
             </div>
-          </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
-            <BsFillFileImageFill
-              size={30}
-              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
-            />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('highlight2title')}</h3>
-              <p className="text-gray-600">{t('highlight2paragraph')}</p>
-            </div>
-          </div>
-          <div className="grid grid-cols-6 grid-rows-1 ">
-            <FaLocationDot
-              size={30}
-              className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center "
-            />
-            <div className="col-start-2 col-end-6 self-center justify-self-start ">
-              <h3 className="text-lg font-medium">{t('highlight3title')}</h3>
-              <p className="text-gray-600">{t('highlight3paragraph')}</p>
-            </div>
-          </div>
+          ))}
         </div>
 
         {/* Line Separator */}
         <div className="border-t border-primary md:hidden"></div>
         <div className="w-1 bg-primary hidden md:block"></div>
 
-        {/* Second Section - DESCRIPTION */}
+        {/* Second Section - TOUR DETAILS */}
         <div className="flex-1 bg-white p-6 flex flex-col gap-5">
           <h2 className="text-2xl font-semibold mb-4 text-center text-primary uppercase">
             {t('tourdetails')}
@@ -108,7 +85,7 @@ const InfoTemplo = () => {
             {t('whattobring')}
           </h2>
           <div className="grid grid-cols-6 grid-rows-1 ">
-            <GiClothes
+            <GiConverseShoe
               size={30}
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
             />
@@ -117,22 +94,16 @@ const InfoTemplo = () => {
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
-            <div className="col-start-1 col-end-2 self-center justify-self-center flex gap-1">
-              <FaHatCowboySide
-                size={20}
-                className="text-yellow-500"
-              />
-              <FaSun
-                size={20}
-                className="text-yellow-500"
-              />
-            </div>
+            <BsSunglasses
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
               <h3 className="text-lg font-medium">{t('whattobring2')}</h3>
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
-            <IoIosWater
+            <FaSun
               size={30}
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
             />
@@ -141,12 +112,21 @@ const InfoTemplo = () => {
             </div>
           </div>
           <div className="grid grid-cols-6 grid-rows-1 ">
-            <FaCamera
+            <GiShirt
               size={30}
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start ">
               <h3 className="text-lg font-medium">{t('whattobring4')}</h3>
+            </div>
+          </div>
+          <div className="grid grid-cols-6 grid-rows-1 ">
+            <GiClothes
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start ">
+              <h3 className="text-lg font-medium">{t('whattobring5')}</h3>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ const Testimonial: React.FC = () => {
       title: t('testimonials.0.title'),
       subtitle: t('testimonials.0.subtitle'),
       buttonText: t('testimonials.0.buttonText'),
-      imageUrl: '/museos.jpg',
+      imageUrl: '/museo soumaya.jpeg',
       link: '/soumaya'
     },
     {
@@ -22,7 +22,7 @@ const Testimonial: React.FC = () => {
       title: t('testimonials.1.title'),
       subtitle: t('testimonials.1.subtitle'),
       buttonText: t('testimonials.1.buttonText'),
-      imageUrl: '/moon01.jpg',
+      imageUrl: '/mariposa monarca.jpeg',
       link: '/mariposamonarca'
     },
     {
@@ -30,7 +30,7 @@ const Testimonial: React.FC = () => {
       title: t('testimonials.2.title'),
       subtitle: t('testimonials.2.subtitle'),
       buttonText: t('testimonials.2.buttonText'),
-      imageUrl: '/MNA_2021_1.jpg',
+      imageUrl: '/estudio diego rivera.jpeg',
       link: '/tresmuseos'
     },
     {
@@ -38,7 +38,7 @@ const Testimonial: React.FC = () => {
       title: t('testimonials.3.title'),
       subtitle: t('testimonials.3.subtitle'),
       buttonText: t('testimonials.3.buttonText'),
-      imageUrl: '/temazcal.jpg',
+      imageUrl: '/museo el camen.jpeg',
       link: '/temazcalmuseo'
     },
     {
@@ -46,7 +46,7 @@ const Testimonial: React.FC = () => {
       title: t('testimonials.4.title'),
       subtitle: t('testimonials.4.subtitle'),
       buttonText: t('testimonials.4.buttonText'),
-      imageUrl: '/xochimilco03.jpg',
+      imageUrl: '/xochimilco.jpeg',
       link: '/xochimilco'
     }
   ];

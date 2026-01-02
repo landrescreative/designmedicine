@@ -23,7 +23,7 @@ const Page = () => {
       <HeroSectionTrips
         title={t('title')}
         paragraph={t('paragraph')}
-        img="/temazcal.jpg"
+        img="/museo el camen.jpeg"
         date={t('date')}
         hours={t('tourDetails.durationDescription')}
       />
@@ -76,6 +76,34 @@ const Page = () => {
               </p>
             ))}
           </div>
+        </div>
+      </div>
+
+      {/* IMAGES SECTION */}
+      <div className="flex gap-10 flex-col md:flex-row px-2 md:w-10/12 my-10">
+        <div className="relative rounded-2xl overflow-hidden shadow-lg flex-1">
+          <Image
+            className="w-full h-full object-cover"
+            src="/temazcal.jpeg"
+            alt="Temazcal"
+            width={600}
+            height={400}
+          />
+          <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
+            Temazcal
+          </h1>
+        </div>
+        <div className="relative rounded-2xl overflow-hidden shadow-lg flex-1">
+          <Image
+            className="w-full h-full object-cover"
+            src="/museo el camen.jpeg"
+            alt="Museo del Carmen"
+            width={600}
+            height={400}
+          />
+          <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
+            Museo del Carmen
+          </h1>
         </div>
       </div>
 
