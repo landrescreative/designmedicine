@@ -79,7 +79,7 @@ const Testimonial: React.FC = () => {
         <div
           className="h-full w-full bg-cover bg-center transition-transform duration-500"
           style={{
-            backgroundImage: `url(${currentTestimonial.imageUrl})`,
+            backgroundImage: `url(${encodeURI(currentTestimonial.imageUrl)})`,
             transform: animating ? 'scale(1.05)' : 'scale(1)' // Zoom-in durante el cambio
           }}
         >

@@ -33,8 +33,8 @@ const Page = () => {
         {/* Sidebar with Image Links */}
         <div className="hidden md:flex flex-col items-center w-full md:w-1/4 gap-10">
           {[
-            '/flyer_facereading.png',
-            '/flyer_kiiko.jpg',
+            '/Face Reading 2026.jpg',
+            '/KIIKO FLYER 2026.jpg',
             '/flyer_shop.jpg'
           ].map((src, index) => (
             <Link

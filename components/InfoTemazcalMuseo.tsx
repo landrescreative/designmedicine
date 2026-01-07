@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { FaRegClock, FaBus, FaShieldAlt } from 'react-icons/fa';
 import { BsFillFileImageFill, BsSunglasses } from 'react-icons/bs';
 import { AiFillDollarCircle } from 'react-icons/ai';
-import { GiClothes, GiShirt, GiShorts, GiFlipFlops, GiTowel } from 'react-icons/gi';
+import { GiClothes, GiShirt, GiShorts, GiFlipFlops, GiTowel, GiRunningShoe } from 'react-icons/gi';
 
 const InfoTemazcalMuseo = () => {
   const t = useTranslations('temazcalmuseo');
@@ -103,7 +103,7 @@ const InfoTemazcalMuseo = () => {
             {t('whatToBring.title')}
           </h2>
           <div className="grid grid-cols-6 grid-rows-1">
-            <GiClothes
+            <GiRunningShoe
               size={30}
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
             />
@@ -114,43 +114,43 @@ const InfoTemazcalMuseo = () => {
             </div>
           </div>
           {t('whatToBring.hatTitle') && (
-            <div className="grid grid-cols-6 grid-rows-1">
+          <div className="grid grid-cols-6 grid-rows-1">
               <BsSunglasses
-                size={30}
-                className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
-              />
-              <div className="col-start-2 col-end-6 self-center justify-self-start">
-                <h3 className="text-lg font-medium">
-                  {t('whatToBring.hatTitle')}
-                </h3>
-              </div>
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('whatToBring.hatTitle')}
+              </h3>
             </div>
+          </div>
           )}
           {t('whatToBring.waterTitle') && (
-            <div className="grid grid-cols-6 grid-rows-1">
+          <div className="grid grid-cols-6 grid-rows-1">
               <GiTowel
-                size={30}
-                className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
-              />
-              <div className="col-start-2 col-end-6 self-center justify-self-start">
-                <h3 className="text-lg font-medium">
-                  {t('whatToBring.waterTitle')}
-                </h3>
-              </div>
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('whatToBring.waterTitle')}
+              </h3>
             </div>
+          </div>
           )}
           {t('whatToBring.cameraTitle') && (
-            <div className="grid grid-cols-6 grid-rows-1">
+          <div className="grid grid-cols-6 grid-rows-1">
               <GiFlipFlops
-                size={30}
-                className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
-              />
-              <div className="col-start-2 col-end-6 self-center justify-self-start">
-                <h3 className="text-lg font-medium">
-                  {t('whatToBring.cameraTitle')}
-                </h3>
-              </div>
+              size={30}
+              className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center"
+            />
+            <div className="col-start-2 col-end-6 self-center justify-self-start">
+              <h3 className="text-lg font-medium">
+                {t('whatToBring.cameraTitle')}
+              </h3>
             </div>
+          </div>
           )}
           {t('whatToBring.extraTitle') && !t('whatToBring.extraTitle').toLowerCase().includes('insurance') && !t('whatToBring.extraTitle').toLowerCase().includes('seguro') && (
             <div className="grid grid-cols-6 grid-rows-1">

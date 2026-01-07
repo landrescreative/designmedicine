@@ -311,9 +311,7 @@
       "Experiencia de 5 horas",
       "Desayuno orgánico"
     ],
-    "excludes": [
-      "No incluye propinas"
-    ],
+    "excludes": ["No incluye propinas"],
     "cost": "180 USD",
     "whattoexpectitems": [
       "Acceso a los canales de Xochimilco",
@@ -385,18 +383,6 @@
       "Viernes, 13 de febrero de 2026",
       "2:00 PM - 6:00 PM",
       "$580 por persona"
-    ],
-    "workshop2title": "Workshop 2: Bioenergética China con el Dr. Antonio Merchant",
-    "workshop2paragraph": [
-      "Dr. Antonio Merchant, un experto con experiencia en medicina china y bioenergética, te trae una oportunidad inigualable para:",
-      "Aprender y perfeccionar principios de Taiji y Qigong para la salud personal y aplicaciones terapéuticas.",
-      "Descubrir cómo integrar técnicas bioenergéticas en tu práctica para tratar pacientes de manera efectiva, sin agujas.",
-      "Experimentar la conexión profunda entre el movimiento, la energía y la sanación bajo la guía de un verdadero maestro.",
-      "Este taller es el complemento perfecto para tu experiencia en acupuntura y Medicina Oriental, ofreciendo nuevas herramientas para mejorar tu práctica y ampliar tu repertorio terapéutico.",
-      "¡No te lo Pierdas!",
-      "Los espacios son limitados para estos talleres muy solicitados, así que actúa rápido para asegurar tu lugar. Ya sea que busques avanzar en tu experiencia clínica o explorar prácticas y terapéuticas bioenergéticas innovadoras, esta es tu oportunidad de aprender de los mejores en el campo en un entorno inolvidable.",
-      "¡Reserva Tu Lugar Ahora!",
-      "Regístrate Hoy y únete a nosotros en un viaje único de crecimiento, descubrimiento y transformación profesional."
     ]
   },
   "luchas": {
@@ -440,6 +426,11 @@
     "title": "Santuario de la Mariposa Monarca: Piedra Herrada y Valle de Bravo",
     "paragraph": "Experimenta el Santuario de la Mariposa Monarca en México y descubre Piedra Herrada, uno de los santuarios de la Reserva de la Biosfera de la Mariposa Monarca, declarado Patrimonio de la Humanidad por la UNESCO en 2008. Más tarde, haz una parada en Valle de Bravo para pasear por sus encantadoras calles empedradas, mercados, plazas, parques y numerosos rincones acogedores para disfrutar de un refrigerio. ¡No te pierdas este colorido vuelo!",
     "whattoexpect": "¿Qué esperar?",
+    "highlightTitles": [
+      "Santuario UNESCO",
+      "Fenómeno Natural",
+      "Valle de Bravo"
+    ],
     "highlight": [
       "Descubre uno de los santuarios del Santuario de la Mariposa Monarca en México, declarado Patrimonio de la Humanidad por la UNESCO.",
       "Vive en primera persona uno de los fenómenos naturales más espectaculares y aprende todo sobre estos insectos únicos con un guía local.",
@@ -461,10 +452,7 @@
       "Comidas: Bebidas no alcohólicas y refrigerios.",
       "Actividades: Entrada y visita guiada al Santuario de la Mariposa Monarca Piedra Herrada, la Cascada Velo de Novia y el Museo de Arte Popular de Valle de Bravo; y recorrido a pie por Valle de Bravo."
     ],
-    "tourexcludes": [
-      "Almuerzo",
-      "Propinas"
-    ],
+    "tourexcludes": ["Almuerzo", "Propinas"],
     "tourDetails": {
       "title": "Detalles del Tour",
       "durationTitle": "Duración",
@@ -508,10 +496,7 @@
       "Experiencia inmersiva de 3 horas",
       "Museo Soumaya de 2 horas"
     ],
-    "tourexcludes": [
-      "Almuerzo",
-      "Propinas"
-    ],
+    "tourexcludes": ["Almuerzo", "Propinas"],
     "tourDetails": {
       "title": "Detalles del Tour",
       "durationTitle": "Duración",
@@ -555,10 +540,7 @@
       "Transporte al museo (desde City Express Plus by Marriott Insurgentes Sur) y entre museos",
       "Guía de arte profesional"
     ],
-    "tourexcludes": [
-      "Almuerzo",
-      "Propinas"
-    ],
+    "tourexcludes": ["Almuerzo", "Propinas"],
     "tourDetails": {
       "title": "Detalles del Tour",
       "durationTitle": "Duración",
@@ -605,10 +587,7 @@
       "Bebidas no alcohólicas y aperitivos.",
       "Entrada y visita guiada al Museo El Carmen, experiencia de temazcal"
     ],
-    "tourexcludes": [
-      "Almuerzo",
-      "Propinas"
-    ],
+    "tourexcludes": ["Almuerzo", "Propinas"],
     "tourDetails": {
       "title": "Detalles del Tour",
       "durationTitle": "Duración",
@@ -649,31 +628,6 @@
     "subject": "Asunto",
     "submit": "Enviar"
   },
-  "merchantinfo": {
-    "list": [
-      "GENERAL",
-      "DESCRIPTION",
-      "PRICING",
-      "Instructor",
-      "Language",
-      "Location",
-      "Duration",
-      "Include Transportation",
-      "Date",
-      "Time",
-      "Price"
-    ],
-    "list2": [
-      "Antonio Merchant, M.D.",
-      "Inglés, Español",
-      "Ciudad de México, México",
-      "Taller de medio día (2:00 PM - 5:00 PM)",
-      "Podemos llevarte al lugar exacto por tu seguridad",
-      "Lunes, 17 de febrero de 2025",
-      "2:00 PM - 5:00 PM",
-      "$350 USD por persona"
-    ]
-  },
   "testimonials": [
     {
       "title": "Experiencia inmersiva en la Ciudad de México y el Museo Soumaya",
@@ -691,8 +645,8 @@
       "buttonText": "Explora la experiencia"
     },
     {
-      "title": "Temazcal y Museo del Carmen",
-      "subtitle": "Limpia tu cuerpo y tu alma en una auténtica ceremonia de temazcal. Después, embárcate en un viaje a través del tiempo en el histórico Museo del Carmen, un lugar donde el pasado susurra sus secretos.",
+      "title": "Temazcal y Museo El Carmen",
+      "subtitle": "Limpia tu cuerpo y tu alma en una auténtica ceremonia de temazcal. Después, embárcate en un viaje a través del tiempo en el histórico Museo El Carmen, un lugar donde el pasado susurra sus secretos.",
       "buttonText": "Explora la experiencia"
     },
     {

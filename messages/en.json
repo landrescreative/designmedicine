@@ -292,9 +292,7 @@
       "5 hour experience",
       "Organic breakfast"
     ],
-    "excludes": [
-      "Tips are not included"
-    ],
+    "excludes": ["Tips are not included"],
     "cost": "180 USD",
     "whattoexpectitems": [
       "Access to Xochimilco canals",
@@ -382,18 +380,6 @@
       "Friday, February 13th, 2026",
       "2:00 PM - 6:00 PM",
       "$580 USD per person"
-    ],
-    "workshop2title": "Workshop 2: Chinese Bioenergetics with Dr. Antonio Merchant",
-    "workshop2paragraph": [
-      "Dr. Antonio Merchant, a seasoned expert in Chinese medicine and bioenergetics, brings you an unparalleled opportunity to:",
-      "Learn and perfect Taiji and Qigong principles for personal health and therapeutic applications.",
-      "Discover how to integrate bioenergetic techniques into your practice to treat patients effectively—without needles.",
-      "Experience the profound connection between movement, energy, and healing under the guidance of a true master.",
-      "This workshop is the perfect complement to your acupuncture and Oriental Medicine expertise, offering new tools to enhance your practice and expand your therapeutic repertoire.",
-      "Don’t Miss Out!",
-      "Spaces are limited for these in-demand workshops, so act fast to secure your spot. Whether you’re looking to advance your clinical expertise or explore innovative bioenergetic practices and therapeutics, this is your chance to learn from the best in the field in an unforgettable setting.",
-      "Reserve Your Place Now",
-      "Sign Up Today and join us for a unique journey of growth, discovery, and professional transformation!"
     ]
   },
   "luchas": {
@@ -436,6 +422,11 @@
     "title": "Monarch Butterfly Mexico Sanctuary: Piedra Herrada Tour and Valle de Bravo",
     "paragraph": "Experience the Monarch Butterfly Mexico Sanctuary and discover Piedra Herrada, one of the Monarch Butterfly Biosphere Reserve's sanctuaries, declared a UNESCO World Heritage Site in 2008. Later, stop at Valle de Bravo to wander its charming cobbled streets, markets, squares, parks, and numerous cozy spots to enjoy a bite. Don't miss out on this colorful flight!",
     "whattoexpect": "What to expect?",
+    "highlightTitles": [
+      "UNESCO Sanctuary",
+      "Natural Phenomena",
+      "Valle de Bravo"
+    ],
     "highlight": [
       "Discover one of the sactuaries of the UNESCO-listed Monarch Butterfly Mexico Sanctuary.",
       "Experience in your own flesh one of the most spectacular natural phenomena and learn all about these unique insects from a local guide.",
@@ -457,10 +448,7 @@
       "Meals: Non-alcoholic drinks and snacks.",
       "Activities: Entrance and guided visit to Piedra Herrada Monarch Butterfly Sanctuary, Velo de Novia Waterfall, and Museum of Popular Art of Valle de Bravo; and walking tour in Valle de Bravo."
     ],
-    "tourexcludes": [
-      "Lunch",
-      "Tips"
-    ],
+    "tourexcludes": ["Lunch", "Tips"],
     "tourDetails": {
       "title": "Tour Details",
       "durationTitle": "Duration",
@@ -483,7 +471,7 @@
   "soumaya": {
     "date": "Monday, February 9th, 2026",
     "length": "1 day",
-    "title": "Inmersive experience in Mexico City and Soumaya Museum",
+    "title": "Immersive experience in Mexico City and Soumaya Museum",
     "paragraph": "Get ready for a unique immersive journey through 25 themed rooms that will transport you to Mexico's most iconic settings, without ever leaving Mexico City!",
     "whattoexpect": "What to expect?",
     "highlight": [
@@ -504,10 +492,7 @@
       "3 hour immersive experience",
       "2 hour Soumaya Museum"
     ],
-    "tourexcludes": [
-      "Lunch",
-      "Tips"
-    ],
+    "tourexcludes": ["Lunch", "Tips"],
     "tourDetails": {
       "title": "Tour Details",
       "durationTitle": "Duration",
@@ -551,10 +536,7 @@
       "Transport to museum (from City Express Plus by Marriott Insurgentes Sur) and between museums",
       "Professional art guide"
     ],
-    "tourexcludes": [
-      "Lunch",
-      "Tips"
-    ],
+    "tourexcludes": ["Lunch", "Tips"],
     "tourDetails": {
       "title": "Tour Details",
       "durationTitle": "Duration",
@@ -601,10 +583,7 @@
       "Non-alcoholic beverages and snacks.",
       "Entrance and guided tour of the Museum El Carmen, temazcal experience"
     ],
-    "tourexcludes": [
-      "Lunch",
-      "Tips"
-    ],
+    "tourexcludes": ["Lunch", "Tips"],
     "tourDetails": {
       "title": "Tour Details",
       "durationTitle": "Duration",
@@ -646,34 +625,9 @@
     "subject": "Subject",
     "submit": "Submit"
   },
-  "merchantinfo": {
-    "list": [
-      "GENERAL",
-      "DESCRIPTION",
-      "PRICING",
-      "Instructor",
-      "Language",
-      "Location",
-      "Duration",
-      "Include Transportation",
-      "Date",
-      "Time",
-      "Price"
-    ],
-    "list2": [
-      "Antonio Merchant, M.D.",
-      "English, Spanish",
-      "Mexico City, Mexico",
-      "Half-day workshop (2:00 PM - 5:00 PM)",
-      "We can take you to the exact location for your security",
-      "Monday, February 17th, 2025",
-      "2:00 PM - 5:00 PM",
-      "$350 USD per person"
-    ]
-  },
   "testimonials": [
     {
-      "title": "Inmersive experience in Mexico City and Soumaya Museum",
+      "title": "Immersive experience in Mexico City and Soumaya Museum",
       "subtitle": "Get ready for a unique immersive journey through 25 themed rooms that will transport you to Mexico's most iconic settings, without ever leaving Mexico City!",
       "buttonText": "Explore the experience"
     },
@@ -689,7 +643,7 @@
     },
     {
       "title": "Temazcal and Museo El Carmen",
-      "subtitle": "Cleanse your body and soul in an authentic temazcal ceremony. Afterwards, step into a journey through time at the historic Museo del Carmen, a place where the past whispers its secrets.",
+      "subtitle": "Cleanse your body and soul in an authentic temazcal ceremony. Afterwards, step into a journey through time at the historic Museo El Carmen, a place where the past whispers its secrets.",
       "buttonText": "Explore the experience"
     },
     {

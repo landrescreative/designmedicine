@@ -97,12 +97,12 @@ const Page = () => {
           <Image
             className="w-full h-full object-cover"
             src="/museo el camen.jpeg"
-            alt="Museo del Carmen"
+            alt="Museo El Carmen"
             width={600}
             height={400}
           />
           <h1 className="absolute bottom-0 left-0 bg-primary text-white p-2 px-5 text-lg font-bold">
-            Museo del Carmen
+            Museo El Carmen
           </h1>
         </div>
       </div>

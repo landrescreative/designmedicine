@@ -26,7 +26,7 @@ const InfoMariposaMonarca = () => {
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start">
-              <h3 className="text-lg font-medium">Santuario UNESCO</h3>
+              <h3 className="text-lg font-medium">{t('highlightTitles.0')}</h3>
               <p className="text-gray-600">{t('highlight.0')}</p>
             </div>
           </div>
@@ -36,7 +36,7 @@ const InfoMariposaMonarca = () => {
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start">
-              <h3 className="text-lg font-medium">Fenómeno Natural</h3>
+              <h3 className="text-lg font-medium">{t('highlightTitles.1')}</h3>
               <p className="text-gray-600">{t('highlight.1')}</p>
             </div>
           </div>
@@ -46,7 +46,7 @@ const InfoMariposaMonarca = () => {
               className="text-blue-500 col-start-1 col-end-2 self-center justify-self-center"
             />
             <div className="col-start-2 col-end-6 self-center justify-self-start">
-              <h3 className="text-lg font-medium">Valle de Bravo</h3>
+              <h3 className="text-lg font-medium">{t('highlightTitles.2')}</h3>
               <p className="text-gray-600">{t('highlight.2')}</p>
             </div>
           </div>

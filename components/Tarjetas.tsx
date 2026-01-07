@@ -23,7 +23,7 @@ export default function Tarjetas() {
           className="w-full h-full flex justify-center items-center"
         >
           <Image
-            src="/flyer_facereading.png"
+            src="/Face Reading 2026.jpg"
             alt="Face Reading Flyer"
             width={500}
             height={500}
@@ -50,7 +50,7 @@ export default function Tarjetas() {
           className="w-full h-full flex justify-center items-center"
         >
           <Image
-            src="/flyer_kiiko_v4.jpg"
+            src="/KIIKO FLYER 2026.jpg"
             alt="Seminar Flyer"
             width={500}
             height={500}

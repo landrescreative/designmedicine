@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import { FaRegClock } from 'react-icons/fa';
 import { FaBus } from 'react-icons/fa';
 import { AiFillDollarCircle } from 'react-icons/ai';
-import { GiClothes, GiShirt, GiConverseShoe } from 'react-icons/gi';
+import { GiClothes, GiShirt, GiRunningShoe } from 'react-icons/gi';
 import { FaSun } from 'react-icons/fa';
 import { BsSunglasses, BsFillFileImageFill } from 'react-icons/bs';
 import { FaLocationDot } from 'react-icons/fa6';
@@ -85,7 +85,7 @@ const InfoTemplo = () => {
             {t('whattobring')}
           </h2>
           <div className="grid grid-cols-6 grid-rows-1 ">
-            <GiConverseShoe
+            <GiRunningShoe
               size={30}
               className="text-yellow-500 col-start-1 col-end-2 self-center justify-self-center "
             />
