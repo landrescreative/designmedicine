@@ -121,7 +121,7 @@ const Page = () => {
         src="https://js.stripe.com/v3/buy-button.js"
         strategy="afterInteractive"
       />
-      <PaymentSection buyButtonId="buy_btn_1Sl2SQBceNIiOkbgYByP0uiV" />
+      <PaymentSection buyButtonId="buy_btn_1Sp44aBceNIiOkbgcN3X2k9H" />
 
       <div className="w-full justify-center items-center flex py-16 bg-secondary/10 min-h-screen">
         <Formulario />
