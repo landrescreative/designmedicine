@@ -1,14 +1,25 @@
-import React from 'react';
+import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
+import ToursNotice from '@/components/ToursNotice';
 
-const Page: React.FC = () => {
-  return (
-    <div className="pt-20 flex justify-center items-center">
-      <h1 className="text-3xl font-light text-center ">
-        Disfruta de nuestros tours opcionales en lugares increibles de la
-        ciudad.
-      </h1>
-    </div>
-  );
-};
+interface PageProps {
+  params: { locale: string };
+}
 
-export default Page;
+export async function generateMetadata({
+  params
+}: PageProps): Promise<Metadata> {
+  const t = await getTranslations({
+    locale: params.locale,
+    namespace: 'toursPage'
+  });
+
+  return {
+    title: `Design Medicine | ${t('title')}`,
+    description: t('text')
+  };
+}
+
+export default function Page() {
+  return <ToursNotice />;
+}

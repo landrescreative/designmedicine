@@ -89,41 +89,41 @@ const Navbar = ({}: NavbarProps) => {
           )}
         </Link>
         <Link
-          href="/seminar"
+          href="/faces-and-whales"
           className={`relative transition-all duration-300 tracking-wider uppercase ${
-            isActiveLink('seminar')
+            isActiveLink('faces-and-whales')
               ? 'text-primary font-semibold'
               : 'text-gray-700'
           }`}
         >
-          {t('seminar')}
-          {isActiveLink('seminar') && (
+          {t('faces-whales')}
+          {isActiveLink('faces-and-whales') && (
             <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary"></span>
           )}
         </Link>
         <Link
-          href="/#tours"
+          href="/past-courses"
           className={`relative transition-all duration-300 tracking-wider uppercase ${
-            isActiveLink('#tours')
+            isActiveLink('past-courses')
               ? 'text-primary font-semibold'
               : 'text-gray-700'
           }`}
         >
-          {t('tours')}
-          {isActiveLink('#tours') && (
+          {t('past-courses')}
+          {isActiveLink('past-courses') && (
             <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary"></span>
           )}
         </Link>
         <Link
-          href="/face-reading"
+          href="/contact"
           className={`relative transition-all duration-300 tracking-wider uppercase ${
-            isActiveLink('face-reading')
+            isActiveLink('contact')
               ? 'text-primary font-semibold'
               : 'text-gray-700'
           }`}
         >
-          {t('face-reading')}
-          {isActiveLink('face-reading') && (
+          {t('contact')}
+          {isActiveLink('contact') && (
             <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary"></span>
           )}
         </Link>
@@ -162,19 +162,19 @@ const Navbar = ({}: NavbarProps) => {
                 {t('home')}
               </span>
             </Link>
-            <Link href="/seminar" onClick={closeMenu}>
+            <Link href="/faces-and-whales" onClick={closeMenu}>
               <span className="block px-2 py-4 text-gray-700 text-lg font-medium uppercase tracking-widest">
-                {t('seminar')}
+                {t('faces-whales')}
               </span>
             </Link>
-            <Link href="/#tours" onClick={closeMenu}>
+            <Link href="/past-courses" onClick={closeMenu}>
               <span className="block px-2 py-4 text-gray-700 text-lg font-medium uppercase tracking-widest">
-                {t('tours')}
+                {t('past-courses')}
               </span>
             </Link>
-            <Link href="/face-reading" onClick={closeMenu}>
-              <span className="block px-2 py-4 text-center text-gray-700 text-lg font-medium uppercase tracking-widest">
-                {t('face-reading')}
+            <Link href="/contact" onClick={closeMenu}>
+              <span className="block px-2 py-4 text-gray-700 text-lg font-medium uppercase tracking-widest">
+                {t('contact')}
               </span>
             </Link>
           </motion.div>

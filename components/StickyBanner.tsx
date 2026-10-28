@@ -38,7 +38,7 @@ export default function StickyBanner() {
           <span>{t('span')}</span>
           <Link
             className="text-sm font-medium text-primary bg-white p-2 rounded-md ml-2"
-            href="/#tours"
+            href="/faces-and-whales"
           >
             {t('cta')}
           </Link>

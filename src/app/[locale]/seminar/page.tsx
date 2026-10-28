@@ -2,7 +2,6 @@
 import { useEffect, useState } from 'react';
 import Separator from '@/components/Separator';
 import Header from '@/components/Header';
-import Testimonial from '@/components/Testimonial';
 import Footer from '@/components/Footer';
 import InfoSeminar from '@/components/InfoSeminar';
 import PaymentSection from '@/components/PaymentSection';
@@ -34,6 +33,19 @@ const Page = () => {
 
   return (
     <div className="flex justify-center items-center  flex-col overflow-x-hidden">
+      <div className="mx-auto mt-6 w-11/12 max-w-3xl rounded-tl-2xl rounded-br-2xl border border-primary/20 bg-primary/[0.05] px-6 py-5 text-center md:mt-10">
+        <p className="text-sm leading-relaxed text-primary">
+          {t('seminar.archiveNotice')}
+        </p>
+        <div className="mt-3 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm font-medium">
+          <Link href="/faces-and-whales" className="text-primary underline">
+            Faces &amp; Whales 2027
+          </Link>
+          <Link href="/past-courses" className="text-primary underline">
+            {t('pastCourses.nav')}
+          </Link>
+        </div>
+      </div>
       <Header text="" />
       <div className="lg:w-3/4 lg:max-h-[700px] overflow-hidden p-5 h-full object-cover rounded-3xl">
         <Image
@@ -165,7 +177,6 @@ const Page = () => {
       </div>
       {isMobile && <Tarjetas />}
       <Separator text={t('seminar.separator')} />
-      <Testimonial />
     </div>
   );
 };

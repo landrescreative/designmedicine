@@ -1,6 +1,5 @@
 import React from 'react';
 import Separator from '@/components/Separator';
-import Testimonial from '@/components/Testimonial';
 import PaymentSection from '@/components/PaymentSection';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
@@ -127,7 +126,6 @@ const Page = () => {
         <Formulario />
       </div>
       <Separator text={t('seminar.separator')} />
-      <Testimonial />
     </div>
   );
 };

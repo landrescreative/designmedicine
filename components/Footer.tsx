@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   const t = useTranslations('footer');
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-gray-800 text-gray-300 py-8 px-5 md:px-20 w-full">
       <div className="flex flex-col space-y-6">
@@ -28,11 +29,17 @@ const Footer = () => {
             <Link href="/seminar" className="hover:text-white underline">
               {t('seminar')}
             </Link>
-            <Link href="/#tours" className="hover:text-white underline">
-              {t('tours')}
+            <Link href="/faces-and-whales" className="hover:text-white underline">
+              {t('faces-whales')}
+            </Link>
+            <Link href="/past-courses" className="hover:text-white underline">
+              {t('past-courses')}
             </Link>
             <Link href="/face-reading" className="hover:text-white underline">
               {t('EXTRAWORKSHOPS')}
+            </Link>
+            <Link href="/contact" className="hover:text-white underline">
+              {t('contact')}
             </Link>
           </div>
         </div>
@@ -41,7 +48,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           {/* Copyright */}
           <div className="text-sm text-center md:text-left">
-            {t('copyright')}
+            {t('copyright', { year: currentYear })}
           </div>
           {/* Social Media Links */}
           <div className="flex space-x-4">

@@ -9,21 +9,20 @@ interface FormData {
   mensaje: string;
 }
 
-export default function Formulario() {
-  const [formData1, setFormData1] = useState<FormData>({
-    nombre: '',
-    correo: '',
-    asunto: '',
-    mensaje: ''
-  });
-  const [formData2, setFormData2] = useState<FormData>({
-    nombre: '',
-    correo: '',
-    asunto: '',
-    mensaje: ''
-  });
+type Variant = 'duo' | 'panel';
+
+const EMPTY: FormData = { nombre: '', correo: '', asunto: '', mensaje: '' };
+
+const FIELD =
+  'mt-2 w-full border-b bg-transparent py-2 text-sm text-primary placeholder:text-slate-400 focus:border-primary focus:outline-none';
+
+export default function Formulario({ variant = 'duo' }: { variant?: Variant }) {
+  const [formData1, setFormData1] = useState<FormData>(EMPTY);
+  const [formData2, setFormData2] = useState<FormData>(EMPTY);
   const [status1, setStatus1] = useState<string>('');
   const [status2, setStatus2] = useState<string>('');
+
+  const t = useTranslations('');
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
@@ -40,7 +39,7 @@ export default function Formulario() {
     setStatus: React.Dispatch<React.SetStateAction<string>>
   ) => {
     e.preventDefault();
-    setStatus('Enviando...');
+    setStatus(t('formulario.sending') || 'Enviando...');
 
     try {
       const response = await fetch('/api/enviar-formulario', {
@@ -52,19 +51,118 @@ export default function Formulario() {
       });
 
       if (response.ok) {
-        setStatus('Mensaje enviado con éxito.');
-        setFormData({ nombre: '', correo: '', asunto: '', mensaje: '' });
+        setStatus(t('formulario.success') || 'Mensaje enviado con éxito.');
+        setFormData(EMPTY);
       } else {
-        setStatus('Error al enviar el mensaje.');
+        setStatus(t('formulario.error') || 'Error al enviar el mensaje.');
         console.error('Error al enviar el mensaje:', response.statusText);
       }
     } catch (error) {
-      setStatus('Error al enviar el mensaje.');
+      setStatus(t('formulario.error') || 'Error al enviar el mensaje.');
       console.error('Error al enviar el mensaje:', error);
     }
   };
 
-  const t = useTranslations('');
+  if (variant === 'panel') {
+    return (
+      <form
+        onSubmit={(e) => handleSubmit(e, formData1, setFormData1, setStatus1)}
+        className="rounded-tl-[2rem] rounded-br-[2rem] border border-primary/15 bg-white p-7 shadow-[0_18px_50px_-32px_rgba(31,42,46,0.45)] md:p-9"
+      >
+        <div className="space-y-6">
+          <div>
+            <label
+              htmlFor="contact-name"
+              className="text-[10px] uppercase tracking-[0.24em] text-slate-500"
+            >
+              {t('formulario.name')}
+            </label>
+            <input
+              id="contact-name"
+              type="text"
+              name="nombre"
+              value={formData1.nombre}
+              onChange={(e) => handleChange(e, setFormData1)}
+              required
+              autoComplete="name"
+              className={`${FIELD} border-primary/20`}
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="contact-email"
+              className="text-[10px] uppercase tracking-[0.24em] text-slate-500"
+            >
+              {t('formulario.email')}
+            </label>
+            <input
+              id="contact-email"
+              type="email"
+              name="correo"
+              value={formData1.correo}
+              onChange={(e) => handleChange(e, setFormData1)}
+              required
+              autoComplete="email"
+              className={`${FIELD} border-primary/20`}
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="contact-subject"
+              className="text-[10px] uppercase tracking-[0.24em] text-slate-500"
+            >
+              {t('formulario.subject')}
+            </label>
+            <input
+              id="contact-subject"
+              type="text"
+              name="asunto"
+              value={formData1.asunto}
+              onChange={(e) => handleChange(e, setFormData1)}
+              required
+              className={`${FIELD} border-primary/20`}
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="contact-message"
+              className="text-[10px] uppercase tracking-[0.24em] text-slate-500"
+            >
+              {t('formulario.message')}
+            </label>
+            <textarea
+              id="contact-message"
+              name="mensaje"
+              value={formData1.mensaje}
+              onChange={(e) => handleChange(e, setFormData1)}
+              required
+              rows={5}
+              className={`${FIELD} resize-none border-primary/20`}
+            ></textarea>
+          </div>
+        </div>
+
+        <button
+          type="submit"
+          className="mt-8 w-full rounded-xl bg-primary px-6 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-all duration-300 hover:scale-[1.02] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+        >
+          {t('formulario.submit')}
+        </button>
+
+        {status1 && (
+          <p
+            role="status"
+            className="mt-4 text-center text-xs leading-relaxed text-slate-600"
+          >
+            {status1}
+          </p>
+        )}
+      </form>
+    );
+  }
 
   return (
     <div className="flex flex-col items-center justify-center w-full px-4 mb-10">

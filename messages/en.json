@@ -12,40 +12,40 @@
     "cta": "VIEW DETAILS"
   },
   "separators": {
-    "1": "KIIKO MATSUMOTO´S MEXICO SHOULDER TO SHOULDER INTENSIVE SEMINAR FEBRUARY 14-15th  2026",
-    "2": "EXPLORE MEXICO WITH OUR optional day trips to amazing places",
-    "3": "MORE ABOUT KIIKO AND THEIR USERS FEEDBACK"
+    "1": "INTEGRATIVE MEDICINE · CLINICAL OBSERVATION · NATURE",
+    "2": "PROGRAM & DAILY SCHEDULE",
+    "3": "CLINICAL TRAINING & WORKSHOPS"
   },
   "benefits": {
-    "title": "Why Attend?",
-    "title2": "Course Highlights",
+    "title": "Why join this experience",
+    "title2": "Everything included in your package",
     "list": [
-      "Personalized Technique Refinement",
-      "Access to Cutting-Edge Research",
-      "Engage in Clinical Excellence",
-      "Achieve Immediate, Measurable Results",
-      "Boost Your Clinical Flow",
-      "Understand Classical Applications",
-      "Correct Constitutional Imbalances",
-      "Objective Feedback with Every Needle",
-      "Rapid Diagnosis and Treatment"
+      "Applied face reading",
+      "Whales in the wild",
+      "Community & rest",
+      "Airport transfers included",
+      "4 ocean excursions",
+      "Guided clinical workshop",
+      "Oceanfront lodging",
+      "Daily meals & refreshments",
+      "Continuous expert guidance"
     ],
     "description": [
-      "Kiiko will correct and perfect your acupuncture methods in real-time, ensuring mastery of her renowned style.",
-      "Discover the latest treatment strategies and applications of classical literature, directly from Kiiko’s decades of research and experience.",
-      "Work with patients facing both simple and complex medical conditions, while receiving instant feedback to ensure effective treatment outcomes.",
-      "Learn to apply her techniques in your own practice and witness clinical transformations.",
-      "Learn the most efficient acupuncture system directly from the master and elevate your patient outcomes.",
-      "Dive deep into classical acupuncture literature and its modern applications.",
-      "Master the skills to diagnose and treat constitutional imbalances for immediate patient improvement.",
-      "Receive precise, instant feedback on your needling technique.",
-      "Learn how to achieve accurate diagnoses and effective treatment in a short time, using only a few needles."
+      "Learn to identify signs of health, vitality, and constitution on the face with Dr. Ana Cecilia Nieves.",
+      "Observe humpback whales in Banderas Bay accompanied by marine biologists with over 30 years of experience.",
+      "A relaxed environment to connect, exchange experiences, and recharge by the ocean.",
+      "Round-trip ground transportation between Puerto Vallarta Airport (PVR) and the hotel in Bucerías.",
+      "12 hours on the water during ideal sunrise and sunset windows when the sea is calmest.",
+      "6 hours of clinical practice spread across two mornings, featuring partner exercises and case discussions.",
+      "3 nights of accommodation at Los Picos Hotel & Suites in Bucerías, Nayarit.",
+      "Daily breakfast included plus light refreshments aboard the boats during outings.",
+      "Continuous support from our expedition team and local advisors throughout the journey."
     ]
   },
   "slider": {
     "title": "Contact information",
-    "2ndtitle": "Tours Before the Seminar",
-    "advice": "Make the most of your experience! Optional activities and tours are designed to enhance your journey and will take place before the seminar begins. Don't miss out!",
+    "2ndtitle": "Explore Mexico before or after the expedition",
+    "advice": "Coming from far away? Make the most of the trip: private tours in Mexico City, booked separately from the Bahía de Banderas expedition.",
     "slides": {
       "1": {
         "title": "Soumaya Museum Private Tour",
@@ -71,8 +71,8 @@
     "viewDetails": " VIEW DETAILS"
   },
   "aboutKiiko": {
-    "title": "About Kiiko Matsumoto",
-    "description": "Kiiko Matsumoto, the founder of the “Kiiko Style” of acupuncture, is celebrated for her ability to integrate the wisdom of Japan’s most renowned masters, including Nagano, Kawai, and Manaka. Her practice focuses on treating the root cause of illness, delivering lasting and profound results. With over three decades of experience and research, Kiiko is a revered educator, bringing her knowledge to acupuncturists around the world."
+    "title": "Dr. Ana Cecilia Nieves",
+    "description": "Physician trained in integrative medicine and traditional Chinese medicine. Her approach to face reading turns traditional observation into practical visual tools you can apply immediately in clinical care and personal wellness."
   },
   "testimonial": {
     "title": "Testimonios",
@@ -82,11 +82,14 @@
   },
   "footer": {
     "disclaimer": "We are a separate organization from Kiiko Matsumoto herself! To see her website or contact her please go to Kiikomatsumoto.com",
-    "copyright": "Copyright © 2024 Design Medicine, All rights reserved.",
+    "copyright": "Copyright © {year} Design Medicine. All rights reserved.",
     "home": "Home",
     "seminar": "Seminar",
     "tours": "Tours",
-    "EXTRAWORKSHOPS": "Extra Workshops"
+    "EXTRAWORKSHOPS": "Extra Workshops",
+    "past-courses": "Past editions",
+    "faces-whales": "Faces & Whales",
+    "contact": "Contact"
   },
   "seminar": {
     "title": "Kiiko Matsumoto 2-Day Intensive Clinical Workshop: Sensei by Your Side",
@@ -147,7 +150,8 @@
       "Main seminar focus will be on the hands-on practice opportunity rather than lecture, though there will be plenty of room for Q&A as well as the sharing of clinical pearls.",
       "To preserve the closely supervised nature of our session, space is limited. Grab your spot today!"
     ],
-    "disclaimer": "*includes transportation, breakfast and lunch (with vegan options) \n Cancellation for any reason may be made up through Jan 15th, 2025, for a full refund minus a non-refundable $75 deposit. After Jan 15th, tuition amounts are non-refundable unless cancellation is made due to mandatory COVID-19 related illness or quarantining, in which case you will be refunded except for the $75 deposit. If Design medicine is for some reason forced to cancel this course due to COVID-19 or instructor illness, all participants will be refunded in full.  "
+    "disclaimer": "*includes transportation, breakfast and lunch (with vegan options) \n Cancellation for any reason may be made up through Jan 15th, 2025, for a full refund minus a non-refundable $75 deposit. After Jan 15th, tuition amounts are non-refundable unless cancellation is made due to mandatory COVID-19 related illness or quarantining, in which case you will be refunded except for the $75 deposit. If Design medicine is for some reason forced to cancel this course due to COVID-19 or instructor illness, all participants will be refunded in full.  ",
+    "archiveNotice": "This seminar has already taken place. Browse the archive of past editions or discover the 2027 experience."
   },
   "infoseminar": {
     "title1": "GENERAL",
@@ -227,7 +231,10 @@
       "Souvenirs ",
       "Tips"
     ],
-    "phototitle": ["Teotihuacan Pyramids", "Guadalupe Shrine"],
+    "phototitle": [
+      "Teotihuacan Pyramids",
+      "Guadalupe Shrine"
+    ],
     "fulldescription": [
       "Make the most of your next seminar to Mexico City with a duo of Mexico’s must-see historical monuments. Mexican Root is a celebration of the civilizations and cultures that have made Mexico what it is today. Visit the legendary Shrine of Our Lady of Guadalupe, and the Pyramids of Teotihuacan on this full-day excursion from Mexico City.",
       "Your first stop will be in Teotihuacan. Live a unique experience flying over the archaeological site, at the end of the flight you will toast and have breakfast then head to one of the most jaw-dropping sites in Mexico, the great Teotihuacan Pyramids to explore the mystical site. See the Pyramid of the Sun, with its more than 200 feet tall, the largest in Mesoamerica. Along with a trip along the Avenue of the Dead learn about the origins of this religious city and see the Temples of Quetzalpapalotl, the Temple of the Feathered Shells, and the Pyramid of the Moon.",
@@ -292,7 +299,9 @@
       "5 hour experience",
       "Organic breakfast"
     ],
-    "excludes": ["Tips are not included"],
+    "excludes": [
+      "Tips are not included"
+    ],
     "cost": "180 USD",
     "whattoexpectitems": [
       "Access to Xochimilco canals",
@@ -318,10 +327,13 @@
   },
   "navbar": {
     "home": "Home",
+    "faces-whales": "Faces & Whales",
     "seminar": "Seminar",
+    "past-courses": "Past editions",
     "tours": "Tours",
     "register": "Register Now",
-    "face-reading": "Face reading & cosmetic acupuncture"
+    "face-reading": "Face reading & cosmetic acupuncture",
+    "contact": "Contact"
   },
   "face-reading": {
     "title": "Exclusive Extra Session: Face Reading & Cosmetic Acupuncture",
@@ -405,7 +417,9 @@
         "Convenient drop-off at City Express Plus by Marriott Insurgentes"
       ],
       "excludesTitle": "What is not included:",
-      "excludes": ["Extra meals and beverages"]
+      "excludes": [
+        "Extra meals and beverages"
+      ]
     },
     "details": {
       "duration": "Total time: 3-4 hours of pure excitement!",
@@ -414,7 +428,10 @@
     },
     "viewmap": "VIEW ON MAP",
     "viewmapparagraph": "Check reviews, explore the area, etc.",
-    "phototitle": ["Mezcal and Taco Tasting", "Lucha Libre"]
+    "phototitle": [
+      "Mezcal and Taco Tasting",
+      "Lucha Libre"
+    ]
   },
   "mariposamonarca": {
     "date": "Tuesday, February 10th, 2026",
@@ -448,7 +465,10 @@
       "Meals: Non-alcoholic drinks and snacks.",
       "Activities: Entrance and guided visit to Piedra Herrada Monarch Butterfly Sanctuary, Velo de Novia Waterfall, and Museum of Popular Art of Valle de Bravo; and walking tour in Valle de Bravo."
     ],
-    "tourexcludes": ["Lunch", "Tips"],
+    "tourexcludes": [
+      "Lunch",
+      "Tips"
+    ],
     "tourDetails": {
       "title": "Tour Details",
       "durationTitle": "Duration",
@@ -492,7 +512,10 @@
       "3 hour immersive experience",
       "2 hour Soumaya Museum"
     ],
-    "tourexcludes": ["Lunch", "Tips"],
+    "tourexcludes": [
+      "Lunch",
+      "Tips"
+    ],
     "tourDetails": {
       "title": "Tour Details",
       "durationTitle": "Duration",
@@ -536,7 +559,10 @@
       "Transport to museum (from City Express Plus by Marriott Insurgentes Sur) and between museums",
       "Professional art guide"
     ],
-    "tourexcludes": ["Lunch", "Tips"],
+    "tourexcludes": [
+      "Lunch",
+      "Tips"
+    ],
     "tourDetails": {
       "title": "Tour Details",
       "durationTitle": "Duration",
@@ -583,7 +609,10 @@
       "Non-alcoholic beverages and snacks.",
       "Entrance and guided tour of the Museum El Carmen, temazcal experience"
     ],
-    "tourexcludes": ["Lunch", "Tips"],
+    "tourexcludes": [
+      "Lunch",
+      "Tips"
+    ],
     "tourDetails": {
       "title": "Tour Details",
       "durationTitle": "Duration",
@@ -614,7 +643,10 @@
     "email": "Email",
     "message": "Message",
     "subject": "Subject",
-    "submit": "Submit"
+    "submit": "Submit",
+    "sending": "Sending…",
+    "success": "Message sent. We will reply by email.",
+    "error": "Could not send. Write to info@designmedicine.org."
   },
   "formulario2": {
     "title": "Register Now",
@@ -664,7 +696,802 @@
     "closeButton": "Close"
   },
   "banner": {
-    "span": "Don't forget! Optional tours are available before the seminar to enhance your experience.",
-    "cta": "READ MORE"
+    "span": "Faces & Whales: face reading and humpback whales in Bahía de Banderas, February 4–7, 2027.",
+    "cta": "SEE MORE"
+  },
+  "pastCourses": {
+    "nav": "Past editions",
+    "hero": {
+      "eyebrow": "Training history · 2025 — 2026",
+      "title": "Past courses &",
+      "titleAccent": "clinical seminars",
+      "subtitle": "Hands-on training with international leaders in integrative medicine in Mexico.",
+      "lead": "From intensive clinical rounds with Kiiko Matsumoto to diagnostic workshops with Dr. Ana Cecilia Nieves. Explore what took place in each edition: real cases, palpation techniques, and event photo archives.",
+      "cta": "Next experience in 2027",
+      "ctaSecondary": "Contact us"
+    },
+    "stats": [
+      {
+        "value": "3",
+        "label": "in-person editions"
+      },
+      {
+        "value": "+100",
+        "label": "practitioners trained"
+      },
+      {
+        "value": "100%",
+        "label": "hands-on clinical cases"
+      }
+    ],
+    "archive": {
+      "eyebrow": "The archive",
+      "title": "How each edition went",
+      "caption": "Mexico City",
+      "intro": "They were all built the same way: real patients in the room, corrections as they happened, and Kiiko's method applied right there on the table."
+    },
+    "labels": {
+      "schedule": "Schedule",
+      "location": "Venue",
+      "language": "Language",
+      "duration": "Length",
+      "dates": "Dates"
+    },
+    "editions": [
+      {
+        "year": "2025",
+        "tag": "First edition",
+        "title": "3-Day Intensive Clinical Workshop",
+        "subtitle": "Kiiko Matsumoto in Mexico",
+        "dates": "February 14 — 16, 2025",
+        "duration": "3 days",
+        "location": "Mexico City",
+        "language": "English and Spanish (simultaneous translation)",
+        "schedule": "9:00 — 17:00",
+        "summary": "Kiiko Matsumoto’s first seminar in Mexico. Three immersive days of abdominal palpation, classical reasoning, and resolving complex cases live before the group.",
+        "highlights": [
+          "Live demonstration and treatment on real patients",
+          "Focus on complex, polymedicated cases",
+          "Clinical application of classical texts",
+          "Accurate diagnosis with minimal needling"
+        ],
+        "footnote": "Included local transportation, daily breakfast, and catered lunch.",
+        "alt": "Kiiko Matsumoto explaining a technique in front of a group of acupuncturists",
+        "link": "/past-courses/2025",
+        "linkLabel": "View edition details"
+      },
+      {
+        "year": "2026",
+        "tag": "Second edition",
+        "title": "2-Day Intensive Clinical Seminar",
+        "subtitle": "Kiiko Matsumoto in Mexico",
+        "dates": "February 14 — 15, 2026",
+        "duration": "2 days",
+        "location": "Mexico City",
+        "language": "English and Spanish (simultaneous translation)",
+        "schedule": "9:00 — 17:00",
+        "summary": "Second clinical seminar with master Kiiko Matsumoto. An intensive weekend format focused on immediate feedback and refined palpation skills.",
+        "highlights": [
+          "High-impact weekend clinical practice",
+          "Patient evaluations alongside the master",
+          "Clinical rationale for meridian and point selection",
+          "Personalized technique correction"
+        ],
+        "footnote": "Same venue and full logistics: transportation, breakfasts, and lunches included.",
+        "alt": "Kiiko Matsumoto palpating a patient's abdomen during the clinical session",
+        "link": "/past-courses/2026",
+        "linkLabel": "View edition details"
+      },
+      {
+        "year": "2026",
+        "tag": "Complementary workshop",
+        "title": "Face Reading & Cosmetic Acupuncture",
+        "subtitle": "With Dr. Ana Cecilia Nieves",
+        "dates": "February 13, 2026",
+        "duration": "4 hours",
+        "location": "Mexico City",
+        "language": "Spanish and English",
+        "schedule": "2:00 — 6:00 PM",
+        "summary": "Pre-seminar workshop: facial diagnosis fundamentals, practical treatment protocols, and applied cosmetic acupuncture techniques.",
+        "highlights": [
+          "The face as a clinical diagnostic map",
+          "Targeted protocols for skin health",
+          "Acupuncture techniques for facial revitalization",
+          "Guided practice with direct correction"
+        ],
+        "footnote": "Intimate group size with live demonstration and interactive Q&A.",
+        "alt": "Dr. Ana Cecilia Nieves presenting face reading in front of a projection",
+        "link": "/past-courses/2026#talleres",
+        "linkLabel": "View workshop"
+      }
+    ],
+    "quote": {
+      "text": "Learning alongside master practitioners transforms the confidence you bring to your patients the very next day.",
+      "author": "Our philosophy"
+    },
+    "gallery": {
+      "eyebrow": "Images",
+      "title": "Gallery",
+      "note": "Seminars and workshops",
+      "items": [
+        {
+          "caption": "Hands on the table",
+          "alt": "Participant palpating a patient during the workshop"
+        },
+        {
+          "caption": "Ear diagnosis",
+          "alt": "Ear inspection in front of the group"
+        },
+        {
+          "caption": "Live clinical work",
+          "alt": "Kiiko Matsumoto leading a clinical demonstration"
+        }
+      ]
+    },
+    "principles": {
+      "eyebrow": "Our approach",
+      "title": "Learning directly at the treatment table",
+      "items": [
+        {
+          "title": "Real clinical cases",
+          "text": "Live evaluations and treatments on real patients with complex medical backgrounds."
+        },
+        {
+          "title": "Beyond the textbooks",
+          "text": "Actionable strategies for polymedicated patients and challenging presentations."
+        },
+        {
+          "title": "Direct personal correction",
+          "text": "Hands-on guidance from the instructor to refine palpation, precise point location, and needle depth."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Upcoming date",
+      "title": "Our next experience is scheduled",
+      "text": "Faces & Whales: face reading and whale watching in Banderas Bay, February 4 — 7, 2027.",
+      "button": "Write to us",
+      "link": "Explore Faces & Whales"
+    },
+    "details": {
+      "2025": {
+        "kicker": "First edition",
+        "title": "3-Day Intensive Clinical Workshop",
+        "subtitle": "Kiiko Matsumoto · In-person clinical practice",
+        "dates": "February 14 — 16, 2025",
+        "venue": "Mexico City",
+        "language": "English and Spanish",
+        "schedule": "9:00 — 17:00",
+        "duration": "3 days",
+        "intro": "Kiiko Matsumoto’s first visit to Mexico City: three days of clinical immersion with real patients, live technique adjustments, and classical texts brought to life at the treatment table. Accompanied by a face reading workshop and city cultural excursions.",
+        "highlights": [
+          "You got corrected on every needle",
+          "Complex cases and people on several medications",
+          "Classical literature applied live",
+          "Diagnosis and treatment with few needles"
+        ],
+        "stats": [
+          {
+            "value": "3",
+            "label": "days of clinic"
+          },
+          {
+            "value": "5",
+            "label": "workshops and outings"
+          },
+          {
+            "value": "2",
+            "label": "languages in the room"
+          }
+        ],
+        "extrasTitle": "Workshops and outings from this edition",
+        "extrasIntro": "What we put together around the seminar, with the original dates.",
+        "extras": [
+          {
+            "type": "Tour",
+            "name": "Teotihuacan Pyramids",
+            "date": "Wednesday, February 12, 2025",
+            "description": "A guided visit to the pyramids the day before the workshop started.",
+            "href": "/teotihuacan",
+            "image": "/past-courses/extras/teotihuacan.jpg",
+            "alt": "Pyramid of the Sun in Teotihuacan"
+          },
+          {
+            "type": "Tour",
+            "name": "Xochimilco by trajinera",
+            "date": "Thursday, February 13, 2025",
+            "description": "A boat ride through the canals, with the city right there.",
+            "href": "/xochimilco",
+            "image": "/past-courses/extras/xochimilco.jpg",
+            "alt": "Trajineras in the canals of Xochimilco"
+          },
+          {
+            "type": "Experience",
+            "name": "Mezcal & Tacos Tasting + Lucha Libre",
+            "date": "Friday, February 14, 2025",
+            "description": "Mezcal, tacos and a lucha libre show to close the week before we started.",
+            "href": "/luchas",
+            "image": "/past-courses/extras/luchas.jpg",
+            "alt": "Lucha libre show in Mexico"
+          },
+          {
+            "type": "Tour",
+            "name": "Templo Mayor",
+            "date": "Optional tour",
+            "description": "The Mexica ceremonial centre and its museum, right in the middle of the historic centre.",
+            "href": "/templomayor",
+            "image": "/past-courses/extras/templomayor.jpg",
+            "alt": "Templo Mayor ruins in Mexico City"
+          },
+          {
+            "type": "Workshop",
+            "name": "Face Reading & Cosmetic Acupuncture",
+            "date": "Monday, February 17, 2025",
+            "description": "An extra session with Dr. Ana Nieves: reading the face and cosmetic acupuncture, to close.",
+            "href": "/face-reading",
+            "image": "/past-courses/extras/face-reading.jpg",
+            "alt": "Dr. Ana Cecilia Nieves during the face reading workshop"
+          }
+        ],
+        "notes": "The seminar included transport, breakfast and lunch with vegan options. Each tour was booked separately.",
+        "heroAlt": "Kiiko Matsumoto explaining a technique in front of the group",
+        "ctaTitle": "Our next experience is scheduled",
+        "ctaText": "Faces & Whales: face reading and whale watching in Banderas Bay, February 2027.",
+        "ctaButton": "Explore Faces & Whales"
+      },
+      "2026": {
+        "kicker": "Second edition",
+        "title": "2-Day Intensive Clinical Workshop",
+        "subtitle": "Kiiko Matsumoto · Intensive seminar",
+        "dates": "February 14 — 15, 2026",
+        "venue": "Mexico City",
+        "language": "English and Spanish",
+        "schedule": "9:00 — 17:00",
+        "duration": "2 days",
+        "intro": "The second edition distilled the experience into a high-yield weekend: direct clinical work on patients, immediate needle feedback, and real-time case analysis. Supported by optional cultural tours and a dedicated face reading workshop.",
+        "highlights": [
+          "A full weekend, no filler",
+          "Patients reviewed alongside the sensei",
+          "Why each point and each meridian",
+          "Told what was working and what to fix"
+        ],
+        "stats": [
+          {
+            "value": "2",
+            "label": "days of clinic"
+          },
+          {
+            "value": "6",
+            "label": "workshops and outings"
+          },
+          {
+            "value": "2",
+            "label": "languages in the room"
+          }
+        ],
+        "extrasTitle": "Workshops and outings from this edition",
+        "extrasIntro": "Five outings around the city and the face reading workshop, with the original dates.",
+        "extras": [
+          {
+            "type": "Tour",
+            "name": "Soumaya Museum",
+            "date": "Monday, February 9, 2026",
+            "description": "A walk through the collection and the building, to open the week.",
+            "href": "/soumaya",
+            "image": "/past-courses/extras/soumaya.jpg",
+            "alt": "Soumaya Museum facade"
+          },
+          {
+            "type": "Tour",
+            "name": "Monarch Butterfly Sanctuary",
+            "date": "Tuesday, February 10, 2026",
+            "description": "A full day in Piedra Herrada and Valle de Bravo, right in season.",
+            "href": "/mariposamonarca",
+            "image": "/past-courses/extras/mariposa.jpg",
+            "alt": "Monarch butterflies at the sanctuary"
+          },
+          {
+            "type": "Tour",
+            "name": "Three Museums: Frida Kahlo, Diego Rivera & Anahuacalli",
+            "date": "Wednesday, February 11, 2026",
+            "description": "Casa Azul, Diego's studio and Anahuacalli all in one day.",
+            "href": "/tresmuseos",
+            "image": "/past-courses/extras/tresmuseos.jpg",
+            "alt": "Diego Rivera studio"
+          },
+          {
+            "type": "Tour",
+            "name": "Temazcal & Museo del Carmen",
+            "date": "Thursday, February 12, 2026",
+            "description": "Temazcal first, then the Carmen museum with its mummies.",
+            "href": "/temazcalmuseo",
+            "image": "/past-courses/extras/temazcal.jpg",
+            "alt": "Traditional temazcal"
+          },
+          {
+            "type": "Tour",
+            "name": "Xochimilco by trajinera",
+            "date": "Friday, February 13, 2026",
+            "description": "A boat ride the day before the seminar, with lunch on board.",
+            "href": "/xochimilco",
+            "image": "/past-courses/extras/xochimilco.jpg",
+            "alt": "Trajineras in the canals of Xochimilco"
+          },
+          {
+            "type": "Workshop",
+            "name": "Face Reading & Cosmetic Acupuncture",
+            "date": "Friday, February 13, 2026 · 2:00 — 6:00 PM",
+            "description": "Half a day with Dr. Ana Nieves: reading the face, protocols for acne and cosmetic acupuncture.",
+            "href": "/face-reading",
+            "image": "/past-courses/extras/face-reading.jpg",
+            "alt": "Dr. Ana Cecilia Nieves during the face reading workshop"
+          }
+        ],
+        "notes": "The seminar included transport, breakfast and lunch with vegan options. Each tour was booked separately.",
+        "heroAlt": "Kiiko Matsumoto palpating a patient's abdomen during the clinic",
+        "ctaTitle": "Our next experience is scheduled",
+        "ctaText": "Faces & Whales: face reading and whale watching in Banderas Bay, February 2027.",
+        "ctaButton": "Explore Faces & Whales"
+      }
+    },
+    "extrasEyebrow": "Around the seminar",
+    "extrasLink": "See more",
+    "homeEyebrow": "Community & track record",
+    "homeTitle": "Our past clinical seminars and hands-on workshops",
+    "homeCta": "View past editions",
+    "galleryShared": {
+      "eyebrow": "Images",
+      "title": "What the photos kept",
+      "note": "2025 and 2026 seminars · Mexico City",
+      "close": "Close",
+      "prev": "Previous",
+      "next": "Next",
+      "items": [
+        {
+          "caption": "Work on the table",
+          "alt": "Participant treating a patient's abdomen with both hands"
+        },
+        {
+          "caption": "Guided needling",
+          "alt": "Correction of a needle on the arm during class"
+        },
+        {
+          "caption": "Table-side review",
+          "alt": "A patient reviewed on the table, surrounded by the group"
+        },
+        {
+          "caption": "Live correction",
+          "alt": "Kiiko Matsumoto correcting hand placement on a patient"
+        },
+        {
+          "caption": "Practice in pairs",
+          "alt": "Two participants practising a technique on a partner's leg"
+        },
+        {
+          "caption": "Review after class",
+          "alt": "Group gathered around a table going over notes and points"
+        },
+        {
+          "caption": "Kayaking the canals",
+          "alt": "Participant paddling a kayak along a tree-lined canal"
+        },
+        {
+          "caption": "Out on the water",
+          "alt": "Group in yellow kayaks on the Xochimilco canal"
+        },
+        {
+          "caption": "The Xochimilco canals",
+          "alt": "Several kayaks moving between trees on the canal"
+        },
+        {
+          "caption": "Lunch in the garden",
+          "alt": "Group eating at a long table under a canopy in the garden"
+        },
+        {
+          "caption": "Balloons at Teotihuacan",
+          "alt": "Group posing in front of an inflated hot-air balloon"
+        },
+        {
+          "caption": "The pyramids",
+          "alt": "Group in front of the Pyramid of the Sun at Teotihuacan"
+        },
+        {
+          "caption": "Lucha libre",
+          "alt": "Group up on the ring at a lucha libre show"
+        },
+        {
+          "caption": "Monarch butterfly",
+          "alt": "A monarch butterfly resting on a participant's hand"
+        },
+        {
+          "caption": "The monarch sanctuary",
+          "alt": "Monarch butterfly on a stone at the sanctuary"
+        },
+        {
+          "caption": "The group",
+          "alt": "Participants gathered in a timber hall"
+        }
+      ]
+    }
+  },
+  "facesWhales": {
+    "nav": "Faces & Whales",
+    "hero": {
+      "brand": "Faces & Whales",
+      "subtitle": "Learn face reading alongside humpback whales in the Mexican Pacific",
+      "dates": "February 4 — 7, 2027",
+      "length": "4 days & 3 nights",
+      "place": "Bahía de Banderas · Nayarit · Mexico",
+      "hotel": "Los Picos Hotel & Suites · Bucerías",
+      "lead": "Four days in Banderas Bay to sharpen your clinical eye, immerse in nature, and connect with fellow healthcare practitioners.",
+      "cta": "Reserve my spot",
+      "cta2": "View program",
+      "priceLabel": "Full package",
+      "price": "USD $2,199",
+      "priceNote": "per person · double occupancy",
+      "badge": "Upcoming Experience · February 2027",
+      "feeNote": "* 8.7% processing fee applies for card payments. Flights not included.",
+      "singleNote": "Single room upgrade: +USD  per person.",
+      "phone": "+52 55 2191 8026 · text only",
+      "payUrl": "https://buy.stripe.com/7sY7sK3SbdFG9cr9fk5ZC0q",
+      "priceCardLabel": "Total investment",
+      "priceCardNote": "per person, double occupancy",
+      "priceCardFee": "+8.7% processing fee",
+      "payCta": "Reserve spot"
+    },
+    "intro": {
+      "title": "Learning outside the classroom changes how you observe",
+      "p1": "We combine hands-on face reading practice with Dr. Ana Cecilia Nieves and four boat outings to observe humpback whales in the wild. An unhurried space to sharpen diagnostic intuition and bond in an intimate group setting.",
+      "p2": "We navigate with marine biologists who have studied Banderas Bay for over 30 years. Every February, humpback whales gather in these warm waters to mate and nurse their calves. Sunrise and sunset departures offer the calmest waters to spot whales, dolphins, rays, and turtles."
+    },
+    "highlights": {
+      "title": "The experience in numbers",
+      "items": [
+        {
+          "value": "12 h",
+          "label": "on the water across 4 boat excursions"
+        },
+        {
+          "value": "6 h",
+          "label": "of hands-on face reading practice"
+        },
+        {
+          "value": "38",
+          "label": "years of marine biology field expertise"
+        }
+      ]
+    },
+    "includes": {
+      "title": "Your package includes",
+      "items": [
+        "Round-trip ground transportation between the airport and hotel.",
+        "Three nights of accommodation in a double room.",
+        "12 hours of excursions aboard authorised boats.",
+        "6 hours of Face Reading instruction, with guided exercises and partner practice.",
+        "Light refreshments.",
+        "Equipment and guidance from expedition advisors."
+      ]
+    },
+    "team": {
+      "title": "Your expedition leaders",
+      "whaleLabel": "Marine expedition",
+      "whaleText": "Marine biologists with over 30 years researching and sailing the bay.",
+      "faceLabel": "Face reading",
+      "faceText": "Dr. Ana Cecilia Nieves · Integrative Medicine."
+    },
+    "quote": "You will never forget the day you saw your first whale.",
+    "itinerary": {
+      "title": "Itinerary",
+      "intro": "Explore. Observe. Connect. Four days at the ocean and two days of face reading.",
+      "days": [
+        {
+          "day": "Thursday, Feb 4",
+          "label": "Arrival",
+          "items": [
+            {
+              "time": "Afternoon",
+              "text": "At leisure."
+            },
+            {
+              "time": "5:00 p.m.",
+              "text": "Hotel check-in, subject to confirmation."
+            },
+            {
+              "time": "7:00 p.m.",
+              "text": "Welcome gathering and program overview."
+            },
+            {
+              "time": "Evening",
+              "text": "Dinner at leisure."
+            }
+          ]
+        },
+        {
+          "day": "Friday, Feb 5",
+          "label": "Foundations & sunset",
+          "items": [
+            {
+              "time": "8:00 a.m.",
+              "text": "Breakfast."
+            },
+            {
+              "time": "10:00 a.m. — 1:00 p.m.",
+              "text": "Face Reading · Day 1."
+            },
+            {
+              "time": "1:00 — 3:00 p.m.",
+              "text": "Lunch and relaxation."
+            },
+            {
+              "time": "3:30 p.m.",
+              "text": "Expedition briefing and boat groups."
+            },
+            {
+              "time": "4:30 — 7:30 p.m.",
+              "text": "First Sunset Whales excursion."
+            },
+            {
+              "time": "7:30 p.m.",
+              "text": "Return to La Cruz de Huanacaxtle dock."
+            }
+          ]
+        },
+        {
+          "day": "Saturday, Feb 6",
+          "label": "Sunrise to sunset",
+          "items": [
+            {
+              "time": "6:30 a.m.",
+              "text": "Light refreshments."
+            },
+            {
+              "time": "7:00 — 10:00 a.m.",
+              "text": "Early Morning Whales excursion."
+            },
+            {
+              "time": "10:00 — 11:00 a.m.",
+              "text": "Return, breakfast, and time to refresh."
+            },
+            {
+              "time": "11:00 a.m. — 2:00 p.m.",
+              "text": "Face Reading · Day 2."
+            },
+            {
+              "time": "2:00 — 3:00 p.m.",
+              "text": "Lunch break."
+            },
+            {
+              "time": "3:00 — 4:00 p.m.",
+              "text": "Interactive marine mammal talk."
+            },
+            {
+              "time": "4:30 — 7:30 p.m.",
+              "text": "Second Sunset Whales excursion."
+            },
+            {
+              "time": "7:30 p.m.",
+              "text": "Return to the dock. Dinner at leisure."
+            }
+          ]
+        },
+        {
+          "day": "Sunday, Feb 7",
+          "label": "A final morning at sea",
+          "items": [
+            {
+              "time": "6:30 a.m.",
+              "text": "Light refreshments."
+            },
+            {
+              "time": "7:00 — 10:00 a.m.",
+              "text": "Early Morning Whales II excursion."
+            },
+            {
+              "time": "10:00 a.m.",
+              "text": "Return to the dock; expedition ends."
+            },
+            {
+              "time": "After",
+              "text": "Farewell breakfast, closing reflections, individual departures."
+            }
+          ]
+        }
+      ]
+    },
+    "faceProgram": {
+      "title": "Practical Face Reading",
+      "subtitle": "A two-day exploration of Shen, Qi & Jing",
+      "total": "6 hours of instruction · 3 hours per day",
+      "days": [
+        {
+          "label": "Day 1 · Foundations & the Three Treasures",
+          "when": "Friday · 10:00 a.m. — 1:00 p.m.",
+          "items": [
+            {
+              "title": "The art of observing the face",
+              "text": "Chinese medicine, the Five Elements, facial regions, and mindful observation."
+            },
+            {
+              "title": "Shen · spirit & presence",
+              "text": "The eyes, expression, and presence through the traditional lens of Shen."
+            },
+            {
+              "title": "Qi · vitality & expression",
+              "text": "Facial movement, expression, and complexion within the traditional framework of Qi."
+            },
+            {
+              "title": "Guided practice",
+              "text": "Mirror exercises and paired observation to distinguish observation from interpretation."
+            }
+          ]
+        },
+        {
+          "label": "Day 2 · Constitution & integration",
+          "when": "Saturday · 11:00 a.m. — 2:00 p.m.",
+          "items": [
+            {
+              "title": "Jing · essence & constitution",
+              "text": "Facial structure, proportions, and constitutional tendencies through Jing."
+            },
+            {
+              "title": "The Five Elements in the face",
+              "text": "Wood, Fire, Earth, Metal, and Water: traditional associations with facial shapes and expression."
+            },
+            {
+              "title": "Bringing Shen, Qi & Jing together",
+              "text": "Integrate structure, vitality, and presence into a thoughtful face-reading practice."
+            },
+            {
+              "title": "Hands-on practice",
+              "text": "Partner practice, case discussions, and applications for self-awareness and communication."
+            }
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Practical details",
+      "items": [
+        {
+          "label": "Dates",
+          "value": "February 4 — 7, 2027"
+        },
+        {
+          "label": "Length",
+          "value": "4 days & 3 nights"
+        },
+        {
+          "label": "Location",
+          "value": "Bahía de Banderas, Nayarit · Mexico"
+        },
+        {
+          "label": "Hotel",
+          "value": "Los Picos Hotel & Suites · Bucerías"
+        },
+        {
+          "label": "Package",
+          "value": "USD $2,199 per person · double occupancy"
+        },
+        {
+          "label": "Fee",
+          "value": "+8.7% payment processing · airfare not included"
+        },
+        {
+          "label": "Single room",
+          "value": "+USD $300 per person"
+        },
+        {
+          "label": "Airport",
+          "value": "Puerto Vallarta (PVR) · arrive before 4:00 p.m. on February 4"
+        },
+        {
+          "label": "Transfer",
+          "value": "30–45 min from the airport to the hotel, included"
+        }
+      ]
+    },
+    "notes": {
+      "title": "Notes",
+      "items": [
+        "Face Reading is presented as a traditional practice for reflection and observation, not as a medical or psychological assessment.",
+        "Boat schedules depend on weather and sea conditions; wildlife sightings are not guaranteed.",
+        "Airfare is not included and an 8.7% payment processing fee applies.",
+        "Meal times appear in the itinerary; what the package includes is listed in the previous section."
+      ]
+    },
+    "cta": {
+      "title": "Secure your spot",
+      "text": "Capacity is strictly limited to maintain small groups both in workshop sessions and on the boats. Reserve online or reach out if you prefer a single room.",
+      "button": "Reserve my spot",
+      "secondary": "Download brochure (PDF)",
+      "phone": "or WhatsApp us at +52 55 2191 8026"
+    },
+    "aboutCta": "Discover the 2027 experience",
+    "archiveLabel": "Past editions",
+    "gallery": {
+      "eyebrow": "The ocean",
+      "title": "Humpback whales in their breeding season",
+      "intro": "Every winter humpbacks arrive in Mexican waters to mate and give birth. These photographs are reference material for the ocean and the season: they are not the hotel, nor the boat used in the package.",
+      "captions": [
+        "Sunrise and sunset outings, when the water is at its calmest.",
+        "Mother and calf near the surface, in breeding waters.",
+        "The Nayarit coastline, departure point for the outings.",
+        "Outings aboard authorised boats, with a briefing and set boat groups."
+      ]
+    },
+    "photoCreditLabel": "Photo",
+    "quoteLabel": "The expedition",
+    "program": {
+      "eyebrow": "General itinerary",
+      "title": "Four days of ocean, practice, and rest",
+      "intro": "Curated to balance deep learning with relaxed downtime: morning workshops, golden-hour ocean outings, and free time to rest or explore.",
+      "days": [
+        {
+          "day": "Thursday, February 4",
+          "label": "Arrival & Welcome",
+          "text": "Hotel check-in from 17:00, free afternoon to settle in, and an evening welcome gathering at 19:00."
+        },
+        {
+          "day": "Friday, February 5",
+          "label": "Clinical foundations & sunset outing",
+          "text": "Morning face reading workshop session followed by an afternoon boat outing for our first whale encounter."
+        },
+        {
+          "day": "Saturday, February 6",
+          "label": "Sunrise on the sea & integration",
+          "text": "Early morning sunrise boat excursion, midday face reading practice, and a return to the water at sunset."
+        },
+        {
+          "day": "Sunday, February 7",
+          "label": "Final morning outing & farewell",
+          "text": "Final morning outing on the bay, group farewell breakfast, and individual departures."
+        }
+      ],
+      "note": "Small group size · Coordinated end-to-end by our team",
+      "cta": "View detailed itinerary"
+    }
+  },
+  "toursPage": {
+    "eyebrow": "Archive",
+    "title": "The tours belonged to the previous editions",
+    "text": "City outings were organised around the 2025 and 2026 clinical seminars in Mexico City. The 2027 experience is different: four days in Bahía de Banderas with whale watching and face reading, and no city tours.",
+    "archive": "See the past editions",
+    "current": "See Faces & Whales 2027"
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Write to us",
+    "lead": "Faces & Whales bookings, questions about the program, past editions or anything else: pick a channel and we will get back to you.",
+    "channelsTitle": "Direct",
+    "channels": [
+      {
+        "label": "Email",
+        "value": "info@designmedicine.org",
+        "note": "The fastest route for bookings and program questions.",
+        "href": "mailto:info@designmedicine.org"
+      },
+      {
+        "label": "Messages",
+        "value": "+52 55 2191 8026",
+        "note": "Text messages only; we do not take calls.",
+        "href": "sms:+525521918026"
+      }
+    ],
+    "cards": [
+      {
+        "label": "The course",
+        "text": "Dates, day-by-day itinerary, the face reading program and the downloadable flyer.",
+        "cta": "See Faces & Whales 2027",
+        "href": "/faces-and-whales"
+      },
+      {
+        "label": "Past editions",
+        "text": "The 2025 and 2026 seminars in Mexico City, with their workshops and trips.",
+        "cta": "See the archive",
+        "href": "/past-courses"
+      }
+    ],
+    "formTitle": "Form",
+    "formNote": "Tell us what you need and which address we should reply to."
   }
 }
